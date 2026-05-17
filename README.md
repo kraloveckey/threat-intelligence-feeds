@@ -21,7 +21,7 @@ Sources aggregated from:
 ## 📊 Feed Statistics
 
 > [!NOTE]
-> Auto-updated weekly by GitHub Actions: 🟢 Active&nbsp;– 🔴 Offline&nbsp;– ⚪ Not checked.
+> Auto-updated weekly by GitHub Actions: 🟢 Active – 🔴 Offline – 🔒 Restricted – ➖ N/A – ⚪ Not checked.
 
 <!-- STATS_TABLE_START -->
 | Category | Description | Count |
@@ -128,7 +128,7 @@ You can also trigger it manually: **Actions → Weekly Threat Intelligence Feeds
 
 ## 📋 All Feeds
 
-Status legend: 🟢 Active&nbsp;– 🔴 Offline&nbsp;– ⚪ Not yet checked.
+Status legend: 🟢 Active – 🔴 Offline – 🔒 Restricted (requires API key) – ➖ N/A (repo, no direct feed) – ⚪ Not yet checked.
 
 > [!NOTE]
 > **`BLOCKLIST`** entries (ISPs, ASNs, gaming companies, IANA ranges) are general-purpose blocklists, not threat intelligence in the strict sense — use them for network filtering, not for SIEM correlation.  
@@ -527,21 +527,28 @@ Status legend: 🟢 Active&nbsp;– 🔴 Offline&nbsp;– ⚪ Not yet checked.
 ## 🤝 Contributing
 
 1. **Add a row** to `threat-intelligence-feeds.csv`:
-   ```
+
+   ```csv
    Vendor;Description;Category;Url
    ```
+
 2. **Choose the right category** — see the table above for descriptions. Key rules:
    - Feed must have a **direct, machine-readable URL** (raw text, CSV, JSON) — if not, use `REPO`.
-   - If the feed requires **registration or an API key**, use `RESTRICTED` and note it in the Description.
+   - If the feed requires **registration or an API key**, use `RESTRICTED` and note it in the Description. Status will be shown as 🔒 and the URL will not be checked automatically.
+   - If it's a **GitHub repository** without a direct machine-readable URL, use `REPO`. Status will be shown as ➖.
    - If the feed contains **mixed IOC types** (IP + domain + hash in one file), use `IOC`.
    - If it's a general **ISP / ASN / ad-tracker blocklist** (not malware-specific), use `BLOCKLIST`.
+  
 3. **Free and publicly accessible** feeds without registration are preferred. `RESTRICTED` feeds are accepted if they are well-known and valuable.
+   
 4. **Validate** before opening a PR:
+   
    ```bash
    cd scripts
    python3 tif-validator.py
    python3 tif-update-readme.py
    ```
+
 5. **Open a Pull Request** with a short description of the feed and why it belongs here.
 
 Valid categories: `IP` `DNS` `URL` `MD5` `SHA1` `SHA256` `SSL` `JA3` `CVEID` `RANSOMWARELEAK` `MISP` `IOC` `BLOCKLIST` `REPO` `RESTRICTED`.

@@ -40,7 +40,7 @@ jobs:
         run: python3 tif-status-checker.py
 
       # Step 3: rebuild README-STATISTICS.md and inject tables into README.md
-      #         reads FeedStatus from CSV → shows 🟢/🔴/⚪ in the feeds table
+      #         reads FeedStatus from CSV → shows 🟢/🔴/🔒/➖/⚪ in the feeds table
       - name: Update README statistics and feeds table
         working-directory: scripts
         run: python3 tif-update-readme.py
