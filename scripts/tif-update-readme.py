@@ -22,7 +22,7 @@ STATS_FILE  = os.path.join(REPO_ROOT, 'README-STATISTICS.md')
 CATEGORY_ORDER = [
     'IP', 'DNS', 'URL', 'MD5', 'SHA1', 'SHA256',
     'SSL', 'JA3', 'CVEID', 'RANSOMWARELEAK', 'MISP',
-    'IOC', 'BLOCKLIST', 'REPO', 'RESTRICTED',
+    'IOC', 'BLOCKLIST', 'REPO', 'RESTRICTED', 'GEOIP',
 ]
 
 CATEGORY_DESCRIPTIONS = {
@@ -40,6 +40,7 @@ CATEGORY_DESCRIPTIONS = {
     'IOC':           'Mixed-type IOC feeds containing multiple indicator types (IP, domain, URL, hash, etc.)',
     'BLOCKLIST':     'General-purpose IP blocklists — ISPs, ASNs, gaming, ad-trackers (not strictly threat intel)',
     'REPO':          'GitHub repositories with IOC collections — no direct machine-readable feed URL',
+    'GEOIP':         'IP geolocation databases — country/ASN/region mapping (not threat intel)',
     'RESTRICTED':    'Feeds requiring registration or an API key (free or commercial) to access',
 }
 

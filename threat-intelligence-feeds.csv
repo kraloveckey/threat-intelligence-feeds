@@ -18,7 +18,7 @@ Abuse.ch;Recent Malware URLs (URLhaus);URL;https://urlhaus.abuse.ch/downloads/cs
 Abuse.ch;JA3 Fingerprints Blacklist;JA3;https://sslbl.abuse.ch/blacklist/ja3_fingerprints.csv;Active
 StopForumSpam;Forum Spammer IPs – 90 days (zip);IP;http://www.stopforumspam.com/downloads/listed_ip_90.zip;Active
 StopForumSpam;Forum Spammer IPs – 180 days (zip);IP;http://www.stopforumspam.com/downloads/listed_ip_180.zip;Active
-Alienvault;Alienvault IP Reputation;IP;http://reputation.alienvault.com/reputation.data;Active
+AlienVault;Alienvault IP Reputation;IP;http://reputation.alienvault.com/reputation.data;Active
 AlienVault;IP Reputation Generic;IP;https://reputation.alienvault.com/reputation.generic;Active
 Blocklist.de;All IPs that attacked a customer/server in the last 48 hours;IP;https://lists.blocklist.de/lists/all.txt;Active
 Blocklist.de;IPs that attacked SSH in the last 48 hours;IP;https://lists.blocklist.de/lists/ssh.txt;Active
@@ -85,9 +85,6 @@ StopForumSpam;Forum Spammer IPs – 7 days (zip);IP;http://www.stopforumspam.com
 tsirolnik;Spam Domains List;DNS;https://raw.githubusercontent.com/tsirolnik/spam-domains-list/master/spamdomains.txt;Active
 ransomware.live;All ransomware victims on leak sites;RANSOMWARELEAK;https://api.ransomware.live/allcyberattacks;Active
 X4BNet;VPN IPs;IP;https://raw.githubusercontent.com/X4BNet/lists_vpn/main/output/vpn/ipv4.txt;Active
-mthcht;Suspicious Named Pipes List;REPO;https://github.com/mthcht/awesome-lists/blob/main/Lists/suspicious_named_pipe_list.csv;N/A
-mthcht;NordVPN IP List;REPO;https://github.com/mthcht/awesome-lists/blob/main/Lists/VPN/NordVPN/nordvpn_ips_list.csv;N/A
-mthcht;ProtonVPN IP List;REPO;https://github.com/mthcht/awesome-lists/blob/main/Lists/VPN/ProtonVPN/protonvpn_ip_list.csv;N/A
 Daniel Austin MBCS;TOR Exit Nodes;IP;https://www.dan.me.uk/torlist/?exit;Active
 Daniel Austin MBCS;TOR All Nodes;IP;https://www.dan.me.uk/torlist/?full;Active
 SecOps-Institute;Tor Nodes List;IP;https://raw.githubusercontent.com/SecOps-Institute/Tor-IP-Addresses/master/tor-nodes.lst;Active
@@ -255,9 +252,9 @@ iBlocklist.com;Suddenlink IPs;BLOCKLIST;http://list.iblocklist.com/?list=psaoblr
 iBlocklist.com;Sprint IPs;BLOCKLIST;http://list.iblocklist.com/?list=hngtqrhhuadlceqxbrob&fileformat=p2p&archiveformat=gz;Offline
 MaxMind;GeoLite2 ASN Database – IP to ASN mapping (requires free license key at maxmind.com);RESTRICTED;https://download.maxmind.com/app/geoip_download?edition_id=GeoLite2-ASN-CSV&license_key=YOUR_KEY&suffix=zip;Restricted
 MaxMind;GeoLite2 Country Database – IP to Country mapping (requires free license key at maxmind.com);RESTRICTED;https://download.maxmind.com/app/geoip_download?edition_id=GeoLite2-Country-CSV&license_key=YOUR_KEY&suffix=zip;Restricted
-IP2Location;IP2Location LITE DB1 – IP to Country database (free, no key required);IP;https://download.ip2location.com/lite/IP2LOCATION-LITE-DB1.CSV.ZIP;Active
-IPDeny.com;IPDeny country IP blocks – all zones (tar.gz, updated daily);IP;http://www.ipdeny.com/ipblocks/data/countries/all-zones.tar.gz;Active
-DB-IP;DB-IP Country Lite – free IP to Country database (monthly release, URL changes monthly);IP;https://download.db-ip.com/free/dbip-country-lite.csv.gz;Offline
+IP2Location;IP2Location LITE DB1 – IP to Country database (free, no key required);GEOIP;https://download.ip2location.com/lite/IP2LOCATION-LITE-DB1.CSV.ZIP;Active
+IPDeny.com;IPDeny country IP blocks – all zones (tar.gz, updated daily);GEOIP;http://www.ipdeny.com/ipblocks/data/countries/all-zones.tar.gz;Active
+DB-IP;DB-IP Country Lite – free IP to Country database (monthly updated, fixed URL);GEOIP;https://download.db-ip.com/free/dbip-country-lite.csv.gz;Offline
 Turris;Turris Greylist – IPs observed attacking Turris routers;IP;https://www.turris.cz/greylist-data/greylist-latest.csv;Active
 James Brine;Daily malicious IPs from honeypots (SSH/FTP/RDP/GIT/SNMP/REDIS);IP;https://jamesbrine.com.au/csv;Offline
 SANS ICS;Suspicious Domains – High sensitivity (few false positives);DNS;https://isc.sans.edu/feeds/suspiciousdomains_High.txt;Offline
@@ -300,10 +297,38 @@ NETSHIELD;High-risk ASN blocklist Score ≥50;IP;https://raw.githubusercontent.c
 SentinelPhishFeed;Phishing URLs feed (auto-updated multiple times daily);URL;https://raw.githubusercontent.com/rjn32s/SentinelPhishFeed/main/urls.txt;Active
 SentinelPhishFeed;Malicious IP address feed;IP;https://raw.githubusercontent.com/rjn32s/SentinelPhishFeed/main/ips.txt;Active
 SentinelPhishFeed;Phishing and malware domains feed;DNS;https://raw.githubusercontent.com/rjn32s/SentinelPhishFeed/main/domains.txt;Active
-SentinelPhishFeed;File hash IOCs (MD5/SHA);MD5;https://raw.githubusercontent.com/rjn32s/SentinelPhishFeed/main/hashes.txt;Active
+SentinelPhishFeed;File hash IOCs (MD5/SHA);IOC;https://raw.githubusercontent.com/rjn32s/SentinelPhishFeed/main/hashes.txt;Active
 ExtSentry;Malicious browser extension IDs (all);URL;https://raw.githubusercontent.com/ExtSentry/ExtSentry.github.io/main/feeds/ioc_all_extension_ids.txt;Active
 ExtSentry;Malicious browser extension IDs only;URL;https://raw.githubusercontent.com/ExtSentry/ExtSentry.github.io/main/feeds/ioc_malicious_extension_ids.txt;Active
 ExtSentry;Suspicious browser extension IDs only;URL;https://raw.githubusercontent.com/ExtSentry/ExtSentry.github.io/main/feeds/ioc_suspicious_extension_ids.txt;Active
 ExtSentry;Browser extension CRX SHA-256 file hashes;SHA256;https://raw.githubusercontent.com/ExtSentry/ExtSentry.github.io/main/feeds/ioc_crx_sha256_hashes.txt;Active
 ExtSentry;Browser extensions enriched IOC feed (CSV);URL;https://raw.githubusercontent.com/ExtSentry/ExtSentry.github.io/main/feeds/extsentry_ioc_feed.csv;Active
 FireHOL;FireHOL blocklist-ipsets — curated IP blocklist collections (multiple sets);REPO;https://github.com/firehol/blocklist-ipsets;N/A
+mthcht;SOC/DFIR detection lists – VPN IPs, Named Pipes, Suspicious Services, Extensions and more;REPO;https://github.com/mthcht/awesome-lists;N/A
+montysecurity;C2-Tracker – active C2 servers aggregated from multiple sources (all types combined);IOC;https://raw.githubusercontent.com/montysecurity/C2-Tracker/main/data/all.txt;
+hagezi;DNS Pro Blocklist – comprehensive DNS blocklist (ads, tracking, malware, phishing);DNS;https://raw.githubusercontent.com/hagezi/dns-blocklists/main/domains/pro.txt;
+hagezi;DNS Pro++ Blocklist – more aggressive version of Pro list;DNS;https://raw.githubusercontent.com/hagezi/dns-blocklists/main/domains/pro.plus.txt;
+hagezi;DNS Threat Intelligence Blocklist – malware and phishing domains;DNS;https://raw.githubusercontent.com/hagezi/dns-blocklists/main/domains/threat.txt;
+blocklistproject;Block Lists – comprehensive domain blocklists (ads, malware, phishing, ransomware, scam);REPO;https://github.com/blocklistproject/Lists;N/A
+jarelllama;Scam Blocklist – phishing and scam domains (wildcard format);DNS;https://raw.githubusercontent.com/jarelllama/Scam-Blocklist/main/lists/wildcard_domains/scams.txt;
+fsrm.experiant.ca;Ransomware file extension blocklist for File Server Resource Manager (FSRM);IOC;https://fsrm.experiant.ca/api/v1/get;
+Volexity;Volexity Threat Intelligence IOC repository;REPO;https://github.com/volexity/threat-intel;N/A
+Sekoia;Sekoia Community IOC repository;REPO;https://github.com/SEKOIA-IO/Community;N/A
+Palo Alto Unit42;Unit42 Timely Threat Intelligence IOC repository;REPO;https://github.com/PaloAltoNetworks/Unit42-timely-threat-intel;N/A
+Palo Alto Unit42;Unit42 Threat Intelligence Article IOC repository;REPO;https://github.com/PaloAltoNetworks/Unit42-Threat-Intelligence-Article-Information;N/A
+Zscaler ThreatLabz;Zscaler ThreatLabz IOC repository;REPO;https://github.com/threatlabz/iocs;N/A
+Sophos;Sophos Labs IOC repository;REPO;https://github.com/sophoslabs/IoCs;N/A
+Cisco Talos;Cisco Talos IOC repository;REPO;https://github.com/Cisco-Talos/IOCs;N/A
+Elastic Security Labs;Elastic Security Labs threat indicators repository;REPO;https://github.com/elastic/labs-releases;N/A
+Avast;Avast IOC repository;REPO;https://github.com/avast/ioc;N/A
+HarfangLab;HarfangLab IOC repository;REPO;https://github.com/HarfangLab/iocs;N/A
+DoctorWeb;Dr.Web malware IOC repository;REPO;https://github.com/DoctorWebLtd/malware-iocs;N/A
+Black Lotus Labs;Black Lotus Labs IOC repository;REPO;https://github.com/blacklotuslabs/IOCs;N/A
+prodaft;prodaft malware IOC repository;REPO;https://github.com/prodaft/malware-ioc;N/A
+pr0xylife;pr0xylife malware IOC collections (DarkGate, QakBot, Emotet, IcedID and more);REPO;https://github.com/pr0xylife;N/A
+Zimperium;Zimperium mobile threat IOC repository;REPO;https://github.com/Zimperium/IOC;
+blackorbird;APT Report IOC repository;REPO;https://github.com/blackorbird/APT_REPORT;
+unknownhad;CloudIntel – cloud-specific IOC repository;REPO;https://github.com/unknownhad/CloudIntel;
+SpamHaus;Extended DROP list – ASNs (eDROP);IP;https://www.spamhaus.org/drop/edrop.txt;
+jeroengui;Phishing URLs – last week community feed;URL;https://file.jeroengui.be/phishing/last_week.txt;
+rosti.bin;Public threat intelligence reports feed;IOC;https://rosti.bin.re/feeds;

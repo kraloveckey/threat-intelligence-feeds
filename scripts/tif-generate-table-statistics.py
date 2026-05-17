@@ -13,7 +13,7 @@ OUTPUT_FILE = os.path.join(os.path.dirname(__file__), '..', 'README-STATISTICS.m
 CATEGORY_ORDER = [
     'IP', 'DNS', 'URL', 'MD5', 'SHA1', 'SHA256',
     'SSL', 'JA3', 'CVEID', 'RANSOMWARELEAK', 'MISP',
-    'IOC', 'BLOCKLIST', 'REPO', 'RESTRICTED',
+    'IOC', 'BLOCKLIST', 'REPO', 'RESTRICTED', 'GEOIP',
 ]
 
 

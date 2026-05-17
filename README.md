@@ -11,6 +11,7 @@ Sources aggregated from:
 - [MISP default feeds](https://www.misp-project.org/feeds/);
 - [Bert-JanP/Open-Source-Threat-Intel-Feeds](https://github.com/Bert-JanP/Open-Source-Threat-Intel-Feeds);
 - [awesome-threat-intelligence](https://github.com/hslatman/awesome-threat-intelligence/);
+- [mthcht/awesome-lists](https://github.com/mthcht/awesome-lists);
 - Additional community projects.
 
 > [!IMPORTANT]
@@ -21,15 +22,15 @@ Sources aggregated from:
 ## 📊 Feed Statistics
 
 > [!NOTE]
-> Auto-updated weekly by GitHub Actions: 🟢 Active – 🔴 Offline – 🔒 Restricted – ➖ N/A – ⚪ Not checked.
+> Auto-updated weekly by GitHub Actions: 🟢 Active – 🔴 Offline – 🔒 Restricted – ⚪ Not checked.
 
 <!-- STATS_TABLE_START -->
 | Category | Description | Count |
 | --- | --- | --- |
-| `IP` | Malicious / suspicious IPv4 addresses and CIDR ranges | 166 |
-| `DNS` | Malicious or suspicious domain names | 24 |
+| `IP` | Malicious / suspicious IPv4 addresses and CIDR ranges | 162 |
+| `DNS` | Malicious or suspicious domain names | 28 |
 | `URL` | Malicious / phishing / C2 URLs | 29 |
-| `MD5` | MD5 hashes of malicious files | 7 |
+| `MD5` | MD5 hashes of malicious files | 6 |
 | `SHA1` | SHA1 hashes of malicious files | 3 |
 | `SHA256` | SHA256 hashes of malicious files | 4 |
 | `SSL` | Malicious SSL certificate fingerprints | 1 |
@@ -37,11 +38,12 @@ Sources aggregated from:
 | `CVEID` | Known exploited CVE identifiers | 4 |
 | `RANSOMWARELEAK` | Ransomware leak site victim data aggregated from multiple gang leak sites | 1 |
 | `MISP` | Structured MISP-format feeds (importable directly into MISP platform) | 5 |
-| `IOC` | Mixed-type IOC feeds containing multiple indicator types (IP, domain, URL, hash, etc.) | 6 |
+| `IOC` | Mixed-type IOC feeds containing multiple indicator types (IP, domain, URL, hash, etc.) | 9 |
 | `BLOCKLIST` | General-purpose IP blocklists — ISPs, ASNs, gaming, ad-trackers (not strictly threat intel) | 43 |
-| `REPO` | GitHub repositories with IOC collections — no direct machine-readable feed URL | 10 |
+| `REPO` | GitHub repositories with IOC collections — no direct machine-readable feed URL | 23 |
 | `RESTRICTED` | Feeds requiring registration or an API key (free or commercial) to access | 5 |
-| **Total** | | **309** |
+| `GEOIP` | IP geolocation databases — country/ASN/region mapping (not threat intel) | 3 |
+| **Total** | | **327** |
 <!-- STATS_TABLE_END -->
 
 ---
@@ -128,7 +130,7 @@ You can also trigger it manually: **Actions → Weekly Threat Intelligence Feeds
 
 ## 📋 All Feeds
 
-Status legend: 🟢 Active – 🔴 Offline – 🔒 Restricted (requires API key) – ➖ N/A (repo, no direct feed) – ⚪ Not yet checked.
+Status legend: 🟢 Active – 🔴 Offline – 🔒 Restricted (requires API key) – ⚪ Not yet checked.
 
 > [!NOTE]
 > **`BLOCKLIST`** entries (ISPs, ASNs, gaming companies, IANA ranges) are general-purpose blocklists, not threat intelligence in the strict sense — use them for network filtering, not for SIEM correlation.  
@@ -137,7 +139,7 @@ Status legend: 🟢 Active – 🔴 Offline – 🔒 Restricted (requires API ke
 
 <!-- FEEDS_TABLE_START -->
 
-### IP (166)
+### IP (162)
 
 | Vendor | Description | Status | URL |
 | --- | --- | :---: | --- |
@@ -151,7 +153,7 @@ Status legend: 🟢 Active – 🔴 Offline – 🔒 Restricted (requires API ke
 | Abuse.ch | Feodo IP Blocklist Aggressive | <abbr title="Active">🟢</abbr> | [↗](https://feodotracker.abuse.ch/downloads/ipblocklist_aggressive.txt) |
 | AbuseIPDB | AbuseIPDB Score 100 – Last 1 day | <abbr title="Active">🟢</abbr> | [↗](https://raw.githubusercontent.com/borestad/blocklist-abuseipdb/main/abuseipdb-s100-1d.ipv4) |
 | AbuseIPDB | AbuseIPDB Score 100 – Last 30 days | <abbr title="Active">🟢</abbr> | [↗](https://raw.githubusercontent.com/borestad/blocklist-abuseipdb/main/abuseipdb-s100-30d.ipv4) |
-| Alienvault | Alienvault IP Reputation | <abbr title="Active">🟢</abbr> | [↗](http://reputation.alienvault.com/reputation.data) |
+| AlienVault | Alienvault IP Reputation | <abbr title="Active">🟢</abbr> | [↗](http://reputation.alienvault.com/reputation.data) |
 | AlienVault | IP Reputation Generic | <abbr title="Active">🟢</abbr> | [↗](https://reputation.alienvault.com/reputation.generic) |
 | APNIC Honeynet | SSH Bruteforce IPs | <abbr title="Active">🟢</abbr> | [↗](https://feeds.honeynet.asia/bruteforce/latest-sshbruteforce-unique.csv) |
 | APNIC Honeynet | Telnet Bruteforce IPs | <abbr title="Active">🟢</abbr> | [↗](https://feeds.honeynet.asia/bruteforce/latest-telnetbruteforce-unique.csv) |
@@ -203,7 +205,6 @@ Status legend: 🟢 Active – 🔴 Offline – 🔒 Restricted (requires API ke
 | DataPlane | SMTP Greet Source IPs | <abbr title="Active">🟢</abbr> | [↗](https://dataplane.org/smtpgreet.txt) |
 | DataPlane | IP Protocol 41 Source IPs | <abbr title="Active">🟢</abbr> | [↗](https://dataplane.org/proto41.txt) |
 | DataPlane | Telnet Login Source IPs | <abbr title="Active">🟢</abbr> | [↗](https://dataplane.org/telnetlogin.txt) |
-| DB-IP | DB-IP Country Lite – free IP to Country database (monthly release, URL changes monthly) | <abbr title="Offline">🔴</abbr> | [↗](https://download.db-ip.com/free/dbip-country-lite.csv.gz) |
 | DShield | Top 20 attacking subnets | <abbr title="Active">🟢</abbr> | [↗](https://feeds.dshield.org/block.txt) |
 | Ellio | Firewall Threat List (Community) | <abbr title="Active">🟢</abbr> | [↗](https://cdn.ellio.tech/community-feed) |
 | Emerging Threats | Emerging Threats Tor Rules | <abbr title="Active">🟢</abbr> | [↗](http://rules.emergingthreats.net/blockrules/emerging-tor.rules) |
@@ -236,8 +237,6 @@ Status legend: 🟢 Active – 🔴 Offline – 🔒 Restricted (requires API ke
 | iBlocklist.com | Malc0de malware distribution IPs (last 30 days) | <abbr title="Offline">🔴</abbr> | [↗](http://list.iblocklist.com/?list=pbqcylkejciyhmwttify&fileformat=p2p&archiveformat=gz) |
 | iBlocklist.com | Tor / Onion Router IP addresses | <abbr title="Offline">🔴</abbr> | [↗](http://list.iblocklist.com/?list=togdoptykrlolpddwbvz&fileformat=p2p&archiveformat=gz) |
 | iBlocklist.com | IP ranges sharing child pornography in p2p community | <abbr title="Offline">🔴</abbr> | [↗](http://list.iblocklist.com/?list=dufcxgnbjsdwmwctgfuj&fileformat=p2p&archiveformat=gz) |
-| IP2Location | IP2Location LITE DB1 – IP to Country database (free, no key required) | <abbr title="Active">🟢</abbr> | [↗](https://download.ip2location.com/lite/IP2LOCATION-LITE-DB1.CSV.ZIP) |
-| IPDeny.com | IPDeny country IP blocks – all zones (tar.gz, updated daily) | <abbr title="Active">🟢</abbr> | [↗](http://www.ipdeny.com/ipblocks/data/countries/all-zones.tar.gz) |
 | ipspamlist | IP Spam List | <abbr title="Active">🟢</abbr> | [↗](http://www.ipspamlist.com/public_feeds.csv) |
 | IPsum | Malicious and/or suspicious IP addresses – Level 1 | <abbr title="Active">🟢</abbr> | [↗](https://raw.githubusercontent.com/stamparm/ipsum/master/levels/1.txt) |
 | IPsum | Malicious and/or suspicious IP addresses – Level 2 | <abbr title="Active">🟢</abbr> | [↗](https://raw.githubusercontent.com/stamparm/ipsum/master/levels/2.txt) |
@@ -251,7 +250,6 @@ Status legend: 🟢 Active – 🔴 Offline – 🔒 Restricted (requires API ke
 | James Brine | Daily malicious IPs from honeypots (SSH/FTP/RDP/GIT/SNMP/REDIS) | <abbr title="Offline">🔴</abbr> | [↗](https://jamesbrine.com.au/csv) |
 | MalSilo | MalSilo IPv4 List | <abbr title="Active">🟢</abbr> | [↗](https://malsilo.gitlab.io/feeds/dumps/ip_list.txt) |
 | Maltrail | Maltrail Mass Scanner IPs | <abbr title="Active">🟢</abbr> | [↗](https://raw.githubusercontent.com/stamparm/maltrail/master/trails/static/mass_scanner.txt) |
-| mirai.security.gives | Mirai Botnet IPs | <abbr title="Offline">🔴</abbr> | [↗](https://mirai.security.gives/data/ip_list.txt) |
 | MyIP.ms | Web bot IPs identified in last 10 days | <abbr title="Active">🟢</abbr> | [↗](http://www.myip.ms/files/blacklist/csf/latest_blacklist.txt) |
 | MyIP.ms | Full blacklist database (ZIP) | <abbr title="Active">🟢</abbr> | [↗](https://myip.ms/files/blacklist/general/full_blacklist_database.zip) |
 | NETSHIELD | Active IP Blacklist – Score ≥65 last 30 days (firewall recommended) | <abbr title="Active">🟢</abbr> | [↗](https://raw.githubusercontent.com/juergen2025sys/NETSHIELD/main/active_blacklist_ipv4.txt) |
@@ -308,7 +306,7 @@ Status legend: 🟢 Active – 🔴 Offline – 🔒 Restricted (requires API ke
 | X4BNet | VPN IPs | <abbr title="Active">🟢</abbr> | [↗](https://raw.githubusercontent.com/X4BNet/lists_vpn/main/output/vpn/ipv4.txt) |
 | Yoyo | Yoyo Ad Server IPs | <abbr title="Active">🟢</abbr> | [↗](http://pgl.yoyo.org/adservers/iplist.php?ipformat=plain&showintro=0&mimetype=plaintext) |
 
-### DNS (24)
+### DNS (28)
 
 | Vendor | Description | Status | URL |
 | --- | --- | :---: | --- |
@@ -322,6 +320,10 @@ Status legend: 🟢 Active – 🔴 Offline – 🔒 Restricted (requires API ke
 | CERT-PL | List of malicious domains in Poland (txt) | <abbr title="Active">🟢</abbr> | [↗](https://hole.cert.pl/domains/domains.txt) |
 | Cert.PL | Malicious Domains | <abbr title="Active">🟢</abbr> | [↗](https://hole.cert.pl/domains/domains.csv) |
 | elliotwutingfeng | Inversion DNSBL – scam and phishing domains | <abbr title="Active">🟢</abbr> | [↗](https://raw.githubusercontent.com/elliotwutingfeng/Inversion-DNSBL-Blocklists/main/Google_hostnames.txt) |
+| hagezi | DNS Pro Blocklist – comprehensive DNS blocklist (ads, tracking, malware, phishing) | <abbr title="Not checked">⚪</abbr> | [↗](https://raw.githubusercontent.com/hagezi/dns-blocklists/main/domains/pro.txt) |
+| hagezi | DNS Pro++ Blocklist – more aggressive version of Pro list | <abbr title="Not checked">⚪</abbr> | [↗](https://raw.githubusercontent.com/hagezi/dns-blocklists/main/domains/pro.plus.txt) |
+| hagezi | DNS Threat Intelligence Blocklist – malware and phishing domains | <abbr title="Not checked">⚪</abbr> | [↗](https://raw.githubusercontent.com/hagezi/dns-blocklists/main/domains/threat.txt) |
+| jarelllama | Scam Blocklist – phishing and scam domains (wildcard format) | <abbr title="Not checked">⚪</abbr> | [↗](https://raw.githubusercontent.com/jarelllama/Scam-Blocklist/main/lists/wildcard_domains/scams.txt) |
 | MalSilo | MalSilo Domain List | <abbr title="Active">🟢</abbr> | [↗](https://malsilo.gitlab.io/feeds/dumps/domain_list.txt) |
 | phishdestroy | PhishDestroy blocklist – phishing and malicious domains | <abbr title="Active">🟢</abbr> | [↗](https://raw.githubusercontent.com/phishdestroy/destroylist/refs/heads/main/list.txt) |
 | SANS ICS | Suspicious Domains – High sensitivity (few false positives) | <abbr title="Offline">🔴</abbr> | [↗](https://isc.sans.edu/feeds/suspiciousdomains_High.txt) |
@@ -371,7 +373,7 @@ Status legend: 🟢 Active – 🔴 Offline – 🔒 Restricted (requires API ke
 | VXVault | VXVault Malware URL List | <abbr title="Active">🟢</abbr> | [↗](http://vxvault.net/ViriList.php?s=0&m=100) |
 | VXVault | VXVault URL List | <abbr title="Active">🟢</abbr> | [↗](http://vxvault.net/URL_List.php) |
 
-### MD5 (7)
+### MD5 (6)
 
 | Vendor | Description | Status | URL |
 | --- | --- | :---: | --- |
@@ -380,7 +382,6 @@ Status legend: 🟢 Active – 🔴 Offline – 🔒 Restricted (requires API ke
 | Botvrij.eu | IOC List MD5 | <abbr title="Active">🟢</abbr> | [↗](https://www.botvrij.eu/data/ioclist.md5) |
 | cybercrime-tracker.net | Cybercrime Tracker – Hash List | <abbr title="Active">🟢</abbr> | [↗](https://cybercrime-tracker.net/ccamlist.php) |
 | malshare.com | Malshare Current All | <abbr title="Active">🟢</abbr> | [↗](https://malshare.com/daily/malshare.current.all.txt) |
-| SentinelPhishFeed | File hash IOCs (MD5/SHA) | <abbr title="Active">🟢</abbr> | [↗](https://raw.githubusercontent.com/rjn32s/SentinelPhishFeed/main/hashes.txt) |
 | threatview.io | MD5 Hash Blocklist | <abbr title="Active">🟢</abbr> | [↗](https://threatview.io/Downloads/MD5-HASH-ALL.txt) |
 
 ### SHA1 (3)
@@ -437,10 +438,13 @@ Status legend: 🟢 Active – 🔴 Offline – 🔒 Restricted (requires API ke
 | MISP CIRCL | MISP CIRCL OSINT Feed – Hashes | <abbr title="Active">🟢</abbr> | [↗](https://www.circl.lu/doc/misp/feed-osint/) |
 | MISP Feed CERT-FR | MISP Feed CERT-FR Hashes | <abbr title="Active">🟢</abbr> | [↗](https://misp.cert.ssi.gouv.fr/feed-misp/hashes.csv) |
 
-### IOC (6)
+### IOC (9)
 
 | Vendor | Description | Status | URL |
 | --- | --- | :---: | --- |
+| fsrm.experiant.ca | Ransomware file extension blocklist for File Server Resource Manager (FSRM) | <abbr title="Not checked">⚪</abbr> | [↗](https://fsrm.experiant.ca/api/v1/get) |
+| montysecurity | C2-Tracker – active C2 servers aggregated from multiple sources (all types combined) | <abbr title="Not checked">⚪</abbr> | [↗](https://raw.githubusercontent.com/montysecurity/C2-Tracker/main/data/all.txt) |
+| SentinelPhishFeed | File hash IOCs (MD5/SHA) | <abbr title="Active">🟢</abbr> | [↗](https://raw.githubusercontent.com/rjn32s/SentinelPhishFeed/main/hashes.txt) |
 | threatview.io | Bitcoin Address Intel | <abbr title="Active">🟢</abbr> | [↗](https://threatview.io/Downloads/MALICIOUS-BITCOIN_FEED.txt) |
 | tweetfeed.live | IOCs shared by infosec community on Twitter – Today (IP/URL/DNS/Hash) | <abbr title="Active">🟢</abbr> | [↗](https://raw.githubusercontent.com/0xDanielLopez/TweetFeed/master/today.csv) |
 | tweetfeed.live | IOCs shared by infosec community on Twitter – Week (IP/URL/DNS/Hash) | <abbr title="Active">🟢</abbr> | [↗](https://raw.githubusercontent.com/0xDanielLopez/TweetFeed/master/week.csv) |
@@ -496,20 +500,33 @@ Status legend: 🟢 Active – 🔴 Offline – 🔒 Restricted (requires API ke
 | iBlocklist.com | Sprint IPs | <abbr title="Offline">🔴</abbr> | [↗](http://list.iblocklist.com/?list=hngtqrhhuadlceqxbrob&fileformat=p2p&archiveformat=gz) |
 | Ngosang | BitTorrent Trackers IP List | <abbr title="Active">🟢</abbr> | [↗](https://raw.githubusercontent.com/ngosang/trackerslist/master/trackers_all_ip.txt) |
 
-### REPO (10)
+### REPO (23)
 
 | Vendor | Description | Status | URL |
 | --- | --- | :---: | --- |
+| Avast | Avast IOC repository | <abbr title="N/A">➖</abbr> | [↗](https://github.com/avast/ioc) |
+| Black Lotus Labs | Black Lotus Labs IOC repository | <abbr title="N/A">➖</abbr> | [↗](https://github.com/blacklotuslabs/IOCs) |
+| blocklistproject | Block Lists – comprehensive domain blocklists (ads, malware, phishing, ransomware, scam) | <abbr title="N/A">➖</abbr> | [↗](https://github.com/blocklistproject/Lists) |
+| Cisco Talos | Cisco Talos IOC repository | <abbr title="N/A">➖</abbr> | [↗](https://github.com/Cisco-Talos/IOCs) |
+| DoctorWeb | Dr.Web malware IOC repository | <abbr title="N/A">➖</abbr> | [↗](https://github.com/DoctorWebLtd/malware-iocs) |
+| Elastic Security Labs | Elastic Security Labs threat indicators repository | <abbr title="N/A">➖</abbr> | [↗](https://github.com/elastic/labs-releases) |
 | ESET | ESET Malware IOC Repository | <abbr title="N/A">➖</abbr> | [↗](https://github.com/eset/malware-ioc) |
 | executemalware | Community Malware IOCs (GitHub repo) | <abbr title="N/A">➖</abbr> | [↗](https://github.com/executemalware/Malware-IOCs) |
 | FireHOL | FireHOL blocklist-ipsets — curated IP blocklist collections (multiple sets) | <abbr title="N/A">➖</abbr> | [↗](https://github.com/firehol/blocklist-ipsets) |
+| HarfangLab | HarfangLab IOC repository | <abbr title="N/A">➖</abbr> | [↗](https://github.com/HarfangLab/iocs) |
 | kraloveckey | FireWALL-E: ipsets-blocklist | <abbr title="N/A">➖</abbr> | [↗](https://github.com/kraloveckey/ipsets-blocklist) |
-| mthcht | Suspicious Named Pipes List | <abbr title="N/A">➖</abbr> | [↗](https://github.com/mthcht/awesome-lists/blob/main/Lists/suspicious_named_pipe_list.csv) |
-| mthcht | NordVPN IP List | <abbr title="N/A">➖</abbr> | [↗](https://github.com/mthcht/awesome-lists/blob/main/Lists/VPN/NordVPN/nordvpn_ips_list.csv) |
-| mthcht | ProtonVPN IP List | <abbr title="N/A">➖</abbr> | [↗](https://github.com/mthcht/awesome-lists/blob/main/Lists/VPN/ProtonVPN/protonvpn_ip_list.csv) |
+| mthcht | SOC/DFIR detection lists – VPN IPs, Named Pipes, Suspicious Services, Extensions and more | <abbr title="N/A">➖</abbr> | [↗](https://github.com/mthcht/awesome-lists) |
 | Palo Alto Unit42 | Unit42 IOC Repository | <abbr title="N/A">➖</abbr> | [↗](https://github.com/pan-unit42/iocs) |
+| Palo Alto Unit42 | Unit42 Timely Threat Intelligence IOC repository | <abbr title="N/A">➖</abbr> | [↗](https://github.com/PaloAltoNetworks/Unit42-timely-threat-intel) |
+| Palo Alto Unit42 | Unit42 Threat Intelligence Article IOC repository | <abbr title="N/A">➖</abbr> | [↗](https://github.com/PaloAltoNetworks/Unit42-Threat-Intelligence-Article-Information) |
+| pr0xylife | pr0xylife malware IOC collections (DarkGate, QakBot, Emotet, IcedID and more) | <abbr title="N/A">➖</abbr> | [↗](https://github.com/pr0xylife) |
+| prodaft | prodaft malware IOC repository | <abbr title="N/A">➖</abbr> | [↗](https://github.com/prodaft/malware-ioc) |
 | SecurityScorecard | Public IoCs from SecurityScorecard technical blog posts | <abbr title="N/A">➖</abbr> | [↗](https://github.com/securityscorecard/SSC-Threat-Intel-IoCs) |
+| Sekoia | Sekoia Community IOC repository | <abbr title="N/A">➖</abbr> | [↗](https://github.com/SEKOIA-IO/Community) |
+| Sophos | Sophos Labs IOC repository | <abbr title="N/A">➖</abbr> | [↗](https://github.com/sophoslabs/IoCs) |
 | ThreatMon | ThreatMon Daily C2 Feeds | <abbr title="N/A">➖</abbr> | [↗](https://github.com/ThreatMon/ThreatMon-Daily-C2-Feeds) |
+| Volexity | Volexity Threat Intelligence IOC repository | <abbr title="N/A">➖</abbr> | [↗](https://github.com/volexity/threat-intel) |
+| Zscaler ThreatLabz | Zscaler ThreatLabz IOC repository | <abbr title="N/A">➖</abbr> | [↗](https://github.com/threatlabz/iocs) |
 
 ### RESTRICTED (5)
 
@@ -520,6 +537,14 @@ Status legend: 🟢 Active – 🔴 Offline – 🔒 Restricted (requires API ke
 | osint.bambenekconsulting.com | All current domains belonging to known malicious DGAs (requires license for commercial use) | <abbr title="Restricted">🔒</abbr> | [↗](https://osint.bambenekconsulting.com/feeds/dga-feed-high.csv) |
 | osint.bambenekconsulting.com | Domains from High-Confidence DGA-based C&C Domains Actively Resolving (requires license for commercial use) | <abbr title="Restricted">🔒</abbr> | [↗](https://osint.bambenekconsulting.com/feeds/c2-dommasterlist-high.txt) |
 | osint.bambenekconsulting.com | IPs from High-Confidence DGA-Based C&Cs Actively Resolving (requires license for commercial use) | <abbr title="Restricted">🔒</abbr> | [↗](https://osint.bambenekconsulting.com/feeds/c2-ipmasterlist-high.txt) |
+
+### GEOIP (3)
+
+| Vendor | Description | Status | URL |
+| --- | --- | :---: | --- |
+| DB-IP | DB-IP Country Lite – free IP to Country database (monthly updated, fixed URL) | <abbr title="Offline">🔴</abbr> | [↗](https://download.db-ip.com/free/dbip-country-lite.csv.gz) |
+| IP2Location | IP2Location LITE DB1 – IP to Country database (free, no key required) | <abbr title="Active">🟢</abbr> | [↗](https://download.ip2location.com/lite/IP2LOCATION-LITE-DB1.CSV.ZIP) |
+| IPDeny.com | IPDeny country IP blocks – all zones (tar.gz, updated daily) | <abbr title="Active">🟢</abbr> | [↗](http://www.ipdeny.com/ipblocks/data/countries/all-zones.tar.gz) |
 <!-- FEEDS_TABLE_END -->
 
 ---
@@ -535,9 +560,10 @@ Status legend: 🟢 Active – 🔴 Offline – 🔒 Restricted (requires API ke
 2. **Choose the right category** — see the table above for descriptions. Key rules:
    - Feed must have a **direct, machine-readable URL** (raw text, CSV, JSON) — if not, use `REPO`.
    - If the feed requires **registration or an API key**, use `RESTRICTED` and note it in the Description. Status will be shown as 🔒 and the URL will not be checked automatically.
-   - If it's a **GitHub repository** without a direct machine-readable URL, use `REPO`. Status will be shown as ➖.
+   - If it's a **GitHub repository** without a direct machine-readable URL, use `REPO`. Status will be checked automatically (🟢 if reachable, 🔴 if deleted/unavailable).
    - If the feed contains **mixed IOC types** (IP + domain + hash in one file), use `IOC`.
    - If it's a general **ISP / ASN / ad-tracker blocklist** (not malware-specific), use `BLOCKLIST`.
+   - If it's an **IP geolocation database** (country/ASN mapping, not malicious IPs), use `GEOIP`.
   
 3. **Free and publicly accessible** feeds without registration are preferred. `RESTRICTED` feeds are accepted if they are well-known and valuable.
    
@@ -551,4 +577,4 @@ Status legend: 🟢 Active – 🔴 Offline – 🔒 Restricted (requires API ke
 
 5. **Open a Pull Request** with a short description of the feed and why it belongs here.
 
-Valid categories: `IP` `DNS` `URL` `MD5` `SHA1` `SHA256` `SSL` `JA3` `CVEID` `RANSOMWARELEAK` `MISP` `IOC` `BLOCKLIST` `REPO` `RESTRICTED`.
+Valid categories: `IP` `DNS` `URL` `MD5` `SHA1` `SHA256` `SSL` `JA3` `CVEID` `RANSOMWARELEAK` `MISP` `IOC` `BLOCKLIST` `REPO` `RESTRICTED` `GEOIP`.

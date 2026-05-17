@@ -11,7 +11,7 @@ import sys
 VALID_CATEGORIES = [
     'SSL', 'IP', 'DNS', 'URL', 'MD5', 'SHA1', 'SHA256',
     'CVEID', 'RANSOMWARELEAK', 'JA3', 'MISP',
-    'IOC', 'BLOCKLIST', 'REPO', 'RESTRICTED',
+    'IOC', 'BLOCKLIST', 'REPO', 'RESTRICTED', 'GEOIP',
 ]
 
 CSV_FILE = os.path.join(os.path.dirname(__file__), '..', 'threat-intelligence-feeds.csv')
