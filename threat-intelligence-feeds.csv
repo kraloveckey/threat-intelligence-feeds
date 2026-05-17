@@ -148,7 +148,6 @@ malshare.com;Malshare Current All;MD5;https://malshare.com/daily/malshare.curren
 MalSilo;MalSilo Domain List;DNS;https://malsilo.gitlab.io/feeds/dumps/domain_list.txt;Active
 MalSilo;MalSilo IPv4 List;IP;https://malsilo.gitlab.io/feeds/dumps/ip_list.txt;Active
 MalSilo;MalSilo URL List;URL;https://malsilo.gitlab.io/feeds/dumps/url_list.txt;Active
-mirai.security.gives;Mirai Botnet IPs;IP;https://mirai.security.gives/data/ip_list.txt;Offline
 PhishTank;PhishTank Online Valid Phishing;URL;https://data.phishtank.com/data/online-valid.csv;Active
 home.nuug.no;POP3 Gropers;IP;https://home.nuug.no/~peter/pop3gropers.txt;Active
 shreshtait.com;Newly Registered Domains – 1 month;DNS;https://shreshtait.com/newly-registered-domains/nrd-1m;Active

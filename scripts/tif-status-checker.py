@@ -11,6 +11,7 @@ import os
 import sys
 import requests
 from concurrent.futures import ThreadPoolExecutor, as_completed
+from urllib.parse import urlparse
 
 CSV_FILE      = os.path.join(os.path.dirname(__file__), '..', 'threat-intelligence-feeds.csv')
 DELIMITER     = ';'
@@ -19,9 +20,10 @@ STATUS_COLUMN = 'FeedStatus'
 TIMEOUT       = 12
 MAX_WORKERS   = 25
 
-SKIP_CATEGORIES    = {'RESTRICTED', 'REPO'}   # skip HTTP check; set a fixed status
-SKIP_STATUS        = {'RESTRICTED': 'Restricted', 'REPO': 'N/A'}
+SKIP_CATEGORIES    = {'RESTRICTED'}   # skip HTTP check; set a fixed status
+SKIP_STATUS        = {'RESTRICTED': 'Restricted'}
 ARCHIVE_EXTENSIONS = ('.zip', '.gz', '.tar', '.tar.gz', '.bz2')
+DATA_EXTENSIONS = ('.csv', '.json', '.txt', '.netset', '.lst', '.intel')
 
 HEADERS = {
     'User-Agent': (
@@ -32,10 +34,27 @@ HEADERS = {
 }
 
 
+def is_downloadable(url: str) -> bool:
+    lower = url.lower()
+    path  = urlparse(lower).path
+    # Archives
+    if any(path.endswith(ext) for ext in ARCHIVE_EXTENSIONS):
+        return True
+    # Plain data files — use Range to avoid downloading large files
+    if any(path.endswith(ext) for ext in DATA_EXTENSIONS):
+        return True
+    # Query param hints (iBlocklist, MaxMind)
+    if any(f'archiveformat={fmt}' in lower for fmt in ('gz', 'zip', 'bz2')):
+        return True
+    if any(f'suffix={fmt}' in lower for fmt in ('zip', 'gz')):
+        return True
+    return False
+
+
 def check_url(url: str) -> str:
     """Return 'Active' if the URL responds without an error status, else 'Offline'."""
     try:
-        is_archive = any(url.lower().endswith(ext) for ext in ARCHIVE_EXTENSIONS)
+        is_archive = is_downloadable(url)
         if is_archive:
             # For archives HEAD is often unreliable; use GET with Range to avoid
             # downloading the full file while still confirming the resource exists.
