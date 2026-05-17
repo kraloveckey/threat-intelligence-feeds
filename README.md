@@ -27,9 +27,9 @@ Sources aggregated from:
 <!-- STATS_TABLE_START -->
 | Category | Description | Count |
 | --- | --- | --- |
-| `IP` | Malicious / suspicious IPv4 addresses and CIDR ranges | 162 |
+| `IP` | Malicious / suspicious IPv4 addresses and CIDR ranges | 163 |
 | `DNS` | Malicious or suspicious domain names | 28 |
-| `URL` | Malicious / phishing / C2 URLs | 29 |
+| `URL` | Malicious / phishing / C2 URLs | 30 |
 | `MD5` | MD5 hashes of malicious files | 6 |
 | `SHA1` | SHA1 hashes of malicious files | 3 |
 | `SHA256` | SHA256 hashes of malicious files | 4 |
@@ -38,12 +38,12 @@ Sources aggregated from:
 | `CVEID` | Known exploited CVE identifiers | 4 |
 | `RANSOMWARELEAK` | Ransomware leak site victim data aggregated from multiple gang leak sites | 1 |
 | `MISP` | Structured MISP-format feeds (importable directly into MISP platform) | 5 |
-| `IOC` | Mixed-type IOC feeds containing multiple indicator types (IP, domain, URL, hash, etc.) | 9 |
+| `IOC` | Mixed-type IOC feeds containing multiple indicator types (IP, domain, URL, hash, etc.) | 10 |
 | `BLOCKLIST` | General-purpose IP blocklists — ISPs, ASNs, gaming, ad-trackers (not strictly threat intel) | 43 |
-| `REPO` | GitHub repositories with IOC collections — no direct machine-readable feed URL | 23 |
+| `REPO` | GitHub repositories with IOC collections — no direct machine-readable feed URL | 26 |
 | `RESTRICTED` | Feeds requiring registration or an API key (free or commercial) to access | 5 |
 | `GEOIP` | IP geolocation databases — country/ASN/region mapping (not threat intel) | 3 |
-| **Total** | | **327** |
+| **Total** | | **333** |
 <!-- STATS_TABLE_END -->
 
 ---
@@ -139,7 +139,7 @@ Status legend: 🟢 Active – 🔴 Offline – 🔒 Restricted (requires API ke
 
 <!-- FEEDS_TABLE_START -->
 
-### IP (162)
+### IP (163)
 
 | Vendor | Description | Status | URL |
 | --- | --- | :---: | --- |
@@ -278,6 +278,7 @@ Status legend: 🟢 Active – 🔴 Offline – 🔒 Restricted (requires API ke
 | snort.org | ip-block-list | <abbr title="Active">🟢</abbr> | [↗](https://snort.org/downloads/ip-block-list) |
 | socks-proxy.net | Open SOCKS proxies | <abbr title="Active">🟢</abbr> | [↗](http://www.socks-proxy.net/) |
 | Spamhaus | Spamhaus DROP List (legacy txt) | <abbr title="Active">🟢</abbr> | [↗](http://www.spamhaus.org/drop/drop.txt) |
+| SpamHaus | Extended DROP list – ASNs (eDROP) | <abbr title="Active">🟢</abbr> | [↗](https://www.spamhaus.org/drop/edrop.txt) |
 | Spamhaus Project | Don't Route Or Peer (DROP) List | <abbr title="Active">🟢</abbr> | [↗](https://www.spamhaus.org/drop/drop_v4.json) |
 | spydisec | High Confidence IP Blocklist – confirmed by 5+ independent sources (~5K IPs) | <abbr title="Active">🟢</abbr> | [↗](https://spydisec.com/high_confidence_limited.txt) |
 | spydisec | High Confidence IP Blocklist – validated by 3+ independent sources (unlimited) | <abbr title="Active">🟢</abbr> | [↗](https://spydisec.com/high_confidence_unlimited.txt) |
@@ -320,10 +321,10 @@ Status legend: 🟢 Active – 🔴 Offline – 🔒 Restricted (requires API ke
 | CERT-PL | List of malicious domains in Poland (txt) | <abbr title="Active">🟢</abbr> | [↗](https://hole.cert.pl/domains/domains.txt) |
 | Cert.PL | Malicious Domains | <abbr title="Active">🟢</abbr> | [↗](https://hole.cert.pl/domains/domains.csv) |
 | elliotwutingfeng | Inversion DNSBL – scam and phishing domains | <abbr title="Active">🟢</abbr> | [↗](https://raw.githubusercontent.com/elliotwutingfeng/Inversion-DNSBL-Blocklists/main/Google_hostnames.txt) |
-| hagezi | DNS Pro Blocklist – comprehensive DNS blocklist (ads, tracking, malware, phishing) | <abbr title="Not checked">⚪</abbr> | [↗](https://raw.githubusercontent.com/hagezi/dns-blocklists/main/domains/pro.txt) |
-| hagezi | DNS Pro++ Blocklist – more aggressive version of Pro list | <abbr title="Not checked">⚪</abbr> | [↗](https://raw.githubusercontent.com/hagezi/dns-blocklists/main/domains/pro.plus.txt) |
-| hagezi | DNS Threat Intelligence Blocklist – malware and phishing domains | <abbr title="Not checked">⚪</abbr> | [↗](https://raw.githubusercontent.com/hagezi/dns-blocklists/main/domains/threat.txt) |
-| jarelllama | Scam Blocklist – phishing and scam domains (wildcard format) | <abbr title="Not checked">⚪</abbr> | [↗](https://raw.githubusercontent.com/jarelllama/Scam-Blocklist/main/lists/wildcard_domains/scams.txt) |
+| hagezi | DNS Pro Blocklist – comprehensive DNS blocklist (ads, tracking, malware, phishing) | <abbr title="Active">🟢</abbr> | [↗](https://raw.githubusercontent.com/hagezi/dns-blocklists/main/domains/pro.txt) |
+| hagezi | DNS Pro++ Blocklist – more aggressive version of Pro list | <abbr title="Active">🟢</abbr> | [↗](https://raw.githubusercontent.com/hagezi/dns-blocklists/main/domains/pro.plus.txt) |
+| hagezi | DNS Threat Intelligence Blocklist – malware and phishing domains | <abbr title="Offline">🔴</abbr> | [↗](https://raw.githubusercontent.com/hagezi/dns-blocklists/main/domains/threat.txt) |
+| jarelllama | Scam Blocklist – phishing and scam domains (wildcard format) | <abbr title="Active">🟢</abbr> | [↗](https://raw.githubusercontent.com/jarelllama/Scam-Blocklist/main/lists/wildcard_domains/scams.txt) |
 | MalSilo | MalSilo Domain List | <abbr title="Active">🟢</abbr> | [↗](https://malsilo.gitlab.io/feeds/dumps/domain_list.txt) |
 | phishdestroy | PhishDestroy blocklist – phishing and malicious domains | <abbr title="Active">🟢</abbr> | [↗](https://raw.githubusercontent.com/phishdestroy/destroylist/refs/heads/main/list.txt) |
 | SANS ICS | Suspicious Domains – High sensitivity (few false positives) | <abbr title="Offline">🔴</abbr> | [↗](https://isc.sans.edu/feeds/suspiciousdomains_High.txt) |
@@ -339,7 +340,7 @@ Status legend: 🟢 Active – 🔴 Offline – 🔒 Restricted (requires API ke
 | threatview.io | Domain High Confidence Feed | <abbr title="Active">🟢</abbr> | [↗](https://threatview.io/Downloads/DOMAIN-High-Confidence-Feed.txt) |
 | tsirolnik | Spam Domains List | <abbr title="Active">🟢</abbr> | [↗](https://raw.githubusercontent.com/tsirolnik/spam-domains-list/master/spamdomains.txt) |
 
-### URL (29)
+### URL (30)
 
 | Vendor | Description | Status | URL |
 | --- | --- | :---: | --- |
@@ -355,6 +356,7 @@ Status legend: 🟢 Active – 🔴 Offline – 🔒 Restricted (requires API ke
 | ExtSentry | Suspicious browser extension IDs only | <abbr title="Active">🟢</abbr> | [↗](https://raw.githubusercontent.com/ExtSentry/ExtSentry.github.io/main/feeds/ioc_suspicious_extension_ids.txt) |
 | ExtSentry | Browser extensions enriched IOC feed (CSV) | <abbr title="Active">🟢</abbr> | [↗](https://raw.githubusercontent.com/ExtSentry/ExtSentry.github.io/main/feeds/extsentry_ioc_feed.csv) |
 | Github | APT Notes CSV | <abbr title="Active">🟢</abbr> | [↗](https://raw.githubusercontent.com/aptnotes/data/master/APTnotes.csv) |
+| jeroengui | Phishing URLs – last week community feed | <abbr title="Active">🟢</abbr> | [↗](https://file.jeroengui.be/phishing/last_week.txt) |
 | MalSilo | MalSilo URL List | <abbr title="Active">🟢</abbr> | [↗](https://malsilo.gitlab.io/feeds/dumps/url_list.txt) |
 | MISP Abuse.ch | MISP Abuse.ch URLhaus | <abbr title="Active">🟢</abbr> | [↗](https://urlhaus.abuse.ch/downloads/misp/) |
 | MISP Project | MISP Default Feeds (metadata) | <abbr title="Active">🟢</abbr> | [↗](https://raw.githubusercontent.com/MISP/MISP/2.4/app/files/feed-metadata/defaults.json) |
@@ -362,7 +364,7 @@ Status legend: 🟢 Active – 🔴 Offline – 🔒 Restricted (requires API ke
 | Phishing Army | Phishing Army Blocklist | <abbr title="Active">🟢</abbr> | [↗](https://phishing.army/download/phishing_army_blocklist.txt) |
 | Phishing Army | Phishing Army Blocklist Extended | <abbr title="Active">🟢</abbr> | [↗](https://phishing.army/download/phishing_army_blocklist_extended.txt) |
 | PhishTank | PhishTank Online Valid Phishing | <abbr title="Active">🟢</abbr> | [↗](https://data.phishtank.com/data/online-valid.csv) |
-| PhishTank | PhishTank Online Valid Phishing (JSON) | <abbr title="Active">🟢</abbr> | [↗](http://data.phishtank.com/data/online-valid.json) |
+| PhishTank | PhishTank Online Valid Phishing (JSON) | <abbr title="Offline">🔴</abbr> | [↗](http://data.phishtank.com/data/online-valid.json) |
 | SentinelPhishFeed | Phishing URLs feed (auto-updated multiple times daily) | <abbr title="Active">🟢</abbr> | [↗](https://raw.githubusercontent.com/rjn32s/SentinelPhishFeed/main/urls.txt) |
 | threatview.io | URL High Confidence Feed | <abbr title="Active">🟢</abbr> | [↗](https://threatview.io/Downloads/URL-High-Confidence-Feed.txt) |
 | urlabuse | URL Abuse Blacklist Feed | <abbr title="Active">🟢</abbr> | [↗](https://urlabuse.com/public/data/data.txt) |
@@ -438,12 +440,13 @@ Status legend: 🟢 Active – 🔴 Offline – 🔒 Restricted (requires API ke
 | MISP CIRCL | MISP CIRCL OSINT Feed – Hashes | <abbr title="Active">🟢</abbr> | [↗](https://www.circl.lu/doc/misp/feed-osint/) |
 | MISP Feed CERT-FR | MISP Feed CERT-FR Hashes | <abbr title="Active">🟢</abbr> | [↗](https://misp.cert.ssi.gouv.fr/feed-misp/hashes.csv) |
 
-### IOC (9)
+### IOC (10)
 
 | Vendor | Description | Status | URL |
 | --- | --- | :---: | --- |
-| fsrm.experiant.ca | Ransomware file extension blocklist for File Server Resource Manager (FSRM) | <abbr title="Not checked">⚪</abbr> | [↗](https://fsrm.experiant.ca/api/v1/get) |
-| montysecurity | C2-Tracker – active C2 servers aggregated from multiple sources (all types combined) | <abbr title="Not checked">⚪</abbr> | [↗](https://raw.githubusercontent.com/montysecurity/C2-Tracker/main/data/all.txt) |
+| fsrm.experiant.ca | Ransomware file extension blocklist for File Server Resource Manager (FSRM) | <abbr title="Offline">🔴</abbr> | [↗](https://fsrm.experiant.ca/api/v1/get) |
+| montysecurity | C2-Tracker – active C2 servers aggregated from multiple sources (all types combined) | <abbr title="Offline">🔴</abbr> | [↗](https://raw.githubusercontent.com/montysecurity/C2-Tracker/main/data/all.txt) |
+| rosti.bin | Public threat intelligence reports feed | <abbr title="Active">🟢</abbr> | [↗](https://rosti.bin.re/feeds) |
 | SentinelPhishFeed | File hash IOCs (MD5/SHA) | <abbr title="Active">🟢</abbr> | [↗](https://raw.githubusercontent.com/rjn32s/SentinelPhishFeed/main/hashes.txt) |
 | threatview.io | Bitcoin Address Intel | <abbr title="Active">🟢</abbr> | [↗](https://threatview.io/Downloads/MALICIOUS-BITCOIN_FEED.txt) |
 | tweetfeed.live | IOCs shared by infosec community on Twitter – Today (IP/URL/DNS/Hash) | <abbr title="Active">🟢</abbr> | [↗](https://raw.githubusercontent.com/0xDanielLopez/TweetFeed/master/today.csv) |
@@ -500,33 +503,36 @@ Status legend: 🟢 Active – 🔴 Offline – 🔒 Restricted (requires API ke
 | iBlocklist.com | Sprint IPs | <abbr title="Offline">🔴</abbr> | [↗](http://list.iblocklist.com/?list=hngtqrhhuadlceqxbrob&fileformat=p2p&archiveformat=gz) |
 | Ngosang | BitTorrent Trackers IP List | <abbr title="Active">🟢</abbr> | [↗](https://raw.githubusercontent.com/ngosang/trackerslist/master/trackers_all_ip.txt) |
 
-### REPO (23)
+### REPO (26)
 
 | Vendor | Description | Status | URL |
 | --- | --- | :---: | --- |
-| Avast | Avast IOC repository | <abbr title="N/A">➖</abbr> | [↗](https://github.com/avast/ioc) |
-| Black Lotus Labs | Black Lotus Labs IOC repository | <abbr title="N/A">➖</abbr> | [↗](https://github.com/blacklotuslabs/IOCs) |
-| blocklistproject | Block Lists – comprehensive domain blocklists (ads, malware, phishing, ransomware, scam) | <abbr title="N/A">➖</abbr> | [↗](https://github.com/blocklistproject/Lists) |
-| Cisco Talos | Cisco Talos IOC repository | <abbr title="N/A">➖</abbr> | [↗](https://github.com/Cisco-Talos/IOCs) |
-| DoctorWeb | Dr.Web malware IOC repository | <abbr title="N/A">➖</abbr> | [↗](https://github.com/DoctorWebLtd/malware-iocs) |
-| Elastic Security Labs | Elastic Security Labs threat indicators repository | <abbr title="N/A">➖</abbr> | [↗](https://github.com/elastic/labs-releases) |
-| ESET | ESET Malware IOC Repository | <abbr title="N/A">➖</abbr> | [↗](https://github.com/eset/malware-ioc) |
-| executemalware | Community Malware IOCs (GitHub repo) | <abbr title="N/A">➖</abbr> | [↗](https://github.com/executemalware/Malware-IOCs) |
-| FireHOL | FireHOL blocklist-ipsets — curated IP blocklist collections (multiple sets) | <abbr title="N/A">➖</abbr> | [↗](https://github.com/firehol/blocklist-ipsets) |
-| HarfangLab | HarfangLab IOC repository | <abbr title="N/A">➖</abbr> | [↗](https://github.com/HarfangLab/iocs) |
-| kraloveckey | FireWALL-E: ipsets-blocklist | <abbr title="N/A">➖</abbr> | [↗](https://github.com/kraloveckey/ipsets-blocklist) |
-| mthcht | SOC/DFIR detection lists – VPN IPs, Named Pipes, Suspicious Services, Extensions and more | <abbr title="N/A">➖</abbr> | [↗](https://github.com/mthcht/awesome-lists) |
-| Palo Alto Unit42 | Unit42 IOC Repository | <abbr title="N/A">➖</abbr> | [↗](https://github.com/pan-unit42/iocs) |
-| Palo Alto Unit42 | Unit42 Timely Threat Intelligence IOC repository | <abbr title="N/A">➖</abbr> | [↗](https://github.com/PaloAltoNetworks/Unit42-timely-threat-intel) |
-| Palo Alto Unit42 | Unit42 Threat Intelligence Article IOC repository | <abbr title="N/A">➖</abbr> | [↗](https://github.com/PaloAltoNetworks/Unit42-Threat-Intelligence-Article-Information) |
-| pr0xylife | pr0xylife malware IOC collections (DarkGate, QakBot, Emotet, IcedID and more) | <abbr title="N/A">➖</abbr> | [↗](https://github.com/pr0xylife) |
-| prodaft | prodaft malware IOC repository | <abbr title="N/A">➖</abbr> | [↗](https://github.com/prodaft/malware-ioc) |
-| SecurityScorecard | Public IoCs from SecurityScorecard technical blog posts | <abbr title="N/A">➖</abbr> | [↗](https://github.com/securityscorecard/SSC-Threat-Intel-IoCs) |
-| Sekoia | Sekoia Community IOC repository | <abbr title="N/A">➖</abbr> | [↗](https://github.com/SEKOIA-IO/Community) |
-| Sophos | Sophos Labs IOC repository | <abbr title="N/A">➖</abbr> | [↗](https://github.com/sophoslabs/IoCs) |
-| ThreatMon | ThreatMon Daily C2 Feeds | <abbr title="N/A">➖</abbr> | [↗](https://github.com/ThreatMon/ThreatMon-Daily-C2-Feeds) |
-| Volexity | Volexity Threat Intelligence IOC repository | <abbr title="N/A">➖</abbr> | [↗](https://github.com/volexity/threat-intel) |
-| Zscaler ThreatLabz | Zscaler ThreatLabz IOC repository | <abbr title="N/A">➖</abbr> | [↗](https://github.com/threatlabz/iocs) |
+| Avast | Avast IOC repository | <abbr title="Active">🟢</abbr> | [↗](https://github.com/avast/ioc) |
+| Black Lotus Labs | Black Lotus Labs IOC repository | <abbr title="Active">🟢</abbr> | [↗](https://github.com/blacklotuslabs/IOCs) |
+| blackorbird | APT Report IOC repository | <abbr title="Active">🟢</abbr> | [↗](https://github.com/blackorbird/APT_REPORT) |
+| blocklistproject | Block Lists – comprehensive domain blocklists (ads, malware, phishing, ransomware, scam) | <abbr title="Active">🟢</abbr> | [↗](https://github.com/blocklistproject/Lists) |
+| Cisco Talos | Cisco Talos IOC repository | <abbr title="Active">🟢</abbr> | [↗](https://github.com/Cisco-Talos/IOCs) |
+| DoctorWeb | Dr.Web malware IOC repository | <abbr title="Active">🟢</abbr> | [↗](https://github.com/DoctorWebLtd/malware-iocs) |
+| Elastic Security Labs | Elastic Security Labs threat indicators repository | <abbr title="Active">🟢</abbr> | [↗](https://github.com/elastic/labs-releases) |
+| ESET | ESET Malware IOC Repository | <abbr title="Active">🟢</abbr> | [↗](https://github.com/eset/malware-ioc) |
+| executemalware | Community Malware IOCs (GitHub repo) | <abbr title="Active">🟢</abbr> | [↗](https://github.com/executemalware/Malware-IOCs) |
+| FireHOL | FireHOL blocklist-ipsets — curated IP blocklist collections (multiple sets) | <abbr title="Active">🟢</abbr> | [↗](https://github.com/firehol/blocklist-ipsets) |
+| HarfangLab | HarfangLab IOC repository | <abbr title="Active">🟢</abbr> | [↗](https://github.com/HarfangLab/iocs) |
+| kraloveckey | FireWALL-E: ipsets-blocklist | <abbr title="Active">🟢</abbr> | [↗](https://github.com/kraloveckey/ipsets-blocklist) |
+| mthcht | SOC/DFIR detection lists – VPN IPs, Named Pipes, Suspicious Services, Extensions and more | <abbr title="Active">🟢</abbr> | [↗](https://github.com/mthcht/awesome-lists) |
+| Palo Alto Unit42 | Unit42 IOC Repository | <abbr title="Active">🟢</abbr> | [↗](https://github.com/pan-unit42/iocs) |
+| Palo Alto Unit42 | Unit42 Timely Threat Intelligence IOC repository | <abbr title="Active">🟢</abbr> | [↗](https://github.com/PaloAltoNetworks/Unit42-timely-threat-intel) |
+| Palo Alto Unit42 | Unit42 Threat Intelligence Article IOC repository | <abbr title="Active">🟢</abbr> | [↗](https://github.com/PaloAltoNetworks/Unit42-Threat-Intelligence-Article-Information) |
+| pr0xylife | pr0xylife malware IOC collections (DarkGate, QakBot, Emotet, IcedID and more) | <abbr title="Active">🟢</abbr> | [↗](https://github.com/pr0xylife) |
+| prodaft | prodaft malware IOC repository | <abbr title="Active">🟢</abbr> | [↗](https://github.com/prodaft/malware-ioc) |
+| SecurityScorecard | Public IoCs from SecurityScorecard technical blog posts | <abbr title="Active">🟢</abbr> | [↗](https://github.com/securityscorecard/SSC-Threat-Intel-IoCs) |
+| Sekoia | Sekoia Community IOC repository | <abbr title="Active">🟢</abbr> | [↗](https://github.com/SEKOIA-IO/Community) |
+| Sophos | Sophos Labs IOC repository | <abbr title="Active">🟢</abbr> | [↗](https://github.com/sophoslabs/IoCs) |
+| ThreatMon | ThreatMon Daily C2 Feeds | <abbr title="Active">🟢</abbr> | [↗](https://github.com/ThreatMon/ThreatMon-Daily-C2-Feeds) |
+| unknownhad | CloudIntel – cloud-specific IOC repository | <abbr title="Active">🟢</abbr> | [↗](https://github.com/unknownhad/CloudIntel) |
+| Volexity | Volexity Threat Intelligence IOC repository | <abbr title="Active">🟢</abbr> | [↗](https://github.com/volexity/threat-intel) |
+| Zimperium | Zimperium mobile threat IOC repository | <abbr title="Active">🟢</abbr> | [↗](https://github.com/Zimperium/IOC) |
+| Zscaler ThreatLabz | Zscaler ThreatLabz IOC repository | <abbr title="Active">🟢</abbr> | [↗](https://github.com/threatlabz/iocs) |
 
 ### RESTRICTED (5)
 
