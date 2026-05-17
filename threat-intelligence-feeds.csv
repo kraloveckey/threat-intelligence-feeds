@@ -67,7 +67,7 @@ NIST;National Vulnerability Database CVEs;CVEID;https://services.nvd.nist.gov/re
 Github;Fox-IT Cobalt Strike Servers;IP;https://raw.githubusercontent.com/fox-it/cobaltstrike-extraneous-space/master/cobaltstrike-servers.csv;Active
 Github;APT Notes CSV;URL;https://raw.githubusercontent.com/aptnotes/data/master/APTnotes.csv;Active
 Firehol;Firehol Level 1 Blocklist (netset);IP;https://raw.githubusercontent.com/ktsaou/blocklist-ipsets/master/firehol_level1.netset;Active
-ThreatMon;ThreatMon Daily C2 Feeds;REPO;https://github.com/ThreatMon/ThreatMon-Daily-C2-Feeds;Active
+ThreatMon;ThreatMon Daily C2 Feeds;REPO;https://github.com/ThreatMon/ThreatMon-Daily-C2-Feeds;N/A
 Ellio;Firewall Threat List (Community);IP;https://cdn.ellio.tech/community-feed;Active
 threatview.io;OSINT IOCs from Twitter and Pastebin;IP;https://threatview.io/Downloads/Experimental-IOC-Tweets.txt;Active
 threatview.io;High Confidence Cobalt Strike C2 Feed;IP;https://threatview.io/Downloads/High-Confidence-CobaltStrike-C2%20-Feeds.txt;Active
@@ -85,9 +85,9 @@ StopForumSpam;Forum Spammer IPs – 7 days (zip);IP;http://www.stopforumspam.com
 tsirolnik;Spam Domains List;DNS;https://raw.githubusercontent.com/tsirolnik/spam-domains-list/master/spamdomains.txt;Active
 ransomware.live;All ransomware victims on leak sites;RANSOMWARELEAK;https://api.ransomware.live/allcyberattacks;Active
 X4BNet;VPN IPs;IP;https://raw.githubusercontent.com/X4BNet/lists_vpn/main/output/vpn/ipv4.txt;Active
-mthcht;Suspicious Named Pipes List;REPO;https://github.com/mthcht/awesome-lists/blob/main/Lists/suspicious_named_pipe_list.csv;Active
-mthcht;NordVPN IP List;REPO;https://github.com/mthcht/awesome-lists/blob/main/Lists/VPN/NordVPN/nordvpn_ips_list.csv;Active
-mthcht;ProtonVPN IP List;REPO;https://github.com/mthcht/awesome-lists/blob/main/Lists/VPN/ProtonVPN/protonvpn_ip_list.csv;Active
+mthcht;Suspicious Named Pipes List;REPO;https://github.com/mthcht/awesome-lists/blob/main/Lists/suspicious_named_pipe_list.csv;N/A
+mthcht;NordVPN IP List;REPO;https://github.com/mthcht/awesome-lists/blob/main/Lists/VPN/NordVPN/nordvpn_ips_list.csv;N/A
+mthcht;ProtonVPN IP List;REPO;https://github.com/mthcht/awesome-lists/blob/main/Lists/VPN/ProtonVPN/protonvpn_ip_list.csv;N/A
 Daniel Austin MBCS;TOR Exit Nodes;IP;https://www.dan.me.uk/torlist/?exit;Active
 Daniel Austin MBCS;TOR All Nodes;IP;https://www.dan.me.uk/torlist/?full;Active
 SecOps-Institute;Tor Nodes List;IP;https://raw.githubusercontent.com/SecOps-Institute/Tor-IP-Addresses/master/tor-nodes.lst;Active
@@ -124,8 +124,8 @@ DataPlane;Telnet Login Source IPs;IP;https://dataplane.org/telnetlogin.txt;Activ
 StopForumSpam;Forum Spammer IPs (last 1 day);IP;https://www.stopforumspam.com/downloads/listed_ip_1.txt;Active
 StopForumSpam;Forum Spammer IPs – 30 days (zip);IP;http://www.stopforumspam.com/downloads/listed_ip_30.zip;Active
 Blocklist.net.ua;Ukrainian Blocklist (Ukraine CERT);IP;https://blocklist.net.ua/blocklist.csv;Active
-CleanTalk;CleanTalk Blacklist – Submitted Today;IP;https://cleantalk.org/blacklists/submited_today;Active
-CleanTalk;CleanTalk Blacklist – Updated Today;IP;https://cleantalk.org/blacklists/updated_today;Offline
+CleanTalk;CleanTalk Blacklist – Submitted Today;IP;https://cleantalk.org/blacklists/submited_today;Offline
+CleanTalk;CleanTalk Blacklist – Updated Today;IP;https://cleantalk.org/blacklists/updated_today;Active
 CleanTalk;CleanTalk Blacklist – Top 20;IP;https://cleantalk.org/blacklists/top20;Offline
 AbuseIPDB;AbuseIPDB Score 100 – Last 1 day;IP;https://raw.githubusercontent.com/borestad/blocklist-abuseipdb/main/abuseipdb-s100-1d.ipv4;Active
 AbuseIPDB;AbuseIPDB Score 100 – Last 30 days;IP;https://raw.githubusercontent.com/borestad/blocklist-abuseipdb/main/abuseipdb-s100-30d.ipv4;Active
@@ -148,7 +148,7 @@ malshare.com;Malshare Current All;MD5;https://malshare.com/daily/malshare.curren
 MalSilo;MalSilo Domain List;DNS;https://malsilo.gitlab.io/feeds/dumps/domain_list.txt;Active
 MalSilo;MalSilo IPv4 List;IP;https://malsilo.gitlab.io/feeds/dumps/ip_list.txt;Active
 MalSilo;MalSilo URL List;URL;https://malsilo.gitlab.io/feeds/dumps/url_list.txt;Active
-mirai.security.gives;Mirai Botnet IPs;IP;https://mirai.security.gives/data/ip_list.txt;Active
+mirai.security.gives;Mirai Botnet IPs;IP;https://mirai.security.gives/data/ip_list.txt;Offline
 PhishTank;PhishTank Online Valid Phishing;URL;https://data.phishtank.com/data/online-valid.csv;Active
 home.nuug.no;POP3 Gropers;IP;https://home.nuug.no/~peter/pop3gropers.txt;Active
 shreshtait.com;Newly Registered Domains – 1 month;DNS;https://shreshtait.com/newly-registered-domains/nrd-1m;Active
@@ -163,17 +163,17 @@ urlabuse;URL Abuse DB – Latest 500 entries (CSV);URL;https://urlabuse.com/publ
 StopForumSpam;Toxic IPs CIDR;IP;http://www.stopforumspam.com/downloads/toxic_ip_cidr.txt;Offline
 Carbon Black;Cobalt Strike LuckyMouse / TA428;IP;https://raw.githubusercontent.com/carbonblack/active_c2_ioc_public/main/cobaltstrike/actor-specific/cobaltstrike_luckymouse_ta428.csv;Active
 Carbon Black;Cobalt Strike Pyxie;IP;https://raw.githubusercontent.com/carbonblack/active_c2_ioc_public/main/cobaltstrike/actor-specific/cobaltstrike_pyxie.csv;Active
-osint.bambenekconsulting.com;All current domains belonging to known malicious DGAs (requires license for commercial use);RESTRICTED;https://osint.bambenekconsulting.com/feeds/dga-feed-high.csv;Offline
-osint.bambenekconsulting.com;Domains from High-Confidence DGA-based C&C Domains Actively Resolving (requires license for commercial use);RESTRICTED;https://osint.bambenekconsulting.com/feeds/c2-dommasterlist-high.txt;Offline
-osint.bambenekconsulting.com;IPs from High-Confidence DGA-Based C&Cs Actively Resolving (requires license for commercial use);RESTRICTED;https://osint.bambenekconsulting.com/feeds/c2-ipmasterlist-high.txt;Offline
+osint.bambenekconsulting.com;All current domains belonging to known malicious DGAs (requires license for commercial use);RESTRICTED;https://osint.bambenekconsulting.com/feeds/dga-feed-high.csv;Restricted
+osint.bambenekconsulting.com;Domains from High-Confidence DGA-based C&C Domains Actively Resolving (requires license for commercial use);RESTRICTED;https://osint.bambenekconsulting.com/feeds/c2-dommasterlist-high.txt;Restricted
+osint.bambenekconsulting.com;IPs from High-Confidence DGA-Based C&Cs Actively Resolving (requires license for commercial use);RESTRICTED;https://osint.bambenekconsulting.com/feeds/c2-ipmasterlist-high.txt;Restricted
 snort.org;ip-block-list;IP;https://snort.org/downloads/ip-block-list;Active
 abuse.ch;MalwareBazaar MISP feed (hashes + metadata);MISP;https://bazaar.abuse.ch/downloads/misp/;Active
 Botvrij.eu;Botvrij.eu OSINT MISP feed;MISP;https://www.botvrij.eu/data/feed-osint;Active
 abuse.ch;ThreatFox MISP feed (IOCs);MISP;https://threatfox.abuse.ch/downloads/misp/;Active
-kraloveckey;FireWALL-E: ipsets-blocklist;REPO;https://github.com/kraloveckey/ipsets-blocklist;Active
-executemalware;Community Malware IOCs (GitHub repo);REPO;https://github.com/executemalware/Malware-IOCs;Active
-ESET;ESET Malware IOC Repository;REPO;https://github.com/eset/malware-ioc;Active
-Palo Alto Unit42;Unit42 IOC Repository;REPO;https://github.com/pan-unit42/iocs;Active
+kraloveckey;FireWALL-E: ipsets-blocklist;REPO;https://github.com/kraloveckey/ipsets-blocklist;N/A
+executemalware;Community Malware IOCs (GitHub repo);REPO;https://github.com/executemalware/Malware-IOCs;N/A
+ESET;ESET Malware IOC Repository;REPO;https://github.com/eset/malware-ioc;N/A
+Palo Alto Unit42;Unit42 IOC Repository;REPO;https://github.com/pan-unit42/iocs;N/A
 dan.me.uk;Dynamic list of TOR nodes (full);IP;https://www.dan.me.uk/torlist/;Active
 Emerging Threats;ET compromised hosts (includes openbl/bruteforceblocker/sidreporter);IP;http://rules.emergingthreats.net/blockrules/compromised-ips.txt;Active
 Emerging Threats;ET Spamhaus DROP blocklist (PIX/ACL format);IP;http://rules.emergingthreats.net/fwrules/emerging-PIX-DROP.rules;Active
@@ -254,8 +254,8 @@ iBlocklist.com;Qwest IPs;BLOCKLIST;http://list.iblocklist.com/?list=jezlifrpefaw
 iBlocklist.com;Embarq IPs;BLOCKLIST;http://list.iblocklist.com/?list=twdblifaysaqtypevvdp&fileformat=p2p&archiveformat=gz;Offline
 iBlocklist.com;Suddenlink IPs;BLOCKLIST;http://list.iblocklist.com/?list=psaoblrwylfrdsspfuiq&fileformat=p2p&archiveformat=gz;Offline
 iBlocklist.com;Sprint IPs;BLOCKLIST;http://list.iblocklist.com/?list=hngtqrhhuadlceqxbrob&fileformat=p2p&archiveformat=gz;Offline
-MaxMind;GeoLite2 ASN Database – IP to ASN mapping (requires free license key at maxmind.com);RESTRICTED;https://download.maxmind.com/app/geoip_download?edition_id=GeoLite2-ASN-CSV&license_key=YOUR_KEY&suffix=zip;Offline
-MaxMind;GeoLite2 Country Database – IP to Country mapping (requires free license key at maxmind.com);RESTRICTED;https://download.maxmind.com/app/geoip_download?edition_id=GeoLite2-Country-CSV&license_key=YOUR_KEY&suffix=zip;Offline
+MaxMind;GeoLite2 ASN Database – IP to ASN mapping (requires free license key at maxmind.com);RESTRICTED;https://download.maxmind.com/app/geoip_download?edition_id=GeoLite2-ASN-CSV&license_key=YOUR_KEY&suffix=zip;Restricted
+MaxMind;GeoLite2 Country Database – IP to Country mapping (requires free license key at maxmind.com);RESTRICTED;https://download.maxmind.com/app/geoip_download?edition_id=GeoLite2-Country-CSV&license_key=YOUR_KEY&suffix=zip;Restricted
 IP2Location;IP2Location LITE DB1 – IP to Country database (free, no key required);IP;https://download.ip2location.com/lite/IP2LOCATION-LITE-DB1.CSV.ZIP;Active
 IPDeny.com;IPDeny country IP blocks – all zones (tar.gz, updated daily);IP;http://www.ipdeny.com/ipblocks/data/countries/all-zones.tar.gz;Active
 DB-IP;DB-IP Country Lite – free IP to Country database (monthly release, URL changes monthly);IP;https://download.db-ip.com/free/dbip-country-lite.csv.gz;Offline
@@ -267,7 +267,7 @@ SANS ICS;Suspicious Domains – Low sensitivity (more false positives);DNS;https
 SANS ICS / DShield;DShield suggested IP blocklist;IP;https://isc.sans.edu/block.txt;Active
 IPsum;IPsum combined threat feed – all blacklists merged with occurrence count;IP;https://raw.githubusercontent.com/stamparm/ipsum/master/ipsum.txt;Active
 WSTNPHX;Email addresses used by malware;IOC;https://raw.githubusercontent.com/WSTNPHX/scripts-n-tools/master/malware-email-addresses.txt;Active
-SecurityScorecard;Public IoCs from SecurityScorecard technical blog posts;REPO;https://github.com/securityscorecard/SSC-Threat-Intel-IoCs;Active
+SecurityScorecard;Public IoCs from SecurityScorecard technical blog posts;REPO;https://github.com/securityscorecard/SSC-Threat-Intel-IoCs;N/A
 phishdestroy;PhishDestroy blocklist – phishing and malicious domains;DNS;https://raw.githubusercontent.com/phishdestroy/destroylist/refs/heads/main/list.txt;Active
 SANS ICS;SANS ICS Intel Feed – community threat indicators;IP;https://isc.sans.edu/api/intelfeed;Active
 CriticalPathSecurity;CPS collected IOCs (Zeek intel format);IP;https://raw.githubusercontent.com/CriticalPathSecurity/Zeek-Intelligence-Feeds/master/cps-collected-iocs.intel;Active
@@ -307,4 +307,4 @@ ExtSentry;Malicious browser extension IDs only;URL;https://raw.githubusercontent
 ExtSentry;Suspicious browser extension IDs only;URL;https://raw.githubusercontent.com/ExtSentry/ExtSentry.github.io/main/feeds/ioc_suspicious_extension_ids.txt;Active
 ExtSentry;Browser extension CRX SHA-256 file hashes;SHA256;https://raw.githubusercontent.com/ExtSentry/ExtSentry.github.io/main/feeds/ioc_crx_sha256_hashes.txt;Active
 ExtSentry;Browser extensions enriched IOC feed (CSV);URL;https://raw.githubusercontent.com/ExtSentry/ExtSentry.github.io/main/feeds/extsentry_ioc_feed.csv;Active
-FireHOL;FireHOL blocklist-ipsets — curated IP blocklist collections (multiple sets);REPO;https://github.com/firehol/blocklist-ipsets;Active
+FireHOL;FireHOL blocklist-ipsets — curated IP blocklist collections (multiple sets);REPO;https://github.com/firehol/blocklist-ipsets;N/A

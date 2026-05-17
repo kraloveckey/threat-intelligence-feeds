@@ -176,8 +176,8 @@ Status legend: 🟢 Active – 🔴 Offline – 🔒 Restricted (requires API ke
 | Carbon Black | Cobalt Strike LuckyMouse / TA428 | <abbr title="Active">🟢</abbr> | [↗](https://raw.githubusercontent.com/carbonblack/active_c2_ioc_public/main/cobaltstrike/actor-specific/cobaltstrike_luckymouse_ta428.csv) |
 | Carbon Black | Cobalt Strike Pyxie | <abbr title="Active">🟢</abbr> | [↗](https://raw.githubusercontent.com/carbonblack/active_c2_ioc_public/main/cobaltstrike/actor-specific/cobaltstrike_pyxie.csv) |
 | CINSscore | CINS Bad IP List (ci-badguys) | <abbr title="Active">🟢</abbr> | [↗](https://cinsscore.com/list/ci-badguys.txt) |
-| CleanTalk | CleanTalk Blacklist – Submitted Today | <abbr title="Active">🟢</abbr> | [↗](https://cleantalk.org/blacklists/submited_today) |
-| CleanTalk | CleanTalk Blacklist – Updated Today | <abbr title="Offline">🔴</abbr> | [↗](https://cleantalk.org/blacklists/updated_today) |
+| CleanTalk | CleanTalk Blacklist – Submitted Today | <abbr title="Offline">🔴</abbr> | [↗](https://cleantalk.org/blacklists/submited_today) |
+| CleanTalk | CleanTalk Blacklist – Updated Today | <abbr title="Active">🟢</abbr> | [↗](https://cleantalk.org/blacklists/updated_today) |
 | CleanTalk | CleanTalk Blacklist – Top 20 | <abbr title="Offline">🔴</abbr> | [↗](https://cleantalk.org/blacklists/top20) |
 | CriticalPathSecurity | Abuse.ch IP Blocklist Feed | <abbr title="Active">🟢</abbr> | [↗](https://raw.githubusercontent.com/CriticalPathSecurity/Public-Intelligence-Feeds/master/abuse-ch-ipblocklist.txt) |
 | CriticalPathSecurity | Log4j Scanners and Exploiters | <abbr title="Active">🟢</abbr> | [↗](https://raw.githubusercontent.com/CriticalPathSecurity/Public-Intelligence-Feeds/master/log4j.txt) |
@@ -251,7 +251,7 @@ Status legend: 🟢 Active – 🔴 Offline – 🔒 Restricted (requires API ke
 | James Brine | Daily malicious IPs from honeypots (SSH/FTP/RDP/GIT/SNMP/REDIS) | <abbr title="Offline">🔴</abbr> | [↗](https://jamesbrine.com.au/csv) |
 | MalSilo | MalSilo IPv4 List | <abbr title="Active">🟢</abbr> | [↗](https://malsilo.gitlab.io/feeds/dumps/ip_list.txt) |
 | Maltrail | Maltrail Mass Scanner IPs | <abbr title="Active">🟢</abbr> | [↗](https://raw.githubusercontent.com/stamparm/maltrail/master/trails/static/mass_scanner.txt) |
-| mirai.security.gives | Mirai Botnet IPs | <abbr title="Active">🟢</abbr> | [↗](https://mirai.security.gives/data/ip_list.txt) |
+| mirai.security.gives | Mirai Botnet IPs | <abbr title="Offline">🔴</abbr> | [↗](https://mirai.security.gives/data/ip_list.txt) |
 | MyIP.ms | Web bot IPs identified in last 10 days | <abbr title="Active">🟢</abbr> | [↗](http://www.myip.ms/files/blacklist/csf/latest_blacklist.txt) |
 | MyIP.ms | Full blacklist database (ZIP) | <abbr title="Active">🟢</abbr> | [↗](https://myip.ms/files/blacklist/general/full_blacklist_database.zip) |
 | NETSHIELD | Active IP Blacklist – Score ≥65 last 30 days (firewall recommended) | <abbr title="Active">🟢</abbr> | [↗](https://raw.githubusercontent.com/juergen2025sys/NETSHIELD/main/active_blacklist_ipv4.txt) |
@@ -500,26 +500,26 @@ Status legend: 🟢 Active – 🔴 Offline – 🔒 Restricted (requires API ke
 
 | Vendor | Description | Status | URL |
 | --- | --- | :---: | --- |
-| ESET | ESET Malware IOC Repository | <abbr title="Active">🟢</abbr> | [↗](https://github.com/eset/malware-ioc) |
-| executemalware | Community Malware IOCs (GitHub repo) | <abbr title="Active">🟢</abbr> | [↗](https://github.com/executemalware/Malware-IOCs) |
-| FireHOL | FireHOL blocklist-ipsets — curated IP blocklist collections (multiple sets) | <abbr title="Active">🟢</abbr> | [↗](https://github.com/firehol/blocklist-ipsets) |
-| kraloveckey | FireWALL-E: ipsets-blocklist | <abbr title="Active">🟢</abbr> | [↗](https://github.com/kraloveckey/ipsets-blocklist) |
-| mthcht | Suspicious Named Pipes List | <abbr title="Active">🟢</abbr> | [↗](https://github.com/mthcht/awesome-lists/blob/main/Lists/suspicious_named_pipe_list.csv) |
-| mthcht | NordVPN IP List | <abbr title="Active">🟢</abbr> | [↗](https://github.com/mthcht/awesome-lists/blob/main/Lists/VPN/NordVPN/nordvpn_ips_list.csv) |
-| mthcht | ProtonVPN IP List | <abbr title="Active">🟢</abbr> | [↗](https://github.com/mthcht/awesome-lists/blob/main/Lists/VPN/ProtonVPN/protonvpn_ip_list.csv) |
-| Palo Alto Unit42 | Unit42 IOC Repository | <abbr title="Active">🟢</abbr> | [↗](https://github.com/pan-unit42/iocs) |
-| SecurityScorecard | Public IoCs from SecurityScorecard technical blog posts | <abbr title="Active">🟢</abbr> | [↗](https://github.com/securityscorecard/SSC-Threat-Intel-IoCs) |
-| ThreatMon | ThreatMon Daily C2 Feeds | <abbr title="Active">🟢</abbr> | [↗](https://github.com/ThreatMon/ThreatMon-Daily-C2-Feeds) |
+| ESET | ESET Malware IOC Repository | <abbr title="N/A">➖</abbr> | [↗](https://github.com/eset/malware-ioc) |
+| executemalware | Community Malware IOCs (GitHub repo) | <abbr title="N/A">➖</abbr> | [↗](https://github.com/executemalware/Malware-IOCs) |
+| FireHOL | FireHOL blocklist-ipsets — curated IP blocklist collections (multiple sets) | <abbr title="N/A">➖</abbr> | [↗](https://github.com/firehol/blocklist-ipsets) |
+| kraloveckey | FireWALL-E: ipsets-blocklist | <abbr title="N/A">➖</abbr> | [↗](https://github.com/kraloveckey/ipsets-blocklist) |
+| mthcht | Suspicious Named Pipes List | <abbr title="N/A">➖</abbr> | [↗](https://github.com/mthcht/awesome-lists/blob/main/Lists/suspicious_named_pipe_list.csv) |
+| mthcht | NordVPN IP List | <abbr title="N/A">➖</abbr> | [↗](https://github.com/mthcht/awesome-lists/blob/main/Lists/VPN/NordVPN/nordvpn_ips_list.csv) |
+| mthcht | ProtonVPN IP List | <abbr title="N/A">➖</abbr> | [↗](https://github.com/mthcht/awesome-lists/blob/main/Lists/VPN/ProtonVPN/protonvpn_ip_list.csv) |
+| Palo Alto Unit42 | Unit42 IOC Repository | <abbr title="N/A">➖</abbr> | [↗](https://github.com/pan-unit42/iocs) |
+| SecurityScorecard | Public IoCs from SecurityScorecard technical blog posts | <abbr title="N/A">➖</abbr> | [↗](https://github.com/securityscorecard/SSC-Threat-Intel-IoCs) |
+| ThreatMon | ThreatMon Daily C2 Feeds | <abbr title="N/A">➖</abbr> | [↗](https://github.com/ThreatMon/ThreatMon-Daily-C2-Feeds) |
 
 ### RESTRICTED (5)
 
 | Vendor | Description | Status | URL |
 | --- | --- | :---: | --- |
-| MaxMind | GeoLite2 ASN Database – IP to ASN mapping (requires free license key at maxmind.com) | <abbr title="Offline">🔴</abbr> | [↗](https://download.maxmind.com/app/geoip_download?edition_id=GeoLite2-ASN-CSV&license_key=YOUR_KEY&suffix=zip) |
-| MaxMind | GeoLite2 Country Database – IP to Country mapping (requires free license key at maxmind.com) | <abbr title="Offline">🔴</abbr> | [↗](https://download.maxmind.com/app/geoip_download?edition_id=GeoLite2-Country-CSV&license_key=YOUR_KEY&suffix=zip) |
-| osint.bambenekconsulting.com | All current domains belonging to known malicious DGAs (requires license for commercial use) | <abbr title="Offline">🔴</abbr> | [↗](https://osint.bambenekconsulting.com/feeds/dga-feed-high.csv) |
-| osint.bambenekconsulting.com | Domains from High-Confidence DGA-based C&C Domains Actively Resolving (requires license for commercial use) | <abbr title="Offline">🔴</abbr> | [↗](https://osint.bambenekconsulting.com/feeds/c2-dommasterlist-high.txt) |
-| osint.bambenekconsulting.com | IPs from High-Confidence DGA-Based C&Cs Actively Resolving (requires license for commercial use) | <abbr title="Offline">🔴</abbr> | [↗](https://osint.bambenekconsulting.com/feeds/c2-ipmasterlist-high.txt) |
+| MaxMind | GeoLite2 ASN Database – IP to ASN mapping (requires free license key at maxmind.com) | <abbr title="Restricted">🔒</abbr> | [↗](https://download.maxmind.com/app/geoip_download?edition_id=GeoLite2-ASN-CSV&license_key=YOUR_KEY&suffix=zip) |
+| MaxMind | GeoLite2 Country Database – IP to Country mapping (requires free license key at maxmind.com) | <abbr title="Restricted">🔒</abbr> | [↗](https://download.maxmind.com/app/geoip_download?edition_id=GeoLite2-Country-CSV&license_key=YOUR_KEY&suffix=zip) |
+| osint.bambenekconsulting.com | All current domains belonging to known malicious DGAs (requires license for commercial use) | <abbr title="Restricted">🔒</abbr> | [↗](https://osint.bambenekconsulting.com/feeds/dga-feed-high.csv) |
+| osint.bambenekconsulting.com | Domains from High-Confidence DGA-based C&C Domains Actively Resolving (requires license for commercial use) | <abbr title="Restricted">🔒</abbr> | [↗](https://osint.bambenekconsulting.com/feeds/c2-dommasterlist-high.txt) |
+| osint.bambenekconsulting.com | IPs from High-Confidence DGA-Based C&Cs Actively Resolving (requires license for commercial use) | <abbr title="Restricted">🔒</abbr> | [↗](https://osint.bambenekconsulting.com/feeds/c2-ipmasterlist-high.txt) |
 <!-- FEEDS_TABLE_END -->
 
 ---
