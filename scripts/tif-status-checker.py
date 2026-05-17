@@ -19,6 +19,10 @@ STATUS_COLUMN = 'FeedStatus'
 TIMEOUT       = 12
 MAX_WORKERS   = 25
 
+SKIP_CATEGORIES    = {'RESTRICTED', 'REPO'}   # skip HTTP check; set a fixed status
+SKIP_STATUS        = {'RESTRICTED': 'Restricted', 'REPO': 'N/A'}
+ARCHIVE_EXTENSIONS = ('.zip', '.gz', '.tar', '.tar.gz', '.bz2')
+
 HEADERS = {
     'User-Agent': (
         'Mozilla/5.0 (Windows NT 10.0; Win64; x64) '
@@ -31,6 +35,18 @@ HEADERS = {
 def check_url(url: str) -> str:
     """Return 'Active' if the URL responds without an error status, else 'Offline'."""
     try:
+        is_archive = any(url.lower().endswith(ext) for ext in ARCHIVE_EXTENSIONS)
+        if is_archive:
+            # For archives HEAD is often unreliable; use GET with Range to avoid
+            # downloading the full file while still confirming the resource exists.
+            range_headers = {**HEADERS, 'Range': 'bytes=0-0'}
+            resp = requests.get(
+                url, timeout=TIMEOUT, allow_redirects=True,
+                headers=range_headers, stream=True
+            )
+            # 206 Partial Content or 200 OK both confirm the file is reachable
+            return 'Active' if resp.status_code in (200, 206) else 'Offline'
+
         resp = requests.head(url, timeout=TIMEOUT, allow_redirects=True, headers=HEADERS)
         # Some servers reject HEAD – fall back to a streaming GET
         if resp.status_code in (400, 403, 405):
@@ -60,19 +76,25 @@ def main() -> None:
     if STATUS_COLUMN not in fieldnames:
         fieldnames.append(STATUS_COLUMN)
 
-    url_pairs = [
-        (i, row[URL_COLUMN].strip())
+    url_triples = [
+        (i, row[URL_COLUMN].strip(), row.get('Category', '').strip())
         for i, row in enumerate(rows)
         if row.get(URL_COLUMN, '').strip()
     ]
 
-    total = len(url_pairs)
-    print(f'[INFO] Checking {total} URLs with {MAX_WORKERS} workers …\n')
-
+    # Pre-fill fixed statuses for categories that should not be checked
     results: dict[int, str] = {}
+    for i, url, cat in url_triples:
+        if cat in SKIP_CATEGORIES:
+            results[i] = SKIP_STATUS[cat]
+
+    to_check = [(i, url) for i, url, cat in url_triples if cat not in SKIP_CATEGORIES]
+    total = len(to_check)
+    skipped = len(url_triples) - total
+    print(f'[INFO] Checking {total} URLs with {MAX_WORKERS} workers … ({skipped} skipped)\n')
 
     with ThreadPoolExecutor(max_workers=MAX_WORKERS) as pool:
-        futures = {pool.submit(check_url, url): (i, url) for i, url in url_pairs}
+        futures = {pool.submit(check_url, url): (i, url) for i, url in to_check}
         for done_n, future in enumerate(as_completed(futures), start=1):
             idx, url = futures[future]
             status   = future.result()
@@ -89,11 +111,15 @@ def main() -> None:
         writer.writeheader()
         writer.writerows(rows)
 
-    active  = sum(1 for s in results.values() if s == 'Active')
-    offline = sum(1 for s in results.values() if s == 'Offline')
+    active     = sum(1 for s in results.values() if s == 'Active')
+    offline    = sum(1 for s in results.values() if s == 'Offline')
+    restricted = sum(1 for s in results.values() if s == 'Restricted')
+    na         = sum(1 for s in results.values() if s == 'N/A')
     print(f'\n[DONE] Results written to: {os.path.abspath(CSV_FILE)}')
-    print(f'       Active : {active}')
-    print(f'       Offline: {offline}')
+    print(f'       Active    : {active}')
+    print(f'       Offline   : {offline}')
+    print(f'       Restricted: {restricted}')
+    print(f'       N/A (repo): {na}')
 
 
 if __name__ == '__main__':

@@ -43,7 +43,7 @@ CATEGORY_DESCRIPTIONS = {
     'RESTRICTED':    'Feeds requiring registration or an API key (free or commercial) to access',
 }
 
-STATUS_ICON = {'Active': '🟢', 'Offline': '🔴', '': '⚪'}
+STATUS_ICON = {'Active': '🟢', 'Offline': '🔴', 'Restricted': '🔒', 'N/A': '➖', '': '⚪'}
 
 
 def load_rows():
