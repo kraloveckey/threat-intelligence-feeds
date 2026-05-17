@@ -17,7 +17,8 @@ CSV_FILE      = os.path.join(os.path.dirname(__file__), '..', 'threat-intelligen
 DELIMITER     = ';'
 URL_COLUMN    = 'Url'
 STATUS_COLUMN = 'FeedStatus'
-TIMEOUT       = 12
+TIMEOUT       = 15
+TIMEOUT_ARCHIVE = 30
 MAX_WORKERS   = 25
 
 SKIP_CATEGORIES    = {'RESTRICTED'}   # skip HTTP check; set a fixed status
@@ -52,22 +53,23 @@ def is_downloadable(url: str) -> bool:
 
 
 def check_url(url: str) -> str:
-    """Return 'Active' if the URL responds without an error status, else 'Offline'."""
     try:
         is_archive = is_downloadable(url)
         if is_archive:
-            # For archives HEAD is often unreliable; use GET with Range to avoid
-            # downloading the full file while still confirming the resource exists.
             range_headers = {**HEADERS, 'Range': 'bytes=0-0'}
             resp = requests.get(
-                url, timeout=TIMEOUT, allow_redirects=True,
+                url, timeout=TIMEOUT_ARCHIVE, allow_redirects=True,
                 headers=range_headers, stream=True
             )
-            # 206 Partial Content or 200 OK both confirm the file is reachable
-            return 'Active' if resp.status_code in (200, 206) else 'Offline'
+            if resp.status_code in (200, 206):
+                return 'Active'
+            resp = requests.head(url, timeout=TIMEOUT_ARCHIVE, allow_redirects=True, headers=HEADERS)
+            if resp.status_code in (400, 403, 405):
+                resp = requests.get(url, timeout=TIMEOUT_ARCHIVE, allow_redirects=True,
+                                    headers=HEADERS, stream=True)
+            return 'Active' if resp.status_code < 400 else 'Offline'
 
         resp = requests.head(url, timeout=TIMEOUT, allow_redirects=True, headers=HEADERS)
-        # Some servers reject HEAD – fall back to a streaming GET
         if resp.status_code in (400, 403, 405):
             resp = requests.get(
                 url, timeout=TIMEOUT, allow_redirects=True,
