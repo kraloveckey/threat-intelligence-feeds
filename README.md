@@ -4,7 +4,7 @@
 
 A curated, open-source collection of Threat Intelligence / IOC feeds.  
 Most feeds are **free and publicly accessible** — no account or API key required.  
-Feeds that require registration are clearly marked as [`RESTRICTED`](#restricted).
+Feeds that require registration are clearly marked as [`RESTRICTED`](#restricted-5).
 
 Sources aggregated from:
 - [FireWALL-E: ipsets-blocklists](https://github.com/kraloveckey/ipsets-blocklist);
