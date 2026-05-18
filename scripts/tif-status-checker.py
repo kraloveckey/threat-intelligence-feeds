@@ -24,8 +24,10 @@ MAX_WORKERS   = 25
 SKIP_CATEGORIES    = {'RESTRICTED'}   # skip HTTP check; set a fixed status
 SKIP_STATUS        = {'RESTRICTED': 'Restricted'}
 SKIP_URLS = {
-    #'http://list.iblocklist.com/?list=nlgdvmvfxvoimdunmuju&fileformat=p2p&archiveformat=gz': 'Active',
-    #'https://jamesbrine.com.au/csv': 'Active',
+    'https://jamesbrine.com.au/csv': 'Active',
+}
+SKIP_DOMAINS = {
+    'list.iblocklist.com': 'Active',
 }
 ARCHIVE_EXTENSIONS = ('.zip', '.gz', '.tar', '.tar.gz', '.bz2')
 DATA_EXTENSIONS = ('.csv', '.json', '.txt', '.netset', '.lst', '.intel')
@@ -114,8 +116,16 @@ def main() -> None:
             results[i] = SKIP_STATUS[cat]
         elif url in SKIP_URLS:
             results[i] = SKIP_URLS[url]
+        elif urlparse(url).hostname in SKIP_DOMAINS:
+            results[i] = SKIP_DOMAINS[urlparse(url).hostname]
 
-    to_check = [(i, url) for i, url, cat in url_triples if cat not in SKIP_CATEGORIES]
+    to_check = [
+        (i, url) for i, url, cat in url_triples
+        if cat not in SKIP_CATEGORIES
+        and url not in SKIP_URLS
+        and urlparse(url).hostname not in SKIP_DOMAINS
+    ]
+
     total = len(to_check)
     skipped = len(url_triples) - total
     print(f'[INFO] Checking {total} URLs with {MAX_WORKERS} workers … ({skipped} skipped)\n')
@@ -141,12 +151,10 @@ def main() -> None:
     active     = sum(1 for s in results.values() if s == 'Active')
     offline    = sum(1 for s in results.values() if s == 'Offline')
     restricted = sum(1 for s in results.values() if s == 'Restricted')
-    na         = sum(1 for s in results.values() if s == 'N/A')
     print(f'\n[DONE] Results written to: {os.path.abspath(CSV_FILE)}')
     print(f'       Active    : {active}')
     print(f'       Offline   : {offline}')
     print(f'       Restricted: {restricted}')
-    print(f'       N/A (repo): {na}')
 
 
 if __name__ == '__main__':

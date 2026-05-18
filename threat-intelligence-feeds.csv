@@ -311,7 +311,6 @@ hagezi;DNS Pro++ Blocklist – more aggressive version of Pro list;DNS;https://r
 hagezi;DNS Threat Intelligence Blocklist – malware and phishing domains;DNS;https://raw.githubusercontent.com/hagezi/dns-blocklists/main/domains/threat.txt;Offline
 blocklistproject;Block Lists – comprehensive domain blocklists (ads, malware, phishing, ransomware, scam);REPO;https://github.com/blocklistproject/Lists;Active
 jarelllama;Scam Blocklist – phishing and scam domains (wildcard format);DNS;https://raw.githubusercontent.com/jarelllama/Scam-Blocklist/main/lists/wildcard_domains/scams.txt;Active
-fsrm.experiant.ca;Ransomware file extension blocklist for File Server Resource Manager (FSRM);IOC;https://fsrm.experiant.ca/api/v1/get;Offline
 Volexity;Volexity Threat Intelligence IOC repository;REPO;https://github.com/volexity/threat-intel;Active
 Sekoia;Sekoia Community IOC repository;REPO;https://github.com/SEKOIA-IO/Community;Active
 Palo Alto Unit42;Unit42 Timely Threat Intelligence IOC repository;REPO;https://github.com/PaloAltoNetworks/Unit42-timely-threat-intel;Active
