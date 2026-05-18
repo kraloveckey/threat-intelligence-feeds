@@ -27,9 +27,9 @@ Sources aggregated from:
 <!-- STATS_TABLE_START -->
 | Category | Description | Count |
 | --- | --- | --- |
-| `IP` | Malicious / suspicious IPv4 addresses and CIDR ranges | 163 |
+| `IP` | Malicious / suspicious IPv4 addresses and CIDR ranges | 167 |
 | `DNS` | Malicious or suspicious domain names | 28 |
-| `URL` | Malicious / phishing / C2 URLs | 30 |
+| `URL` | Malicious / phishing / C2 URLs | 34 |
 | `MD5` | MD5 hashes of malicious files | 6 |
 | `SHA1` | SHA1 hashes of malicious files | 3 |
 | `SHA256` | SHA256 hashes of malicious files | 4 |
@@ -38,12 +38,16 @@ Sources aggregated from:
 | `CVEID` | Known exploited CVE identifiers | 4 |
 | `RANSOMWARELEAK` | Ransomware leak site victim data aggregated from multiple gang leak sites | 1 |
 | `MISP` | Structured MISP-format feeds (importable directly into MISP platform) | 5 |
-| `IOC` | Mixed-type IOC feeds containing multiple indicator types (IP, domain, URL, hash, etc.) | 10 |
+| `IOC` | Mixed-type IOC feeds containing multiple indicator types (IP, domain, URL, hash, etc.) | 36 |
 | `BLOCKLIST` | General-purpose IP blocklists — ISPs, ASNs, gaming, ad-trackers (not strictly threat intel) | 43 |
-| `REPO` | GitHub repositories with IOC collections — no direct machine-readable feed URL | 26 |
+| `REPO` | GitHub repositories with IOC collections — no direct machine-readable feed URL | 63 |
 | `RESTRICTED` | Feeds requiring registration or an API key (free or commercial) to access | 5 |
 | `GEOIP` | IP geolocation databases — country/ASN/region mapping (not threat intel) | 3 |
-| **Total** | | **333** |
+| `RSS` | Threat intelligence RSS/Atom feeds from vendors, CERTs, and security researchers | 9 |
+| `FRAMEWORK` | Threat intelligence frameworks, matrices, and tracking tools (MITRE, APT maps, etc.) | 3 |
+| `OSINT` | Open-source intelligence platforms and search engines for IOC investigation | 6 |
+| `SANDBOX` | Online malware analysis sandboxes for dynamic file and URL analysis | 3 |
+| **Total** | | **425** |
 <!-- STATS_TABLE_END -->
 
 ---
@@ -140,7 +144,7 @@ Status legend: 🟢 Active – 🔴 Offline – 🔒 Restricted (requires API ke
 
 <!-- FEEDS_TABLE_START -->
 
-### IP (163)
+### IP (167)
 
 | Vendor | Description | Status | URL |
 | --- | --- | :---: | --- |
@@ -251,6 +255,10 @@ Status legend: 🟢 Active – 🔴 Offline – 🔒 Restricted (requires API ke
 | James Brine | Daily malicious IPs from honeypots (SSH/FTP/RDP/GIT/SNMP/REDIS) | <abbr title="Offline">🔴</abbr> | [↗](https://jamesbrine.com.au/csv) |
 | MalSilo | MalSilo IPv4 List | <abbr title="Active">🟢</abbr> | [↗](https://malsilo.gitlab.io/feeds/dumps/ip_list.txt) |
 | Maltrail | Maltrail Mass Scanner IPs | <abbr title="Active">🟢</abbr> | [↗](https://raw.githubusercontent.com/stamparm/maltrail/master/trails/static/mass_scanner.txt) |
+| mthcht | VPN NordVPN IPs | <abbr title="Active">🟢</abbr> | [↗](https://github.com/mthcht/awesome-lists/blob/main/Lists/VPN/NordVPN/nordvpn_ips_list.csv) |
+| mthcht | VPN SurfShark IPs | <abbr title="Active">🟢</abbr> | [↗](https://github.com/mthcht/awesome-lists/blob/main/Lists/VPN/SurfSharkVPN/surfshark_vpn_servers_domains_and_ips_list.csv) |
+| mthcht | VPN MullVad IPs | <abbr title="Active">🟢</abbr> | [↗](https://github.com/mthcht/awesome-lists/blob/main/Lists/VPN/MullVad/mullvad_relay_servers_ips_list.csv) |
+| mthcht | VPN ProtonVPN IPs | <abbr title="Active">🟢</abbr> | [↗](https://github.com/mthcht/awesome-lists/blob/main/Lists/VPN/ProtonVPN/protonvpn_ip_list.csv) |
 | MyIP.ms | Web bot IPs identified in last 10 days | <abbr title="Active">🟢</abbr> | [↗](http://www.myip.ms/files/blacklist/csf/latest_blacklist.txt) |
 | MyIP.ms | Full blacklist database (ZIP) | <abbr title="Active">🟢</abbr> | [↗](https://myip.ms/files/blacklist/general/full_blacklist_database.zip) |
 | NETSHIELD | Active IP Blacklist – Score ≥65 last 30 days (firewall recommended) | <abbr title="Active">🟢</abbr> | [↗](https://raw.githubusercontent.com/juergen2025sys/NETSHIELD/main/active_blacklist_ipv4.txt) |
@@ -341,7 +349,7 @@ Status legend: 🟢 Active – 🔴 Offline – 🔒 Restricted (requires API ke
 | threatview.io | Domain High Confidence Feed | <abbr title="Active">🟢</abbr> | [↗](https://threatview.io/Downloads/DOMAIN-High-Confidence-Feed.txt) |
 | tsirolnik | Spam Domains List | <abbr title="Active">🟢</abbr> | [↗](https://raw.githubusercontent.com/tsirolnik/spam-domains-list/master/spamdomains.txt) |
 
-### URL (30)
+### URL (34)
 
 | Vendor | Description | Status | URL |
 | --- | --- | :---: | --- |
@@ -358,6 +366,9 @@ Status legend: 🟢 Active – 🔴 Offline – 🔒 Restricted (requires API ke
 | ExtSentry | Browser extensions enriched IOC feed (CSV) | <abbr title="Active">🟢</abbr> | [↗](https://raw.githubusercontent.com/ExtSentry/ExtSentry.github.io/main/feeds/extsentry_ioc_feed.csv) |
 | Github | APT Notes CSV | <abbr title="Active">🟢</abbr> | [↗](https://raw.githubusercontent.com/aptnotes/data/master/APTnotes.csv) |
 | jeroengui | Phishing URLs – last week community feed | <abbr title="Active">🟢</abbr> | [↗](https://file.jeroengui.be/phishing/last_week.txt) |
+| loldrivers | LOLDrivers | <abbr title="Active">🟢</abbr> | [↗](https://www.loldrivers.io/) |
+| LOLOLFarm | LOLOLFarm | <abbr title="Active">🟢</abbr> | [↗](https://lolol.farm/) |
+| LOTS | Living Off Trusted Sites | <abbr title="Active">🟢</abbr> | [↗](https://lots-project.com/) |
 | MalSilo | MalSilo URL List | <abbr title="Active">🟢</abbr> | [↗](https://malsilo.gitlab.io/feeds/dumps/url_list.txt) |
 | MISP Abuse.ch | MISP Abuse.ch URLhaus | <abbr title="Active">🟢</abbr> | [↗](https://urlhaus.abuse.ch/downloads/misp/) |
 | MISP Project | MISP Default Feeds (metadata) | <abbr title="Active">🟢</abbr> | [↗](https://raw.githubusercontent.com/MISP/MISP/2.4/app/files/feed-metadata/defaults.json) |
@@ -373,6 +384,7 @@ Status legend: 🟢 Active – 🔴 Offline – 🔒 Restricted (requires API ke
 | urlabuse | Phishing URL Feed | <abbr title="Active">🟢</abbr> | [↗](https://urlabuse.com/public/data/phishing_url.txt) |
 | urlabuse | Hacked URL Feed | <abbr title="Active">🟢</abbr> | [↗](https://urlabuse.com/public/data/hacked_url.txt) |
 | urlabuse | URL Abuse DB – Latest 500 entries (CSV) | <abbr title="Active">🟢</abbr> | [↗](https://urlabuse.com/public/data/data_csv.txt) |
+| UrlHaus | UrlHaus_misp ASN feeds | <abbr title="Active">🟢</abbr> | [↗](https://urlhaus.abuse.ch/feeds/) |
 | VXVault | VXVault Malware URL List | <abbr title="Active">🟢</abbr> | [↗](http://vxvault.net/ViriList.php?s=0&m=100) |
 | VXVault | VXVault URL List | <abbr title="Active">🟢</abbr> | [↗](http://vxvault.net/URL_List.php) |
 
@@ -441,12 +453,38 @@ Status legend: 🟢 Active – 🔴 Offline – 🔒 Restricted (requires API ke
 | MISP CIRCL | MISP CIRCL OSINT Feed – Hashes | <abbr title="Active">🟢</abbr> | [↗](https://www.circl.lu/doc/misp/feed-osint/) |
 | MISP Feed CERT-FR | MISP Feed CERT-FR Hashes | <abbr title="Active">🟢</abbr> | [↗](https://misp.cert.ssi.gouv.fr/feed-misp/hashes.csv) |
 
-### IOC (10)
+### IOC (36)
 
 | Vendor | Description | Status | URL |
 | --- | --- | :---: | --- |
 | fsrm.experiant.ca | Ransomware file extension blocklist for File Server Resource Manager (FSRM) | <abbr title="Offline">🔴</abbr> | [↗](https://fsrm.experiant.ca/api/v1/get) |
 | montysecurity | C2-Tracker – active C2 servers aggregated from multiple sources (all types combined) | <abbr title="Offline">🔴</abbr> | [↗](https://raw.githubusercontent.com/montysecurity/C2-Tracker/main/data/all.txt) |
+| mthcht | Offensive Tools detection patterns | <abbr title="Active">🟢</abbr> | [↗](https://raw.githubusercontent.com/mthcht/ThreatHunting-Keywords/main/offensive_tool_keyword.csv) |
+| mthcht | Greyware Tools detection patterns | <abbr title="Active">🟢</abbr> | [↗](https://raw.githubusercontent.com/mthcht/ThreatHunting-Keywords/main/greyware_tool_keyword.csv) |
+| mthcht | AV signatures keywords | <abbr title="Active">🟢</abbr> | [↗](https://github.com/mthcht/ThreatHunting-Keywords/blob/main/signature_keyword.csv) |
+| mthcht | Suspicious Named pipes | <abbr title="Active">🟢</abbr> | [↗](https://github.com/mthcht/awesome-lists/blob/main/Lists/suspicious_named_pipe_list.csv) |
+| mthcht | Suspicious Windows Services | <abbr title="Active">🟢</abbr> | [↗](https://github.com/mthcht/awesome-lists/blob/main/Lists/suspicious_windows_services_names_list.csv) |
+| mthcht | Suspicious Windows Tasks | <abbr title="Active">🟢</abbr> | [↗](https://github.com/mthcht/awesome-lists/blob/main/Lists/suspicious_windows_tasks_list.csv) |
+| mthcht | Suspicious destination port | <abbr title="Active">🟢</abbr> | [↗](https://github.com/mthcht/awesome-lists/blob/main/Lists/suspicious_ports_list.csv) |
+| mthcht | Suspicious Firewall rules | <abbr title="Active">🟢</abbr> | [↗](https://github.com/mthcht/awesome-lists/blob/main/Lists/suspicious_windows_firewall_rules_list.csv) |
+| mthcht | Suspicious User-agent | <abbr title="Active">🟢</abbr> | [↗](https://github.com/mthcht/awesome-lists/blob/main/Lists/suspicious_http_user_agents_list.csv) |
+| mthcht | Suspicious USB Ids | <abbr title="Active">🟢</abbr> | [↗](https://github.com/mthcht/awesome-lists/blob/main/Lists/suspicious_usb_ids_list.csv) |
+| mthcht | Suspicious mutex names | <abbr title="Active">🟢</abbr> | [↗](https://github.com/mthcht/awesome-lists/blob/main/Lists/suspicious_mutex_names_list.csv) |
+| mthcht | Suspicious MAC address | <abbr title="Active">🟢</abbr> | [↗](https://github.com/mthcht/awesome-lists/blob/main/Lists/suspicious_mac_address_list.csv) |
+| mthcht | Suspicious Hostname | <abbr title="Active">🟢</abbr> | [↗](https://github.com/mthcht/awesome-lists/blob/main/Lists/suspicious_hostnames_list.csv) |
+| mthcht | Microsoft App IDs List (BEC Detection) | <abbr title="Active">🟢</abbr> | [↗](https://github.com/mthcht/awesome-lists/blob/main/Lists/microsoft_apps_list.csv) |
+| mthcht | Metadata Executables | <abbr title="Active">🟢</abbr> | [↗](https://github.com/mthcht/awesome-lists/blob/main/Lists/Windows%20Metadata/executables_metadata_informations_list.csv) |
+| mthcht | DNS over HTTPS server list | <abbr title="Active">🟢</abbr> | [↗](https://github.com/mthcht/awesome-lists/blob/main/Lists/dns_over_https_servers_list.csv) |
+| mthcht | Dynamic DNS domains list | <abbr title="Active">🟢</abbr> | [↗](https://github.com/mthcht/awesome-lists/blob/main/Lists/DYNDNS/dyndns_list.csv) |
+| mthcht | Sinkholed Domains | <abbr title="Offline">🔴</abbr> | [↗](https://github.com/mthcht/awesome-lists/blob/main/Lists/Domains/sinkholed_servers/sinkholed_domains.csv) |
+| mthcht | Hijacklibs | <abbr title="Offline">🔴</abbr> | [↗](https://github.com/mthcht/awesome-lists/blob/main/Lists/Hijacklibs/hijacklibs_list.csv) |
+| mthcht | LOLDriver List | <abbr title="Active">🟢</abbr> | [↗](https://github.com/mthcht/awesome-lists/blob/main/Lists/Drivers/loldrivers_only_hashes_list.csv) |
+| mthcht | Malicious Bootloader List | <abbr title="Active">🟢</abbr> | [↗](https://github.com/mthcht/awesome-lists/blob/main/Lists/Drivers/malicious_bootloaders_only_hashes_list.csv) |
+| mthcht | Malicious SSL Certificates List | <abbr title="Active">🟢</abbr> | [↗](https://github.com/mthcht/awesome-lists/blob/main/Lists/SSL%20CERTS/ssl_certificates_malicious_list.csv) |
+| mthcht | Ransomware known file extensions | <abbr title="Active">🟢</abbr> | [↗](https://github.com/mthcht/awesome-lists/blob/main/Lists/ransomware_extensions_list.csv) |
+| mthcht | Ransomware known file name ransom notes | <abbr title="Active">🟢</abbr> | [↗](https://github.com/mthcht/awesome-lists/blob/main/Lists/ransomware_notes_list.csv) |
+| mthcht | Windows ASR rules | <abbr title="Active">🟢</abbr> | [↗](https://github.com/mthcht/awesome-lists/blob/main/Lists/windows_asr_rules.csv) |
+| mthcht | GeoIP services Lists | <abbr title="Active">🟢</abbr> | [↗](https://github.com/mthcht/awesome-lists/blob/main/Lists/GeoIP/ip_location_sites_list.csv) |
 | rosti.bin | Public threat intelligence reports feed | <abbr title="Active">🟢</abbr> | [↗](https://rosti.bin.re/feeds) |
 | SentinelPhishFeed | File hash IOCs (MD5/SHA) | <abbr title="Active">🟢</abbr> | [↗](https://raw.githubusercontent.com/rjn32s/SentinelPhishFeed/main/hashes.txt) |
 | threatview.io | Bitcoin Address Intel | <abbr title="Active">🟢</abbr> | [↗](https://threatview.io/Downloads/MALICIOUS-BITCOIN_FEED.txt) |
@@ -504,23 +542,55 @@ Status legend: 🟢 Active – 🔴 Offline – 🔒 Restricted (requires API ke
 | iBlocklist.com | Sprint IPs | <abbr title="Offline">🔴</abbr> | [↗](http://list.iblocklist.com/?list=hngtqrhhuadlceqxbrob&fileformat=p2p&archiveformat=gz) |
 | Ngosang | BitTorrent Trackers IP List | <abbr title="Active">🟢</abbr> | [↗](https://raw.githubusercontent.com/ngosang/trackerslist/master/trackers_all_ip.txt) |
 
-### REPO (26)
+### REPO (63)
 
 | Vendor | Description | Status | URL |
 | --- | --- | :---: | --- |
+| 0x4D31 | Awesome Threat Detection | <abbr title="Active">🟢</abbr> | [↗](https://github.com/0x4D31/awesome-threat-detection) |
 | Avast | Avast IOC repository | <abbr title="Active">🟢</abbr> | [↗](https://github.com/avast/ioc) |
+| Bert-JanP | Open Source Threat Intel Feeds | <abbr title="Active">🟢</abbr> | [↗](https://github.com/Bert-JanP/Open-Source-Threat-Intel-Feeds) |
+| Bert-JanP | KQL Hunting Queries | <abbr title="Active">🟢</abbr> | [↗](https://github.com/Bert-JanP/Hunting-Queries-Detection-Rules) |
 | Black Lotus Labs | Black Lotus Labs IOC repository | <abbr title="Active">🟢</abbr> | [↗](https://github.com/blacklotuslabs/IOCs) |
 | blackorbird | APT Report IOC repository | <abbr title="Active">🟢</abbr> | [↗](https://github.com/blackorbird/APT_REPORT) |
 | blocklistproject | Block Lists – comprehensive domain blocklists (ads, malware, phishing, ransomware, scam) | <abbr title="Active">🟢</abbr> | [↗](https://github.com/blocklistproject/Lists) |
+| BushidoUK | Tools used by Russian APT | <abbr title="Active">🟢</abbr> | [↗](https://github.com/BushidoUK/Russian-APT-Tool-Matrix) |
 | Cisco Talos | Cisco Talos IOC repository | <abbr title="Active">🟢</abbr> | [↗](https://github.com/Cisco-Talos/IOCs) |
 | DoctorWeb | Dr.Web malware IOC repository | <abbr title="Active">🟢</abbr> | [↗](https://github.com/DoctorWebLtd/malware-iocs) |
+| Elastic | Elastic Detection Rules | <abbr title="Active">🟢</abbr> | [↗](https://github.com/elastic/detection-rules) |
 | Elastic Security Labs | Elastic Security Labs threat indicators repository | <abbr title="Active">🟢</abbr> | [↗](https://github.com/elastic/labs-releases) |
 | ESET | ESET Malware IOC Repository | <abbr title="Active">🟢</abbr> | [↗](https://github.com/eset/malware-ioc) |
 | executemalware | Community Malware IOCs (GitHub repo) | <abbr title="Active">🟢</abbr> | [↗](https://github.com/executemalware/Malware-IOCs) |
 | FireHOL | FireHOL blocklist-ipsets — curated IP blocklist collections (multiple sets) | <abbr title="Active">🟢</abbr> | [↗](https://github.com/firehol/blocklist-ipsets) |
 | HarfangLab | HarfangLab IOC repository | <abbr title="Active">🟢</abbr> | [↗](https://github.com/HarfangLab/iocs) |
+| JoeSecurity | JoeSecurity Sigma-Rules | <abbr title="Active">🟢</abbr> | [↗](https://github.com/joesecurity/sigma-rules/tree/master/rules) |
 | kraloveckey | FireWALL-E: ipsets-blocklist | <abbr title="Active">🟢</abbr> | [↗](https://github.com/kraloveckey/ipsets-blocklist) |
+| lolc2 | LOLC2 | <abbr title="Active">🟢</abbr> | [↗](https://github.com/lolc2/lolc2.github.io) |
+| LOLESXi-Project | LOLESXI | <abbr title="Active">🟢</abbr> | [↗](https://github.com/LOLESXi-Project/LOLESXi) |
+| mdecrevoisier | SIGMA detection rules | <abbr title="Active">🟢</abbr> | [↗](https://github.com/mdecrevoisier/SIGMA-detection-rules) |
 | mthcht | SOC/DFIR detection lists – VPN IPs, Named Pipes, Suspicious Services, Extensions and more | <abbr title="Active">🟢</abbr> | [↗](https://github.com/mthcht/awesome-lists) |
+| mthcht | Unit42 IOC by mthcht | <abbr title="Active">🟢</abbr> | [↗](https://github.com/mthcht/iocs) |
+| mthcht | Threat Hunting yara rules | <abbr title="Active">🟢</abbr> | [↗](https://github.com/mthcht/ThreatHunting-Keywords-yara-rules) |
+| mthcht | Suspicious TLDs | <abbr title="Active">🟢</abbr> | [↗](https://github.com/mthcht/awesome-lists/tree/main/Lists/TLDs) |
+| mthcht | Suspicious ASNs | <abbr title="Active">🟢</abbr> | [↗](https://github.com/mthcht/awesome-lists/tree/main/Lists/ASNs) |
+| mthcht | Maxmind GeoIP Database Extracted | <abbr title="Active">🟢</abbr> | [↗](https://github.com/mthcht/awesome-lists/tree/main/Lists/ASNs/correlation_maxmind_geo_db/maxmind_databases/extracted) |
+| mthcht | Suspicious CERTs signer | <abbr title="Active">🟢</abbr> | [↗](https://github.com/mthcht/awesome-lists/tree/main/Lists/CERTS) |
+| mthcht | Suspicious Browser Extensions | <abbr title="Active">🟢</abbr> | [↗](https://github.com/mthcht/awesome-lists/tree/main/Lists/Browser%20Extensions) |
+| mthcht | Phishing domains and urls | <abbr title="Active">🟢</abbr> | [↗](https://github.com/mthcht/awesome-lists/tree/main/Lists/Phishing) |
+| mthcht | Sinkholed servers Domains folder | <abbr title="Active">🟢</abbr> | [↗](https://github.com/mthcht/awesome-lists/tree/main/Lists/Domains) |
+| mthcht | TOR Nodes Lists folder | <abbr title="Active">🟢</abbr> | [↗](https://github.com/mthcht/awesome-lists/tree/main/Lists/TOR) |
+| mthcht | RMM detection | <abbr title="Active">🟢</abbr> | [↗](https://github.com/mthcht/awesome-lists/tree/main/Lists/RMM) |
+| mthcht | Important Roles and groups for AD/EntraID/AWS | <abbr title="Active">🟢</abbr> | [↗](https://github.com/mthcht/awesome-lists/tree/main/Lists/permissions) |
+| mthcht | DNSTWIST Lists | <abbr title="Active">🟢</abbr> | [↗](https://github.com/mthcht/awesome-lists/tree/main/Lists/Phishing/DNSTWIST) |
+| mthcht | PROXIES PROXY IP/Port Lists | <abbr title="Active">🟢</abbr> | [↗](https://github.com/mthcht/awesome-lists/tree/main/Lists/PROXY) |
+| mthcht | Companies IP Range Lists (Default) | <abbr title="Active">🟢</abbr> | [↗](https://github.com/mthcht/awesome-lists/tree/main/Lists/Ranges_IP_Address_Company_List/bgp.he.net) |
+| mthcht | Companies IP Range Lists (Microsoft) | <abbr title="Active">🟢</abbr> | [↗](https://github.com/mthcht/awesome-lists/tree/main/Lists/Ranges_IP_Address_Company_List/Microsoft) |
+| mthcht | Microsoft Defender AV signatures lists | <abbr title="Active">🟢</abbr> | [↗](https://github.com/mthcht/awesome-lists/tree/main/Lists/AV%20signatures/Defender) |
+| mthcht | Microsoft Defender AV yara rules | <abbr title="Active">🟢</abbr> | [↗](https://github.com/mthcht/awesome-lists/tree/main/Lists/Others/Defender_yara_rules) |
+| mthcht | ClamAV signatures lists | <abbr title="Active">🟢</abbr> | [↗](https://github.com/mthcht/awesome-lists/tree/main/Lists/AV%20signatures/ClamAV) |
+| mthcht | Others correlation Lists | <abbr title="Active">🟢</abbr> | [↗](https://github.com/mthcht/awesome-lists/tree/main/Lists/Others) |
+| mthcht | Sigma Rules by mthcht | <abbr title="Active">🟢</abbr> | [↗](https://github.com/mthcht/sigma/tree/master/rules) |
+| mthcht | ALL TI Reports | <abbr title="Active">🟢</abbr> | [↗](https://github.com/mthcht/ThreatIntel-Reports) |
+| P4T12ICK | Sigma Rule Repository | <abbr title="Active">🟢</abbr> | [↗](https://github.com/P4T12ICK/Sigma-Rule-Repository) |
 | Palo Alto Unit42 | Unit42 IOC Repository | <abbr title="Active">🟢</abbr> | [↗](https://github.com/pan-unit42/iocs) |
 | Palo Alto Unit42 | Unit42 Timely Threat Intelligence IOC repository | <abbr title="Active">🟢</abbr> | [↗](https://github.com/PaloAltoNetworks/Unit42-timely-threat-intel) |
 | Palo Alto Unit42 | Unit42 Threat Intelligence Article IOC repository | <abbr title="Active">🟢</abbr> | [↗](https://github.com/PaloAltoNetworks/Unit42-Threat-Intelligence-Article-Information) |
@@ -529,9 +599,14 @@ Status legend: 🟢 Active – 🔴 Offline – 🔒 Restricted (requires API ke
 | SecurityScorecard | Public IoCs from SecurityScorecard technical blog posts | <abbr title="Active">🟢</abbr> | [↗](https://github.com/securityscorecard/SSC-Threat-Intel-IoCs) |
 | Sekoia | Sekoia Community IOC repository | <abbr title="Active">🟢</abbr> | [↗](https://github.com/SEKOIA-IO/Community) |
 | Sophos | Sophos Labs IOC repository | <abbr title="Active">🟢</abbr> | [↗](https://github.com/sophoslabs/IoCs) |
+| Splunk | Splunk Detections Rules | <abbr title="Active">🟢</abbr> | [↗](https://research.splunk.com/detections/) |
+| The-DFIR-Report | DFIR-Report Sigma-Rules | <abbr title="Active">🟢</abbr> | [↗](https://github.com/The-DFIR-Report/Sigma-Rules) |
+| ThreatLabz | Zscaler ThreatLabz Ransomware notes | <abbr title="Active">🟢</abbr> | [↗](https://github.com/ThreatLabz/ransomware_notes) |
 | ThreatMon | ThreatMon Daily C2 Feeds | <abbr title="Active">🟢</abbr> | [↗](https://github.com/ThreatMon/ThreatMon-Daily-C2-Feeds) |
+| tsale | Sigma Rules | <abbr title="Active">🟢</abbr> | [↗](https://github.com/tsale/Sigma_rules) |
 | unknownhad | CloudIntel – cloud-specific IOC repository | <abbr title="Active">🟢</abbr> | [↗](https://github.com/unknownhad/CloudIntel) |
 | Volexity | Volexity Threat Intelligence IOC repository | <abbr title="Active">🟢</abbr> | [↗](https://github.com/volexity/threat-intel) |
+| vx-underground | Samples and Intelligence Reports | <abbr title="Offline">🔴</abbr> | [↗](https://vx-underground.org/Samples) |
 | Zimperium | Zimperium mobile threat IOC repository | <abbr title="Active">🟢</abbr> | [↗](https://github.com/Zimperium/IOC) |
 | Zscaler ThreatLabz | Zscaler ThreatLabz IOC repository | <abbr title="Active">🟢</abbr> | [↗](https://github.com/threatlabz/iocs) |
 
@@ -552,6 +627,47 @@ Status legend: 🟢 Active – 🔴 Offline – 🔒 Restricted (requires API ke
 | DB-IP | DB-IP Country Lite – free IP to Country database (monthly updated, fixed URL) | <abbr title="Offline">🔴</abbr> | [↗](https://download.db-ip.com/free/dbip-country-lite.csv.gz) |
 | IP2Location | IP2Location LITE DB1 – IP to Country database (free, no key required) | <abbr title="Active">🟢</abbr> | [↗](https://download.ip2location.com/lite/IP2LOCATION-LITE-DB1.CSV.ZIP) |
 | IPDeny.com | IPDeny country IP blocks – all zones (tar.gz, updated daily) | <abbr title="Active">🟢</abbr> | [↗](http://www.ipdeny.com/ipblocks/data/countries/all-zones.tar.gz) |
+
+### RSS (9)
+
+| Vendor | Description | Status | URL |
+| --- | --- | :---: | --- |
+| CERT-UA | CERT UA RSS Feed | <abbr title="Active">🟢</abbr> | [↗](https://cert.gov.ua/api/articles/rss) |
+| Checkpoint | Checkpoint Research Feed | <abbr title="Active">🟢</abbr> | [↗](https://research.checkpoint.com/feed) |
+| CISA | CISA Cybersecurity Advisories | <abbr title="Offline">🔴</abbr> | [↗](https://www.cisa.gov/cybersecurity-advisories/all.xml) |
+| Cisco | Talos Intelligence Feed | <abbr title="Active">🟢</abbr> | [↗](https://feeds.feedburner.com/feedburner/Talos) |
+| Google | Google Threat Intelligence Feed | <abbr title="Active">🟢</abbr> | [↗](https://feeds.feedburner.com/threatintelligence/pvexyqv7v0v) |
+| Kaspersky | Securelist APT Attacks Feed | <abbr title="Active">🟢</abbr> | [↗](https://securelist.com/threat-category/apt-targeted-attacks/feed/) |
+| Microsoft | Microsoft Threat Intel Feed | <abbr title="Active">🟢</abbr> | [↗](https://www.microsoft.com/en-us/security/blog/topic/threat-intelligence/feed) |
+| Palo Alto | Unit42 Threat Intel RSS | <abbr title="Active">🟢</abbr> | [↗](https://unit42.paloaltonetworks.com/feed/) |
+| TheDFIRReport | The DFIR Report Feed | <abbr title="Active">🟢</abbr> | [↗](https://thedfirreport.com/feed/) |
+
+### FRAMEWORK (3)
+
+| Vendor | Description | Status | URL |
+| --- | --- | :---: | --- |
+| andreacristaldi | APTMAP (APT Tracker) | <abbr title="Active">🟢</abbr> | [↗](https://github.com/andreacristaldi/APTmap) |
+| MITRE | MITRE ATT&CK Matrix Navigator | <abbr title="Active">🟢</abbr> | [↗](https://mitre-attack.github.io/attack-navigator/) |
+| MITRE | CVE Vulnerability Database | <abbr title="Active">🟢</abbr> | [↗](https://cve.mitre.org/) |
+
+### OSINT (6)
+
+| Vendor | Description | Status | URL |
+| --- | --- | :---: | --- |
+| Censys | Censys OSINT Search | <abbr title="Offline">🔴</abbr> | [↗](https://search.censys.io/) |
+| CyberGordon | CyberGordon URL Reputation | <abbr title="Active">🟢</abbr> | [↗](https://cybergordon.com/) |
+| Pulsedive | Pulsedive Threat Intelligence | <abbr title="Active">🟢</abbr> | [↗](https://pulsedive.com/) |
+| Shodan | Shodan OSINT Search | <abbr title="Offline">🔴</abbr> | [↗](https://www.shodan.io/) |
+| ThreatMiner | ThreatMiner Data Mining | <abbr title="Active">🟢</abbr> | [↗](https://www.threatminer.org/) |
+| URLScan | URLScan Website Scanner | <abbr title="Active">🟢</abbr> | [↗](https://urlscan.io/) |
+
+### SANDBOX (3)
+
+| Vendor | Description | Status | URL |
+| --- | --- | :---: | --- |
+| AnyRun | Any.Run Interactive Sandbox | <abbr title="Active">🟢</abbr> | [↗](https://any.run/) |
+| JoeSecurity | JoeSandbox | <abbr title="Active">🟢</abbr> | [↗](https://www.joesandbox.com/analysispaged/0) |
+| Triage | Triage Malware Sandbox | <abbr title="Active">🟢</abbr> | [↗](https://tria.ge/s) |
 <!-- FEEDS_TABLE_END -->
 
 ---

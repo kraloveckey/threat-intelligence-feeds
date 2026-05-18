@@ -336,7 +336,7 @@ Bert-JanP;Open Source Threat Intel Feeds;REPO;https://github.com/Bert-JanP/Open-
 mthcht;Unit42 IOC by mthcht;REPO;https://github.com/mthcht/iocs;Active
 ThreatLabz;Zscaler ThreatLabz Ransomware notes;REPO;https://github.com/ThreatLabz/ransomware_notes;Active
 UrlHaus;UrlHaus_misp ASN feeds;URL;https://urlhaus.abuse.ch/feeds/;Active
-vx-underground;Samples and Intelligence Reports;REPO;https://vx-underground.org/Samples;Active
+vx-underground;Samples and Intelligence Reports;REPO;https://vx-underground.org/Samples;Offline
 mthcht;Threat Hunting yara rules;REPO;https://github.com/mthcht/ThreatHunting-Keywords-yara-rules;Active
 mthcht;Offensive Tools detection patterns;IOC;https://raw.githubusercontent.com/mthcht/ThreatHunting-Keywords/main/offensive_tool_keyword.csv;Active
 mthcht;Greyware Tools detection patterns;IOC;https://raw.githubusercontent.com/mthcht/ThreatHunting-Keywords/main/greyware_tool_keyword.csv;Active
@@ -355,8 +355,8 @@ mthcht;Microsoft App IDs List (BEC Detection);IOC;https://github.com/mthcht/awes
 mthcht;Metadata Executables;IOC;https://github.com/mthcht/awesome-lists/blob/main/Lists/Windows%20Metadata/executables_metadata_informations_list.csv;Active
 mthcht;DNS over HTTPS server list;IOC;https://github.com/mthcht/awesome-lists/blob/main/Lists/dns_over_https_servers_list.csv;Active
 mthcht;Dynamic DNS domains list;IOC;https://github.com/mthcht/awesome-lists/blob/main/Lists/DYNDNS/dyndns_list.csv;Active
-mthcht;Sinkholed Domains;IOC;https://github.com/mthcht/awesome-lists/blob/main/Lists/Domains/sinkholed_servers/sinkholed_domains.csv;Active
-mthcht;Hijacklibs;IOC;https://github.com/mthcht/awesome-lists/blob/main/Lists/Hijacklibs/hijacklibs_list.csv;Active
+mthcht;Sinkholed Domains;IOC;https://github.com/mthcht/awesome-lists/blob/main/Lists/Domains/sinkholed_servers/sinkholed_domains.csv;Offline
+mthcht;Hijacklibs;IOC;https://github.com/mthcht/awesome-lists/blob/main/Lists/Hijacklibs/hijacklibs_list.csv;Offline
 mthcht;LOLDriver List;IOC;https://github.com/mthcht/awesome-lists/blob/main/Lists/Drivers/loldrivers_only_hashes_list.csv;Active
 mthcht;Malicious Bootloader List;IOC;https://github.com/mthcht/awesome-lists/blob/main/Lists/Drivers/malicious_bootloaders_only_hashes_list.csv;Active
 mthcht;Malicious SSL Certificates List;IOC;https://github.com/mthcht/awesome-lists/blob/main/Lists/SSL%20CERTS/ssl_certificates_malicious_list.csv;Active
@@ -404,7 +404,7 @@ LOLESXi-Project;LOLESXI;REPO;https://github.com/LOLESXi-Project/LOLESXi;Active
 LOLOLFarm;LOLOLFarm;URL;https://lolol.farm/;Active
 BushidoUK;Tools used by Russian APT;REPO;https://github.com/BushidoUK/Russian-APT-Tool-Matrix;Active
 CERT-UA;CERT UA RSS Feed;RSS;https://cert.gov.ua/api/articles/rss;Active
-CISA;CISA Cybersecurity Advisories;RSS;https://www.cisa.gov/cybersecurity-advisories/all.xml;Active
+CISA;CISA Cybersecurity Advisories;RSS;https://www.cisa.gov/cybersecurity-advisories/all.xml;Offline
 Microsoft;Microsoft Threat Intel Feed;RSS;https://www.microsoft.com/en-us/security/blog/topic/threat-intelligence/feed;Active
 Google;Google Threat Intelligence Feed;RSS;https://feeds.feedburner.com/threatintelligence/pvexyqv7v0v;Active
 Palo Alto;Unit42 Threat Intel RSS;RSS;https://unit42.paloaltonetworks.com/feed/;Active
@@ -415,8 +415,8 @@ Kaspersky;Securelist APT Attacks Feed;RSS;https://securelist.com/threat-category
 MITRE;MITRE ATT&CK Matrix Navigator;FRAMEWORK;https://mitre-attack.github.io/attack-navigator/;Active
 MITRE;CVE Vulnerability Database;FRAMEWORK;https://cve.mitre.org/;Active
 andreacristaldi;APTMAP (APT Tracker);FRAMEWORK;https://github.com/andreacristaldi/APTmap;Active
-Shodan;Shodan OSINT Search;OSINT;https://www.shodan.io/;Active
-Censys;Censys OSINT Search;OSINT;https://search.censys.io/;Active
+Shodan;Shodan OSINT Search;OSINT;https://www.shodan.io/;Offline
+Censys;Censys OSINT Search;OSINT;https://search.censys.io/;Offline
 ThreatMiner;ThreatMiner Data Mining;OSINT;https://www.threatminer.org/;Active
 URLScan;URLScan Website Scanner;OSINT;https://urlscan.io/;Active
 Pulsedive;Pulsedive Threat Intelligence;OSINT;https://pulsedive.com/;Active
