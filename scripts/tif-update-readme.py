@@ -23,6 +23,7 @@ CATEGORY_ORDER = [
     'IP', 'DNS', 'URL', 'MD5', 'SHA1', 'SHA256',
     'SSL', 'JA3', 'CVEID', 'RANSOMWARELEAK', 'MISP',
     'IOC', 'BLOCKLIST', 'REPO', 'RESTRICTED', 'GEOIP',
+    'RSS', 'FRAMEWORK', 'OSINT', 'SANDBOX',
 ]
 
 CATEGORY_DESCRIPTIONS = {
@@ -42,6 +43,10 @@ CATEGORY_DESCRIPTIONS = {
     'REPO':          'GitHub repositories with IOC collections — no direct machine-readable feed URL',
     'GEOIP':         'IP geolocation databases — country/ASN/region mapping (not threat intel)',
     'RESTRICTED':    'Feeds requiring registration or an API key (free or commercial) to access',
+    'RSS':           'Threat intelligence RSS/Atom feeds from vendors, CERTs, and security researchers',
+    'FRAMEWORK':     'Threat intelligence frameworks, matrices, and tracking tools (MITRE, APT maps, etc.)',
+    'OSINT':         'Open-source intelligence platforms and search engines for IOC investigation',
+    'SANDBOX':       'Online malware analysis sandboxes for dynamic file and URL analysis',
 }
 
 STATUS_ICON = {'Active': '🟢', 'Offline': '🔴', 'Restricted': '🔒', 'N/A': '➖', '': '⚪'}

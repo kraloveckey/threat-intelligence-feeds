@@ -1,6 +1,6 @@
 # 🛡️ Threat Intelligence Feeds
 
-![Weekly Update](https://github.com/kraloveckey/threat-intelligence-feeds/actions/workflows/weekly-update.yml/badge.svg)
+![Daily Update](https://github.com/kraloveckey/threat-intelligence-feeds/actions/workflows/daily-update.yml/badge.svg)
 
 A curated, open-source collection of Threat Intelligence / IOC feeds.  
 Most feeds are **free and publicly accessible** — no account or API key required.  
@@ -22,7 +22,7 @@ Sources aggregated from:
 ## 📊 Feed Statistics
 
 > [!NOTE]
-> Auto-updated weekly by GitHub Actions: 🟢 Active – 🔴 Offline – 🔒 Restricted – ⚪ Not checked.
+> Auto-updated daily by GitHub Actions: 🟢 Active – 🔴 Offline – 🔒 Restricted – ⚪ Not checked.
 
 <!-- STATS_TABLE_START -->
 | Category | Description | Count |
@@ -62,13 +62,13 @@ threat-intelligence-feeds/
 │   ├── tif-generate-table-statistics.py    ← generates README-STATISTICS.md (standalone)
 │   └── tif-update-readme.py                ← regenerates stats + feeds table in README
 └── .github/workflows/
-    └── weekly-update.yml                   ← runs every Monday at 06:00 UTC
+    └── daily-update.yml                    ← runs every day at 02:17 UTC
 ```
 
 ### About threat-intelligence-feeds.csv
 
 `threat-intelligence-feeds.csv` is the **single source of truth** for this project.  
-It is maintained manually (you add/remove feeds here) but the `FeedStatus` column is **auto-filled** weekly by `tif-status-checker.py` via GitHub Actions. The README tables are then auto-regenerated from this CSV by `tif-update-readme.py`.
+It is maintained manually (you add/remove feeds here) but the `FeedStatus` column is **auto-filled** daily by `tif-status-checker.py` via GitHub Actions. The README tables are then auto-regenerated from this CSV by `tif-update-readme.py`.
 
 **Format:**
 
@@ -118,13 +118,14 @@ python3 tif-update-readme.py
 
 ### GitHub Actions (automatic)
 
-After the first push, the workflow runs **every Monday at 06:00 UTC** and:
+After the first push, the workflow runs **every day at 02:17 UTC** and:
+
 1. Validates the CSV format and categories.
 2. Checks HTTP status of all feed URLs → updates `FeedStatus` column in CSV.
 3. Regenerates stats and both tables in README.
 4. Commits and pushes if anything changed.
 
-You can also trigger it manually: **Actions → Weekly Threat Intelligence Feeds Update → Run workflow**
+You can also trigger it manually: **Actions → Daily TIF Update → Run workflow**
 
 ---
 
@@ -570,6 +571,10 @@ Status legend: 🟢 Active – 🔴 Offline – 🔒 Restricted (requires API ke
    - If the feed contains **mixed IOC types** (IP + domain + hash in one file), use `IOC`.
    - If it's a general **ISP / ASN / ad-tracker blocklist** (not malware-specific), use `BLOCKLIST`.
    - If it's an **IP geolocation database** (country/ASN mapping, not malicious IPs), use `GEOIP`.
+   - If it's an **RSS/Atom threat intelligence feed** from a vendor or CERT, use `RSS`.
+   - If it's a **framework, matrix or tracking tool** (MITRE, APT maps), use `FRAMEWORK`.
+   - If it's an **OSINT investigation platform** (Shodan, Censys, URLScan), use `OSINT`.
+   - If it's an **online malware sandbox**, use `SANDBOX`.
   
 3. **Free and publicly accessible** feeds without registration are preferred. `RESTRICTED` feeds are accepted if they are well-known and valuable.
    
@@ -583,4 +588,4 @@ Status legend: 🟢 Active – 🔴 Offline – 🔒 Restricted (requires API ke
 
 5. **Open a Pull Request** with a short description of the feed and why it belongs here.
 
-Valid categories: `IP` `DNS` `URL` `MD5` `SHA1` `SHA256` `SSL` `JA3` `CVEID` `RANSOMWARELEAK` `MISP` `IOC` `BLOCKLIST` `REPO` `RESTRICTED` `GEOIP`.
+Valid categories: `IP` `DNS` `URL` `MD5` `SHA1` `SHA256` `SSL` `JA3` `CVEID` `RANSOMWARELEAK` `MISP` `IOC` `BLOCKLIST` `REPO` `RESTRICTED` `GEOIP` `RSS` `FRAMEWORK` `OSINT` `SANDBOX`.

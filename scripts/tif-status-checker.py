@@ -23,6 +23,10 @@ MAX_WORKERS   = 25
 
 SKIP_CATEGORIES    = {'RESTRICTED'}   # skip HTTP check; set a fixed status
 SKIP_STATUS        = {'RESTRICTED': 'Restricted'}
+SKIP_URLS = {
+    #'http://list.iblocklist.com/?list=nlgdvmvfxvoimdunmuju&fileformat=p2p&archiveformat=gz': 'Active',
+    #'https://jamesbrine.com.au/csv': 'Active',
+}
 ARCHIVE_EXTENSIONS = ('.zip', '.gz', '.tar', '.tar.gz', '.bz2')
 DATA_EXTENSIONS = ('.csv', '.json', '.txt', '.netset', '.lst', '.intel')
 
@@ -108,6 +112,8 @@ def main() -> None:
     for i, url, cat in url_triples:
         if cat in SKIP_CATEGORIES:
             results[i] = SKIP_STATUS[cat]
+        elif url in SKIP_URLS:
+            results[i] = SKIP_URLS[url]
 
     to_check = [(i, url) for i, url, cat in url_triples if cat not in SKIP_CATEGORIES]
     total = len(to_check)

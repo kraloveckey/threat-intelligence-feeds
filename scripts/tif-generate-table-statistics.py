@@ -14,6 +14,7 @@ CATEGORY_ORDER = [
     'IP', 'DNS', 'URL', 'MD5', 'SHA1', 'SHA256',
     'SSL', 'JA3', 'CVEID', 'RANSOMWARELEAK', 'MISP',
     'IOC', 'BLOCKLIST', 'REPO', 'RESTRICTED', 'GEOIP',
+    'RSS', 'FRAMEWORK', 'OSINT', 'SANDBOX',
 ]
 
 

@@ -1,9 +1,9 @@
-name: Weekly Threat Intelligence Feeds Update
+name: Daily TIF Update
 
 on:
   schedule:
-    # Every Monday at 06:00 UTC
-    - cron: '0 6 * * 1'
+    # Every day at 02:17 UTC
+    - cron: '17 02 * * *'
   workflow_dispatch:   # allow manual trigger from Actions tab
 
 permissions:
@@ -53,5 +53,5 @@ jobs:
           git add threat-intelligence-feeds.csv README-STATISTICS.md README.md
           git diff --cached --quiet \
             && echo "No changes to commit." \
-            || git commit -m "chore: weekly feed status update [skip ci]"
+            || git commit -m "Daily TI-feed status update [$(date -u '+%d-%m-%Y')]"
           git push
