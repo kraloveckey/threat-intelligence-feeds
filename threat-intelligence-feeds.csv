@@ -118,12 +118,12 @@ DataPlane;SMTP Data Source IPs;IP;https://dataplane.org/smtpdata.txt;Active
 DataPlane;SMTP Greet Source IPs;IP;https://dataplane.org/smtpgreet.txt;Active
 DataPlane;IP Protocol 41 Source IPs;IP;https://dataplane.org/proto41.txt;Active
 DataPlane;Telnet Login Source IPs;IP;https://dataplane.org/telnetlogin.txt;Active
-StopForumSpam;Forum Spammer IPs (last 1 day);IP;https://www.stopforumspam.com/downloads/listed_ip_1.txt;Active
+StopForumSpam;Forum Spammer IPs (last 1 day);IP;https://www.stopforumspam.com/downloads/listed_ip_1.txt;Offline
 StopForumSpam;Forum Spammer IPs – 30 days (zip);IP;http://www.stopforumspam.com/downloads/listed_ip_30.zip;Active
 Blocklist.net.ua;Ukrainian Blocklist (Ukraine CERT);IP;https://blocklist.net.ua/blocklist.csv;Active
 CleanTalk;CleanTalk Blacklist – Submitted Today;IP;https://cleantalk.org/blacklists/submited_today;Offline
-CleanTalk;CleanTalk Blacklist – Updated Today;IP;https://cleantalk.org/blacklists/updated_today;Active
-CleanTalk;CleanTalk Blacklist – Top 20;IP;https://cleantalk.org/blacklists/top20;Offline
+CleanTalk;CleanTalk Blacklist – Updated Today;IP;https://cleantalk.org/blacklists/updated_today;Offline
+CleanTalk;CleanTalk Blacklist – Top 20;IP;https://cleantalk.org/blacklists/top20;Active
 AbuseIPDB;AbuseIPDB Score 100 – Last 1 day;IP;https://raw.githubusercontent.com/borestad/blocklist-abuseipdb/main/abuseipdb-s100-1d.ipv4;Active
 AbuseIPDB;AbuseIPDB Score 100 – Last 30 days;IP;https://raw.githubusercontent.com/borestad/blocklist-abuseipdb/main/abuseipdb-s100-30d.ipv4;Active
 Maltrail;Maltrail Mass Scanner IPs;IP;https://raw.githubusercontent.com/stamparm/maltrail/master/trails/static/mass_scanner.txt;Active
@@ -154,7 +154,7 @@ APNIC Honeynet;Telnet Bruteforce IPs;IP;https://feeds.honeynet.asia/bruteforce/l
 Abuse.ch;ThreatFox IOCs – Recent (all types);URL;https://threatfox.abuse.ch/export/csv/recent/;Active
 threatview.io;Bitcoin Address Intel;IOC;https://threatview.io/Downloads/MALICIOUS-BITCOIN_FEED.txt;Active
 APNIC Honeynet;URL Seen in Honeypots;URL;https://feeds.honeynet.asia/url/latest-url-unique.csv;Active
-PhishTank;PhishTank Online Valid Phishing (JSON);URL;http://data.phishtank.com/data/online-valid.json;Offline
+PhishTank;PhishTank Online Valid Phishing (JSON);URL;http://data.phishtank.com/data/online-valid.json;Active
 urlabuse;URL Abuse DB – Latest 500 entries (CSV);URL;https://urlabuse.com/public/data/data_csv.txt;Active
 StopForumSpam;Toxic IPs CIDR;IP;http://www.stopforumspam.com/downloads/toxic_ip_cidr.txt;Offline
 Carbon Black;Cobalt Strike LuckyMouse / TA428;IP;https://raw.githubusercontent.com/carbonblack/active_c2_ioc_public/main/cobaltstrike/actor-specific/cobaltstrike_luckymouse_ta428.csv;Active
@@ -191,72 +191,72 @@ GreenSnow.co;Bruteforce/scan/exploit attacking IPs;IP;http://blocklist.greensnow
 cybercrime-tracker.net;Command and Control tracking IP list;IP;http://cybercrime-tracker.net/fuckerz.php;Active
 GraphiclineWeb;Universally banned IPs (spiders/spambots/hackers/harvesters);IP;https://graphiclineweb.wordpress.com/tech-notes/ip-blacklist/;Active
 GPF Comics;IPs that attacked GPF Comics (spam/exploits/scans);IP;https://www.gpf-comics.com/dnsbl/export.php;Active
-iBlocklist.com;Open Proxies IPs (without TOR);IP;http://list.iblocklist.com/?list=xoebmbyexwuiogmbyprb&fileformat=p2p&archiveformat=gz;Offline
-iBlocklist.com;Known malicious Spyware and Adware IP ranges;IP;http://list.iblocklist.com/?list=llvtlsjyoyiczbkjsxpf&fileformat=p2p&archiveformat=gz;Offline
-iBlocklist.com;Hijacked IP-Blocks and known Spam delivery ranges;IP;http://list.iblocklist.com/?list=usrcshglbiilevmyfhse&fileformat=p2p&archiveformat=gz;Offline
-iBlocklist.com;Web server hack and exploit attempt IPs;IP;http://list.iblocklist.com/?list=ghlzqtqxnzctvvajwwag&fileformat=p2p&archiveformat=gz;Offline
-iBlocklist.com;Level 1 – anti-p2p companies/media/government/legal ranges;BLOCKLIST;http://list.iblocklist.com/?list=ydxerpxkpcfqjaybcssw&fileformat=p2p&archiveformat=gz;Offline
-iBlocklist.com;Level 2 – corporate/labs/proxy ranges;BLOCKLIST;http://list.iblocklist.com/?list=gyisgnzbhppbvsphucsw&fileformat=p2p&archiveformat=gz;Offline
-iBlocklist.com;Level 3 – paranoid list (portals/ISPs/unusual ranges);BLOCKLIST;http://list.iblocklist.com/?list=uwnukjqktoggdknzrhgh&fileformat=p2p&archiveformat=gz;Offline
-iBlocklist.com;Suspicious IPs under investigation;IP;http://list.iblocklist.com/?list=plkehquoahljmyxjixpu&fileformat=p2p&archiveformat=gz;Offline
-iBlocklist.com;Advertising trackers and bad/intrusive sites;IP;http://list.iblocklist.com/?list=dgxtneitpuvgqqcpfulq&fileformat=p2p&archiveformat=gz;Offline
-iBlocklist.com;Hostile web spiders;IP;http://list.iblocklist.com/?list=mcvxsnihddgutbjfbghy&fileformat=p2p&archiveformat=gz;Offline
-iBlocklist.com;Known hackers and DShield reported IPs;IP;http://list.iblocklist.com/?list=xpbqleszmajjesnzddhv&fileformat=p2p&archiveformat=gz;Offline
-iBlocklist.com;Forum spam IPs;IP;http://list.iblocklist.com/?list=ficutxiwawokxlcyoeye&fileformat=p2p&archiveformat=gz;Offline
-iBlocklist.com;CruzIT compromised machines scanning for vulnerabilities;IP;http://list.iblocklist.com/?list=czvaehmjpsnwwttrdoyl&fileformat=p2p&archiveformat=gz;Offline
-iBlocklist.com;Spamhaus DROP list (p2p format);IP;http://list.iblocklist.com/?list=zbdlwrqkabxbcppvrnos&fileformat=p2p&archiveformat=gz;Offline
-iBlocklist.com;SpyEye tracker abuse.ch IP blocklist;IP;http://list.iblocklist.com/?list=zvjxsfuvdhoxktpeiokq&fileformat=p2p&archiveformat=gz;Offline
-iBlocklist.com;Palevo tracker abuse.ch IP blocklist;IP;http://list.iblocklist.com/?list=erqajhwrxiuvjxqrrwfj&fileformat=p2p&archiveformat=gz;Offline
-iBlocklist.com;CIArmy malicious IPs (Sentinel network);IP;http://list.iblocklist.com/?list=npkuuhuxcsllnhoamkvm&fileformat=p2p&archiveformat=gz;Offline
-iBlocklist.com;Malc0de malware distribution IPs (last 30 days);IP;http://list.iblocklist.com/?list=pbqcylkejciyhmwttify&fileformat=p2p&archiveformat=gz;Offline
-iBlocklist.com;Tor / Onion Router IP addresses;IP;http://list.iblocklist.com/?list=togdoptykrlolpddwbvz&fileformat=p2p&archiveformat=gz;Offline
-iBlocklist.com;Yoyo.org ad servers (p2p format);BLOCKLIST;http://list.iblocklist.com/?list=zhogegszwduurnvsyhdf&fileformat=p2p&archiveformat=gz;Offline
-iBlocklist.com;Educational Institution IPs;BLOCKLIST;http://list.iblocklist.com/?list=imlmncgrkbnacgcwfjvh&fileformat=p2p&archiveformat=gz;Offline
-iBlocklist.com;Microsoft IP ranges;BLOCKLIST;http://list.iblocklist.com/?list=xshktygkujudfnjfioro&fileformat=p2p&archiveformat=gz;Offline
-iBlocklist.com;IANA Reserved IPs;BLOCKLIST;http://list.iblocklist.com/?list=bcoepfyewziejvcqyhqo&fileformat=p2p&archiveformat=gz;Offline
-iBlocklist.com;IANA Private IPs;BLOCKLIST;http://list.iblocklist.com/?list=cslpybexmxyuacbyuvib&fileformat=p2p&archiveformat=gz;Offline
-iBlocklist.com;IANA Multicast IPs;BLOCKLIST;http://list.iblocklist.com/?list=pwqnlynprfgtjbgqoizj&fileformat=p2p&archiveformat=gz;Offline
-iBlocklist.com;IP blocklist for non-LAN computers;BLOCKLIST;http://list.iblocklist.com/?list=jhaoawihmfxgnvmaqffp&fileformat=p2p&archiveformat=gz;Offline
-iBlocklist.com;Exclusions list;BLOCKLIST;http://list.iblocklist.com/?list=mtxmiireqmjzazcsoiem&fileformat=p2p&archiveformat=gz;Offline
-iBlocklist.com;IP ranges sharing child pornography in p2p community;IP;http://list.iblocklist.com/?list=dufcxgnbjsdwmwctgfuj&fileformat=p2p&archiveformat=gz;Offline
-iBlocklist.com;Apple IPs;BLOCKLIST;http://list.iblocklist.com/?list=aphcqvpxuqgrkgufjruj&fileformat=p2p&archiveformat=gz;Offline
-iBlocklist.com;LogMeIn IPs;BLOCKLIST;http://list.iblocklist.com/?list=tgbankumtwtrzllndbmb&fileformat=p2p&archiveformat=gz;Offline
-iBlocklist.com;Steam IPs;BLOCKLIST;http://list.iblocklist.com/?list=cnxkgiklecdaihzukrud&fileformat=p2p&archiveformat=gz;Offline
-iBlocklist.com;XFire IPs;BLOCKLIST;http://list.iblocklist.com/?list=ppqqnyihmcrryraaqsjo&fileformat=p2p&archiveformat=gz;Offline
-iBlocklist.com;Blizzard IPs;BLOCKLIST;http://list.iblocklist.com/?list=ercbntshuthyykfkmhxc&fileformat=p2p&archiveformat=gz;Offline
-iBlocklist.com;Ubisoft IPs;BLOCKLIST;http://list.iblocklist.com/?list=etmcrglomupyxtaebzht&fileformat=p2p&archiveformat=gz;Offline
-iBlocklist.com;Nintendo IPs;BLOCKLIST;http://list.iblocklist.com/?list=pevkykuhgaegqyayzbnr&fileformat=p2p&archiveformat=gz;Offline
-iBlocklist.com;Activision IPs;BLOCKLIST;http://list.iblocklist.com/?list=gfnxlhxsijzrcuxwzebb&fileformat=p2p&archiveformat=gz;Offline
-iBlocklist.com;Sony Online Entertainment IPs;BLOCKLIST;http://list.iblocklist.com/?list=tukpvrvlubsputmkmiwg&fileformat=p2p&archiveformat=gz;Offline
-iBlocklist.com;Crowd Control Productions IPs;BLOCKLIST;http://list.iblocklist.com/?list=eveiyhgmusglurfmjyag&fileformat=p2p&archiveformat=gz;Offline
-iBlocklist.com;Linden Lab IPs;BLOCKLIST;http://list.iblocklist.com/?list=qnjdimxnaupjmpqolxcv&fileformat=p2p&archiveformat=gz;Offline
-iBlocklist.com;Electronic Arts IPs;BLOCKLIST;http://list.iblocklist.com/?list=ejqebpcdmffinaetsvxj&fileformat=p2p&archiveformat=gz;Offline
-iBlocklist.com;Square Enix IPs;BLOCKLIST;http://list.iblocklist.com/?list=odyaqontcydnodrlyina&fileformat=p2p&archiveformat=gz;Offline
-iBlocklist.com;NCsoft IPs;BLOCKLIST;http://list.iblocklist.com/?list=mwjuwmebrnzyyxpbezxu&fileformat=p2p&archiveformat=gz;Offline
-iBlocklist.com;Riot Games IPs;BLOCKLIST;http://list.iblocklist.com/?list=sdlvfabdjvrdttfjotcy&fileformat=p2p&archiveformat=gz;Offline
-iBlocklist.com;Punkbuster IPs;BLOCKLIST;http://list.iblocklist.com/?list=zvwwndvzulqcltsicwdg&fileformat=p2p&archiveformat=gz;Offline
-iBlocklist.com;Joost IPs;BLOCKLIST;http://list.iblocklist.com/?list=alxugfmeszbhpxqfdits&fileformat=p2p&archiveformat=gz;Offline
-iBlocklist.com;Pandora IPs;BLOCKLIST;http://list.iblocklist.com/?list=aevzidimyvwybzkletsg&fileformat=p2p&archiveformat=gz;Offline
-iBlocklist.com;The Pirate Bay IPs;BLOCKLIST;http://list.iblocklist.com/?list=nzldzlpkgrcncdomnttb&fileformat=p2p&archiveformat=gz;Offline
-iBlocklist.com;AOL IPs;BLOCKLIST;http://list.iblocklist.com/?list=toboaiysofkflwgrttmb&fileformat=p2p&archiveformat=gz;Offline
-iBlocklist.com;Comcast IPs;BLOCKLIST;http://list.iblocklist.com/?list=rsgyxvuklicibautguia&fileformat=p2p&archiveformat=gz;Offline
-iBlocklist.com;Cablevision IPs;BLOCKLIST;http://list.iblocklist.com/?list=dwwbsmzirrykdlvpqozb&fileformat=p2p&archiveformat=gz;Offline
-iBlocklist.com;Verizon IPs;BLOCKLIST;http://list.iblocklist.com/?list=cdmdbprvldivlqsaqjol&fileformat=p2p&archiveformat=gz;Offline
-iBlocklist.com;AT&T IPs;BLOCKLIST;http://list.iblocklist.com/?list=grbtkzijgrowvobvessf&fileformat=p2p&archiveformat=gz;Offline
-iBlocklist.com;Cox Communications IPs;BLOCKLIST;http://list.iblocklist.com/?list=nlgdvmvfxvoimdunmuju&fileformat=p2p&archiveformat=gz;Offline
-iBlocklist.com;Time Warner Cable IPs;BLOCKLIST;http://list.iblocklist.com/?list=aqtsnttnqmcucwrjmohd&fileformat=p2p&archiveformat=gz;Offline
-iBlocklist.com;Charter IPs;BLOCKLIST;http://list.iblocklist.com/?list=htnzojgossawhpkbulqw&fileformat=p2p&archiveformat=gz;Offline
-iBlocklist.com;Qwest IPs;BLOCKLIST;http://list.iblocklist.com/?list=jezlifrpefawuoawnfez&fileformat=p2p&archiveformat=gz;Offline
-iBlocklist.com;Embarq IPs;BLOCKLIST;http://list.iblocklist.com/?list=twdblifaysaqtypevvdp&fileformat=p2p&archiveformat=gz;Offline
-iBlocklist.com;Suddenlink IPs;BLOCKLIST;http://list.iblocklist.com/?list=psaoblrwylfrdsspfuiq&fileformat=p2p&archiveformat=gz;Offline
-iBlocklist.com;Sprint IPs;BLOCKLIST;http://list.iblocklist.com/?list=hngtqrhhuadlceqxbrob&fileformat=p2p&archiveformat=gz;Offline
+iBlocklist.com;Open Proxies IPs (without TOR);IP;http://list.iblocklist.com/?list=xoebmbyexwuiogmbyprb&fileformat=p2p&archiveformat=gz;Active
+iBlocklist.com;Known malicious Spyware and Adware IP ranges;IP;http://list.iblocklist.com/?list=llvtlsjyoyiczbkjsxpf&fileformat=p2p&archiveformat=gz;Active
+iBlocklist.com;Hijacked IP-Blocks and known Spam delivery ranges;IP;http://list.iblocklist.com/?list=usrcshglbiilevmyfhse&fileformat=p2p&archiveformat=gz;Active
+iBlocklist.com;Web server hack and exploit attempt IPs;IP;http://list.iblocklist.com/?list=ghlzqtqxnzctvvajwwag&fileformat=p2p&archiveformat=gz;Active
+iBlocklist.com;Level 1 – anti-p2p companies/media/government/legal ranges;BLOCKLIST;http://list.iblocklist.com/?list=ydxerpxkpcfqjaybcssw&fileformat=p2p&archiveformat=gz;Active
+iBlocklist.com;Level 2 – corporate/labs/proxy ranges;BLOCKLIST;http://list.iblocklist.com/?list=gyisgnzbhppbvsphucsw&fileformat=p2p&archiveformat=gz;Active
+iBlocklist.com;Level 3 – paranoid list (portals/ISPs/unusual ranges);BLOCKLIST;http://list.iblocklist.com/?list=uwnukjqktoggdknzrhgh&fileformat=p2p&archiveformat=gz;Active
+iBlocklist.com;Suspicious IPs under investigation;IP;http://list.iblocklist.com/?list=plkehquoahljmyxjixpu&fileformat=p2p&archiveformat=gz;Active
+iBlocklist.com;Advertising trackers and bad/intrusive sites;IP;http://list.iblocklist.com/?list=dgxtneitpuvgqqcpfulq&fileformat=p2p&archiveformat=gz;Active
+iBlocklist.com;Hostile web spiders;IP;http://list.iblocklist.com/?list=mcvxsnihddgutbjfbghy&fileformat=p2p&archiveformat=gz;Active
+iBlocklist.com;Known hackers and DShield reported IPs;IP;http://list.iblocklist.com/?list=xpbqleszmajjesnzddhv&fileformat=p2p&archiveformat=gz;Active
+iBlocklist.com;Forum spam IPs;IP;http://list.iblocklist.com/?list=ficutxiwawokxlcyoeye&fileformat=p2p&archiveformat=gz;Active
+iBlocklist.com;CruzIT compromised machines scanning for vulnerabilities;IP;http://list.iblocklist.com/?list=czvaehmjpsnwwttrdoyl&fileformat=p2p&archiveformat=gz;Active
+iBlocklist.com;Spamhaus DROP list (p2p format);IP;http://list.iblocklist.com/?list=zbdlwrqkabxbcppvrnos&fileformat=p2p&archiveformat=gz;Active
+iBlocklist.com;SpyEye tracker abuse.ch IP blocklist;IP;http://list.iblocklist.com/?list=zvjxsfuvdhoxktpeiokq&fileformat=p2p&archiveformat=gz;Active
+iBlocklist.com;Palevo tracker abuse.ch IP blocklist;IP;http://list.iblocklist.com/?list=erqajhwrxiuvjxqrrwfj&fileformat=p2p&archiveformat=gz;Active
+iBlocklist.com;CIArmy malicious IPs (Sentinel network);IP;http://list.iblocklist.com/?list=npkuuhuxcsllnhoamkvm&fileformat=p2p&archiveformat=gz;Active
+iBlocklist.com;Malc0de malware distribution IPs (last 30 days);IP;http://list.iblocklist.com/?list=pbqcylkejciyhmwttify&fileformat=p2p&archiveformat=gz;Active
+iBlocklist.com;Tor / Onion Router IP addresses;IP;http://list.iblocklist.com/?list=togdoptykrlolpddwbvz&fileformat=p2p&archiveformat=gz;Active
+iBlocklist.com;Yoyo.org ad servers (p2p format);BLOCKLIST;http://list.iblocklist.com/?list=zhogegszwduurnvsyhdf&fileformat=p2p&archiveformat=gz;Active
+iBlocklist.com;Educational Institution IPs;BLOCKLIST;http://list.iblocklist.com/?list=imlmncgrkbnacgcwfjvh&fileformat=p2p&archiveformat=gz;Active
+iBlocklist.com;Microsoft IP ranges;BLOCKLIST;http://list.iblocklist.com/?list=xshktygkujudfnjfioro&fileformat=p2p&archiveformat=gz;Active
+iBlocklist.com;IANA Reserved IPs;BLOCKLIST;http://list.iblocklist.com/?list=bcoepfyewziejvcqyhqo&fileformat=p2p&archiveformat=gz;Active
+iBlocklist.com;IANA Private IPs;BLOCKLIST;http://list.iblocklist.com/?list=cslpybexmxyuacbyuvib&fileformat=p2p&archiveformat=gz;Active
+iBlocklist.com;IANA Multicast IPs;BLOCKLIST;http://list.iblocklist.com/?list=pwqnlynprfgtjbgqoizj&fileformat=p2p&archiveformat=gz;Active
+iBlocklist.com;IP blocklist for non-LAN computers;BLOCKLIST;http://list.iblocklist.com/?list=jhaoawihmfxgnvmaqffp&fileformat=p2p&archiveformat=gz;Active
+iBlocklist.com;Exclusions list;BLOCKLIST;http://list.iblocklist.com/?list=mtxmiireqmjzazcsoiem&fileformat=p2p&archiveformat=gz;Active
+iBlocklist.com;IP ranges sharing child pornography in p2p community;IP;http://list.iblocklist.com/?list=dufcxgnbjsdwmwctgfuj&fileformat=p2p&archiveformat=gz;Active
+iBlocklist.com;Apple IPs;BLOCKLIST;http://list.iblocklist.com/?list=aphcqvpxuqgrkgufjruj&fileformat=p2p&archiveformat=gz;Active
+iBlocklist.com;LogMeIn IPs;BLOCKLIST;http://list.iblocklist.com/?list=tgbankumtwtrzllndbmb&fileformat=p2p&archiveformat=gz;Active
+iBlocklist.com;Steam IPs;BLOCKLIST;http://list.iblocklist.com/?list=cnxkgiklecdaihzukrud&fileformat=p2p&archiveformat=gz;Active
+iBlocklist.com;XFire IPs;BLOCKLIST;http://list.iblocklist.com/?list=ppqqnyihmcrryraaqsjo&fileformat=p2p&archiveformat=gz;Active
+iBlocklist.com;Blizzard IPs;BLOCKLIST;http://list.iblocklist.com/?list=ercbntshuthyykfkmhxc&fileformat=p2p&archiveformat=gz;Active
+iBlocklist.com;Ubisoft IPs;BLOCKLIST;http://list.iblocklist.com/?list=etmcrglomupyxtaebzht&fileformat=p2p&archiveformat=gz;Active
+iBlocklist.com;Nintendo IPs;BLOCKLIST;http://list.iblocklist.com/?list=pevkykuhgaegqyayzbnr&fileformat=p2p&archiveformat=gz;Active
+iBlocklist.com;Activision IPs;BLOCKLIST;http://list.iblocklist.com/?list=gfnxlhxsijzrcuxwzebb&fileformat=p2p&archiveformat=gz;Active
+iBlocklist.com;Sony Online Entertainment IPs;BLOCKLIST;http://list.iblocklist.com/?list=tukpvrvlubsputmkmiwg&fileformat=p2p&archiveformat=gz;Active
+iBlocklist.com;Crowd Control Productions IPs;BLOCKLIST;http://list.iblocklist.com/?list=eveiyhgmusglurfmjyag&fileformat=p2p&archiveformat=gz;Active
+iBlocklist.com;Linden Lab IPs;BLOCKLIST;http://list.iblocklist.com/?list=qnjdimxnaupjmpqolxcv&fileformat=p2p&archiveformat=gz;Active
+iBlocklist.com;Electronic Arts IPs;BLOCKLIST;http://list.iblocklist.com/?list=ejqebpcdmffinaetsvxj&fileformat=p2p&archiveformat=gz;Active
+iBlocklist.com;Square Enix IPs;BLOCKLIST;http://list.iblocklist.com/?list=odyaqontcydnodrlyina&fileformat=p2p&archiveformat=gz;Active
+iBlocklist.com;NCsoft IPs;BLOCKLIST;http://list.iblocklist.com/?list=mwjuwmebrnzyyxpbezxu&fileformat=p2p&archiveformat=gz;Active
+iBlocklist.com;Riot Games IPs;BLOCKLIST;http://list.iblocklist.com/?list=sdlvfabdjvrdttfjotcy&fileformat=p2p&archiveformat=gz;Active
+iBlocklist.com;Punkbuster IPs;BLOCKLIST;http://list.iblocklist.com/?list=zvwwndvzulqcltsicwdg&fileformat=p2p&archiveformat=gz;Active
+iBlocklist.com;Joost IPs;BLOCKLIST;http://list.iblocklist.com/?list=alxugfmeszbhpxqfdits&fileformat=p2p&archiveformat=gz;Active
+iBlocklist.com;Pandora IPs;BLOCKLIST;http://list.iblocklist.com/?list=aevzidimyvwybzkletsg&fileformat=p2p&archiveformat=gz;Active
+iBlocklist.com;The Pirate Bay IPs;BLOCKLIST;http://list.iblocklist.com/?list=nzldzlpkgrcncdomnttb&fileformat=p2p&archiveformat=gz;Active
+iBlocklist.com;AOL IPs;BLOCKLIST;http://list.iblocklist.com/?list=toboaiysofkflwgrttmb&fileformat=p2p&archiveformat=gz;Active
+iBlocklist.com;Comcast IPs;BLOCKLIST;http://list.iblocklist.com/?list=rsgyxvuklicibautguia&fileformat=p2p&archiveformat=gz;Active
+iBlocklist.com;Cablevision IPs;BLOCKLIST;http://list.iblocklist.com/?list=dwwbsmzirrykdlvpqozb&fileformat=p2p&archiveformat=gz;Active
+iBlocklist.com;Verizon IPs;BLOCKLIST;http://list.iblocklist.com/?list=cdmdbprvldivlqsaqjol&fileformat=p2p&archiveformat=gz;Active
+iBlocklist.com;AT&T IPs;BLOCKLIST;http://list.iblocklist.com/?list=grbtkzijgrowvobvessf&fileformat=p2p&archiveformat=gz;Active
+iBlocklist.com;Cox Communications IPs;BLOCKLIST;http://list.iblocklist.com/?list=nlgdvmvfxvoimdunmuju&fileformat=p2p&archiveformat=gz;Active
+iBlocklist.com;Time Warner Cable IPs;BLOCKLIST;http://list.iblocklist.com/?list=aqtsnttnqmcucwrjmohd&fileformat=p2p&archiveformat=gz;Active
+iBlocklist.com;Charter IPs;BLOCKLIST;http://list.iblocklist.com/?list=htnzojgossawhpkbulqw&fileformat=p2p&archiveformat=gz;Active
+iBlocklist.com;Qwest IPs;BLOCKLIST;http://list.iblocklist.com/?list=jezlifrpefawuoawnfez&fileformat=p2p&archiveformat=gz;Active
+iBlocklist.com;Embarq IPs;BLOCKLIST;http://list.iblocklist.com/?list=twdblifaysaqtypevvdp&fileformat=p2p&archiveformat=gz;Active
+iBlocklist.com;Suddenlink IPs;BLOCKLIST;http://list.iblocklist.com/?list=psaoblrwylfrdsspfuiq&fileformat=p2p&archiveformat=gz;Active
+iBlocklist.com;Sprint IPs;BLOCKLIST;http://list.iblocklist.com/?list=hngtqrhhuadlceqxbrob&fileformat=p2p&archiveformat=gz;Active
 MaxMind;GeoLite2 ASN Database – IP to ASN mapping (requires free license key at maxmind.com);RESTRICTED;https://download.maxmind.com/app/geoip_download?edition_id=GeoLite2-ASN-CSV&license_key=YOUR_KEY&suffix=zip;Restricted
 MaxMind;GeoLite2 Country Database – IP to Country mapping (requires free license key at maxmind.com);RESTRICTED;https://download.maxmind.com/app/geoip_download?edition_id=GeoLite2-Country-CSV&license_key=YOUR_KEY&suffix=zip;Restricted
 IP2Location;IP2Location LITE DB1 – IP to Country database (free, no key required);GEOIP;https://download.ip2location.com/lite/IP2LOCATION-LITE-DB1.CSV.ZIP;Active
 IPDeny.com;IPDeny country IP blocks – all zones (tar.gz, updated daily);GEOIP;http://www.ipdeny.com/ipblocks/data/countries/all-zones.tar.gz;Active
 DB-IP;DB-IP Country Lite – free IP to Country database (monthly updated, fixed URL);GEOIP;https://download.db-ip.com/free/dbip-country-lite.csv.gz;Offline
 Turris;Turris Greylist – IPs observed attacking Turris routers;IP;https://www.turris.cz/greylist-data/greylist-latest.csv;Active
-James Brine;Daily malicious IPs from honeypots (SSH/FTP/RDP/GIT/SNMP/REDIS);IP;https://jamesbrine.com.au/csv;Offline
+James Brine;Daily malicious IPs from honeypots (SSH/FTP/RDP/GIT/SNMP/REDIS);IP;https://jamesbrine.com.au/csv;Active
 SANS ICS;Suspicious Domains – High sensitivity (few false positives);DNS;https://isc.sans.edu/feeds/suspiciousdomains_High.txt;Offline
 SANS ICS;Suspicious Domains – Medium sensitivity;DNS;https://isc.sans.edu/feeds/suspiciousdomains_Medium.txt;Offline
 SANS ICS;Suspicious Domains – Low sensitivity (more false positives);DNS;https://isc.sans.edu/feeds/suspiciousdomains_Low.txt;Offline
@@ -354,8 +354,8 @@ mthcht;Microsoft App IDs List (BEC Detection);IOC;https://github.com/mthcht/awes
 mthcht;Metadata Executables;IOC;https://github.com/mthcht/awesome-lists/blob/main/Lists/Windows%20Metadata/executables_metadata_informations_list.csv;Active
 mthcht;DNS over HTTPS server list;IOC;https://github.com/mthcht/awesome-lists/blob/main/Lists/dns_over_https_servers_list.csv;Active
 mthcht;Dynamic DNS domains list;IOC;https://github.com/mthcht/awesome-lists/blob/main/Lists/DYNDNS/dyndns_list.csv;Active
-mthcht;Sinkholed Domains;IOC;https://github.com/mthcht/awesome-lists/blob/main/Lists/Domains/sinkholed_servers/sinkholed_domains.csv;Offline
-mthcht;Hijacklibs;IOC;https://github.com/mthcht/awesome-lists/blob/main/Lists/Hijacklibs/hijacklibs_list.csv;Offline
+mthcht;Sinkholed Domains;IOC;https://github.com/mthcht/awesome-lists/blob/main/Lists/Domains/sinkholed_servers/sinkholed_domains.csv;Active
+mthcht;Hijacklibs;IOC;https://github.com/mthcht/awesome-lists/blob/main/Lists/Hijacklibs/hijacklibs_list.csv;Active
 mthcht;LOLDriver List;IOC;https://github.com/mthcht/awesome-lists/blob/main/Lists/Drivers/loldrivers_only_hashes_list.csv;Active
 mthcht;Malicious Bootloader List;IOC;https://github.com/mthcht/awesome-lists/blob/main/Lists/Drivers/malicious_bootloaders_only_hashes_list.csv;Active
 mthcht;Malicious SSL Certificates List;IOC;https://github.com/mthcht/awesome-lists/blob/main/Lists/SSL%20CERTS/ssl_certificates_malicious_list.csv;Active

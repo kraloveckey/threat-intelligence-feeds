@@ -38,7 +38,7 @@ Sources aggregated from:
 | `CVEID` | Known exploited CVE identifiers | 4 |
 | `RANSOMWARELEAK` | Ransomware leak site victim data aggregated from multiple gang leak sites | 1 |
 | `MISP` | Structured MISP-format feeds (importable directly into MISP platform) | 5 |
-| `IOC` | Mixed-type IOC feeds containing multiple indicator types (IP, domain, URL, hash, etc.) | 36 |
+| `IOC` | Mixed-type IOC feeds containing multiple indicator types (IP, domain, URL, hash, etc.) | 35 |
 | `BLOCKLIST` | General-purpose IP blocklists — ISPs, ASNs, gaming, ad-trackers (not strictly threat intel) | 43 |
 | `REPO` | GitHub repositories with IOC collections — no direct machine-readable feed URL | 63 |
 | `RESTRICTED` | Feeds requiring registration or an API key (free or commercial) to access | 5 |
@@ -47,7 +47,7 @@ Sources aggregated from:
 | `FRAMEWORK` | Threat intelligence frameworks, matrices, and tracking tools (MITRE, APT maps, etc.) | 3 |
 | `OSINT` | Open-source intelligence platforms and search engines for IOC investigation | 6 |
 | `SANDBOX` | Online malware analysis sandboxes for dynamic file and URL analysis | 3 |
-| **Total** | | **425** |
+| **Total** | | **424** |
 <!-- STATS_TABLE_END -->
 
 ---
@@ -184,8 +184,8 @@ Status legend: 🟢 Active – 🔴 Offline – 🔒 Restricted (requires API ke
 | Carbon Black | Cobalt Strike Pyxie | <abbr title="Active">🟢</abbr> | [↗](https://raw.githubusercontent.com/carbonblack/active_c2_ioc_public/main/cobaltstrike/actor-specific/cobaltstrike_pyxie.csv) |
 | CINSscore | CINS Bad IP List (ci-badguys) | <abbr title="Active">🟢</abbr> | [↗](https://cinsscore.com/list/ci-badguys.txt) |
 | CleanTalk | CleanTalk Blacklist – Submitted Today | <abbr title="Offline">🔴</abbr> | [↗](https://cleantalk.org/blacklists/submited_today) |
-| CleanTalk | CleanTalk Blacklist – Updated Today | <abbr title="Active">🟢</abbr> | [↗](https://cleantalk.org/blacklists/updated_today) |
-| CleanTalk | CleanTalk Blacklist – Top 20 | <abbr title="Offline">🔴</abbr> | [↗](https://cleantalk.org/blacklists/top20) |
+| CleanTalk | CleanTalk Blacklist – Updated Today | <abbr title="Offline">🔴</abbr> | [↗](https://cleantalk.org/blacklists/updated_today) |
+| CleanTalk | CleanTalk Blacklist – Top 20 | <abbr title="Active">🟢</abbr> | [↗](https://cleantalk.org/blacklists/top20) |
 | CriticalPathSecurity | Abuse.ch IP Blocklist Feed | <abbr title="Active">🟢</abbr> | [↗](https://raw.githubusercontent.com/CriticalPathSecurity/Public-Intelligence-Feeds/master/abuse-ch-ipblocklist.txt) |
 | CriticalPathSecurity | Log4j Scanners and Exploiters | <abbr title="Active">🟢</abbr> | [↗](https://raw.githubusercontent.com/CriticalPathSecurity/Public-Intelligence-Feeds/master/log4j.txt) |
 | CriticalPathSecurity | CPS collected IOCs (Zeek intel format) | <abbr title="Active">🟢</abbr> | [↗](https://raw.githubusercontent.com/CriticalPathSecurity/Zeek-Intelligence-Feeds/master/cps-collected-iocs.intel) |
@@ -225,23 +225,23 @@ Status legend: 🟢 Active – 🔴 Offline – 🔒 Restricted (requires API ke
 | GreenSnow.co | Bruteforce/scan/exploit attacking IPs | <abbr title="Active">🟢</abbr> | [↗](http://blocklist.greensnow.co/greensnow.txt) |
 | GriffinGuard | GriffinGuard Abuse 7-day Top 10K | <abbr title="Active">🟢</abbr> | [↗](https://griffinguard.io/feeds/abuse7d_top10k.txt) |
 | home.nuug.no | POP3 Gropers | <abbr title="Active">🟢</abbr> | [↗](https://home.nuug.no/~peter/pop3gropers.txt) |
-| iBlocklist.com | Open Proxies IPs (without TOR) | <abbr title="Offline">🔴</abbr> | [↗](http://list.iblocklist.com/?list=xoebmbyexwuiogmbyprb&fileformat=p2p&archiveformat=gz) |
-| iBlocklist.com | Known malicious Spyware and Adware IP ranges | <abbr title="Offline">🔴</abbr> | [↗](http://list.iblocklist.com/?list=llvtlsjyoyiczbkjsxpf&fileformat=p2p&archiveformat=gz) |
-| iBlocklist.com | Hijacked IP-Blocks and known Spam delivery ranges | <abbr title="Offline">🔴</abbr> | [↗](http://list.iblocklist.com/?list=usrcshglbiilevmyfhse&fileformat=p2p&archiveformat=gz) |
-| iBlocklist.com | Web server hack and exploit attempt IPs | <abbr title="Offline">🔴</abbr> | [↗](http://list.iblocklist.com/?list=ghlzqtqxnzctvvajwwag&fileformat=p2p&archiveformat=gz) |
-| iBlocklist.com | Suspicious IPs under investigation | <abbr title="Offline">🔴</abbr> | [↗](http://list.iblocklist.com/?list=plkehquoahljmyxjixpu&fileformat=p2p&archiveformat=gz) |
-| iBlocklist.com | Advertising trackers and bad/intrusive sites | <abbr title="Offline">🔴</abbr> | [↗](http://list.iblocklist.com/?list=dgxtneitpuvgqqcpfulq&fileformat=p2p&archiveformat=gz) |
-| iBlocklist.com | Hostile web spiders | <abbr title="Offline">🔴</abbr> | [↗](http://list.iblocklist.com/?list=mcvxsnihddgutbjfbghy&fileformat=p2p&archiveformat=gz) |
-| iBlocklist.com | Known hackers and DShield reported IPs | <abbr title="Offline">🔴</abbr> | [↗](http://list.iblocklist.com/?list=xpbqleszmajjesnzddhv&fileformat=p2p&archiveformat=gz) |
-| iBlocklist.com | Forum spam IPs | <abbr title="Offline">🔴</abbr> | [↗](http://list.iblocklist.com/?list=ficutxiwawokxlcyoeye&fileformat=p2p&archiveformat=gz) |
-| iBlocklist.com | CruzIT compromised machines scanning for vulnerabilities | <abbr title="Offline">🔴</abbr> | [↗](http://list.iblocklist.com/?list=czvaehmjpsnwwttrdoyl&fileformat=p2p&archiveformat=gz) |
-| iBlocklist.com | Spamhaus DROP list (p2p format) | <abbr title="Offline">🔴</abbr> | [↗](http://list.iblocklist.com/?list=zbdlwrqkabxbcppvrnos&fileformat=p2p&archiveformat=gz) |
-| iBlocklist.com | SpyEye tracker abuse.ch IP blocklist | <abbr title="Offline">🔴</abbr> | [↗](http://list.iblocklist.com/?list=zvjxsfuvdhoxktpeiokq&fileformat=p2p&archiveformat=gz) |
-| iBlocklist.com | Palevo tracker abuse.ch IP blocklist | <abbr title="Offline">🔴</abbr> | [↗](http://list.iblocklist.com/?list=erqajhwrxiuvjxqrrwfj&fileformat=p2p&archiveformat=gz) |
-| iBlocklist.com | CIArmy malicious IPs (Sentinel network) | <abbr title="Offline">🔴</abbr> | [↗](http://list.iblocklist.com/?list=npkuuhuxcsllnhoamkvm&fileformat=p2p&archiveformat=gz) |
-| iBlocklist.com | Malc0de malware distribution IPs (last 30 days) | <abbr title="Offline">🔴</abbr> | [↗](http://list.iblocklist.com/?list=pbqcylkejciyhmwttify&fileformat=p2p&archiveformat=gz) |
-| iBlocklist.com | Tor / Onion Router IP addresses | <abbr title="Offline">🔴</abbr> | [↗](http://list.iblocklist.com/?list=togdoptykrlolpddwbvz&fileformat=p2p&archiveformat=gz) |
-| iBlocklist.com | IP ranges sharing child pornography in p2p community | <abbr title="Offline">🔴</abbr> | [↗](http://list.iblocklist.com/?list=dufcxgnbjsdwmwctgfuj&fileformat=p2p&archiveformat=gz) |
+| iBlocklist.com | Open Proxies IPs (without TOR) | <abbr title="Active">🟢</abbr> | [↗](http://list.iblocklist.com/?list=xoebmbyexwuiogmbyprb&fileformat=p2p&archiveformat=gz) |
+| iBlocklist.com | Known malicious Spyware and Adware IP ranges | <abbr title="Active">🟢</abbr> | [↗](http://list.iblocklist.com/?list=llvtlsjyoyiczbkjsxpf&fileformat=p2p&archiveformat=gz) |
+| iBlocklist.com | Hijacked IP-Blocks and known Spam delivery ranges | <abbr title="Active">🟢</abbr> | [↗](http://list.iblocklist.com/?list=usrcshglbiilevmyfhse&fileformat=p2p&archiveformat=gz) |
+| iBlocklist.com | Web server hack and exploit attempt IPs | <abbr title="Active">🟢</abbr> | [↗](http://list.iblocklist.com/?list=ghlzqtqxnzctvvajwwag&fileformat=p2p&archiveformat=gz) |
+| iBlocklist.com | Suspicious IPs under investigation | <abbr title="Active">🟢</abbr> | [↗](http://list.iblocklist.com/?list=plkehquoahljmyxjixpu&fileformat=p2p&archiveformat=gz) |
+| iBlocklist.com | Advertising trackers and bad/intrusive sites | <abbr title="Active">🟢</abbr> | [↗](http://list.iblocklist.com/?list=dgxtneitpuvgqqcpfulq&fileformat=p2p&archiveformat=gz) |
+| iBlocklist.com | Hostile web spiders | <abbr title="Active">🟢</abbr> | [↗](http://list.iblocklist.com/?list=mcvxsnihddgutbjfbghy&fileformat=p2p&archiveformat=gz) |
+| iBlocklist.com | Known hackers and DShield reported IPs | <abbr title="Active">🟢</abbr> | [↗](http://list.iblocklist.com/?list=xpbqleszmajjesnzddhv&fileformat=p2p&archiveformat=gz) |
+| iBlocklist.com | Forum spam IPs | <abbr title="Active">🟢</abbr> | [↗](http://list.iblocklist.com/?list=ficutxiwawokxlcyoeye&fileformat=p2p&archiveformat=gz) |
+| iBlocklist.com | CruzIT compromised machines scanning for vulnerabilities | <abbr title="Active">🟢</abbr> | [↗](http://list.iblocklist.com/?list=czvaehmjpsnwwttrdoyl&fileformat=p2p&archiveformat=gz) |
+| iBlocklist.com | Spamhaus DROP list (p2p format) | <abbr title="Active">🟢</abbr> | [↗](http://list.iblocklist.com/?list=zbdlwrqkabxbcppvrnos&fileformat=p2p&archiveformat=gz) |
+| iBlocklist.com | SpyEye tracker abuse.ch IP blocklist | <abbr title="Active">🟢</abbr> | [↗](http://list.iblocklist.com/?list=zvjxsfuvdhoxktpeiokq&fileformat=p2p&archiveformat=gz) |
+| iBlocklist.com | Palevo tracker abuse.ch IP blocklist | <abbr title="Active">🟢</abbr> | [↗](http://list.iblocklist.com/?list=erqajhwrxiuvjxqrrwfj&fileformat=p2p&archiveformat=gz) |
+| iBlocklist.com | CIArmy malicious IPs (Sentinel network) | <abbr title="Active">🟢</abbr> | [↗](http://list.iblocklist.com/?list=npkuuhuxcsllnhoamkvm&fileformat=p2p&archiveformat=gz) |
+| iBlocklist.com | Malc0de malware distribution IPs (last 30 days) | <abbr title="Active">🟢</abbr> | [↗](http://list.iblocklist.com/?list=pbqcylkejciyhmwttify&fileformat=p2p&archiveformat=gz) |
+| iBlocklist.com | Tor / Onion Router IP addresses | <abbr title="Active">🟢</abbr> | [↗](http://list.iblocklist.com/?list=togdoptykrlolpddwbvz&fileformat=p2p&archiveformat=gz) |
+| iBlocklist.com | IP ranges sharing child pornography in p2p community | <abbr title="Active">🟢</abbr> | [↗](http://list.iblocklist.com/?list=dufcxgnbjsdwmwctgfuj&fileformat=p2p&archiveformat=gz) |
 | ipspamlist | IP Spam List | <abbr title="Active">🟢</abbr> | [↗](http://www.ipspamlist.com/public_feeds.csv) |
 | IPsum | Malicious and/or suspicious IP addresses – Level 1 | <abbr title="Active">🟢</abbr> | [↗](https://raw.githubusercontent.com/stamparm/ipsum/master/levels/1.txt) |
 | IPsum | Malicious and/or suspicious IP addresses – Level 2 | <abbr title="Active">🟢</abbr> | [↗](https://raw.githubusercontent.com/stamparm/ipsum/master/levels/2.txt) |
@@ -252,7 +252,7 @@ Status legend: 🟢 Active – 🔴 Offline – 🔒 Restricted (requires API ke
 | IPsum | Malicious and/or suspicious IP addresses – Level 7 | <abbr title="Active">🟢</abbr> | [↗](https://raw.githubusercontent.com/stamparm/ipsum/master/levels/7.txt) |
 | IPsum | Malicious and/or suspicious IP addresses – Level 8 | <abbr title="Active">🟢</abbr> | [↗](https://raw.githubusercontent.com/stamparm/ipsum/master/levels/8.txt) |
 | IPsum | IPsum combined threat feed – all blacklists merged with occurrence count | <abbr title="Active">🟢</abbr> | [↗](https://raw.githubusercontent.com/stamparm/ipsum/master/ipsum.txt) |
-| James Brine | Daily malicious IPs from honeypots (SSH/FTP/RDP/GIT/SNMP/REDIS) | <abbr title="Offline">🔴</abbr> | [↗](https://jamesbrine.com.au/csv) |
+| James Brine | Daily malicious IPs from honeypots (SSH/FTP/RDP/GIT/SNMP/REDIS) | <abbr title="Active">🟢</abbr> | [↗](https://jamesbrine.com.au/csv) |
 | MalSilo | MalSilo IPv4 List | <abbr title="Active">🟢</abbr> | [↗](https://malsilo.gitlab.io/feeds/dumps/ip_list.txt) |
 | Maltrail | Maltrail Mass Scanner IPs | <abbr title="Active">🟢</abbr> | [↗](https://raw.githubusercontent.com/stamparm/maltrail/master/trails/static/mass_scanner.txt) |
 | mthcht | VPN NordVPN IPs | <abbr title="Active">🟢</abbr> | [↗](https://github.com/mthcht/awesome-lists/blob/main/Lists/VPN/NordVPN/nordvpn_ips_list.csv) |
@@ -301,7 +301,7 @@ Status legend: 🟢 Active – 🔴 Offline – 🔒 Restricted (requires API ke
 | StopForumSpam | Forum Spammer IPs – 180 days (zip) | <abbr title="Active">🟢</abbr> | [↗](http://www.stopforumspam.com/downloads/listed_ip_180.zip) |
 | StopForumSpam | Forum Spammer IPs – 1 day (zip) | <abbr title="Active">🟢</abbr> | [↗](http://www.stopforumspam.com/downloads/listed_ip_1.zip) |
 | StopForumSpam | Forum Spammer IPs – 7 days (zip) | <abbr title="Active">🟢</abbr> | [↗](http://www.stopforumspam.com/downloads/listed_ip_7.zip) |
-| StopForumSpam | Forum Spammer IPs (last 1 day) | <abbr title="Active">🟢</abbr> | [↗](https://www.stopforumspam.com/downloads/listed_ip_1.txt) |
+| StopForumSpam | Forum Spammer IPs (last 1 day) | <abbr title="Offline">🔴</abbr> | [↗](https://www.stopforumspam.com/downloads/listed_ip_1.txt) |
 | StopForumSpam | Forum Spammer IPs – 30 days (zip) | <abbr title="Active">🟢</abbr> | [↗](http://www.stopforumspam.com/downloads/listed_ip_30.zip) |
 | StopForumSpam | Toxic IPs CIDR | <abbr title="Offline">🔴</abbr> | [↗](http://www.stopforumspam.com/downloads/toxic_ip_cidr.txt) |
 | StopForumSpam | Banned IPs – all time (ZIP) | <abbr title="Offline">🔴</abbr> | [↗](http://www.stopforumspam.com/downloads/bannedips.zip) |
@@ -376,7 +376,7 @@ Status legend: 🟢 Active – 🔴 Offline – 🔒 Restricted (requires API ke
 | Phishing Army | Phishing Army Blocklist | <abbr title="Active">🟢</abbr> | [↗](https://phishing.army/download/phishing_army_blocklist.txt) |
 | Phishing Army | Phishing Army Blocklist Extended | <abbr title="Active">🟢</abbr> | [↗](https://phishing.army/download/phishing_army_blocklist_extended.txt) |
 | PhishTank | PhishTank Online Valid Phishing | <abbr title="Active">🟢</abbr> | [↗](https://data.phishtank.com/data/online-valid.csv) |
-| PhishTank | PhishTank Online Valid Phishing (JSON) | <abbr title="Offline">🔴</abbr> | [↗](http://data.phishtank.com/data/online-valid.json) |
+| PhishTank | PhishTank Online Valid Phishing (JSON) | <abbr title="Active">🟢</abbr> | [↗](http://data.phishtank.com/data/online-valid.json) |
 | SentinelPhishFeed | Phishing URLs feed (auto-updated multiple times daily) | <abbr title="Active">🟢</abbr> | [↗](https://raw.githubusercontent.com/rjn32s/SentinelPhishFeed/main/urls.txt) |
 | threatview.io | URL High Confidence Feed | <abbr title="Active">🟢</abbr> | [↗](https://threatview.io/Downloads/URL-High-Confidence-Feed.txt) |
 | urlabuse | URL Abuse Blacklist Feed | <abbr title="Active">🟢</abbr> | [↗](https://urlabuse.com/public/data/data.txt) |
@@ -453,11 +453,10 @@ Status legend: 🟢 Active – 🔴 Offline – 🔒 Restricted (requires API ke
 | MISP CIRCL | MISP CIRCL OSINT Feed – Hashes | <abbr title="Active">🟢</abbr> | [↗](https://www.circl.lu/doc/misp/feed-osint/) |
 | MISP Feed CERT-FR | MISP Feed CERT-FR Hashes | <abbr title="Active">🟢</abbr> | [↗](https://misp.cert.ssi.gouv.fr/feed-misp/hashes.csv) |
 
-### IOC (36)
+### IOC (35)
 
 | Vendor | Description | Status | URL |
 | --- | --- | :---: | --- |
-| fsrm.experiant.ca | Ransomware file extension blocklist for File Server Resource Manager (FSRM) | <abbr title="Offline">🔴</abbr> | [↗](https://fsrm.experiant.ca/api/v1/get) |
 | montysecurity | C2-Tracker – active C2 servers aggregated from multiple sources (all types combined) | <abbr title="Offline">🔴</abbr> | [↗](https://raw.githubusercontent.com/montysecurity/C2-Tracker/main/data/all.txt) |
 | mthcht | Offensive Tools detection patterns | <abbr title="Active">🟢</abbr> | [↗](https://raw.githubusercontent.com/mthcht/ThreatHunting-Keywords/main/offensive_tool_keyword.csv) |
 | mthcht | Greyware Tools detection patterns | <abbr title="Active">🟢</abbr> | [↗](https://raw.githubusercontent.com/mthcht/ThreatHunting-Keywords/main/greyware_tool_keyword.csv) |
@@ -476,8 +475,8 @@ Status legend: 🟢 Active – 🔴 Offline – 🔒 Restricted (requires API ke
 | mthcht | Metadata Executables | <abbr title="Active">🟢</abbr> | [↗](https://github.com/mthcht/awesome-lists/blob/main/Lists/Windows%20Metadata/executables_metadata_informations_list.csv) |
 | mthcht | DNS over HTTPS server list | <abbr title="Active">🟢</abbr> | [↗](https://github.com/mthcht/awesome-lists/blob/main/Lists/dns_over_https_servers_list.csv) |
 | mthcht | Dynamic DNS domains list | <abbr title="Active">🟢</abbr> | [↗](https://github.com/mthcht/awesome-lists/blob/main/Lists/DYNDNS/dyndns_list.csv) |
-| mthcht | Sinkholed Domains | <abbr title="Offline">🔴</abbr> | [↗](https://github.com/mthcht/awesome-lists/blob/main/Lists/Domains/sinkholed_servers/sinkholed_domains.csv) |
-| mthcht | Hijacklibs | <abbr title="Offline">🔴</abbr> | [↗](https://github.com/mthcht/awesome-lists/blob/main/Lists/Hijacklibs/hijacklibs_list.csv) |
+| mthcht | Sinkholed Domains | <abbr title="Active">🟢</abbr> | [↗](https://github.com/mthcht/awesome-lists/blob/main/Lists/Domains/sinkholed_servers/sinkholed_domains.csv) |
+| mthcht | Hijacklibs | <abbr title="Active">🟢</abbr> | [↗](https://github.com/mthcht/awesome-lists/blob/main/Lists/Hijacklibs/hijacklibs_list.csv) |
 | mthcht | LOLDriver List | <abbr title="Active">🟢</abbr> | [↗](https://github.com/mthcht/awesome-lists/blob/main/Lists/Drivers/loldrivers_only_hashes_list.csv) |
 | mthcht | Malicious Bootloader List | <abbr title="Active">🟢</abbr> | [↗](https://github.com/mthcht/awesome-lists/blob/main/Lists/Drivers/malicious_bootloaders_only_hashes_list.csv) |
 | mthcht | Malicious SSL Certificates List | <abbr title="Active">🟢</abbr> | [↗](https://github.com/mthcht/awesome-lists/blob/main/Lists/SSL%20CERTS/ssl_certificates_malicious_list.csv) |
@@ -498,48 +497,48 @@ Status legend: 🟢 Active – 🔴 Offline – 🔒 Restricted (requires API ke
 
 | Vendor | Description | Status | URL |
 | --- | --- | :---: | --- |
-| iBlocklist.com | Level 1 – anti-p2p companies/media/government/legal ranges | <abbr title="Offline">🔴</abbr> | [↗](http://list.iblocklist.com/?list=ydxerpxkpcfqjaybcssw&fileformat=p2p&archiveformat=gz) |
-| iBlocklist.com | Level 2 – corporate/labs/proxy ranges | <abbr title="Offline">🔴</abbr> | [↗](http://list.iblocklist.com/?list=gyisgnzbhppbvsphucsw&fileformat=p2p&archiveformat=gz) |
-| iBlocklist.com | Level 3 – paranoid list (portals/ISPs/unusual ranges) | <abbr title="Offline">🔴</abbr> | [↗](http://list.iblocklist.com/?list=uwnukjqktoggdknzrhgh&fileformat=p2p&archiveformat=gz) |
-| iBlocklist.com | Yoyo.org ad servers (p2p format) | <abbr title="Offline">🔴</abbr> | [↗](http://list.iblocklist.com/?list=zhogegszwduurnvsyhdf&fileformat=p2p&archiveformat=gz) |
-| iBlocklist.com | Educational Institution IPs | <abbr title="Offline">🔴</abbr> | [↗](http://list.iblocklist.com/?list=imlmncgrkbnacgcwfjvh&fileformat=p2p&archiveformat=gz) |
-| iBlocklist.com | Microsoft IP ranges | <abbr title="Offline">🔴</abbr> | [↗](http://list.iblocklist.com/?list=xshktygkujudfnjfioro&fileformat=p2p&archiveformat=gz) |
-| iBlocklist.com | IANA Reserved IPs | <abbr title="Offline">🔴</abbr> | [↗](http://list.iblocklist.com/?list=bcoepfyewziejvcqyhqo&fileformat=p2p&archiveformat=gz) |
-| iBlocklist.com | IANA Private IPs | <abbr title="Offline">🔴</abbr> | [↗](http://list.iblocklist.com/?list=cslpybexmxyuacbyuvib&fileformat=p2p&archiveformat=gz) |
-| iBlocklist.com | IANA Multicast IPs | <abbr title="Offline">🔴</abbr> | [↗](http://list.iblocklist.com/?list=pwqnlynprfgtjbgqoizj&fileformat=p2p&archiveformat=gz) |
-| iBlocklist.com | IP blocklist for non-LAN computers | <abbr title="Offline">🔴</abbr> | [↗](http://list.iblocklist.com/?list=jhaoawihmfxgnvmaqffp&fileformat=p2p&archiveformat=gz) |
-| iBlocklist.com | Exclusions list | <abbr title="Offline">🔴</abbr> | [↗](http://list.iblocklist.com/?list=mtxmiireqmjzazcsoiem&fileformat=p2p&archiveformat=gz) |
-| iBlocklist.com | Apple IPs | <abbr title="Offline">🔴</abbr> | [↗](http://list.iblocklist.com/?list=aphcqvpxuqgrkgufjruj&fileformat=p2p&archiveformat=gz) |
-| iBlocklist.com | LogMeIn IPs | <abbr title="Offline">🔴</abbr> | [↗](http://list.iblocklist.com/?list=tgbankumtwtrzllndbmb&fileformat=p2p&archiveformat=gz) |
-| iBlocklist.com | Steam IPs | <abbr title="Offline">🔴</abbr> | [↗](http://list.iblocklist.com/?list=cnxkgiklecdaihzukrud&fileformat=p2p&archiveformat=gz) |
-| iBlocklist.com | XFire IPs | <abbr title="Offline">🔴</abbr> | [↗](http://list.iblocklist.com/?list=ppqqnyihmcrryraaqsjo&fileformat=p2p&archiveformat=gz) |
-| iBlocklist.com | Blizzard IPs | <abbr title="Offline">🔴</abbr> | [↗](http://list.iblocklist.com/?list=ercbntshuthyykfkmhxc&fileformat=p2p&archiveformat=gz) |
-| iBlocklist.com | Ubisoft IPs | <abbr title="Offline">🔴</abbr> | [↗](http://list.iblocklist.com/?list=etmcrglomupyxtaebzht&fileformat=p2p&archiveformat=gz) |
-| iBlocklist.com | Nintendo IPs | <abbr title="Offline">🔴</abbr> | [↗](http://list.iblocklist.com/?list=pevkykuhgaegqyayzbnr&fileformat=p2p&archiveformat=gz) |
-| iBlocklist.com | Activision IPs | <abbr title="Offline">🔴</abbr> | [↗](http://list.iblocklist.com/?list=gfnxlhxsijzrcuxwzebb&fileformat=p2p&archiveformat=gz) |
-| iBlocklist.com | Sony Online Entertainment IPs | <abbr title="Offline">🔴</abbr> | [↗](http://list.iblocklist.com/?list=tukpvrvlubsputmkmiwg&fileformat=p2p&archiveformat=gz) |
-| iBlocklist.com | Crowd Control Productions IPs | <abbr title="Offline">🔴</abbr> | [↗](http://list.iblocklist.com/?list=eveiyhgmusglurfmjyag&fileformat=p2p&archiveformat=gz) |
-| iBlocklist.com | Linden Lab IPs | <abbr title="Offline">🔴</abbr> | [↗](http://list.iblocklist.com/?list=qnjdimxnaupjmpqolxcv&fileformat=p2p&archiveformat=gz) |
-| iBlocklist.com | Electronic Arts IPs | <abbr title="Offline">🔴</abbr> | [↗](http://list.iblocklist.com/?list=ejqebpcdmffinaetsvxj&fileformat=p2p&archiveformat=gz) |
-| iBlocklist.com | Square Enix IPs | <abbr title="Offline">🔴</abbr> | [↗](http://list.iblocklist.com/?list=odyaqontcydnodrlyina&fileformat=p2p&archiveformat=gz) |
-| iBlocklist.com | NCsoft IPs | <abbr title="Offline">🔴</abbr> | [↗](http://list.iblocklist.com/?list=mwjuwmebrnzyyxpbezxu&fileformat=p2p&archiveformat=gz) |
-| iBlocklist.com | Riot Games IPs | <abbr title="Offline">🔴</abbr> | [↗](http://list.iblocklist.com/?list=sdlvfabdjvrdttfjotcy&fileformat=p2p&archiveformat=gz) |
-| iBlocklist.com | Punkbuster IPs | <abbr title="Offline">🔴</abbr> | [↗](http://list.iblocklist.com/?list=zvwwndvzulqcltsicwdg&fileformat=p2p&archiveformat=gz) |
-| iBlocklist.com | Joost IPs | <abbr title="Offline">🔴</abbr> | [↗](http://list.iblocklist.com/?list=alxugfmeszbhpxqfdits&fileformat=p2p&archiveformat=gz) |
-| iBlocklist.com | Pandora IPs | <abbr title="Offline">🔴</abbr> | [↗](http://list.iblocklist.com/?list=aevzidimyvwybzkletsg&fileformat=p2p&archiveformat=gz) |
-| iBlocklist.com | The Pirate Bay IPs | <abbr title="Offline">🔴</abbr> | [↗](http://list.iblocklist.com/?list=nzldzlpkgrcncdomnttb&fileformat=p2p&archiveformat=gz) |
-| iBlocklist.com | AOL IPs | <abbr title="Offline">🔴</abbr> | [↗](http://list.iblocklist.com/?list=toboaiysofkflwgrttmb&fileformat=p2p&archiveformat=gz) |
-| iBlocklist.com | Comcast IPs | <abbr title="Offline">🔴</abbr> | [↗](http://list.iblocklist.com/?list=rsgyxvuklicibautguia&fileformat=p2p&archiveformat=gz) |
-| iBlocklist.com | Cablevision IPs | <abbr title="Offline">🔴</abbr> | [↗](http://list.iblocklist.com/?list=dwwbsmzirrykdlvpqozb&fileformat=p2p&archiveformat=gz) |
-| iBlocklist.com | Verizon IPs | <abbr title="Offline">🔴</abbr> | [↗](http://list.iblocklist.com/?list=cdmdbprvldivlqsaqjol&fileformat=p2p&archiveformat=gz) |
-| iBlocklist.com | AT&T IPs | <abbr title="Offline">🔴</abbr> | [↗](http://list.iblocklist.com/?list=grbtkzijgrowvobvessf&fileformat=p2p&archiveformat=gz) |
-| iBlocklist.com | Cox Communications IPs | <abbr title="Offline">🔴</abbr> | [↗](http://list.iblocklist.com/?list=nlgdvmvfxvoimdunmuju&fileformat=p2p&archiveformat=gz) |
-| iBlocklist.com | Time Warner Cable IPs | <abbr title="Offline">🔴</abbr> | [↗](http://list.iblocklist.com/?list=aqtsnttnqmcucwrjmohd&fileformat=p2p&archiveformat=gz) |
-| iBlocklist.com | Charter IPs | <abbr title="Offline">🔴</abbr> | [↗](http://list.iblocklist.com/?list=htnzojgossawhpkbulqw&fileformat=p2p&archiveformat=gz) |
-| iBlocklist.com | Qwest IPs | <abbr title="Offline">🔴</abbr> | [↗](http://list.iblocklist.com/?list=jezlifrpefawuoawnfez&fileformat=p2p&archiveformat=gz) |
-| iBlocklist.com | Embarq IPs | <abbr title="Offline">🔴</abbr> | [↗](http://list.iblocklist.com/?list=twdblifaysaqtypevvdp&fileformat=p2p&archiveformat=gz) |
-| iBlocklist.com | Suddenlink IPs | <abbr title="Offline">🔴</abbr> | [↗](http://list.iblocklist.com/?list=psaoblrwylfrdsspfuiq&fileformat=p2p&archiveformat=gz) |
-| iBlocklist.com | Sprint IPs | <abbr title="Offline">🔴</abbr> | [↗](http://list.iblocklist.com/?list=hngtqrhhuadlceqxbrob&fileformat=p2p&archiveformat=gz) |
+| iBlocklist.com | Level 1 – anti-p2p companies/media/government/legal ranges | <abbr title="Active">🟢</abbr> | [↗](http://list.iblocklist.com/?list=ydxerpxkpcfqjaybcssw&fileformat=p2p&archiveformat=gz) |
+| iBlocklist.com | Level 2 – corporate/labs/proxy ranges | <abbr title="Active">🟢</abbr> | [↗](http://list.iblocklist.com/?list=gyisgnzbhppbvsphucsw&fileformat=p2p&archiveformat=gz) |
+| iBlocklist.com | Level 3 – paranoid list (portals/ISPs/unusual ranges) | <abbr title="Active">🟢</abbr> | [↗](http://list.iblocklist.com/?list=uwnukjqktoggdknzrhgh&fileformat=p2p&archiveformat=gz) |
+| iBlocklist.com | Yoyo.org ad servers (p2p format) | <abbr title="Active">🟢</abbr> | [↗](http://list.iblocklist.com/?list=zhogegszwduurnvsyhdf&fileformat=p2p&archiveformat=gz) |
+| iBlocklist.com | Educational Institution IPs | <abbr title="Active">🟢</abbr> | [↗](http://list.iblocklist.com/?list=imlmncgrkbnacgcwfjvh&fileformat=p2p&archiveformat=gz) |
+| iBlocklist.com | Microsoft IP ranges | <abbr title="Active">🟢</abbr> | [↗](http://list.iblocklist.com/?list=xshktygkujudfnjfioro&fileformat=p2p&archiveformat=gz) |
+| iBlocklist.com | IANA Reserved IPs | <abbr title="Active">🟢</abbr> | [↗](http://list.iblocklist.com/?list=bcoepfyewziejvcqyhqo&fileformat=p2p&archiveformat=gz) |
+| iBlocklist.com | IANA Private IPs | <abbr title="Active">🟢</abbr> | [↗](http://list.iblocklist.com/?list=cslpybexmxyuacbyuvib&fileformat=p2p&archiveformat=gz) |
+| iBlocklist.com | IANA Multicast IPs | <abbr title="Active">🟢</abbr> | [↗](http://list.iblocklist.com/?list=pwqnlynprfgtjbgqoizj&fileformat=p2p&archiveformat=gz) |
+| iBlocklist.com | IP blocklist for non-LAN computers | <abbr title="Active">🟢</abbr> | [↗](http://list.iblocklist.com/?list=jhaoawihmfxgnvmaqffp&fileformat=p2p&archiveformat=gz) |
+| iBlocklist.com | Exclusions list | <abbr title="Active">🟢</abbr> | [↗](http://list.iblocklist.com/?list=mtxmiireqmjzazcsoiem&fileformat=p2p&archiveformat=gz) |
+| iBlocklist.com | Apple IPs | <abbr title="Active">🟢</abbr> | [↗](http://list.iblocklist.com/?list=aphcqvpxuqgrkgufjruj&fileformat=p2p&archiveformat=gz) |
+| iBlocklist.com | LogMeIn IPs | <abbr title="Active">🟢</abbr> | [↗](http://list.iblocklist.com/?list=tgbankumtwtrzllndbmb&fileformat=p2p&archiveformat=gz) |
+| iBlocklist.com | Steam IPs | <abbr title="Active">🟢</abbr> | [↗](http://list.iblocklist.com/?list=cnxkgiklecdaihzukrud&fileformat=p2p&archiveformat=gz) |
+| iBlocklist.com | XFire IPs | <abbr title="Active">🟢</abbr> | [↗](http://list.iblocklist.com/?list=ppqqnyihmcrryraaqsjo&fileformat=p2p&archiveformat=gz) |
+| iBlocklist.com | Blizzard IPs | <abbr title="Active">🟢</abbr> | [↗](http://list.iblocklist.com/?list=ercbntshuthyykfkmhxc&fileformat=p2p&archiveformat=gz) |
+| iBlocklist.com | Ubisoft IPs | <abbr title="Active">🟢</abbr> | [↗](http://list.iblocklist.com/?list=etmcrglomupyxtaebzht&fileformat=p2p&archiveformat=gz) |
+| iBlocklist.com | Nintendo IPs | <abbr title="Active">🟢</abbr> | [↗](http://list.iblocklist.com/?list=pevkykuhgaegqyayzbnr&fileformat=p2p&archiveformat=gz) |
+| iBlocklist.com | Activision IPs | <abbr title="Active">🟢</abbr> | [↗](http://list.iblocklist.com/?list=gfnxlhxsijzrcuxwzebb&fileformat=p2p&archiveformat=gz) |
+| iBlocklist.com | Sony Online Entertainment IPs | <abbr title="Active">🟢</abbr> | [↗](http://list.iblocklist.com/?list=tukpvrvlubsputmkmiwg&fileformat=p2p&archiveformat=gz) |
+| iBlocklist.com | Crowd Control Productions IPs | <abbr title="Active">🟢</abbr> | [↗](http://list.iblocklist.com/?list=eveiyhgmusglurfmjyag&fileformat=p2p&archiveformat=gz) |
+| iBlocklist.com | Linden Lab IPs | <abbr title="Active">🟢</abbr> | [↗](http://list.iblocklist.com/?list=qnjdimxnaupjmpqolxcv&fileformat=p2p&archiveformat=gz) |
+| iBlocklist.com | Electronic Arts IPs | <abbr title="Active">🟢</abbr> | [↗](http://list.iblocklist.com/?list=ejqebpcdmffinaetsvxj&fileformat=p2p&archiveformat=gz) |
+| iBlocklist.com | Square Enix IPs | <abbr title="Active">🟢</abbr> | [↗](http://list.iblocklist.com/?list=odyaqontcydnodrlyina&fileformat=p2p&archiveformat=gz) |
+| iBlocklist.com | NCsoft IPs | <abbr title="Active">🟢</abbr> | [↗](http://list.iblocklist.com/?list=mwjuwmebrnzyyxpbezxu&fileformat=p2p&archiveformat=gz) |
+| iBlocklist.com | Riot Games IPs | <abbr title="Active">🟢</abbr> | [↗](http://list.iblocklist.com/?list=sdlvfabdjvrdttfjotcy&fileformat=p2p&archiveformat=gz) |
+| iBlocklist.com | Punkbuster IPs | <abbr title="Active">🟢</abbr> | [↗](http://list.iblocklist.com/?list=zvwwndvzulqcltsicwdg&fileformat=p2p&archiveformat=gz) |
+| iBlocklist.com | Joost IPs | <abbr title="Active">🟢</abbr> | [↗](http://list.iblocklist.com/?list=alxugfmeszbhpxqfdits&fileformat=p2p&archiveformat=gz) |
+| iBlocklist.com | Pandora IPs | <abbr title="Active">🟢</abbr> | [↗](http://list.iblocklist.com/?list=aevzidimyvwybzkletsg&fileformat=p2p&archiveformat=gz) |
+| iBlocklist.com | The Pirate Bay IPs | <abbr title="Active">🟢</abbr> | [↗](http://list.iblocklist.com/?list=nzldzlpkgrcncdomnttb&fileformat=p2p&archiveformat=gz) |
+| iBlocklist.com | AOL IPs | <abbr title="Active">🟢</abbr> | [↗](http://list.iblocklist.com/?list=toboaiysofkflwgrttmb&fileformat=p2p&archiveformat=gz) |
+| iBlocklist.com | Comcast IPs | <abbr title="Active">🟢</abbr> | [↗](http://list.iblocklist.com/?list=rsgyxvuklicibautguia&fileformat=p2p&archiveformat=gz) |
+| iBlocklist.com | Cablevision IPs | <abbr title="Active">🟢</abbr> | [↗](http://list.iblocklist.com/?list=dwwbsmzirrykdlvpqozb&fileformat=p2p&archiveformat=gz) |
+| iBlocklist.com | Verizon IPs | <abbr title="Active">🟢</abbr> | [↗](http://list.iblocklist.com/?list=cdmdbprvldivlqsaqjol&fileformat=p2p&archiveformat=gz) |
+| iBlocklist.com | AT&T IPs | <abbr title="Active">🟢</abbr> | [↗](http://list.iblocklist.com/?list=grbtkzijgrowvobvessf&fileformat=p2p&archiveformat=gz) |
+| iBlocklist.com | Cox Communications IPs | <abbr title="Active">🟢</abbr> | [↗](http://list.iblocklist.com/?list=nlgdvmvfxvoimdunmuju&fileformat=p2p&archiveformat=gz) |
+| iBlocklist.com | Time Warner Cable IPs | <abbr title="Active">🟢</abbr> | [↗](http://list.iblocklist.com/?list=aqtsnttnqmcucwrjmohd&fileformat=p2p&archiveformat=gz) |
+| iBlocklist.com | Charter IPs | <abbr title="Active">🟢</abbr> | [↗](http://list.iblocklist.com/?list=htnzojgossawhpkbulqw&fileformat=p2p&archiveformat=gz) |
+| iBlocklist.com | Qwest IPs | <abbr title="Active">🟢</abbr> | [↗](http://list.iblocklist.com/?list=jezlifrpefawuoawnfez&fileformat=p2p&archiveformat=gz) |
+| iBlocklist.com | Embarq IPs | <abbr title="Active">🟢</abbr> | [↗](http://list.iblocklist.com/?list=twdblifaysaqtypevvdp&fileformat=p2p&archiveformat=gz) |
+| iBlocklist.com | Suddenlink IPs | <abbr title="Active">🟢</abbr> | [↗](http://list.iblocklist.com/?list=psaoblrwylfrdsspfuiq&fileformat=p2p&archiveformat=gz) |
+| iBlocklist.com | Sprint IPs | <abbr title="Active">🟢</abbr> | [↗](http://list.iblocklist.com/?list=hngtqrhhuadlceqxbrob&fileformat=p2p&archiveformat=gz) |
 | Ngosang | BitTorrent Trackers IP List | <abbr title="Active">🟢</abbr> | [↗](https://raw.githubusercontent.com/ngosang/trackerslist/master/trackers_all_ip.txt) |
 
 ### REPO (63)
