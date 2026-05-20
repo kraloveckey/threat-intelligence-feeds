@@ -25,9 +25,16 @@ SKIP_CATEGORIES    = {'RESTRICTED'}   # skip HTTP check; set a fixed status
 SKIP_STATUS        = {'RESTRICTED': 'Restricted'}
 SKIP_URLS = {
     'https://jamesbrine.com.au/csv': 'Active',
+    'https://tria.ge/s': 'Active',
+    'https://search.censys.io/': 'Active',
+    'https://www.shodan.io/': 'Active',
+    'https://www.cisa.gov/cybersecurity-advisories/all.xml': 'Active',
+    'https://vx-underground.org/Samples': 'Active',
 }
 SKIP_DOMAINS = {
     'list.iblocklist.com': 'Active',
+    'www.stopforumspam.com': 'Active',
+    'cleantalk.org': 'Active',
 }
 ARCHIVE_EXTENSIONS = ('.zip', '.gz', '.tar', '.tar.gz', '.bz2')
 DATA_EXTENSIONS = ('.csv', '.json', '.txt', '.netset', '.lst', '.intel')

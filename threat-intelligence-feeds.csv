@@ -154,7 +154,7 @@ APNIC Honeynet;Telnet Bruteforce IPs;IP;https://feeds.honeynet.asia/bruteforce/l
 Abuse.ch;ThreatFox IOCs – Recent (all types);URL;https://threatfox.abuse.ch/export/csv/recent/;Active
 threatview.io;Bitcoin Address Intel;IOC;https://threatview.io/Downloads/MALICIOUS-BITCOIN_FEED.txt;Active
 APNIC Honeynet;URL Seen in Honeypots;URL;https://feeds.honeynet.asia/url/latest-url-unique.csv;Active
-PhishTank;PhishTank Online Valid Phishing (JSON);URL;http://data.phishtank.com/data/online-valid.json;Offline
+PhishTank;PhishTank Online Valid Phishing (CSV);URL;http://data.phishtank.com/data/online-valid.csv;Offline
 urlabuse;URL Abuse DB – Latest 500 entries (CSV);URL;https://urlabuse.com/public/data/data_csv.txt;Active
 StopForumSpam;Toxic IPs CIDR;IP;http://www.stopforumspam.com/downloads/toxic_ip_cidr.txt;Offline
 Carbon Black;Cobalt Strike LuckyMouse / TA428;IP;https://raw.githubusercontent.com/carbonblack/active_c2_ioc_public/main/cobaltstrike/actor-specific/cobaltstrike_luckymouse_ta428.csv;Active
@@ -254,12 +254,9 @@ MaxMind;GeoLite2 ASN Database – IP to ASN mapping (requires free license key a
 MaxMind;GeoLite2 Country Database – IP to Country mapping (requires free license key at maxmind.com);RESTRICTED;https://download.maxmind.com/app/geoip_download?edition_id=GeoLite2-Country-CSV&license_key=YOUR_KEY&suffix=zip;Restricted
 IP2Location;IP2Location LITE DB1 – IP to Country database (free, no key required);GEOIP;https://download.ip2location.com/lite/IP2LOCATION-LITE-DB1.CSV.ZIP;Active
 IPDeny.com;IPDeny country IP blocks – all zones (tar.gz, updated daily);GEOIP;http://www.ipdeny.com/ipblocks/data/countries/all-zones.tar.gz;Active
-DB-IP;DB-IP Country Lite – free IP to Country database (monthly updated, fixed URL);GEOIP;https://download.db-ip.com/free/dbip-country-lite.csv.gz;Offline
+DB-IP;DB-IP Country Lite – free IP to Country database (monthly updated, fixed URL);GEOIP;https://download.db-ip.com/free/dbip-phpsrc-4.0.tgz;Offline
 Turris;Turris Greylist – IPs observed attacking Turris routers;IP;https://www.turris.cz/greylist-data/greylist-latest.csv;Active
 James Brine;Daily malicious IPs from honeypots (SSH/FTP/RDP/GIT/SNMP/REDIS);IP;https://jamesbrine.com.au/csv;Active
-SANS ICS;Suspicious Domains – High sensitivity (few false positives);DNS;https://isc.sans.edu/feeds/suspiciousdomains_High.txt;Offline
-SANS ICS;Suspicious Domains – Medium sensitivity;DNS;https://isc.sans.edu/feeds/suspiciousdomains_Medium.txt;Offline
-SANS ICS;Suspicious Domains – Low sensitivity (more false positives);DNS;https://isc.sans.edu/feeds/suspiciousdomains_Low.txt;Offline
 SANS ICS / DShield;DShield suggested IP blocklist;IP;https://isc.sans.edu/block.txt;Active
 IPsum;IPsum combined threat feed – all blacklists merged with occurrence count;IP;https://raw.githubusercontent.com/stamparm/ipsum/master/ipsum.txt;Active
 WSTNPHX;Email addresses used by malware;IOC;https://raw.githubusercontent.com/WSTNPHX/scripts-n-tools/master/malware-email-addresses.txt;Active
@@ -305,10 +302,8 @@ ExtSentry;Browser extension CRX SHA-256 file hashes;SHA256;https://raw.githubuse
 ExtSentry;Browser extensions enriched IOC feed (CSV);URL;https://raw.githubusercontent.com/ExtSentry/ExtSentry.github.io/main/feeds/extsentry_ioc_feed.csv;Active
 FireHOL;FireHOL blocklist-ipsets — curated IP blocklist collections (multiple sets);REPO;https://github.com/firehol/blocklist-ipsets;Active
 mthcht;SOC/DFIR detection lists – VPN IPs, Named Pipes, Suspicious Services, Extensions and more;REPO;https://github.com/mthcht/awesome-lists;Active
-montysecurity;C2-Tracker – active C2 servers aggregated from multiple sources (all types combined);IOC;https://raw.githubusercontent.com/montysecurity/C2-Tracker/main/data/all.txt;Offline
 hagezi;DNS Pro Blocklist – comprehensive DNS blocklist (ads, tracking, malware, phishing);DNS;https://raw.githubusercontent.com/hagezi/dns-blocklists/main/domains/pro.txt;Active
 hagezi;DNS Pro++ Blocklist – more aggressive version of Pro list;DNS;https://raw.githubusercontent.com/hagezi/dns-blocklists/main/domains/pro.plus.txt;Active
-hagezi;DNS Threat Intelligence Blocklist – malware and phishing domains;DNS;https://raw.githubusercontent.com/hagezi/dns-blocklists/main/domains/threat.txt;Offline
 blocklistproject;Block Lists – comprehensive domain blocklists (ads, malware, phishing, ransomware, scam);REPO;https://github.com/blocklistproject/Lists;Active
 jarelllama;Scam Blocklist – phishing and scam domains (wildcard format);DNS;https://raw.githubusercontent.com/jarelllama/Scam-Blocklist/main/lists/wildcard_domains/scams.txt;Active
 Volexity;Volexity Threat Intelligence IOC repository;REPO;https://github.com/volexity/threat-intel;Active
