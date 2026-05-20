@@ -184,8 +184,8 @@ Status legend: 🟢 Active – 🔴 Offline – 🔒 Restricted (requires API ke
 | Carbon Black | Cobalt Strike Pyxie | <abbr title="Active">🟢</abbr> | [↗](https://raw.githubusercontent.com/carbonblack/active_c2_ioc_public/main/cobaltstrike/actor-specific/cobaltstrike_pyxie.csv) |
 | CINSscore | CINS Bad IP List (ci-badguys) | <abbr title="Active">🟢</abbr> | [↗](https://cinsscore.com/list/ci-badguys.txt) |
 | CleanTalk | CleanTalk Blacklist – Submitted Today | <abbr title="Offline">🔴</abbr> | [↗](https://cleantalk.org/blacklists/submited_today) |
-| CleanTalk | CleanTalk Blacklist – Updated Today | <abbr title="Offline">🔴</abbr> | [↗](https://cleantalk.org/blacklists/updated_today) |
-| CleanTalk | CleanTalk Blacklist – Top 20 | <abbr title="Active">🟢</abbr> | [↗](https://cleantalk.org/blacklists/top20) |
+| CleanTalk | CleanTalk Blacklist – Updated Today | <abbr title="Active">🟢</abbr> | [↗](https://cleantalk.org/blacklists/updated_today) |
+| CleanTalk | CleanTalk Blacklist – Top 20 | <abbr title="Offline">🔴</abbr> | [↗](https://cleantalk.org/blacklists/top20) |
 | CriticalPathSecurity | Abuse.ch IP Blocklist Feed | <abbr title="Active">🟢</abbr> | [↗](https://raw.githubusercontent.com/CriticalPathSecurity/Public-Intelligence-Feeds/master/abuse-ch-ipblocklist.txt) |
 | CriticalPathSecurity | Log4j Scanners and Exploiters | <abbr title="Active">🟢</abbr> | [↗](https://raw.githubusercontent.com/CriticalPathSecurity/Public-Intelligence-Feeds/master/log4j.txt) |
 | CriticalPathSecurity | CPS collected IOCs (Zeek intel format) | <abbr title="Active">🟢</abbr> | [↗](https://raw.githubusercontent.com/CriticalPathSecurity/Zeek-Intelligence-Feeds/master/cps-collected-iocs.intel) |
@@ -301,7 +301,7 @@ Status legend: 🟢 Active – 🔴 Offline – 🔒 Restricted (requires API ke
 | StopForumSpam | Forum Spammer IPs – 180 days (zip) | <abbr title="Active">🟢</abbr> | [↗](http://www.stopforumspam.com/downloads/listed_ip_180.zip) |
 | StopForumSpam | Forum Spammer IPs – 1 day (zip) | <abbr title="Active">🟢</abbr> | [↗](http://www.stopforumspam.com/downloads/listed_ip_1.zip) |
 | StopForumSpam | Forum Spammer IPs – 7 days (zip) | <abbr title="Active">🟢</abbr> | [↗](http://www.stopforumspam.com/downloads/listed_ip_7.zip) |
-| StopForumSpam | Forum Spammer IPs (last 1 day) | <abbr title="Offline">🔴</abbr> | [↗](https://www.stopforumspam.com/downloads/listed_ip_1.txt) |
+| StopForumSpam | Forum Spammer IPs (last 1 day) | <abbr title="Active">🟢</abbr> | [↗](https://www.stopforumspam.com/downloads/listed_ip_1.txt) |
 | StopForumSpam | Forum Spammer IPs – 30 days (zip) | <abbr title="Active">🟢</abbr> | [↗](http://www.stopforumspam.com/downloads/listed_ip_30.zip) |
 | StopForumSpam | Toxic IPs CIDR | <abbr title="Offline">🔴</abbr> | [↗](http://www.stopforumspam.com/downloads/toxic_ip_cidr.txt) |
 | StopForumSpam | Banned IPs – all time (ZIP) | <abbr title="Offline">🔴</abbr> | [↗](http://www.stopforumspam.com/downloads/bannedips.zip) |
@@ -376,7 +376,7 @@ Status legend: 🟢 Active – 🔴 Offline – 🔒 Restricted (requires API ke
 | Phishing Army | Phishing Army Blocklist | <abbr title="Active">🟢</abbr> | [↗](https://phishing.army/download/phishing_army_blocklist.txt) |
 | Phishing Army | Phishing Army Blocklist Extended | <abbr title="Active">🟢</abbr> | [↗](https://phishing.army/download/phishing_army_blocklist_extended.txt) |
 | PhishTank | PhishTank Online Valid Phishing | <abbr title="Active">🟢</abbr> | [↗](https://data.phishtank.com/data/online-valid.csv) |
-| PhishTank | PhishTank Online Valid Phishing (JSON) | <abbr title="Active">🟢</abbr> | [↗](http://data.phishtank.com/data/online-valid.json) |
+| PhishTank | PhishTank Online Valid Phishing (JSON) | <abbr title="Offline">🔴</abbr> | [↗](http://data.phishtank.com/data/online-valid.json) |
 | SentinelPhishFeed | Phishing URLs feed (auto-updated multiple times daily) | <abbr title="Active">🟢</abbr> | [↗](https://raw.githubusercontent.com/rjn32s/SentinelPhishFeed/main/urls.txt) |
 | threatview.io | URL High Confidence Feed | <abbr title="Active">🟢</abbr> | [↗](https://threatview.io/Downloads/URL-High-Confidence-Feed.txt) |
 | urlabuse | URL Abuse Blacklist Feed | <abbr title="Active">🟢</abbr> | [↗](https://urlabuse.com/public/data/data.txt) |
@@ -666,7 +666,7 @@ Status legend: 🟢 Active – 🔴 Offline – 🔒 Restricted (requires API ke
 | --- | --- | :---: | --- |
 | AnyRun | Any.Run Interactive Sandbox | <abbr title="Active">🟢</abbr> | [↗](https://any.run/) |
 | JoeSecurity | JoeSandbox | <abbr title="Active">🟢</abbr> | [↗](https://www.joesandbox.com/analysispaged/0) |
-| Triage | Triage Malware Sandbox | <abbr title="Active">🟢</abbr> | [↗](https://tria.ge/s) |
+| Triage | Triage Malware Sandbox | <abbr title="Offline">🔴</abbr> | [↗](https://tria.ge/s) |
 <!-- FEEDS_TABLE_END -->
 
 ---

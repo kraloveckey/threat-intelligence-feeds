@@ -118,12 +118,12 @@ DataPlane;SMTP Data Source IPs;IP;https://dataplane.org/smtpdata.txt;Active
 DataPlane;SMTP Greet Source IPs;IP;https://dataplane.org/smtpgreet.txt;Active
 DataPlane;IP Protocol 41 Source IPs;IP;https://dataplane.org/proto41.txt;Active
 DataPlane;Telnet Login Source IPs;IP;https://dataplane.org/telnetlogin.txt;Active
-StopForumSpam;Forum Spammer IPs (last 1 day);IP;https://www.stopforumspam.com/downloads/listed_ip_1.txt;Offline
+StopForumSpam;Forum Spammer IPs (last 1 day);IP;https://www.stopforumspam.com/downloads/listed_ip_1.txt;Active
 StopForumSpam;Forum Spammer IPs – 30 days (zip);IP;http://www.stopforumspam.com/downloads/listed_ip_30.zip;Active
 Blocklist.net.ua;Ukrainian Blocklist (Ukraine CERT);IP;https://blocklist.net.ua/blocklist.csv;Active
 CleanTalk;CleanTalk Blacklist – Submitted Today;IP;https://cleantalk.org/blacklists/submited_today;Offline
-CleanTalk;CleanTalk Blacklist – Updated Today;IP;https://cleantalk.org/blacklists/updated_today;Offline
-CleanTalk;CleanTalk Blacklist – Top 20;IP;https://cleantalk.org/blacklists/top20;Active
+CleanTalk;CleanTalk Blacklist – Updated Today;IP;https://cleantalk.org/blacklists/updated_today;Active
+CleanTalk;CleanTalk Blacklist – Top 20;IP;https://cleantalk.org/blacklists/top20;Offline
 AbuseIPDB;AbuseIPDB Score 100 – Last 1 day;IP;https://raw.githubusercontent.com/borestad/blocklist-abuseipdb/main/abuseipdb-s100-1d.ipv4;Active
 AbuseIPDB;AbuseIPDB Score 100 – Last 30 days;IP;https://raw.githubusercontent.com/borestad/blocklist-abuseipdb/main/abuseipdb-s100-30d.ipv4;Active
 Maltrail;Maltrail Mass Scanner IPs;IP;https://raw.githubusercontent.com/stamparm/maltrail/master/trails/static/mass_scanner.txt;Active
@@ -154,7 +154,7 @@ APNIC Honeynet;Telnet Bruteforce IPs;IP;https://feeds.honeynet.asia/bruteforce/l
 Abuse.ch;ThreatFox IOCs – Recent (all types);URL;https://threatfox.abuse.ch/export/csv/recent/;Active
 threatview.io;Bitcoin Address Intel;IOC;https://threatview.io/Downloads/MALICIOUS-BITCOIN_FEED.txt;Active
 APNIC Honeynet;URL Seen in Honeypots;URL;https://feeds.honeynet.asia/url/latest-url-unique.csv;Active
-PhishTank;PhishTank Online Valid Phishing (JSON);URL;http://data.phishtank.com/data/online-valid.json;Active
+PhishTank;PhishTank Online Valid Phishing (JSON);URL;http://data.phishtank.com/data/online-valid.json;Offline
 urlabuse;URL Abuse DB – Latest 500 entries (CSV);URL;https://urlabuse.com/public/data/data_csv.txt;Active
 StopForumSpam;Toxic IPs CIDR;IP;http://www.stopforumspam.com/downloads/toxic_ip_cidr.txt;Offline
 Carbon Black;Cobalt Strike LuckyMouse / TA428;IP;https://raw.githubusercontent.com/carbonblack/active_c2_ioc_public/main/cobaltstrike/actor-specific/cobaltstrike_luckymouse_ta428.csv;Active
@@ -421,5 +421,5 @@ URLScan;URLScan Website Scanner;OSINT;https://urlscan.io/;Active
 Pulsedive;Pulsedive Threat Intelligence;OSINT;https://pulsedive.com/;Active
 CyberGordon;CyberGordon URL Reputation;OSINT;https://cybergordon.com/;Active
 AnyRun;Any.Run Interactive Sandbox;SANDBOX;https://any.run/;Active
-Triage;Triage Malware Sandbox;SANDBOX;https://tria.ge/s;Active
+Triage;Triage Malware Sandbox;SANDBOX;https://tria.ge/s;Offline
 JoeSecurity;JoeSandbox;SANDBOX;https://www.joesandbox.com/analysispaged/0;Active
