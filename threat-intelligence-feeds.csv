@@ -324,7 +324,7 @@ Zimperium;Zimperium mobile threat IOC repository;REPO;https://github.com/Zimperi
 blackorbird;APT Report IOC repository;REPO;https://github.com/blackorbird/APT_REPORT;Active
 unknownhad;CloudIntel – cloud-specific IOC repository;REPO;https://github.com/unknownhad/CloudIntel;Active
 SpamHaus;Extended DROP list – ASNs (eDROP);IP;https://www.spamhaus.org/drop/edrop.txt;Active
-jeroengui;Phishing URLs – last week community feed;URL;https://file.jeroengui.be/phishing/last_week.txt;Active
+jeroengui;Phishing URLs – last week community feed;URL;https://file.jeroengui.be/phishing/last_week.txt;Offline
 rosti.bin;Public threat intelligence reports feed;IOC;https://rosti.bin.re/feeds;Active
 Bert-JanP;Open Source Threat Intel Feeds;REPO;https://github.com/Bert-JanP/Open-Source-Threat-Intel-Feeds;Active
 mthcht;Unit42 IOC by mthcht;REPO;https://github.com/mthcht/iocs;Active
@@ -341,15 +341,15 @@ mthcht;Suspicious Windows Tasks;IOC;https://github.com/mthcht/awesome-lists/blob
 mthcht;Suspicious destination port;IOC;https://github.com/mthcht/awesome-lists/blob/main/Lists/suspicious_ports_list.csv;Active
 mthcht;Suspicious Firewall rules;IOC;https://github.com/mthcht/awesome-lists/blob/main/Lists/suspicious_windows_firewall_rules_list.csv;Active
 mthcht;Suspicious User-agent;IOC;https://github.com/mthcht/awesome-lists/blob/main/Lists/suspicious_http_user_agents_list.csv;Active
-mthcht;Suspicious USB Ids;IOC;https://github.com/mthcht/awesome-lists/blob/main/Lists/suspicious_usb_ids_list.csv;Active
-mthcht;Suspicious mutex names;IOC;https://github.com/mthcht/awesome-lists/blob/main/Lists/suspicious_mutex_names_list.csv;Active
+mthcht;Suspicious USB Ids;IOC;https://github.com/mthcht/awesome-lists/blob/main/Lists/suspicious_usb_ids_list.csv;Offline
+mthcht;Suspicious mutex names;IOC;https://github.com/mthcht/awesome-lists/blob/main/Lists/suspicious_mutex_names_list.csv;Offline
 mthcht;Suspicious MAC address;IOC;https://github.com/mthcht/awesome-lists/blob/main/Lists/suspicious_mac_address_list.csv;Active
 mthcht;Suspicious Hostname;IOC;https://github.com/mthcht/awesome-lists/blob/main/Lists/suspicious_hostnames_list.csv;Active
 mthcht;Microsoft App IDs List (BEC Detection);IOC;https://github.com/mthcht/awesome-lists/blob/main/Lists/microsoft_apps_list.csv;Active
-mthcht;Metadata Executables;IOC;https://github.com/mthcht/awesome-lists/blob/main/Lists/Windows%20Metadata/executables_metadata_informations_list.csv;Offline
+mthcht;Metadata Executables;IOC;https://github.com/mthcht/awesome-lists/blob/main/Lists/Windows%20Metadata/executables_metadata_informations_list.csv;Active
 mthcht;DNS over HTTPS server list;IOC;https://github.com/mthcht/awesome-lists/blob/main/Lists/dns_over_https_servers_list.csv;Active
 mthcht;Dynamic DNS domains list;IOC;https://github.com/mthcht/awesome-lists/blob/main/Lists/DYNDNS/dyndns_list.csv;Active
-mthcht;Sinkholed Domains;IOC;https://github.com/mthcht/awesome-lists/blob/main/Lists/Domains/sinkholed_servers/sinkholed_domains.csv;Active
+mthcht;Sinkholed Domains;IOC;https://github.com/mthcht/awesome-lists/blob/main/Lists/Domains/sinkholed_servers/sinkholed_domains.csv;Offline
 mthcht;Hijacklibs;IOC;https://github.com/mthcht/awesome-lists/blob/main/Lists/Hijacklibs/hijacklibs_list.csv;Active
 mthcht;LOLDriver List;IOC;https://github.com/mthcht/awesome-lists/blob/main/Lists/Drivers/loldrivers_only_hashes_list.csv;Active
 mthcht;Malicious Bootloader List;IOC;https://github.com/mthcht/awesome-lists/blob/main/Lists/Drivers/malicious_bootloaders_only_hashes_list.csv;Active
@@ -359,7 +359,7 @@ mthcht;Ransomware known file name ransom notes;IOC;https://github.com/mthcht/awe
 mthcht;Windows ASR rules;IOC;https://github.com/mthcht/awesome-lists/blob/main/Lists/windows_asr_rules.csv;Active
 mthcht;VPN NordVPN IPs;IP;https://github.com/mthcht/awesome-lists/blob/main/Lists/VPN/NordVPN/nordvpn_ips_list.csv;Active
 mthcht;VPN SurfShark IPs;IP;https://github.com/mthcht/awesome-lists/blob/main/Lists/VPN/SurfSharkVPN/surfshark_vpn_servers_domains_and_ips_list.csv;Active
-mthcht;VPN MullVad IPs;IP;https://github.com/mthcht/awesome-lists/blob/main/Lists/VPN/MullVad/mullvad_relay_servers_ips_list.csv;Active
+mthcht;VPN MullVad IPs;IP;https://github.com/mthcht/awesome-lists/blob/main/Lists/VPN/MullVad/mullvad_relay_servers_ips_list.csv;Offline
 mthcht;GeoIP services Lists;IOC;https://github.com/mthcht/awesome-lists/blob/main/Lists/GeoIP/ip_location_sites_list.csv;Active
 mthcht;VPN ProtonVPN IPs;IP;https://github.com/mthcht/awesome-lists/blob/main/Lists/VPN/ProtonVPN/protonvpn_ip_list.csv;Active
 mthcht;Suspicious TLDs;REPO;https://github.com/mthcht/awesome-lists/tree/main/Lists/TLDs;Active
