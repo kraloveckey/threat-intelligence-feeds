@@ -285,7 +285,7 @@ Status legend: 🟢 Active – 🔴 Offline – 🔒 Restricted (requires API ke
 | SecOps-Institute | Tor Exit Nodes List | <abbr title="Active">🟢</abbr> | [↗](https://raw.githubusercontent.com/SecOps-Institute/Tor-IP-Addresses/master/tor-exit-nodes.lst) |
 | SentinelPhishFeed | Malicious IP address feed | <abbr title="Active">🟢</abbr> | [↗](https://raw.githubusercontent.com/rjn32s/SentinelPhishFeed/main/ips.txt) |
 | snort.org | ip-block-list | <abbr title="Active">🟢</abbr> | [↗](https://snort.org/downloads/ip-block-list) |
-| socks-proxy.net | Open SOCKS proxies | <abbr title="Offline">🔴</abbr> | [↗](http://www.socks-proxy.net/) |
+| socks-proxy.net | Open SOCKS proxies | <abbr title="Active">🟢</abbr> | [↗](http://www.socks-proxy.net/) |
 | Spamhaus | Spamhaus DROP List (legacy txt) | <abbr title="Active">🟢</abbr> | [↗](http://www.spamhaus.org/drop/drop.txt) |
 | SpamHaus | Extended DROP list – ASNs (eDROP) | <abbr title="Active">🟢</abbr> | [↗](https://www.spamhaus.org/drop/edrop.txt) |
 | Spamhaus Project | Don't Route Or Peer (DROP) List | <abbr title="Active">🟢</abbr> | [↗](https://www.spamhaus.org/drop/drop_v4.json) |
@@ -296,7 +296,7 @@ Status legend: 🟢 Active – 🔴 Offline – 🔒 Restricted (requires API ke
 | spydisec | Low Confidence IP Blocklist – single source reports (use with caution) | <abbr title="Active">🟢</abbr> | [↗](https://spydisec.com/low_confidence.txt) |
 | spydisec | Full Research IP Blocklist (all tiers combined) | <abbr title="Active">🟢</abbr> | [↗](https://spydisec.com/fullIPblocklist.txt) |
 | spydisec | Permanent append-only IP Blocklist archive | <abbr title="Active">🟢</abbr> | [↗](https://spydisec.com/permanentfullIPblocklist.txt) |
-| SSLProxies.org | Open SSL proxies | <abbr title="Offline">🔴</abbr> | [↗](http://www.sslproxies.org/) |
+| SSLProxies.org | Open SSL proxies | <abbr title="Active">🟢</abbr> | [↗](http://www.sslproxies.org/) |
 | StopForumSpam | Forum Spammer IPs – 90 days (zip) | <abbr title="Active">🟢</abbr> | [↗](http://www.stopforumspam.com/downloads/listed_ip_90.zip) |
 | StopForumSpam | Forum Spammer IPs – 180 days (zip) | <abbr title="Active">🟢</abbr> | [↗](http://www.stopforumspam.com/downloads/listed_ip_180.zip) |
 | StopForumSpam | Forum Spammer IPs – 1 day (zip) | <abbr title="Active">🟢</abbr> | [↗](http://www.stopforumspam.com/downloads/listed_ip_1.zip) |
@@ -466,14 +466,14 @@ Status legend: 🟢 Active – 🔴 Offline – 🔒 Restricted (requires API ke
 | mthcht | Suspicious mutex names | <abbr title="Active">🟢</abbr> | [↗](https://github.com/mthcht/awesome-lists/blob/main/Lists/suspicious_mutex_names_list.csv) |
 | mthcht | Suspicious MAC address | <abbr title="Active">🟢</abbr> | [↗](https://github.com/mthcht/awesome-lists/blob/main/Lists/suspicious_mac_address_list.csv) |
 | mthcht | Suspicious Hostname | <abbr title="Active">🟢</abbr> | [↗](https://github.com/mthcht/awesome-lists/blob/main/Lists/suspicious_hostnames_list.csv) |
-| mthcht | Microsoft App IDs List (BEC Detection) | <abbr title="Offline">🔴</abbr> | [↗](https://github.com/mthcht/awesome-lists/blob/main/Lists/microsoft_apps_list.csv) |
-| mthcht | Metadata Executables | <abbr title="Offline">🔴</abbr> | [↗](https://github.com/mthcht/awesome-lists/blob/main/Lists/Windows%20Metadata/executables_metadata_informations_list.csv) |
+| mthcht | Microsoft App IDs List (BEC Detection) | <abbr title="Active">🟢</abbr> | [↗](https://github.com/mthcht/awesome-lists/blob/main/Lists/microsoft_apps_list.csv) |
+| mthcht | Metadata Executables | <abbr title="Active">🟢</abbr> | [↗](https://github.com/mthcht/awesome-lists/blob/main/Lists/Windows%20Metadata/executables_metadata_informations_list.csv) |
 | mthcht | DNS over HTTPS server list | <abbr title="Active">🟢</abbr> | [↗](https://github.com/mthcht/awesome-lists/blob/main/Lists/dns_over_https_servers_list.csv) |
 | mthcht | Dynamic DNS domains list | <abbr title="Active">🟢</abbr> | [↗](https://github.com/mthcht/awesome-lists/blob/main/Lists/DYNDNS/dyndns_list.csv) |
 | mthcht | Sinkholed Domains | <abbr title="Active">🟢</abbr> | [↗](https://github.com/mthcht/awesome-lists/blob/main/Lists/Domains/sinkholed_servers/sinkholed_domains.csv) |
 | mthcht | Hijacklibs | <abbr title="Active">🟢</abbr> | [↗](https://github.com/mthcht/awesome-lists/blob/main/Lists/Hijacklibs/hijacklibs_list.csv) |
 | mthcht | LOLDriver List | <abbr title="Active">🟢</abbr> | [↗](https://github.com/mthcht/awesome-lists/blob/main/Lists/Drivers/loldrivers_only_hashes_list.csv) |
-| mthcht | Malicious Bootloader List | <abbr title="Active">🟢</abbr> | [↗](https://github.com/mthcht/awesome-lists/blob/main/Lists/Drivers/malicious_bootloaders_only_hashes_list.csv) |
+| mthcht | Malicious Bootloader List | <abbr title="Offline">🔴</abbr> | [↗](https://github.com/mthcht/awesome-lists/blob/main/Lists/Drivers/malicious_bootloaders_only_hashes_list.csv) |
 | mthcht | Malicious SSL Certificates List | <abbr title="Active">🟢</abbr> | [↗](https://github.com/mthcht/awesome-lists/blob/main/Lists/SSL%20CERTS/ssl_certificates_malicious_list.csv) |
 | mthcht | Ransomware known file extensions | <abbr title="Active">🟢</abbr> | [↗](https://github.com/mthcht/awesome-lists/blob/main/Lists/ransomware_extensions_list.csv) |
 | mthcht | Ransomware known file name ransom notes | <abbr title="Active">🟢</abbr> | [↗](https://github.com/mthcht/awesome-lists/blob/main/Lists/ransomware_notes_list.csv) |
