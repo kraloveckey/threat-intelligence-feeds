@@ -260,7 +260,7 @@ James Brine;Daily malicious IPs from honeypots (SSH/FTP/RDP/GIT/SNMP/REDIS);IP;h
 SANS ICS / DShield;DShield suggested IP blocklist;IP;https://isc.sans.edu/block.txt;Active
 IPsum;IPsum combined threat feed – all blacklists merged with occurrence count;IP;https://raw.githubusercontent.com/stamparm/ipsum/master/ipsum.txt;Active
 WSTNPHX;Email addresses used by malware;IOC;https://raw.githubusercontent.com/WSTNPHX/scripts-n-tools/master/malware-email-addresses.txt;Active
-SecurityScorecard;Public IoCs from SecurityScorecard technical blog posts;REPO;https://github.com/securityscorecard/SSC-Threat-Intel-IoCs;Offline
+SecurityScorecard;Public IoCs from SecurityScorecard technical blog posts;REPO;https://github.com/securityscorecard/SSC-Threat-Intel-IoCs;Active
 phishdestroy;PhishDestroy blocklist – phishing and malicious domains;DNS;https://raw.githubusercontent.com/phishdestroy/destroylist/refs/heads/main/list.txt;Active
 SANS ICS;SANS ICS Intel Feed – community threat indicators;IP;https://isc.sans.edu/api/intelfeed;Active
 CriticalPathSecurity;CPS collected IOCs (Zeek intel format);IP;https://raw.githubusercontent.com/CriticalPathSecurity/Zeek-Intelligence-Feeds/master/cps-collected-iocs.intel;Active
@@ -287,7 +287,7 @@ NETSHIELD;Combined Threat Blacklist – 180-day window for SIEM/audit;IP;https:/
 NETSHIELD;Watchlist – Score 25-39 monitoring only;IP;https://raw.githubusercontent.com/juergen2025sys/NETSHIELD/main/watchlist_confidence25to39_ipv4.txt;Active
 NETSHIELD;CVE exploit and active C2 server IPs (daily);IP;https://raw.githubusercontent.com/juergen2025sys/NETSHIELD/main/cve_exploit_ips.txt;Active
 NETSHIELD;Honeypot-confirmed attacker IPs (daily);IP;https://raw.githubusercontent.com/juergen2025sys/NETSHIELD/main/honeypot_ips.txt;Active
-NETSHIELD;HoneyDB community honeypot IPs (API);IP;https://raw.githubusercontent.com/juergen2025sys/NETSHIELD/main/honeydb_ips.txt;Active
+NETSHIELD;HoneyDB community honeypot IPs (API);IP;https://raw.githubusercontent.com/juergen2025sys/NETSHIELD/main/honeydb_ips.txt;Offline
 NETSHIELD;Bot and scanner IPs (daily);IP;https://raw.githubusercontent.com/juergen2025sys/NETSHIELD/main/bot_detector_blacklist_ipv4.txt;Active
 NETSHIELD;AbuseIPDB top reported IPs Score ≥50 (API);IP;https://raw.githubusercontent.com/juergen2025sys/NETSHIELD/main/abuseipdb_api_blacklist.txt;Active
 NETSHIELD;High-risk ASN blocklist Score ≥50;IP;https://raw.githubusercontent.com/juergen2025sys/NETSHIELD/main/asn_blocklist_firewall.txt;Active
@@ -346,11 +346,11 @@ mthcht;Suspicious mutex names;IOC;https://github.com/mthcht/awesome-lists/blob/m
 mthcht;Suspicious MAC address;IOC;https://github.com/mthcht/awesome-lists/blob/main/Lists/suspicious_mac_address_list.csv;Active
 mthcht;Suspicious Hostname;IOC;https://github.com/mthcht/awesome-lists/blob/main/Lists/suspicious_hostnames_list.csv;Active
 mthcht;Microsoft App IDs List (BEC Detection);IOC;https://github.com/mthcht/awesome-lists/blob/main/Lists/microsoft_apps_list.csv;Active
-mthcht;Metadata Executables;IOC;https://github.com/mthcht/awesome-lists/blob/main/Lists/Windows%20Metadata/executables_metadata_informations_list.csv;Offline
+mthcht;Metadata Executables;IOC;https://github.com/mthcht/awesome-lists/blob/main/Lists/Windows%20Metadata/executables_metadata_informations_list.csv;Active
 mthcht;DNS over HTTPS server list;IOC;https://github.com/mthcht/awesome-lists/blob/main/Lists/dns_over_https_servers_list.csv;Active
 mthcht;Dynamic DNS domains list;IOC;https://github.com/mthcht/awesome-lists/blob/main/Lists/DYNDNS/dyndns_list.csv;Active
 mthcht;Sinkholed Domains;IOC;https://github.com/mthcht/awesome-lists/blob/main/Lists/Domains/sinkholed_servers/sinkholed_domains.csv;Active
-mthcht;Hijacklibs;IOC;https://github.com/mthcht/awesome-lists/blob/main/Lists/Hijacklibs/hijacklibs_list.csv;Offline
+mthcht;Hijacklibs;IOC;https://github.com/mthcht/awesome-lists/blob/main/Lists/Hijacklibs/hijacklibs_list.csv;Active
 mthcht;LOLDriver List;IOC;https://github.com/mthcht/awesome-lists/blob/main/Lists/Drivers/loldrivers_only_hashes_list.csv;Active
 mthcht;Malicious Bootloader List;IOC;https://github.com/mthcht/awesome-lists/blob/main/Lists/Drivers/malicious_bootloaders_only_hashes_list.csv;Active
 mthcht;Malicious SSL Certificates List;IOC;https://github.com/mthcht/awesome-lists/blob/main/Lists/SSL%20CERTS/ssl_certificates_malicious_list.csv;Active
@@ -359,7 +359,7 @@ mthcht;Ransomware known file name ransom notes;IOC;https://github.com/mthcht/awe
 mthcht;Windows ASR rules;IOC;https://github.com/mthcht/awesome-lists/blob/main/Lists/windows_asr_rules.csv;Active
 mthcht;VPN NordVPN IPs;IP;https://github.com/mthcht/awesome-lists/blob/main/Lists/VPN/NordVPN/nordvpn_ips_list.csv;Active
 mthcht;VPN SurfShark IPs;IP;https://github.com/mthcht/awesome-lists/blob/main/Lists/VPN/SurfSharkVPN/surfshark_vpn_servers_domains_and_ips_list.csv;Active
-mthcht;VPN MullVad IPs;IP;https://github.com/mthcht/awesome-lists/blob/main/Lists/VPN/MullVad/mullvad_relay_servers_ips_list.csv;Active
+mthcht;VPN MullVad IPs;IP;https://github.com/mthcht/awesome-lists/blob/main/Lists/VPN/MullVad/mullvad_relay_servers_ips_list.csv;Offline
 mthcht;GeoIP services Lists;IOC;https://github.com/mthcht/awesome-lists/blob/main/Lists/GeoIP/ip_location_sites_list.csv;Active
 mthcht;VPN ProtonVPN IPs;IP;https://github.com/mthcht/awesome-lists/blob/main/Lists/VPN/ProtonVPN/protonvpn_ip_list.csv;Active
 mthcht;Suspicious TLDs;REPO;https://github.com/mthcht/awesome-lists/tree/main/Lists/TLDs;Active
