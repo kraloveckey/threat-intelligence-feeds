@@ -430,7 +430,7 @@ Status legend: 🟢 Active – 🔴 Offline – 🔒 Restricted (requires API ke
 | --- | --- | :---: | --- |
 | CISA | Known Exploited Vulnerabilities Catalog (CSV) | <abbr title="Active">🟢</abbr> | [↗](https://www.cisa.gov/sites/default/files/csv/known_exploited_vulnerabilities.csv) |
 | CISA | Known Exploited Vulnerabilities Catalog (JSON) | <abbr title="Active">🟢</abbr> | [↗](https://www.cisa.gov/sites/default/files/feeds/known_exploited_vulnerabilities.json) |
-| eCrimeLabs | Vulnerabilities with Metasploit exploit available | <abbr title="Active">🟢</abbr> | [↗](https://feeds.ecrimelabs.net/data/metasploit-cve) |
+| eCrimeLabs | Vulnerabilities with Metasploit exploit available | <abbr title="Offline">🔴</abbr> | [↗](https://feeds.ecrimelabs.net/data/metasploit-cve) |
 | NIST | National Vulnerability Database CVEs | <abbr title="Active">🟢</abbr> | [↗](https://services.nvd.nist.gov/rest/json/cves/2.0) |
 
 ### RANSOMWARELEAK (1)
@@ -446,7 +446,7 @@ Status legend: 🟢 Active – 🔴 Offline – 🔒 Restricted (requires API ke
 | abuse.ch | MalwareBazaar MISP feed (hashes + metadata) | <abbr title="Active">🟢</abbr> | [↗](https://bazaar.abuse.ch/downloads/misp/) |
 | abuse.ch | ThreatFox MISP feed (IOCs) | <abbr title="Active">🟢</abbr> | [↗](https://threatfox.abuse.ch/downloads/misp/) |
 | Botvrij.eu | Botvrij.eu OSINT MISP feed | <abbr title="Active">🟢</abbr> | [↗](https://www.botvrij.eu/data/feed-osint) |
-| MISP CIRCL | MISP CIRCL OSINT Feed – Hashes | <abbr title="Offline">🔴</abbr> | [↗](https://www.circl.lu/doc/misp/feed-osint/) |
+| MISP CIRCL | MISP CIRCL OSINT Feed – Hashes | <abbr title="Active">🟢</abbr> | [↗](https://www.circl.lu/doc/misp/feed-osint/) |
 | MISP Feed CERT-FR | MISP Feed CERT-FR Hashes | <abbr title="Active">🟢</abbr> | [↗](https://misp.cert.ssi.gouv.fr/feed-misp/hashes.csv) |
 
 ### IOC (34)
@@ -464,20 +464,20 @@ Status legend: 🟢 Active – 🔴 Offline – 🔒 Restricted (requires API ke
 | mthcht | Suspicious User-agent | <abbr title="Active">🟢</abbr> | [↗](https://github.com/mthcht/awesome-lists/blob/main/Lists/suspicious_http_user_agents_list.csv) |
 | mthcht | Suspicious USB Ids | <abbr title="Active">🟢</abbr> | [↗](https://github.com/mthcht/awesome-lists/blob/main/Lists/suspicious_usb_ids_list.csv) |
 | mthcht | Suspicious mutex names | <abbr title="Active">🟢</abbr> | [↗](https://github.com/mthcht/awesome-lists/blob/main/Lists/suspicious_mutex_names_list.csv) |
-| mthcht | Suspicious MAC address | <abbr title="Offline">🔴</abbr> | [↗](https://github.com/mthcht/awesome-lists/blob/main/Lists/suspicious_mac_address_list.csv) |
+| mthcht | Suspicious MAC address | <abbr title="Active">🟢</abbr> | [↗](https://github.com/mthcht/awesome-lists/blob/main/Lists/suspicious_mac_address_list.csv) |
 | mthcht | Suspicious Hostname | <abbr title="Active">🟢</abbr> | [↗](https://github.com/mthcht/awesome-lists/blob/main/Lists/suspicious_hostnames_list.csv) |
 | mthcht | Microsoft App IDs List (BEC Detection) | <abbr title="Active">🟢</abbr> | [↗](https://github.com/mthcht/awesome-lists/blob/main/Lists/microsoft_apps_list.csv) |
 | mthcht | Metadata Executables | <abbr title="Active">🟢</abbr> | [↗](https://github.com/mthcht/awesome-lists/blob/main/Lists/Windows%20Metadata/executables_metadata_informations_list.csv) |
 | mthcht | DNS over HTTPS server list | <abbr title="Active">🟢</abbr> | [↗](https://github.com/mthcht/awesome-lists/blob/main/Lists/dns_over_https_servers_list.csv) |
 | mthcht | Dynamic DNS domains list | <abbr title="Active">🟢</abbr> | [↗](https://github.com/mthcht/awesome-lists/blob/main/Lists/DYNDNS/dyndns_list.csv) |
 | mthcht | Sinkholed Domains | <abbr title="Active">🟢</abbr> | [↗](https://github.com/mthcht/awesome-lists/blob/main/Lists/Domains/sinkholed_servers/sinkholed_domains.csv) |
-| mthcht | Hijacklibs | <abbr title="Offline">🔴</abbr> | [↗](https://github.com/mthcht/awesome-lists/blob/main/Lists/Hijacklibs/hijacklibs_list.csv) |
+| mthcht | Hijacklibs | <abbr title="Active">🟢</abbr> | [↗](https://github.com/mthcht/awesome-lists/blob/main/Lists/Hijacklibs/hijacklibs_list.csv) |
 | mthcht | LOLDriver List | <abbr title="Active">🟢</abbr> | [↗](https://github.com/mthcht/awesome-lists/blob/main/Lists/Drivers/loldrivers_only_hashes_list.csv) |
-| mthcht | Malicious Bootloader List | <abbr title="Offline">🔴</abbr> | [↗](https://github.com/mthcht/awesome-lists/blob/main/Lists/Drivers/malicious_bootloaders_only_hashes_list.csv) |
+| mthcht | Malicious Bootloader List | <abbr title="Active">🟢</abbr> | [↗](https://github.com/mthcht/awesome-lists/blob/main/Lists/Drivers/malicious_bootloaders_only_hashes_list.csv) |
 | mthcht | Malicious SSL Certificates List | <abbr title="Active">🟢</abbr> | [↗](https://github.com/mthcht/awesome-lists/blob/main/Lists/SSL%20CERTS/ssl_certificates_malicious_list.csv) |
 | mthcht | Ransomware known file extensions | <abbr title="Active">🟢</abbr> | [↗](https://github.com/mthcht/awesome-lists/blob/main/Lists/ransomware_extensions_list.csv) |
 | mthcht | Ransomware known file name ransom notes | <abbr title="Active">🟢</abbr> | [↗](https://github.com/mthcht/awesome-lists/blob/main/Lists/ransomware_notes_list.csv) |
-| mthcht | Windows ASR rules | <abbr title="Active">🟢</abbr> | [↗](https://github.com/mthcht/awesome-lists/blob/main/Lists/windows_asr_rules.csv) |
+| mthcht | Windows ASR rules | <abbr title="Offline">🔴</abbr> | [↗](https://github.com/mthcht/awesome-lists/blob/main/Lists/windows_asr_rules.csv) |
 | mthcht | GeoIP services Lists | <abbr title="Active">🟢</abbr> | [↗](https://github.com/mthcht/awesome-lists/blob/main/Lists/GeoIP/ip_location_sites_list.csv) |
 | rosti.bin | Public threat intelligence reports feed | <abbr title="Active">🟢</abbr> | [↗](https://rosti.bin.re/feeds) |
 | SentinelPhishFeed | File hash IOCs (MD5/SHA) | <abbr title="Active">🟢</abbr> | [↗](https://raw.githubusercontent.com/rjn32s/SentinelPhishFeed/main/hashes.txt) |
@@ -626,8 +626,8 @@ Status legend: 🟢 Active – 🔴 Offline – 🔒 Restricted (requires API ke
 
 | Vendor | Description | Status | URL |
 | --- | --- | :---: | --- |
-| CERT-UA | CERT UA RSS Feed | <abbr title="Active">🟢</abbr> | [↗](https://cert.gov.ua/api/articles/rss) |
-| Checkpoint | Checkpoint Research Feed | <abbr title="Active">🟢</abbr> | [↗](https://research.checkpoint.com/feed) |
+| CERT-UA | CERT UA RSS Feed | <abbr title="Offline">🔴</abbr> | [↗](https://cert.gov.ua/api/articles/rss) |
+| Checkpoint | Checkpoint Research Feed | <abbr title="Offline">🔴</abbr> | [↗](https://research.checkpoint.com/feed) |
 | CISA | CISA Cybersecurity Advisories | <abbr title="Active">🟢</abbr> | [↗](https://www.cisa.gov/cybersecurity-advisories/all.xml) |
 | Cisco | Talos Intelligence Feed | <abbr title="Active">🟢</abbr> | [↗](https://feeds.feedburner.com/feedburner/Talos) |
 | Google | Google Threat Intelligence Feed | <abbr title="Active">🟢</abbr> | [↗](https://feeds.feedburner.com/threatintelligence/pvexyqv7v0v) |
