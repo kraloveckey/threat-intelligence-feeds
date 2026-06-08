@@ -59,7 +59,7 @@ Phishing Army;Phishing Army Blocklist Extended;URL;https://phishing.army/downloa
 Binarydefense;Binary Defense Artillery Threat Intelligence Banlist;IP;https://www.binarydefense.com/banlist.txt;Active
 CISA;Known Exploited Vulnerabilities Catalog (CSV);CVEID;https://www.cisa.gov/sites/default/files/csv/known_exploited_vulnerabilities.csv;Active
 CISA;Known Exploited Vulnerabilities Catalog (JSON);CVEID;https://www.cisa.gov/sites/default/files/feeds/known_exploited_vulnerabilities.json;Active
-eCrimeLabs;Vulnerabilities with Metasploit exploit available;CVEID;https://feeds.ecrimelabs.net/data/metasploit-cve;Offline
+eCrimeLabs;Vulnerabilities with Metasploit exploit available;CVEID;https://feeds.ecrimelabs.net/data/metasploit-cve;Active
 MISP Feed CERT-FR;MISP Feed CERT-FR Hashes;MISP;https://misp.cert.ssi.gouv.fr/feed-misp/hashes.csv;Active
 OpenPhish;Phishing URLs;URL;https://openphish.com/feed.txt;Active
 Cert.PL;Malicious Domains;DNS;https://hole.cert.pl/domains/domains.csv;Active
@@ -67,7 +67,7 @@ NIST;National Vulnerability Database CVEs;CVEID;https://services.nvd.nist.gov/re
 Github;Fox-IT Cobalt Strike Servers;IP;https://raw.githubusercontent.com/fox-it/cobaltstrike-extraneous-space/master/cobaltstrike-servers.csv;Active
 Github;APT Notes CSV;URL;https://raw.githubusercontent.com/aptnotes/data/master/APTnotes.csv;Active
 Firehol;Firehol Level 1 Blocklist (netset);IP;https://raw.githubusercontent.com/ktsaou/blocklist-ipsets/master/firehol_level1.netset;Active
-ThreatMon;ThreatMon Daily C2 Feeds;REPO;https://github.com/ThreatMon/ThreatMon-Daily-C2-Feeds;Active
+ThreatMon;ThreatMon Daily C2 Feeds;REPO;https://github.com/ThreatMon/ThreatMon-Daily-C2-Feeds;Offline
 Ellio;Firewall Threat List (Community);IP;https://cdn.ellio.tech/community-feed;Active
 threatview.io;OSINT IOCs from Twitter and Pastebin;IP;https://threatview.io/Downloads/Experimental-IOC-Tweets.txt;Active
 threatview.io;High Confidence Cobalt Strike C2 Feed;IP;https://threatview.io/Downloads/High-Confidence-CobaltStrike-C2%20-Feeds.txt;Active
@@ -166,10 +166,10 @@ snort.org;ip-block-list;IP;https://snort.org/downloads/ip-block-list;Active
 abuse.ch;MalwareBazaar MISP feed (hashes + metadata);MISP;https://bazaar.abuse.ch/downloads/misp/;Active
 Botvrij.eu;Botvrij.eu OSINT MISP feed;MISP;https://www.botvrij.eu/data/feed-osint;Active
 abuse.ch;ThreatFox MISP feed (IOCs);MISP;https://threatfox.abuse.ch/downloads/misp/;Active
-kraloveckey;FireWALL-E: ipsets-blocklist;REPO;https://github.com/kraloveckey/ipsets-blocklist;Active
-executemalware;Community Malware IOCs (GitHub repo);REPO;https://github.com/executemalware/Malware-IOCs;Active
+kraloveckey;FireWALL-E: ipsets-blocklist;REPO;https://github.com/kraloveckey/ipsets-blocklist;Offline
+executemalware;Community Malware IOCs (GitHub repo);REPO;https://github.com/executemalware/Malware-IOCs;Offline
 ESET;ESET Malware IOC Repository;REPO;https://github.com/eset/malware-ioc;Active
-Palo Alto Unit42;Unit42 IOC Repository;REPO;https://github.com/pan-unit42/iocs;Active
+Palo Alto Unit42;Unit42 IOC Repository;REPO;https://github.com/pan-unit42/iocs;Offline
 dan.me.uk;Dynamic list of TOR nodes (full);IP;https://www.dan.me.uk/torlist/;Active
 Emerging Threats;ET compromised hosts (includes openbl/bruteforceblocker/sidreporter);IP;http://rules.emergingthreats.net/blockrules/compromised-ips.txt;Active
 Emerging Threats;ET Spamhaus DROP blocklist (PIX/ACL format);IP;http://rules.emergingthreats.net/fwrules/emerging-PIX-DROP.rules;Active
@@ -301,110 +301,110 @@ ExtSentry;Suspicious browser extension IDs only;URL;https://raw.githubuserconten
 ExtSentry;Browser extension CRX SHA-256 file hashes;SHA256;https://raw.githubusercontent.com/ExtSentry/ExtSentry.github.io/main/feeds/ioc_crx_sha256_hashes.txt;Active
 ExtSentry;Browser extensions enriched IOC feed (CSV);URL;https://raw.githubusercontent.com/ExtSentry/ExtSentry.github.io/main/feeds/extsentry_ioc_feed.csv;Active
 FireHOL;FireHOL blocklist-ipsets — curated IP blocklist collections (multiple sets);REPO;https://github.com/firehol/blocklist-ipsets;Active
-mthcht;SOC/DFIR detection lists – VPN IPs, Named Pipes, Suspicious Services, Extensions and more;REPO;https://github.com/mthcht/awesome-lists;Active
+mthcht;SOC/DFIR detection lists – VPN IPs, Named Pipes, Suspicious Services, Extensions and more;REPO;https://github.com/mthcht/awesome-lists;Offline
 hagezi;DNS Pro Blocklist – comprehensive DNS blocklist (ads, tracking, malware, phishing);DNS;https://raw.githubusercontent.com/hagezi/dns-blocklists/main/domains/pro.txt;Active
 hagezi;DNS Pro++ Blocklist – more aggressive version of Pro list;DNS;https://raw.githubusercontent.com/hagezi/dns-blocklists/main/domains/pro.plus.txt;Active
-blocklistproject;Block Lists – comprehensive domain blocklists (ads, malware, phishing, ransomware, scam);REPO;https://github.com/blocklistproject/Lists;Active
+blocklistproject;Block Lists – comprehensive domain blocklists (ads, malware, phishing, ransomware, scam);REPO;https://github.com/blocklistproject/Lists;Offline
 jarelllama;Scam Blocklist – phishing and scam domains (wildcard format);DNS;https://raw.githubusercontent.com/jarelllama/Scam-Blocklist/main/lists/wildcard_domains/scams.txt;Active
 Volexity;Volexity Threat Intelligence IOC repository;REPO;https://github.com/volexity/threat-intel;Active
 Sekoia;Sekoia Community IOC repository;REPO;https://github.com/SEKOIA-IO/Community;Active
-Palo Alto Unit42;Unit42 Timely Threat Intelligence IOC repository;REPO;https://github.com/PaloAltoNetworks/Unit42-timely-threat-intel;Active
-Palo Alto Unit42;Unit42 Threat Intelligence Article IOC repository;REPO;https://github.com/PaloAltoNetworks/Unit42-Threat-Intelligence-Article-Information;Active
+Palo Alto Unit42;Unit42 Timely Threat Intelligence IOC repository;REPO;https://github.com/PaloAltoNetworks/Unit42-timely-threat-intel;Offline
+Palo Alto Unit42;Unit42 Threat Intelligence Article IOC repository;REPO;https://github.com/PaloAltoNetworks/Unit42-Threat-Intelligence-Article-Information;Offline
 Zscaler ThreatLabz;Zscaler ThreatLabz IOC repository;REPO;https://github.com/threatlabz/iocs;Active
 Sophos;Sophos Labs IOC repository;REPO;https://github.com/sophoslabs/IoCs;Active
 Cisco Talos;Cisco Talos IOC repository;REPO;https://github.com/Cisco-Talos/IOCs;Active
 Elastic Security Labs;Elastic Security Labs threat indicators repository;REPO;https://github.com/elastic/labs-releases;Active
 Avast;Avast IOC repository;REPO;https://github.com/avast/ioc;Active
 HarfangLab;HarfangLab IOC repository;REPO;https://github.com/HarfangLab/iocs;Active
-DoctorWeb;Dr.Web malware IOC repository;REPO;https://github.com/DoctorWebLtd/malware-iocs;Active
-Black Lotus Labs;Black Lotus Labs IOC repository;REPO;https://github.com/blacklotuslabs/IOCs;Active
+DoctorWeb;Dr.Web malware IOC repository;REPO;https://github.com/DoctorWebLtd/malware-iocs;Offline
+Black Lotus Labs;Black Lotus Labs IOC repository;REPO;https://github.com/blacklotuslabs/IOCs;Offline
 prodaft;prodaft malware IOC repository;REPO;https://github.com/prodaft/malware-ioc;Active
-pr0xylife;pr0xylife malware IOC collections (DarkGate, QakBot, Emotet, IcedID and more);REPO;https://github.com/pr0xylife;Active
+pr0xylife;pr0xylife malware IOC collections (DarkGate, QakBot, Emotet, IcedID and more);REPO;https://github.com/pr0xylife;Offline
 Zimperium;Zimperium mobile threat IOC repository;REPO;https://github.com/Zimperium/IOC;Active
-blackorbird;APT Report IOC repository;REPO;https://github.com/blackorbird/APT_REPORT;Active
+blackorbird;APT Report IOC repository;REPO;https://github.com/blackorbird/APT_REPORT;Offline
 unknownhad;CloudIntel – cloud-specific IOC repository;REPO;https://github.com/unknownhad/CloudIntel;Active
 SpamHaus;Extended DROP list – ASNs (eDROP);IP;https://www.spamhaus.org/drop/edrop.txt;Active
 jeroengui;Phishing URLs – last week community feed;URL;https://file.jeroengui.be/phishing/last_week.txt;Active
 rosti.bin;Public threat intelligence reports feed;IOC;https://rosti.bin.re/feeds;Active
 Bert-JanP;Open Source Threat Intel Feeds;REPO;https://github.com/Bert-JanP/Open-Source-Threat-Intel-Feeds;Active
-mthcht;Unit42 IOC by mthcht;REPO;https://github.com/mthcht/iocs;Active
+mthcht;Unit42 IOC by mthcht;REPO;https://github.com/mthcht/iocs;Offline
 ThreatLabz;Zscaler ThreatLabz Ransomware notes;REPO;https://github.com/ThreatLabz/ransomware_notes;Active
 UrlHaus;UrlHaus_misp ASN feeds;URL;https://urlhaus.abuse.ch/feeds/;Active
 vx-underground;Samples and Intelligence Reports;REPO;https://vx-underground.org/Samples;Active
-mthcht;Threat Hunting yara rules;REPO;https://github.com/mthcht/ThreatHunting-Keywords-yara-rules;Active
+mthcht;Threat Hunting yara rules;REPO;https://github.com/mthcht/ThreatHunting-Keywords-yara-rules;Offline
 mthcht;Offensive Tools detection patterns;IOC;https://raw.githubusercontent.com/mthcht/ThreatHunting-Keywords/main/offensive_tool_keyword.csv;Active
 mthcht;Greyware Tools detection patterns;IOC;https://raw.githubusercontent.com/mthcht/ThreatHunting-Keywords/main/greyware_tool_keyword.csv;Active
 mthcht;AV signatures keywords;IOC;https://github.com/mthcht/ThreatHunting-Keywords/blob/main/signature_keyword.csv;Active
-mthcht;Suspicious Named pipes;IOC;https://github.com/mthcht/awesome-lists/blob/main/Lists/suspicious_named_pipe_list.csv;Active
+mthcht;Suspicious Named pipes;IOC;https://github.com/mthcht/awesome-lists/blob/main/Lists/suspicious_named_pipe_list.csv;Offline
 mthcht;Suspicious Windows Services;IOC;https://github.com/mthcht/awesome-lists/blob/main/Lists/suspicious_windows_services_names_list.csv;Active
 mthcht;Suspicious Windows Tasks;IOC;https://github.com/mthcht/awesome-lists/blob/main/Lists/suspicious_windows_tasks_list.csv;Active
-mthcht;Suspicious destination port;IOC;https://github.com/mthcht/awesome-lists/blob/main/Lists/suspicious_ports_list.csv;Active
+mthcht;Suspicious destination port;IOC;https://github.com/mthcht/awesome-lists/blob/main/Lists/suspicious_ports_list.csv;Offline
 mthcht;Suspicious Firewall rules;IOC;https://github.com/mthcht/awesome-lists/blob/main/Lists/suspicious_windows_firewall_rules_list.csv;Active
-mthcht;Suspicious User-agent;IOC;https://github.com/mthcht/awesome-lists/blob/main/Lists/suspicious_http_user_agents_list.csv;Active
+mthcht;Suspicious User-agent;IOC;https://github.com/mthcht/awesome-lists/blob/main/Lists/suspicious_http_user_agents_list.csv;Offline
 mthcht;Suspicious USB Ids;IOC;https://github.com/mthcht/awesome-lists/blob/main/Lists/suspicious_usb_ids_list.csv;Active
 mthcht;Suspicious mutex names;IOC;https://github.com/mthcht/awesome-lists/blob/main/Lists/suspicious_mutex_names_list.csv;Active
 mthcht;Suspicious MAC address;IOC;https://github.com/mthcht/awesome-lists/blob/main/Lists/suspicious_mac_address_list.csv;Active
-mthcht;Suspicious Hostname;IOC;https://github.com/mthcht/awesome-lists/blob/main/Lists/suspicious_hostnames_list.csv;Active
+mthcht;Suspicious Hostname;IOC;https://github.com/mthcht/awesome-lists/blob/main/Lists/suspicious_hostnames_list.csv;Offline
 mthcht;Microsoft App IDs List (BEC Detection);IOC;https://github.com/mthcht/awesome-lists/blob/main/Lists/microsoft_apps_list.csv;Active
-mthcht;Metadata Executables;IOC;https://github.com/mthcht/awesome-lists/blob/main/Lists/Windows%20Metadata/executables_metadata_informations_list.csv;Active
+mthcht;Metadata Executables;IOC;https://github.com/mthcht/awesome-lists/blob/main/Lists/Windows%20Metadata/executables_metadata_informations_list.csv;Offline
 mthcht;DNS over HTTPS server list;IOC;https://github.com/mthcht/awesome-lists/blob/main/Lists/dns_over_https_servers_list.csv;Active
-mthcht;Dynamic DNS domains list;IOC;https://github.com/mthcht/awesome-lists/blob/main/Lists/DYNDNS/dyndns_list.csv;Active
-mthcht;Sinkholed Domains;IOC;https://github.com/mthcht/awesome-lists/blob/main/Lists/Domains/sinkholed_servers/sinkholed_domains.csv;Active
-mthcht;Hijacklibs;IOC;https://github.com/mthcht/awesome-lists/blob/main/Lists/Hijacklibs/hijacklibs_list.csv;Active
-mthcht;LOLDriver List;IOC;https://github.com/mthcht/awesome-lists/blob/main/Lists/Drivers/loldrivers_only_hashes_list.csv;Active
+mthcht;Dynamic DNS domains list;IOC;https://github.com/mthcht/awesome-lists/blob/main/Lists/DYNDNS/dyndns_list.csv;Offline
+mthcht;Sinkholed Domains;IOC;https://github.com/mthcht/awesome-lists/blob/main/Lists/Domains/sinkholed_servers/sinkholed_domains.csv;Offline
+mthcht;Hijacklibs;IOC;https://github.com/mthcht/awesome-lists/blob/main/Lists/Hijacklibs/hijacklibs_list.csv;Offline
+mthcht;LOLDriver List;IOC;https://github.com/mthcht/awesome-lists/blob/main/Lists/Drivers/loldrivers_only_hashes_list.csv;Offline
 mthcht;Malicious Bootloader List;IOC;https://github.com/mthcht/awesome-lists/blob/main/Lists/Drivers/malicious_bootloaders_only_hashes_list.csv;Active
-mthcht;Malicious SSL Certificates List;IOC;https://github.com/mthcht/awesome-lists/blob/main/Lists/SSL%20CERTS/ssl_certificates_malicious_list.csv;Active
+mthcht;Malicious SSL Certificates List;IOC;https://github.com/mthcht/awesome-lists/blob/main/Lists/SSL%20CERTS/ssl_certificates_malicious_list.csv;Offline
 mthcht;Ransomware known file extensions;IOC;https://github.com/mthcht/awesome-lists/blob/main/Lists/ransomware_extensions_list.csv;Active
 mthcht;Ransomware known file name ransom notes;IOC;https://github.com/mthcht/awesome-lists/blob/main/Lists/ransomware_notes_list.csv;Active
-mthcht;Windows ASR rules;IOC;https://github.com/mthcht/awesome-lists/blob/main/Lists/windows_asr_rules.csv;Offline
+mthcht;Windows ASR rules;IOC;https://github.com/mthcht/awesome-lists/blob/main/Lists/windows_asr_rules.csv;Active
 mthcht;VPN NordVPN IPs;IP;https://github.com/mthcht/awesome-lists/blob/main/Lists/VPN/NordVPN/nordvpn_ips_list.csv;Active
 mthcht;VPN SurfShark IPs;IP;https://github.com/mthcht/awesome-lists/blob/main/Lists/VPN/SurfSharkVPN/surfshark_vpn_servers_domains_and_ips_list.csv;Active
 mthcht;VPN MullVad IPs;IP;https://github.com/mthcht/awesome-lists/blob/main/Lists/VPN/MullVad/mullvad_relay_servers_ips_list.csv;Active
-mthcht;GeoIP services Lists;IOC;https://github.com/mthcht/awesome-lists/blob/main/Lists/GeoIP/ip_location_sites_list.csv;Active
+mthcht;GeoIP services Lists;IOC;https://github.com/mthcht/awesome-lists/blob/main/Lists/GeoIP/ip_location_sites_list.csv;Offline
 mthcht;VPN ProtonVPN IPs;IP;https://github.com/mthcht/awesome-lists/blob/main/Lists/VPN/ProtonVPN/protonvpn_ip_list.csv;Active
-mthcht;Suspicious TLDs;REPO;https://github.com/mthcht/awesome-lists/tree/main/Lists/TLDs;Active
+mthcht;Suspicious TLDs;REPO;https://github.com/mthcht/awesome-lists/tree/main/Lists/TLDs;Offline
 mthcht;Suspicious ASNs;REPO;https://github.com/mthcht/awesome-lists/tree/main/Lists/ASNs;Active
-mthcht;Maxmind GeoIP Database Extracted;REPO;https://github.com/mthcht/awesome-lists/tree/main/Lists/ASNs/correlation_maxmind_geo_db/maxmind_databases/extracted;Active
+mthcht;Maxmind GeoIP Database Extracted;REPO;https://github.com/mthcht/awesome-lists/tree/main/Lists/ASNs/correlation_maxmind_geo_db/maxmind_databases/extracted;Offline
 mthcht;Suspicious CERTs signer;REPO;https://github.com/mthcht/awesome-lists/tree/main/Lists/CERTS;Active
-mthcht;Suspicious Browser Extensions;REPO;https://github.com/mthcht/awesome-lists/tree/main/Lists/Browser%20Extensions;Active
+mthcht;Suspicious Browser Extensions;REPO;https://github.com/mthcht/awesome-lists/tree/main/Lists/Browser%20Extensions;Offline
 mthcht;Phishing domains and urls;REPO;https://github.com/mthcht/awesome-lists/tree/main/Lists/Phishing;Active
-mthcht;Sinkholed servers Domains folder;REPO;https://github.com/mthcht/awesome-lists/tree/main/Lists/Domains;Active
-mthcht;TOR Nodes Lists folder;REPO;https://github.com/mthcht/awesome-lists/tree/main/Lists/TOR;Active
+mthcht;Sinkholed servers Domains folder;REPO;https://github.com/mthcht/awesome-lists/tree/main/Lists/Domains;Offline
+mthcht;TOR Nodes Lists folder;REPO;https://github.com/mthcht/awesome-lists/tree/main/Lists/TOR;Offline
 mthcht;RMM detection;REPO;https://github.com/mthcht/awesome-lists/tree/main/Lists/RMM;Active
-mthcht;Important Roles and groups for AD/EntraID/AWS;REPO;https://github.com/mthcht/awesome-lists/tree/main/Lists/permissions;Active
-mthcht;DNSTWIST Lists;REPO;https://github.com/mthcht/awesome-lists/tree/main/Lists/Phishing/DNSTWIST;Active
+mthcht;Important Roles and groups for AD/EntraID/AWS;REPO;https://github.com/mthcht/awesome-lists/tree/main/Lists/permissions;Offline
+mthcht;DNSTWIST Lists;REPO;https://github.com/mthcht/awesome-lists/tree/main/Lists/Phishing/DNSTWIST;Offline
 mthcht;PROXIES PROXY IP/Port Lists;REPO;https://github.com/mthcht/awesome-lists/tree/main/Lists/PROXY;Active
-mthcht;Companies IP Range Lists (Default);REPO;https://github.com/mthcht/awesome-lists/tree/main/Lists/Ranges_IP_Address_Company_List/bgp.he.net;Active
-mthcht;Companies IP Range Lists (Microsoft);REPO;https://github.com/mthcht/awesome-lists/tree/main/Lists/Ranges_IP_Address_Company_List/Microsoft;Active
+mthcht;Companies IP Range Lists (Default);REPO;https://github.com/mthcht/awesome-lists/tree/main/Lists/Ranges_IP_Address_Company_List/bgp.he.net;Offline
+mthcht;Companies IP Range Lists (Microsoft);REPO;https://github.com/mthcht/awesome-lists/tree/main/Lists/Ranges_IP_Address_Company_List/Microsoft;Offline
 mthcht;Microsoft Defender AV signatures lists;REPO;https://github.com/mthcht/awesome-lists/tree/main/Lists/AV%20signatures/Defender;Active
-mthcht;Microsoft Defender AV yara rules;REPO;https://github.com/mthcht/awesome-lists/tree/main/Lists/Others/Defender_yara_rules;Active
-mthcht;ClamAV signatures lists;REPO;https://github.com/mthcht/awesome-lists/tree/main/Lists/AV%20signatures/ClamAV;Active
-mthcht;Others correlation Lists;REPO;https://github.com/mthcht/awesome-lists/tree/main/Lists/Others;Active
-mthcht;Sigma Rules by mthcht;REPO;https://github.com/mthcht/sigma/tree/master/rules;Active
+mthcht;Microsoft Defender AV yara rules;REPO;https://github.com/mthcht/awesome-lists/tree/main/Lists/Others/Defender_yara_rules;Offline
+mthcht;ClamAV signatures lists;REPO;https://github.com/mthcht/awesome-lists/tree/main/Lists/AV%20signatures/ClamAV;Offline
+mthcht;Others correlation Lists;REPO;https://github.com/mthcht/awesome-lists/tree/main/Lists/Others;Offline
+mthcht;Sigma Rules by mthcht;REPO;https://github.com/mthcht/sigma/tree/master/rules;Offline
 mthcht;ALL TI Reports;REPO;https://github.com/mthcht/ThreatIntel-Reports;Active
 Splunk;Splunk Detections Rules;REPO;https://research.splunk.com/detections/;Active
 Elastic;Elastic Detection Rules;REPO;https://github.com/elastic/detection-rules;Active
-The-DFIR-Report;DFIR-Report Sigma-Rules;REPO;https://github.com/The-DFIR-Report/Sigma-Rules;Active
-JoeSecurity;JoeSecurity Sigma-Rules;REPO;https://github.com/joesecurity/sigma-rules/tree/master/rules;Active
+The-DFIR-Report;DFIR-Report Sigma-Rules;REPO;https://github.com/The-DFIR-Report/Sigma-Rules;Offline
+JoeSecurity;JoeSecurity Sigma-Rules;REPO;https://github.com/joesecurity/sigma-rules/tree/master/rules;Offline
 mdecrevoisier;SIGMA detection rules;REPO;https://github.com/mdecrevoisier/SIGMA-detection-rules;Active
 P4T12ICK;Sigma Rule Repository;REPO;https://github.com/P4T12ICK/Sigma-Rule-Repository;Active
 tsale;Sigma Rules;REPO;https://github.com/tsale/Sigma_rules;Active
-Bert-JanP;KQL Hunting Queries;REPO;https://github.com/Bert-JanP/Hunting-Queries-Detection-Rules;Active
-0x4D31;Awesome Threat Detection;REPO;https://github.com/0x4D31/awesome-threat-detection;Active
+Bert-JanP;KQL Hunting Queries;REPO;https://github.com/Bert-JanP/Hunting-Queries-Detection-Rules;Offline
+0x4D31;Awesome Threat Detection;REPO;https://github.com/0x4D31/awesome-threat-detection;Offline
 LOTS;Living Off Trusted Sites;URL;https://lots-project.com/;Active
 loldrivers;LOLDrivers;URL;https://www.loldrivers.io/;Active
 lolc2;LOLC2;REPO;https://github.com/lolc2/lolc2.github.io;Active
 LOLESXi-Project;LOLESXI;REPO;https://github.com/LOLESXi-Project/LOLESXi;Active
 LOLOLFarm;LOLOLFarm;URL;https://lolol.farm/;Active
 BushidoUK;Tools used by Russian APT;REPO;https://github.com/BushidoUK/Russian-APT-Tool-Matrix;Active
-CERT-UA;CERT UA RSS Feed;RSS;https://cert.gov.ua/api/articles/rss;Offline
+CERT-UA;CERT UA RSS Feed;RSS;https://cert.gov.ua/api/articles/rss;Active
 CISA;CISA Cybersecurity Advisories;RSS;https://www.cisa.gov/cybersecurity-advisories/all.xml;Active
 Microsoft;Microsoft Threat Intel Feed;RSS;https://www.microsoft.com/en-us/security/blog/topic/threat-intelligence/feed;Active
 Google;Google Threat Intelligence Feed;RSS;https://feeds.feedburner.com/threatintelligence/pvexyqv7v0v;Active
 Palo Alto;Unit42 Threat Intel RSS;RSS;https://unit42.paloaltonetworks.com/feed/;Active
 Cisco;Talos Intelligence Feed;RSS;https://feeds.feedburner.com/feedburner/Talos;Active
 TheDFIRReport;The DFIR Report Feed;RSS;https://thedfirreport.com/feed/;Active
-Checkpoint;Checkpoint Research Feed;RSS;https://research.checkpoint.com/feed;Offline
+Checkpoint;Checkpoint Research Feed;RSS;https://research.checkpoint.com/feed;Active
 Kaspersky;Securelist APT Attacks Feed;RSS;https://securelist.com/threat-category/apt-targeted-attacks/feed/;Active
 MITRE;MITRE ATT&CK Matrix Navigator;FRAMEWORK;https://mitre-attack.github.io/attack-navigator/;Active
 MITRE;CVE Vulnerability Database;FRAMEWORK;https://cve.mitre.org/;Active
