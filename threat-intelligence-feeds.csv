@@ -59,7 +59,7 @@ Phishing Army;Phishing Army Blocklist Extended;URL;https://phishing.army/downloa
 Binarydefense;Binary Defense Artillery Threat Intelligence Banlist;IP;https://www.binarydefense.com/banlist.txt;Active
 CISA;Known Exploited Vulnerabilities Catalog (CSV);CVEID;https://www.cisa.gov/sites/default/files/csv/known_exploited_vulnerabilities.csv;Active
 CISA;Known Exploited Vulnerabilities Catalog (JSON);CVEID;https://www.cisa.gov/sites/default/files/feeds/known_exploited_vulnerabilities.json;Active
-eCrimeLabs;Vulnerabilities with Metasploit exploit available;CVEID;https://feeds.ecrimelabs.net/data/metasploit-cve;Active
+eCrimeLabs;Vulnerabilities with Metasploit exploit available;CVEID;https://feeds.ecrimelabs.net/data/metasploit-cve;Offline
 MISP Feed CERT-FR;MISP Feed CERT-FR Hashes;MISP;https://misp.cert.ssi.gouv.fr/feed-misp/hashes.csv;Active
 OpenPhish;Phishing URLs;URL;https://openphish.com/feed.txt;Active
 Cert.PL;Malicious Domains;DNS;https://hole.cert.pl/domains/domains.csv;Active
@@ -348,12 +348,12 @@ mthcht;Suspicious Hostname;IOC;https://github.com/mthcht/awesome-lists/blob/main
 mthcht;Microsoft App IDs List (BEC Detection);IOC;https://github.com/mthcht/awesome-lists/blob/main/Lists/microsoft_apps_list.csv;Active
 mthcht;Metadata Executables;IOC;https://github.com/mthcht/awesome-lists/blob/main/Lists/Windows%20Metadata/executables_metadata_informations_list.csv;Active
 mthcht;DNS over HTTPS server list;IOC;https://github.com/mthcht/awesome-lists/blob/main/Lists/dns_over_https_servers_list.csv;Active
-mthcht;Dynamic DNS domains list;IOC;https://github.com/mthcht/awesome-lists/blob/main/Lists/DYNDNS/dyndns_list.csv;Offline
+mthcht;Dynamic DNS domains list;IOC;https://github.com/mthcht/awesome-lists/blob/main/Lists/DYNDNS/dyndns_list.csv;Active
 mthcht;Sinkholed Domains;IOC;https://github.com/mthcht/awesome-lists/blob/main/Lists/Domains/sinkholed_servers/sinkholed_domains.csv;Active
 mthcht;Hijacklibs;IOC;https://github.com/mthcht/awesome-lists/blob/main/Lists/Hijacklibs/hijacklibs_list.csv;Active
 mthcht;LOLDriver List;IOC;https://github.com/mthcht/awesome-lists/blob/main/Lists/Drivers/loldrivers_only_hashes_list.csv;Active
 mthcht;Malicious Bootloader List;IOC;https://github.com/mthcht/awesome-lists/blob/main/Lists/Drivers/malicious_bootloaders_only_hashes_list.csv;Active
-mthcht;Malicious SSL Certificates List;IOC;https://github.com/mthcht/awesome-lists/blob/main/Lists/SSL%20CERTS/ssl_certificates_malicious_list.csv;Offline
+mthcht;Malicious SSL Certificates List;IOC;https://github.com/mthcht/awesome-lists/blob/main/Lists/SSL%20CERTS/ssl_certificates_malicious_list.csv;Active
 mthcht;Ransomware known file extensions;IOC;https://github.com/mthcht/awesome-lists/blob/main/Lists/ransomware_extensions_list.csv;Active
 mthcht;Ransomware known file name ransom notes;IOC;https://github.com/mthcht/awesome-lists/blob/main/Lists/ransomware_notes_list.csv;Active
 mthcht;Windows ASR rules;IOC;https://github.com/mthcht/awesome-lists/blob/main/Lists/windows_asr_rules.csv;Active
