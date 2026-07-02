@@ -334,7 +334,7 @@ vx-underground;Samples and Intelligence Reports;REPO;https://vx-underground.org/
 mthcht;Threat Hunting yara rules;REPO;https://github.com/mthcht/ThreatHunting-Keywords-yara-rules;Active
 mthcht;Offensive Tools detection patterns;IOC;https://raw.githubusercontent.com/mthcht/ThreatHunting-Keywords/main/offensive_tool_keyword.csv;Active
 mthcht;Greyware Tools detection patterns;IOC;https://raw.githubusercontent.com/mthcht/ThreatHunting-Keywords/main/greyware_tool_keyword.csv;Active
-mthcht;AV signatures keywords;IOC;https://github.com/mthcht/ThreatHunting-Keywords/blob/main/signature_keyword.csv;Offline
+mthcht;AV signatures keywords;IOC;https://github.com/mthcht/ThreatHunting-Keywords/blob/main/signature_keyword.csv;Active
 mthcht;Suspicious Named pipes;IOC;https://github.com/mthcht/awesome-lists/blob/main/Lists/suspicious_named_pipe_list.csv;Active
 mthcht;Suspicious Windows Services;IOC;https://github.com/mthcht/awesome-lists/blob/main/Lists/suspicious_windows_services_names_list.csv;Active
 mthcht;Suspicious Windows Tasks;IOC;https://github.com/mthcht/awesome-lists/blob/main/Lists/suspicious_windows_tasks_list.csv;Active
@@ -354,7 +354,7 @@ mthcht;Hijacklibs;IOC;https://github.com/mthcht/awesome-lists/blob/main/Lists/Hi
 mthcht;LOLDriver List;IOC;https://github.com/mthcht/awesome-lists/blob/main/Lists/Drivers/loldrivers_only_hashes_list.csv;Active
 mthcht;Malicious Bootloader List;IOC;https://github.com/mthcht/awesome-lists/blob/main/Lists/Drivers/malicious_bootloaders_only_hashes_list.csv;Active
 mthcht;Malicious SSL Certificates List;IOC;https://github.com/mthcht/awesome-lists/blob/main/Lists/SSL%20CERTS/ssl_certificates_malicious_list.csv;Active
-mthcht;Ransomware known file extensions;IOC;https://github.com/mthcht/awesome-lists/blob/main/Lists/ransomware_extensions_list.csv;Active
+mthcht;Ransomware known file extensions;IOC;https://github.com/mthcht/awesome-lists/blob/main/Lists/ransomware_extensions_list.csv;Offline
 mthcht;Ransomware known file name ransom notes;IOC;https://github.com/mthcht/awesome-lists/blob/main/Lists/ransomware_notes_list.csv;Active
 mthcht;Windows ASR rules;IOC;https://github.com/mthcht/awesome-lists/blob/main/Lists/windows_asr_rules.csv;Active
 mthcht;VPN NordVPN IPs;IP;https://github.com/mthcht/awesome-lists/blob/main/Lists/VPN/NordVPN/nordvpn_ips_list.csv;Active
