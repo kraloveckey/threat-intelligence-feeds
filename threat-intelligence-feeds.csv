@@ -99,7 +99,7 @@ DataPlane;VNC RFB Source IPs;IP;https://dataplane.org/vncrfb.txt;Active
 CriticalPathSecurity;Abuse.ch IP Blocklist Feed;IP;https://raw.githubusercontent.com/CriticalPathSecurity/Public-Intelligence-Feeds/master/abuse-ch-ipblocklist.txt;Active
 CriticalPathSecurity;Log4j Scanners and Exploiters;IP;https://raw.githubusercontent.com/CriticalPathSecurity/Public-Intelligence-Feeds/master/log4j.txt;Active
 MISP Project;MISP Default Feeds (metadata);URL;https://raw.githubusercontent.com/MISP/MISP/2.4/app/files/feed-metadata/defaults.json;Active
-MISP CIRCL;MISP CIRCL OSINT Feed – Hashes;MISP;https://www.circl.lu/doc/misp/feed-osint/;Active
+MISP CIRCL;MISP CIRCL OSINT Feed – Hashes;MISP;https://www.circl.lu/doc/misp/feed-osint/;Offline
 MISP Abuse.ch;MISP Abuse.ch URLhaus;URL;https://urlhaus.abuse.ch/downloads/misp/;Active
 TorProject;Tor Exit Addresses (TorProject official);IP;https://check.torproject.org/exit-addresses;Active
 darklist.de;Darklist.de IP Blacklist;IP;http://www.darklist.de/raw.php;Active
@@ -354,7 +354,7 @@ mthcht;Hijacklibs;IOC;https://github.com/mthcht/awesome-lists/blob/main/Lists/Hi
 mthcht;LOLDriver List;IOC;https://github.com/mthcht/awesome-lists/blob/main/Lists/Drivers/loldrivers_only_hashes_list.csv;Active
 mthcht;Malicious Bootloader List;IOC;https://github.com/mthcht/awesome-lists/blob/main/Lists/Drivers/malicious_bootloaders_only_hashes_list.csv;Active
 mthcht;Malicious SSL Certificates List;IOC;https://github.com/mthcht/awesome-lists/blob/main/Lists/SSL%20CERTS/ssl_certificates_malicious_list.csv;Active
-mthcht;Ransomware known file extensions;IOC;https://github.com/mthcht/awesome-lists/blob/main/Lists/ransomware_extensions_list.csv;Offline
+mthcht;Ransomware known file extensions;IOC;https://github.com/mthcht/awesome-lists/blob/main/Lists/ransomware_extensions_list.csv;Active
 mthcht;Ransomware known file name ransom notes;IOC;https://github.com/mthcht/awesome-lists/blob/main/Lists/ransomware_notes_list.csv;Active
 mthcht;Windows ASR rules;IOC;https://github.com/mthcht/awesome-lists/blob/main/Lists/windows_asr_rules.csv;Active
 mthcht;VPN NordVPN IPs;IP;https://github.com/mthcht/awesome-lists/blob/main/Lists/VPN/NordVPN/nordvpn_ips_list.csv;Active
