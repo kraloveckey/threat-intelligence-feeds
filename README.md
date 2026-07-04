@@ -263,7 +263,7 @@ Status legend: 🟢 Active – 🔴 Offline – 🔒 Restricted (requires API ke
 | MyIP.ms | Full blacklist database (ZIP) | <abbr title="Active">🟢</abbr> | [↗](https://myip.ms/files/blacklist/general/full_blacklist_database.zip) |
 | NETSHIELD | Active IP Blacklist – Score ≥65 last 30 days (firewall recommended) | <abbr title="Active">🟢</abbr> | [↗](https://raw.githubusercontent.com/juergen2025sys/NETSHIELD/main/active_blacklist_ipv4.txt) |
 | NETSHIELD | IP Blacklist – Score ≥40 extended rules | <abbr title="Active">🟢</abbr> | [↗](https://raw.githubusercontent.com/juergen2025sys/NETSHIELD/main/blacklist_confidence40_ipv4.txt) |
-| NETSHIELD | Combined Threat Blacklist – 180-day window for SIEM/audit | <abbr title="Active">🟢</abbr> | [↗](https://raw.githubusercontent.com/juergen2025sys/NETSHIELD/main/combined_threat_blacklist_ipv4.txt) |
+| NETSHIELD | Combined Threat Blacklist – 180-day window for SIEM/audit | <abbr title="Offline">🔴</abbr> | [↗](https://raw.githubusercontent.com/juergen2025sys/NETSHIELD/main/combined_threat_blacklist_ipv4.txt) |
 | NETSHIELD | Watchlist – Score 25-39 monitoring only | <abbr title="Active">🟢</abbr> | [↗](https://raw.githubusercontent.com/juergen2025sys/NETSHIELD/main/watchlist_confidence25to39_ipv4.txt) |
 | NETSHIELD | CVE exploit and active C2 server IPs (daily) | <abbr title="Active">🟢</abbr> | [↗](https://raw.githubusercontent.com/juergen2025sys/NETSHIELD/main/cve_exploit_ips.txt) |
 | NETSHIELD | Honeypot-confirmed attacker IPs (daily) | <abbr title="Active">🟢</abbr> | [↗](https://raw.githubusercontent.com/juergen2025sys/NETSHIELD/main/honeypot_ips.txt) |
@@ -430,7 +430,7 @@ Status legend: 🟢 Active – 🔴 Offline – 🔒 Restricted (requires API ke
 | --- | --- | :---: | --- |
 | CISA | Known Exploited Vulnerabilities Catalog (CSV) | <abbr title="Active">🟢</abbr> | [↗](https://www.cisa.gov/sites/default/files/csv/known_exploited_vulnerabilities.csv) |
 | CISA | Known Exploited Vulnerabilities Catalog (JSON) | <abbr title="Active">🟢</abbr> | [↗](https://www.cisa.gov/sites/default/files/feeds/known_exploited_vulnerabilities.json) |
-| eCrimeLabs | Vulnerabilities with Metasploit exploit available | <abbr title="Active">🟢</abbr> | [↗](https://feeds.ecrimelabs.net/data/metasploit-cve) |
+| eCrimeLabs | Vulnerabilities with Metasploit exploit available | <abbr title="Offline">🔴</abbr> | [↗](https://feeds.ecrimelabs.net/data/metasploit-cve) |
 | NIST | National Vulnerability Database CVEs | <abbr title="Active">🟢</abbr> | [↗](https://services.nvd.nist.gov/rest/json/cves/2.0) |
 
 ### RANSOMWARELEAK (1)
@@ -446,7 +446,7 @@ Status legend: 🟢 Active – 🔴 Offline – 🔒 Restricted (requires API ke
 | abuse.ch | MalwareBazaar MISP feed (hashes + metadata) | <abbr title="Active">🟢</abbr> | [↗](https://bazaar.abuse.ch/downloads/misp/) |
 | abuse.ch | ThreatFox MISP feed (IOCs) | <abbr title="Active">🟢</abbr> | [↗](https://threatfox.abuse.ch/downloads/misp/) |
 | Botvrij.eu | Botvrij.eu OSINT MISP feed | <abbr title="Active">🟢</abbr> | [↗](https://www.botvrij.eu/data/feed-osint) |
-| MISP CIRCL | MISP CIRCL OSINT Feed – Hashes | <abbr title="Offline">🔴</abbr> | [↗](https://www.circl.lu/doc/misp/feed-osint/) |
+| MISP CIRCL | MISP CIRCL OSINT Feed – Hashes | <abbr title="Active">🟢</abbr> | [↗](https://www.circl.lu/doc/misp/feed-osint/) |
 | MISP Feed CERT-FR | MISP Feed CERT-FR Hashes | <abbr title="Active">🟢</abbr> | [↗](https://misp.cert.ssi.gouv.fr/feed-misp/hashes.csv) |
 
 ### IOC (34)
