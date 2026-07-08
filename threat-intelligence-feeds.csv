@@ -361,7 +361,7 @@ mthcht;VPN NordVPN IPs;IP;https://github.com/mthcht/awesome-lists/blob/main/List
 mthcht;VPN SurfShark IPs;IP;https://github.com/mthcht/awesome-lists/blob/main/Lists/VPN/SurfSharkVPN/surfshark_vpn_servers_domains_and_ips_list.csv;Active
 mthcht;VPN MullVad IPs;IP;https://github.com/mthcht/awesome-lists/blob/main/Lists/VPN/MullVad/mullvad_relay_servers_ips_list.csv;Active
 mthcht;GeoIP services Lists;IOC;https://github.com/mthcht/awesome-lists/blob/main/Lists/GeoIP/ip_location_sites_list.csv;Active
-mthcht;VPN ProtonVPN IPs;IP;https://github.com/mthcht/awesome-lists/blob/main/Lists/VPN/ProtonVPN/protonvpn_ip_list.csv;Active
+mthcht;VPN ProtonVPN IPs;IP;https://github.com/mthcht/awesome-lists/blob/main/Lists/VPN/ProtonVPN/protonvpn_ip_list.csv;Offline
 mthcht;Suspicious TLDs;REPO;https://github.com/mthcht/awesome-lists/tree/main/Lists/TLDs;Active
 mthcht;Suspicious ASNs;REPO;https://github.com/mthcht/awesome-lists/tree/main/Lists/ASNs;Active
 mthcht;Maxmind GeoIP Database Extracted;REPO;https://github.com/mthcht/awesome-lists/tree/main/Lists/ASNs/correlation_maxmind_geo_db/maxmind_databases/extracted;Active
@@ -411,7 +411,7 @@ MITRE;CVE Vulnerability Database;FRAMEWORK;https://cve.mitre.org/;Active
 andreacristaldi;APTMAP (APT Tracker);FRAMEWORK;https://github.com/andreacristaldi/APTmap;Active
 Shodan;Shodan OSINT Search;OSINT;https://www.shodan.io/;Active
 Censys;Censys OSINT Search;OSINT;https://search.censys.io/;Active
-ThreatMiner;ThreatMiner Data Mining;OSINT;https://www.threatminer.org/;Active
+ThreatMiner;ThreatMiner Data Mining;OSINT;https://www.threatminer.org/;Offline
 URLScan;URLScan Website Scanner;OSINT;https://urlscan.io/;Active
 Pulsedive;Pulsedive Threat Intelligence;OSINT;https://pulsedive.com/;Active
 CyberGordon;CyberGordon URL Reputation;OSINT;https://cybergordon.com/;Active
