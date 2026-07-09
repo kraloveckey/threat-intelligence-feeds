@@ -335,7 +335,7 @@ mthcht;Threat Hunting yara rules;REPO;https://github.com/mthcht/ThreatHunting-Ke
 mthcht;Offensive Tools detection patterns;IOC;https://raw.githubusercontent.com/mthcht/ThreatHunting-Keywords/main/offensive_tool_keyword.csv;Active
 mthcht;Greyware Tools detection patterns;IOC;https://raw.githubusercontent.com/mthcht/ThreatHunting-Keywords/main/greyware_tool_keyword.csv;Active
 mthcht;AV signatures keywords;IOC;https://github.com/mthcht/ThreatHunting-Keywords/blob/main/signature_keyword.csv;Active
-mthcht;Suspicious Named pipes;IOC;https://github.com/mthcht/awesome-lists/blob/main/Lists/suspicious_named_pipe_list.csv;Active
+mthcht;Suspicious Named pipes;IOC;https://github.com/mthcht/awesome-lists/blob/main/Lists/suspicious_named_pipe_list.csv;Offline
 mthcht;Suspicious Windows Services;IOC;https://github.com/mthcht/awesome-lists/blob/main/Lists/suspicious_windows_services_names_list.csv;Active
 mthcht;Suspicious Windows Tasks;IOC;https://github.com/mthcht/awesome-lists/blob/main/Lists/suspicious_windows_tasks_list.csv;Active
 mthcht;Suspicious destination port;IOC;https://github.com/mthcht/awesome-lists/blob/main/Lists/suspicious_ports_list.csv;Active
@@ -345,7 +345,7 @@ mthcht;Suspicious USB Ids;IOC;https://github.com/mthcht/awesome-lists/blob/main/
 mthcht;Suspicious mutex names;IOC;https://github.com/mthcht/awesome-lists/blob/main/Lists/suspicious_mutex_names_list.csv;Active
 mthcht;Suspicious MAC address;IOC;https://github.com/mthcht/awesome-lists/blob/main/Lists/suspicious_mac_address_list.csv;Active
 mthcht;Suspicious Hostname;IOC;https://github.com/mthcht/awesome-lists/blob/main/Lists/suspicious_hostnames_list.csv;Active
-mthcht;Microsoft App IDs List (BEC Detection);IOC;https://github.com/mthcht/awesome-lists/blob/main/Lists/microsoft_apps_list.csv;Active
+mthcht;Microsoft App IDs List (BEC Detection);IOC;https://github.com/mthcht/awesome-lists/blob/main/Lists/microsoft_apps_list.csv;Offline
 mthcht;Metadata Executables;IOC;https://github.com/mthcht/awesome-lists/blob/main/Lists/Windows%20Metadata/executables_metadata_informations_list.csv;Active
 mthcht;DNS over HTTPS server list;IOC;https://github.com/mthcht/awesome-lists/blob/main/Lists/dns_over_https_servers_list.csv;Active
 mthcht;Dynamic DNS domains list;IOC;https://github.com/mthcht/awesome-lists/blob/main/Lists/DYNDNS/dyndns_list.csv;Active
@@ -361,7 +361,7 @@ mthcht;VPN NordVPN IPs;IP;https://github.com/mthcht/awesome-lists/blob/main/List
 mthcht;VPN SurfShark IPs;IP;https://github.com/mthcht/awesome-lists/blob/main/Lists/VPN/SurfSharkVPN/surfshark_vpn_servers_domains_and_ips_list.csv;Active
 mthcht;VPN MullVad IPs;IP;https://github.com/mthcht/awesome-lists/blob/main/Lists/VPN/MullVad/mullvad_relay_servers_ips_list.csv;Active
 mthcht;GeoIP services Lists;IOC;https://github.com/mthcht/awesome-lists/blob/main/Lists/GeoIP/ip_location_sites_list.csv;Active
-mthcht;VPN ProtonVPN IPs;IP;https://github.com/mthcht/awesome-lists/blob/main/Lists/VPN/ProtonVPN/protonvpn_ip_list.csv;Offline
+mthcht;VPN ProtonVPN IPs;IP;https://github.com/mthcht/awesome-lists/blob/main/Lists/VPN/ProtonVPN/protonvpn_ip_list.csv;Active
 mthcht;Suspicious TLDs;REPO;https://github.com/mthcht/awesome-lists/tree/main/Lists/TLDs;Active
 mthcht;Suspicious ASNs;REPO;https://github.com/mthcht/awesome-lists/tree/main/Lists/ASNs;Active
 mthcht;Maxmind GeoIP Database Extracted;REPO;https://github.com/mthcht/awesome-lists/tree/main/Lists/ASNs/correlation_maxmind_geo_db/maxmind_databases/extracted;Active
@@ -407,11 +407,11 @@ TheDFIRReport;The DFIR Report Feed;RSS;https://thedfirreport.com/feed/;Active
 Checkpoint;Checkpoint Research Feed;RSS;https://research.checkpoint.com/feed;Active
 Kaspersky;Securelist APT Attacks Feed;RSS;https://securelist.com/threat-category/apt-targeted-attacks/feed/;Active
 MITRE;MITRE ATT&CK Matrix Navigator;FRAMEWORK;https://mitre-attack.github.io/attack-navigator/;Active
-MITRE;CVE Vulnerability Database;FRAMEWORK;https://cve.mitre.org/;Active
+MITRE;CVE Vulnerability Database;FRAMEWORK;https://cve.mitre.org/;Offline
 andreacristaldi;APTMAP (APT Tracker);FRAMEWORK;https://github.com/andreacristaldi/APTmap;Active
 Shodan;Shodan OSINT Search;OSINT;https://www.shodan.io/;Active
 Censys;Censys OSINT Search;OSINT;https://search.censys.io/;Active
-ThreatMiner;ThreatMiner Data Mining;OSINT;https://www.threatminer.org/;Offline
+ThreatMiner;ThreatMiner Data Mining;OSINT;https://www.threatminer.org/;Active
 URLScan;URLScan Website Scanner;OSINT;https://urlscan.io/;Active
 Pulsedive;Pulsedive Threat Intelligence;OSINT;https://pulsedive.com/;Active
 CyberGordon;CyberGordon URL Reputation;OSINT;https://cybergordon.com/;Active
