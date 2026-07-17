@@ -255,10 +255,10 @@ Status legend: 🟢 Active – 🔴 Offline – 🔒 Restricted (requires API ke
 | James Brine | Daily malicious IPs from honeypots (SSH/FTP/RDP/GIT/SNMP/REDIS) | <abbr title="Active">🟢</abbr> | [↗](https://jamesbrine.com.au/csv) |
 | MalSilo | MalSilo IPv4 List | <abbr title="Active">🟢</abbr> | [↗](https://malsilo.gitlab.io/feeds/dumps/ip_list.txt) |
 | Maltrail | Maltrail Mass Scanner IPs | <abbr title="Active">🟢</abbr> | [↗](https://raw.githubusercontent.com/stamparm/maltrail/master/trails/static/mass_scanner.txt) |
-| mthcht | VPN NordVPN IPs | <abbr title="Offline">🔴</abbr> | [↗](https://github.com/mthcht/awesome-lists/blob/main/Lists/VPN/NordVPN/nordvpn_ips_list.csv) |
-| mthcht | VPN SurfShark IPs | <abbr title="Offline">🔴</abbr> | [↗](https://github.com/mthcht/awesome-lists/blob/main/Lists/VPN/SurfSharkVPN/surfshark_vpn_servers_domains_and_ips_list.csv) |
+| mthcht | VPN NordVPN IPs | <abbr title="Active">🟢</abbr> | [↗](https://github.com/mthcht/awesome-lists/blob/main/Lists/VPN/NordVPN/nordvpn_ips_list.csv) |
+| mthcht | VPN SurfShark IPs | <abbr title="Active">🟢</abbr> | [↗](https://github.com/mthcht/awesome-lists/blob/main/Lists/VPN/SurfSharkVPN/surfshark_vpn_servers_domains_and_ips_list.csv) |
 | mthcht | VPN MullVad IPs | <abbr title="Active">🟢</abbr> | [↗](https://github.com/mthcht/awesome-lists/blob/main/Lists/VPN/MullVad/mullvad_relay_servers_ips_list.csv) |
-| mthcht | VPN ProtonVPN IPs | <abbr title="Offline">🔴</abbr> | [↗](https://github.com/mthcht/awesome-lists/blob/main/Lists/VPN/ProtonVPN/protonvpn_ip_list.csv) |
+| mthcht | VPN ProtonVPN IPs | <abbr title="Active">🟢</abbr> | [↗](https://github.com/mthcht/awesome-lists/blob/main/Lists/VPN/ProtonVPN/protonvpn_ip_list.csv) |
 | MyIP.ms | Web bot IPs identified in last 10 days | <abbr title="Active">🟢</abbr> | [↗](http://www.myip.ms/files/blacklist/csf/latest_blacklist.txt) |
 | MyIP.ms | Full blacklist database (ZIP) | <abbr title="Active">🟢</abbr> | [↗](https://myip.ms/files/blacklist/general/full_blacklist_database.zip) |
 | NETSHIELD | Active IP Blacklist – Score ≥65 last 30 days (firewall recommended) | <abbr title="Active">🟢</abbr> | [↗](https://raw.githubusercontent.com/juergen2025sys/NETSHIELD/main/active_blacklist_ipv4.txt) |
@@ -284,7 +284,7 @@ Status legend: 🟢 Active – 🔴 Offline – 🔒 Restricted (requires API ke
 | SecOps-Institute | Tor Nodes List | <abbr title="Active">🟢</abbr> | [↗](https://raw.githubusercontent.com/SecOps-Institute/Tor-IP-Addresses/master/tor-nodes.lst) |
 | SecOps-Institute | Tor Exit Nodes List | <abbr title="Active">🟢</abbr> | [↗](https://raw.githubusercontent.com/SecOps-Institute/Tor-IP-Addresses/master/tor-exit-nodes.lst) |
 | SentinelPhishFeed | Malicious IP address feed | <abbr title="Active">🟢</abbr> | [↗](https://raw.githubusercontent.com/rjn32s/SentinelPhishFeed/main/ips.txt) |
-| snort.org | ip-block-list | <abbr title="Active">🟢</abbr> | [↗](https://snort.org/downloads/ip-block-list) |
+| snort.org | ip-block-list | <abbr title="Offline">🔴</abbr> | [↗](https://snort.org/downloads/ip-block-list) |
 | socks-proxy.net | Open SOCKS proxies | <abbr title="Active">🟢</abbr> | [↗](http://www.socks-proxy.net/) |
 | Spamhaus | Spamhaus DROP List (legacy txt) | <abbr title="Active">🟢</abbr> | [↗](http://www.spamhaus.org/drop/drop.txt) |
 | SpamHaus | Extended DROP list – ASNs (eDROP) | <abbr title="Active">🟢</abbr> | [↗](https://www.spamhaus.org/drop/edrop.txt) |
@@ -334,7 +334,7 @@ Status legend: 🟢 Active – 🔴 Offline – 🔒 Restricted (requires API ke
 | hagezi | DNS Pro++ Blocklist – more aggressive version of Pro list | <abbr title="Active">🟢</abbr> | [↗](https://raw.githubusercontent.com/hagezi/dns-blocklists/main/domains/pro.plus.txt) |
 | jarelllama | Scam Blocklist – phishing and scam domains (wildcard format) | <abbr title="Active">🟢</abbr> | [↗](https://raw.githubusercontent.com/jarelllama/Scam-Blocklist/main/lists/wildcard_domains/scams.txt) |
 | MalSilo | MalSilo Domain List | <abbr title="Active">🟢</abbr> | [↗](https://malsilo.gitlab.io/feeds/dumps/domain_list.txt) |
-| phishdestroy | PhishDestroy blocklist – phishing and malicious domains | <abbr title="Active">🟢</abbr> | [↗](https://raw.githubusercontent.com/phishdestroy/destroylist/refs/heads/main/list.txt) |
+| phishdestroy | PhishDestroy blocklist – phishing and malicious domains | <abbr title="Offline">🔴</abbr> | [↗](https://raw.githubusercontent.com/phishdestroy/destroylist/refs/heads/main/list.txt) |
 | SentinelPhishFeed | Phishing and malware domains feed | <abbr title="Active">🟢</abbr> | [↗](https://raw.githubusercontent.com/rjn32s/SentinelPhishFeed/main/domains.txt) |
 | shreshtait.com | Newly Registered Domains – 1 month | <abbr title="Active">🟢</abbr> | [↗](https://shreshtait.com/newly-registered-domains/nrd-1m) |
 | shreshtait.com | Newly Registered Domains – 1 week | <abbr title="Active">🟢</abbr> | [↗](https://shreshtait.com/newly-registered-domains/nrd-1w) |
@@ -453,7 +453,7 @@ Status legend: 🟢 Active – 🔴 Offline – 🔒 Restricted (requires API ke
 
 | Vendor | Description | Status | URL |
 | --- | --- | :---: | --- |
-| mthcht | Offensive Tools detection patterns | <abbr title="Active">🟢</abbr> | [↗](https://raw.githubusercontent.com/mthcht/ThreatHunting-Keywords/main/offensive_tool_keyword.csv) |
+| mthcht | Offensive Tools detection patterns | <abbr title="Offline">🔴</abbr> | [↗](https://raw.githubusercontent.com/mthcht/ThreatHunting-Keywords/main/offensive_tool_keyword.csv) |
 | mthcht | Greyware Tools detection patterns | <abbr title="Active">🟢</abbr> | [↗](https://raw.githubusercontent.com/mthcht/ThreatHunting-Keywords/main/greyware_tool_keyword.csv) |
 | mthcht | AV signatures keywords | <abbr title="Active">🟢</abbr> | [↗](https://github.com/mthcht/ThreatHunting-Keywords/blob/main/signature_keyword.csv) |
 | mthcht | Suspicious Named pipes | <abbr title="Active">🟢</abbr> | [↗](https://github.com/mthcht/awesome-lists/blob/main/Lists/suspicious_named_pipe_list.csv) |
@@ -467,14 +467,14 @@ Status legend: 🟢 Active – 🔴 Offline – 🔒 Restricted (requires API ke
 | mthcht | Suspicious MAC address | <abbr title="Active">🟢</abbr> | [↗](https://github.com/mthcht/awesome-lists/blob/main/Lists/suspicious_mac_address_list.csv) |
 | mthcht | Suspicious Hostname | <abbr title="Offline">🔴</abbr> | [↗](https://github.com/mthcht/awesome-lists/blob/main/Lists/suspicious_hostnames_list.csv) |
 | mthcht | Microsoft App IDs List (BEC Detection) | <abbr title="Active">🟢</abbr> | [↗](https://github.com/mthcht/awesome-lists/blob/main/Lists/microsoft_apps_list.csv) |
-| mthcht | Metadata Executables | <abbr title="Offline">🔴</abbr> | [↗](https://github.com/mthcht/awesome-lists/blob/main/Lists/Windows%20Metadata/executables_metadata_informations_list.csv) |
+| mthcht | Metadata Executables | <abbr title="Active">🟢</abbr> | [↗](https://github.com/mthcht/awesome-lists/blob/main/Lists/Windows%20Metadata/executables_metadata_informations_list.csv) |
 | mthcht | DNS over HTTPS server list | <abbr title="Active">🟢</abbr> | [↗](https://github.com/mthcht/awesome-lists/blob/main/Lists/dns_over_https_servers_list.csv) |
 | mthcht | Dynamic DNS domains list | <abbr title="Active">🟢</abbr> | [↗](https://github.com/mthcht/awesome-lists/blob/main/Lists/DYNDNS/dyndns_list.csv) |
-| mthcht | Sinkholed Domains | <abbr title="Active">🟢</abbr> | [↗](https://github.com/mthcht/awesome-lists/blob/main/Lists/Domains/sinkholed_servers/sinkholed_domains.csv) |
+| mthcht | Sinkholed Domains | <abbr title="Offline">🔴</abbr> | [↗](https://github.com/mthcht/awesome-lists/blob/main/Lists/Domains/sinkholed_servers/sinkholed_domains.csv) |
 | mthcht | Hijacklibs | <abbr title="Active">🟢</abbr> | [↗](https://github.com/mthcht/awesome-lists/blob/main/Lists/Hijacklibs/hijacklibs_list.csv) |
 | mthcht | LOLDriver List | <abbr title="Active">🟢</abbr> | [↗](https://github.com/mthcht/awesome-lists/blob/main/Lists/Drivers/loldrivers_only_hashes_list.csv) |
 | mthcht | Malicious Bootloader List | <abbr title="Active">🟢</abbr> | [↗](https://github.com/mthcht/awesome-lists/blob/main/Lists/Drivers/malicious_bootloaders_only_hashes_list.csv) |
-| mthcht | Malicious SSL Certificates List | <abbr title="Offline">🔴</abbr> | [↗](https://github.com/mthcht/awesome-lists/blob/main/Lists/SSL%20CERTS/ssl_certificates_malicious_list.csv) |
+| mthcht | Malicious SSL Certificates List | <abbr title="Active">🟢</abbr> | [↗](https://github.com/mthcht/awesome-lists/blob/main/Lists/SSL%20CERTS/ssl_certificates_malicious_list.csv) |
 | mthcht | Ransomware known file extensions | <abbr title="Active">🟢</abbr> | [↗](https://github.com/mthcht/awesome-lists/blob/main/Lists/ransomware_extensions_list.csv) |
 | mthcht | Ransomware known file name ransom notes | <abbr title="Active">🟢</abbr> | [↗](https://github.com/mthcht/awesome-lists/blob/main/Lists/ransomware_notes_list.csv) |
 | mthcht | Windows ASR rules | <abbr title="Active">🟢</abbr> | [↗](https://github.com/mthcht/awesome-lists/blob/main/Lists/windows_asr_rules.csv) |
