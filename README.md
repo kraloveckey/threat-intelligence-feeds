@@ -361,7 +361,7 @@ Status legend: 🟢 Active – 🔴 Offline – 🔒 Restricted (requires API ke
 | ExtSentry | Suspicious browser extension IDs only | <abbr title="Active">🟢</abbr> | [↗](https://raw.githubusercontent.com/ExtSentry/ExtSentry.github.io/main/feeds/ioc_suspicious_extension_ids.txt) |
 | ExtSentry | Browser extensions enriched IOC feed (CSV) | <abbr title="Active">🟢</abbr> | [↗](https://raw.githubusercontent.com/ExtSentry/ExtSentry.github.io/main/feeds/extsentry_ioc_feed.csv) |
 | Github | APT Notes CSV | <abbr title="Active">🟢</abbr> | [↗](https://raw.githubusercontent.com/aptnotes/data/master/APTnotes.csv) |
-| jeroengui | Phishing URLs – last week community feed | <abbr title="Offline">🔴</abbr> | [↗](https://file.jeroengui.be/phishing/last_week.txt) |
+| jeroengui | Phishing URLs – last week community feed | <abbr title="Active">🟢</abbr> | [↗](https://file.jeroengui.be/phishing/last_week.txt) |
 | loldrivers | LOLDrivers | <abbr title="Active">🟢</abbr> | [↗](https://www.loldrivers.io/) |
 | LOLOLFarm | LOLOLFarm | <abbr title="Active">🟢</abbr> | [↗](https://lolol.farm/) |
 | LOTS | Living Off Trusted Sites | <abbr title="Active">🟢</abbr> | [↗](https://lots-project.com/) |
@@ -430,7 +430,7 @@ Status legend: 🟢 Active – 🔴 Offline – 🔒 Restricted (requires API ke
 | --- | --- | :---: | --- |
 | CISA | Known Exploited Vulnerabilities Catalog (CSV) | <abbr title="Active">🟢</abbr> | [↗](https://www.cisa.gov/sites/default/files/csv/known_exploited_vulnerabilities.csv) |
 | CISA | Known Exploited Vulnerabilities Catalog (JSON) | <abbr title="Active">🟢</abbr> | [↗](https://www.cisa.gov/sites/default/files/feeds/known_exploited_vulnerabilities.json) |
-| eCrimeLabs | Vulnerabilities with Metasploit exploit available | <abbr title="Offline">🔴</abbr> | [↗](https://feeds.ecrimelabs.net/data/metasploit-cve) |
+| eCrimeLabs | Vulnerabilities with Metasploit exploit available | <abbr title="Active">🟢</abbr> | [↗](https://feeds.ecrimelabs.net/data/metasploit-cve) |
 | NIST | National Vulnerability Database CVEs | <abbr title="Active">🟢</abbr> | [↗](https://services.nvd.nist.gov/rest/json/cves/2.0) |
 
 ### RANSOMWARELEAK (1)
