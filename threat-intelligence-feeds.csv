@@ -302,8 +302,8 @@ ExtSentry;Browser extension CRX SHA-256 file hashes;SHA256;https://raw.githubuse
 ExtSentry;Browser extensions enriched IOC feed (CSV);URL;https://raw.githubusercontent.com/ExtSentry/ExtSentry.github.io/main/feeds/extsentry_ioc_feed.csv;Active
 FireHOL;FireHOL blocklist-ipsets — curated IP blocklist collections (multiple sets);REPO;https://github.com/firehol/blocklist-ipsets;Active
 mthcht;SOC/DFIR detection lists – VPN IPs, Named Pipes, Suspicious Services, Extensions and more;REPO;https://github.com/mthcht/awesome-lists;Active
-hagezi;DNS Pro Blocklist – comprehensive DNS blocklist (ads, tracking, malware, phishing);DNS;https://raw.githubusercontent.com/hagezi/dns-blocklists/main/domains/pro.txt;Active
-hagezi;DNS Pro++ Blocklist – more aggressive version of Pro list;DNS;https://raw.githubusercontent.com/hagezi/dns-blocklists/main/domains/pro.plus.txt;Active
+hagezi;DNS Pro Blocklist – comprehensive DNS blocklist (ads, tracking, malware, phishing);DNS;https://raw.githubusercontent.com/hagezi/dns-blocklists/main/domains/pro.txt;Offline
+hagezi;DNS Pro++ Blocklist – more aggressive version of Pro list;DNS;https://raw.githubusercontent.com/hagezi/dns-blocklists/main/domains/pro.plus.txt;Offline
 blocklistproject;Block Lists – comprehensive domain blocklists (ads, malware, phishing, ransomware, scam);REPO;https://github.com/blocklistproject/Lists;Active
 jarelllama;Scam Blocklist – phishing and scam domains (wildcard format);DNS;https://raw.githubusercontent.com/jarelllama/Scam-Blocklist/main/lists/wildcard_domains/scams.txt;Active
 Volexity;Volexity Threat Intelligence IOC repository;REPO;https://github.com/volexity/threat-intel;Active
@@ -324,7 +324,7 @@ Zimperium;Zimperium mobile threat IOC repository;REPO;https://github.com/Zimperi
 blackorbird;APT Report IOC repository;REPO;https://github.com/blackorbird/APT_REPORT;Active
 unknownhad;CloudIntel – cloud-specific IOC repository;REPO;https://github.com/unknownhad/CloudIntel;Active
 SpamHaus;Extended DROP list – ASNs (eDROP);IP;https://www.spamhaus.org/drop/edrop.txt;Active
-jeroengui;Phishing URLs – last week community feed;URL;https://file.jeroengui.be/phishing/last_week.txt;Active
+jeroengui;Phishing URLs – last week community feed;URL;https://file.jeroengui.be/phishing/last_week.txt;Offline
 rosti.bin;Public threat intelligence reports feed;IOC;https://rosti.bin.re/feeds;Active
 Bert-JanP;Open Source Threat Intel Feeds;REPO;https://github.com/Bert-JanP/Open-Source-Threat-Intel-Feeds;Active
 mthcht;Unit42 IOC by mthcht;REPO;https://github.com/mthcht/iocs;Active
@@ -350,7 +350,7 @@ mthcht;Metadata Executables;IOC;https://github.com/mthcht/awesome-lists/blob/mai
 mthcht;DNS over HTTPS server list;IOC;https://github.com/mthcht/awesome-lists/blob/main/Lists/dns_over_https_servers_list.csv;Active
 mthcht;Dynamic DNS domains list;IOC;https://github.com/mthcht/awesome-lists/blob/main/Lists/DYNDNS/dyndns_list.csv;Active
 mthcht;Sinkholed Domains;IOC;https://github.com/mthcht/awesome-lists/blob/main/Lists/Domains/sinkholed_servers/sinkholed_domains.csv;Active
-mthcht;Hijacklibs;IOC;https://github.com/mthcht/awesome-lists/blob/main/Lists/Hijacklibs/hijacklibs_list.csv;Active
+mthcht;Hijacklibs;IOC;https://github.com/mthcht/awesome-lists/blob/main/Lists/Hijacklibs/hijacklibs_list.csv;Offline
 mthcht;LOLDriver List;IOC;https://github.com/mthcht/awesome-lists/blob/main/Lists/Drivers/loldrivers_only_hashes_list.csv;Active
 mthcht;Malicious Bootloader List;IOC;https://github.com/mthcht/awesome-lists/blob/main/Lists/Drivers/malicious_bootloaders_only_hashes_list.csv;Active
 mthcht;Malicious SSL Certificates List;IOC;https://github.com/mthcht/awesome-lists/blob/main/Lists/SSL%20CERTS/ssl_certificates_malicious_list.csv;Active

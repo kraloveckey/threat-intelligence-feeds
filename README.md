@@ -330,8 +330,8 @@ Status legend: 🟢 Active – 🔴 Offline – 🔒 Restricted (requires API ke
 | CERT-PL | List of malicious domains in Poland (txt) | <abbr title="Active">🟢</abbr> | [↗](https://hole.cert.pl/domains/domains.txt) |
 | Cert.PL | Malicious Domains | <abbr title="Active">🟢</abbr> | [↗](https://hole.cert.pl/domains/domains.csv) |
 | elliotwutingfeng | Inversion DNSBL – scam and phishing domains | <abbr title="Active">🟢</abbr> | [↗](https://raw.githubusercontent.com/elliotwutingfeng/Inversion-DNSBL-Blocklists/main/Google_hostnames.txt) |
-| hagezi | DNS Pro Blocklist – comprehensive DNS blocklist (ads, tracking, malware, phishing) | <abbr title="Active">🟢</abbr> | [↗](https://raw.githubusercontent.com/hagezi/dns-blocklists/main/domains/pro.txt) |
-| hagezi | DNS Pro++ Blocklist – more aggressive version of Pro list | <abbr title="Active">🟢</abbr> | [↗](https://raw.githubusercontent.com/hagezi/dns-blocklists/main/domains/pro.plus.txt) |
+| hagezi | DNS Pro Blocklist – comprehensive DNS blocklist (ads, tracking, malware, phishing) | <abbr title="Offline">🔴</abbr> | [↗](https://raw.githubusercontent.com/hagezi/dns-blocklists/main/domains/pro.txt) |
+| hagezi | DNS Pro++ Blocklist – more aggressive version of Pro list | <abbr title="Offline">🔴</abbr> | [↗](https://raw.githubusercontent.com/hagezi/dns-blocklists/main/domains/pro.plus.txt) |
 | jarelllama | Scam Blocklist – phishing and scam domains (wildcard format) | <abbr title="Active">🟢</abbr> | [↗](https://raw.githubusercontent.com/jarelllama/Scam-Blocklist/main/lists/wildcard_domains/scams.txt) |
 | MalSilo | MalSilo Domain List | <abbr title="Active">🟢</abbr> | [↗](https://malsilo.gitlab.io/feeds/dumps/domain_list.txt) |
 | phishdestroy | PhishDestroy blocklist – phishing and malicious domains | <abbr title="Active">🟢</abbr> | [↗](https://raw.githubusercontent.com/phishdestroy/destroylist/refs/heads/main/list.txt) |
@@ -361,7 +361,7 @@ Status legend: 🟢 Active – 🔴 Offline – 🔒 Restricted (requires API ke
 | ExtSentry | Suspicious browser extension IDs only | <abbr title="Active">🟢</abbr> | [↗](https://raw.githubusercontent.com/ExtSentry/ExtSentry.github.io/main/feeds/ioc_suspicious_extension_ids.txt) |
 | ExtSentry | Browser extensions enriched IOC feed (CSV) | <abbr title="Active">🟢</abbr> | [↗](https://raw.githubusercontent.com/ExtSentry/ExtSentry.github.io/main/feeds/extsentry_ioc_feed.csv) |
 | Github | APT Notes CSV | <abbr title="Active">🟢</abbr> | [↗](https://raw.githubusercontent.com/aptnotes/data/master/APTnotes.csv) |
-| jeroengui | Phishing URLs – last week community feed | <abbr title="Active">🟢</abbr> | [↗](https://file.jeroengui.be/phishing/last_week.txt) |
+| jeroengui | Phishing URLs – last week community feed | <abbr title="Offline">🔴</abbr> | [↗](https://file.jeroengui.be/phishing/last_week.txt) |
 | loldrivers | LOLDrivers | <abbr title="Active">🟢</abbr> | [↗](https://www.loldrivers.io/) |
 | LOLOLFarm | LOLOLFarm | <abbr title="Active">🟢</abbr> | [↗](https://lolol.farm/) |
 | LOTS | Living Off Trusted Sites | <abbr title="Active">🟢</abbr> | [↗](https://lots-project.com/) |
@@ -471,7 +471,7 @@ Status legend: 🟢 Active – 🔴 Offline – 🔒 Restricted (requires API ke
 | mthcht | DNS over HTTPS server list | <abbr title="Active">🟢</abbr> | [↗](https://github.com/mthcht/awesome-lists/blob/main/Lists/dns_over_https_servers_list.csv) |
 | mthcht | Dynamic DNS domains list | <abbr title="Active">🟢</abbr> | [↗](https://github.com/mthcht/awesome-lists/blob/main/Lists/DYNDNS/dyndns_list.csv) |
 | mthcht | Sinkholed Domains | <abbr title="Active">🟢</abbr> | [↗](https://github.com/mthcht/awesome-lists/blob/main/Lists/Domains/sinkholed_servers/sinkholed_domains.csv) |
-| mthcht | Hijacklibs | <abbr title="Active">🟢</abbr> | [↗](https://github.com/mthcht/awesome-lists/blob/main/Lists/Hijacklibs/hijacklibs_list.csv) |
+| mthcht | Hijacklibs | <abbr title="Offline">🔴</abbr> | [↗](https://github.com/mthcht/awesome-lists/blob/main/Lists/Hijacklibs/hijacklibs_list.csv) |
 | mthcht | LOLDriver List | <abbr title="Active">🟢</abbr> | [↗](https://github.com/mthcht/awesome-lists/blob/main/Lists/Drivers/loldrivers_only_hashes_list.csv) |
 | mthcht | Malicious Bootloader List | <abbr title="Active">🟢</abbr> | [↗](https://github.com/mthcht/awesome-lists/blob/main/Lists/Drivers/malicious_bootloaders_only_hashes_list.csv) |
 | mthcht | Malicious SSL Certificates List | <abbr title="Active">🟢</abbr> | [↗](https://github.com/mthcht/awesome-lists/blob/main/Lists/SSL%20CERTS/ssl_certificates_malicious_list.csv) |
