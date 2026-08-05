@@ -361,7 +361,7 @@ Status legend: 🟢 Active – 🔴 Offline – 🔒 Restricted (requires API ke
 | ExtSentry | Suspicious browser extension IDs only | <abbr title="Active">🟢</abbr> | [↗](https://raw.githubusercontent.com/ExtSentry/ExtSentry.github.io/main/feeds/ioc_suspicious_extension_ids.txt) |
 | ExtSentry | Browser extensions enriched IOC feed (CSV) | <abbr title="Active">🟢</abbr> | [↗](https://raw.githubusercontent.com/ExtSentry/ExtSentry.github.io/main/feeds/extsentry_ioc_feed.csv) |
 | Github | APT Notes CSV | <abbr title="Active">🟢</abbr> | [↗](https://raw.githubusercontent.com/aptnotes/data/master/APTnotes.csv) |
-| jeroengui | Phishing URLs – last week community feed | <abbr title="Active">🟢</abbr> | [↗](https://file.jeroengui.be/phishing/last_week.txt) |
+| jeroengui | Phishing URLs – last week community feed | <abbr title="Offline">🔴</abbr> | [↗](https://file.jeroengui.be/phishing/last_week.txt) |
 | loldrivers | LOLDrivers | <abbr title="Active">🟢</abbr> | [↗](https://www.loldrivers.io/) |
 | LOLOLFarm | LOLOLFarm | <abbr title="Active">🟢</abbr> | [↗](https://lolol.farm/) |
 | LOTS | Living Off Trusted Sites | <abbr title="Active">🟢</abbr> | [↗](https://lots-project.com/) |

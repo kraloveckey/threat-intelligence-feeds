@@ -324,7 +324,7 @@ Zimperium;Zimperium mobile threat IOC repository;REPO;https://github.com/Zimperi
 blackorbird;APT Report IOC repository;REPO;https://github.com/blackorbird/APT_REPORT;Active
 unknownhad;CloudIntel – cloud-specific IOC repository;REPO;https://github.com/unknownhad/CloudIntel;Active
 SpamHaus;Extended DROP list – ASNs (eDROP);IP;https://www.spamhaus.org/drop/edrop.txt;Active
-jeroengui;Phishing URLs – last week community feed;URL;https://file.jeroengui.be/phishing/last_week.txt;Active
+jeroengui;Phishing URLs – last week community feed;URL;https://file.jeroengui.be/phishing/last_week.txt;Offline
 rosti.bin;Public threat intelligence reports feed;IOC;https://rosti.bin.re/feeds;Active
 Bert-JanP;Open Source Threat Intel Feeds;REPO;https://github.com/Bert-JanP/Open-Source-Threat-Intel-Feeds;Active
 mthcht;Unit42 IOC by mthcht;REPO;https://github.com/mthcht/iocs;Active
