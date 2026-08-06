@@ -361,7 +361,7 @@ Status legend: 🟢 Active – 🔴 Offline – 🔒 Restricted (requires API ke
 | ExtSentry | Suspicious browser extension IDs only | <abbr title="Active">🟢</abbr> | [↗](https://raw.githubusercontent.com/ExtSentry/ExtSentry.github.io/main/feeds/ioc_suspicious_extension_ids.txt) |
 | ExtSentry | Browser extensions enriched IOC feed (CSV) | <abbr title="Active">🟢</abbr> | [↗](https://raw.githubusercontent.com/ExtSentry/ExtSentry.github.io/main/feeds/extsentry_ioc_feed.csv) |
 | Github | APT Notes CSV | <abbr title="Active">🟢</abbr> | [↗](https://raw.githubusercontent.com/aptnotes/data/master/APTnotes.csv) |
-| jeroengui | Phishing URLs – last week community feed | <abbr title="Offline">🔴</abbr> | [↗](https://file.jeroengui.be/phishing/last_week.txt) |
+| jeroengui | Phishing URLs – last week community feed | <abbr title="Active">🟢</abbr> | [↗](https://file.jeroengui.be/phishing/last_week.txt) |
 | loldrivers | LOLDrivers | <abbr title="Active">🟢</abbr> | [↗](https://www.loldrivers.io/) |
 | LOLOLFarm | LOLOLFarm | <abbr title="Active">🟢</abbr> | [↗](https://lolol.farm/) |
 | LOTS | Living Off Trusted Sites | <abbr title="Active">🟢</abbr> | [↗](https://lots-project.com/) |
@@ -463,11 +463,11 @@ Status legend: 🟢 Active – 🔴 Offline – 🔒 Restricted (requires API ke
 | mthcht | Suspicious Firewall rules | <abbr title="Active">🟢</abbr> | [↗](https://github.com/mthcht/awesome-lists/blob/main/Lists/suspicious_windows_firewall_rules_list.csv) |
 | mthcht | Suspicious User-agent | <abbr title="Active">🟢</abbr> | [↗](https://github.com/mthcht/awesome-lists/blob/main/Lists/suspicious_http_user_agents_list.csv) |
 | mthcht | Suspicious USB Ids | <abbr title="Active">🟢</abbr> | [↗](https://github.com/mthcht/awesome-lists/blob/main/Lists/suspicious_usb_ids_list.csv) |
-| mthcht | Suspicious mutex names | <abbr title="Active">🟢</abbr> | [↗](https://github.com/mthcht/awesome-lists/blob/main/Lists/suspicious_mutex_names_list.csv) |
+| mthcht | Suspicious mutex names | <abbr title="Offline">🔴</abbr> | [↗](https://github.com/mthcht/awesome-lists/blob/main/Lists/suspicious_mutex_names_list.csv) |
 | mthcht | Suspicious MAC address | <abbr title="Active">🟢</abbr> | [↗](https://github.com/mthcht/awesome-lists/blob/main/Lists/suspicious_mac_address_list.csv) |
 | mthcht | Suspicious Hostname | <abbr title="Active">🟢</abbr> | [↗](https://github.com/mthcht/awesome-lists/blob/main/Lists/suspicious_hostnames_list.csv) |
 | mthcht | Microsoft App IDs List (BEC Detection) | <abbr title="Active">🟢</abbr> | [↗](https://github.com/mthcht/awesome-lists/blob/main/Lists/microsoft_apps_list.csv) |
-| mthcht | Metadata Executables | <abbr title="Active">🟢</abbr> | [↗](https://github.com/mthcht/awesome-lists/blob/main/Lists/Windows%20Metadata/executables_metadata_informations_list.csv) |
+| mthcht | Metadata Executables | <abbr title="Offline">🔴</abbr> | [↗](https://github.com/mthcht/awesome-lists/blob/main/Lists/Windows%20Metadata/executables_metadata_informations_list.csv) |
 | mthcht | DNS over HTTPS server list | <abbr title="Active">🟢</abbr> | [↗](https://github.com/mthcht/awesome-lists/blob/main/Lists/dns_over_https_servers_list.csv) |
 | mthcht | Dynamic DNS domains list | <abbr title="Active">🟢</abbr> | [↗](https://github.com/mthcht/awesome-lists/blob/main/Lists/DYNDNS/dyndns_list.csv) |
 | mthcht | Sinkholed Domains | <abbr title="Active">🟢</abbr> | [↗](https://github.com/mthcht/awesome-lists/blob/main/Lists/Domains/sinkholed_servers/sinkholed_domains.csv) |
@@ -475,7 +475,7 @@ Status legend: 🟢 Active – 🔴 Offline – 🔒 Restricted (requires API ke
 | mthcht | LOLDriver List | <abbr title="Active">🟢</abbr> | [↗](https://github.com/mthcht/awesome-lists/blob/main/Lists/Drivers/loldrivers_only_hashes_list.csv) |
 | mthcht | Malicious Bootloader List | <abbr title="Active">🟢</abbr> | [↗](https://github.com/mthcht/awesome-lists/blob/main/Lists/Drivers/malicious_bootloaders_only_hashes_list.csv) |
 | mthcht | Malicious SSL Certificates List | <abbr title="Active">🟢</abbr> | [↗](https://github.com/mthcht/awesome-lists/blob/main/Lists/SSL%20CERTS/ssl_certificates_malicious_list.csv) |
-| mthcht | Ransomware known file extensions | <abbr title="Active">🟢</abbr> | [↗](https://github.com/mthcht/awesome-lists/blob/main/Lists/ransomware_extensions_list.csv) |
+| mthcht | Ransomware known file extensions | <abbr title="Offline">🔴</abbr> | [↗](https://github.com/mthcht/awesome-lists/blob/main/Lists/ransomware_extensions_list.csv) |
 | mthcht | Ransomware known file name ransom notes | <abbr title="Active">🟢</abbr> | [↗](https://github.com/mthcht/awesome-lists/blob/main/Lists/ransomware_notes_list.csv) |
 | mthcht | Windows ASR rules | <abbr title="Active">🟢</abbr> | [↗](https://github.com/mthcht/awesome-lists/blob/main/Lists/windows_asr_rules.csv) |
 | mthcht | GeoIP services Lists | <abbr title="Active">🟢</abbr> | [↗](https://github.com/mthcht/awesome-lists/blob/main/Lists/GeoIP/ip_location_sites_list.csv) |
