@@ -133,7 +133,7 @@ GriffinGuard;GriffinGuard Abuse 7-day Top 10K;IP;https://griffinguard.io/feeds/a
 Ultimate-Hosts-Blacklist;Ultimate Hosts Blacklist IPs;IP;https://raw.githubusercontent.com/Ultimate-Hosts-Blacklist/Ultimate.Hosts.Blacklist/master/ips/ips0.list;Active
 Ngosang;BitTorrent Trackers IP List;BLOCKLIST;https://raw.githubusercontent.com/ngosang/trackerslist/master/trackers_all_ip.txt;Active
 opsxcq;Open Proxy List;IP;https://raw.githubusercontent.com/opsxcq/proxy-list/master/list.txt;Active
-BruteForceBlocker;SSH BruteForce Blocker IPs;IP;http://danger.rulez.sk/projects/bruteforceblocker/blist.php;Active
+BruteForceBlocker;SSH BruteForce Blocker IPs;IP;http://danger.rulez.sk/projects/bruteforceblocker/blist.php;Offline
 Yoyo;Yoyo Ad Server IPs;IP;http://pgl.yoyo.org/adservers/iplist.php?ipformat=plain&showintro=0&mimetype=plaintext;Active
 cybercrime-tracker.net;Cybercrime Tracker – All C2s;URL;https://cybercrime-tracker.net/all.php;Active
 cybercrime-tracker.net;Cybercrime Tracker – Gatelist;URL;https://cybercrime-tracker.net/ccamgate.php;Active
@@ -324,7 +324,7 @@ Zimperium;Zimperium mobile threat IOC repository;REPO;https://github.com/Zimperi
 blackorbird;APT Report IOC repository;REPO;https://github.com/blackorbird/APT_REPORT;Active
 unknownhad;CloudIntel – cloud-specific IOC repository;REPO;https://github.com/unknownhad/CloudIntel;Active
 SpamHaus;Extended DROP list – ASNs (eDROP);IP;https://www.spamhaus.org/drop/edrop.txt;Active
-jeroengui;Phishing URLs – last week community feed;URL;https://file.jeroengui.be/phishing/last_week.txt;Offline
+jeroengui;Phishing URLs – last week community feed;URL;https://file.jeroengui.be/phishing/last_week.txt;Active
 rosti.bin;Public threat intelligence reports feed;IOC;https://rosti.bin.re/feeds;Active
 Bert-JanP;Open Source Threat Intel Feeds;REPO;https://github.com/Bert-JanP/Open-Source-Threat-Intel-Feeds;Active
 mthcht;Unit42 IOC by mthcht;REPO;https://github.com/mthcht/iocs;Active
@@ -358,7 +358,7 @@ mthcht;Ransomware known file extensions;IOC;https://github.com/mthcht/awesome-li
 mthcht;Ransomware known file name ransom notes;IOC;https://github.com/mthcht/awesome-lists/blob/main/Lists/ransomware_notes_list.csv;Active
 mthcht;Windows ASR rules;IOC;https://github.com/mthcht/awesome-lists/blob/main/Lists/windows_asr_rules.csv;Active
 mthcht;VPN NordVPN IPs;IP;https://github.com/mthcht/awesome-lists/blob/main/Lists/VPN/NordVPN/nordvpn_ips_list.csv;Active
-mthcht;VPN SurfShark IPs;IP;https://github.com/mthcht/awesome-lists/blob/main/Lists/VPN/SurfSharkVPN/surfshark_vpn_servers_domains_and_ips_list.csv;Active
+mthcht;VPN SurfShark IPs;IP;https://github.com/mthcht/awesome-lists/blob/main/Lists/VPN/SurfSharkVPN/surfshark_vpn_servers_domains_and_ips_list.csv;Offline
 mthcht;VPN MullVad IPs;IP;https://github.com/mthcht/awesome-lists/blob/main/Lists/VPN/MullVad/mullvad_relay_servers_ips_list.csv;Active
 mthcht;GeoIP services Lists;IOC;https://github.com/mthcht/awesome-lists/blob/main/Lists/GeoIP/ip_location_sites_list.csv;Active
 mthcht;VPN ProtonVPN IPs;IP;https://github.com/mthcht/awesome-lists/blob/main/Lists/VPN/ProtonVPN/protonvpn_ip_list.csv;Active
