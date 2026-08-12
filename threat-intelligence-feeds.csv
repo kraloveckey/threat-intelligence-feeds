@@ -418,3 +418,4 @@ CyberGordon;CyberGordon URL Reputation;OSINT;https://cybergordon.com/;Active
 AnyRun;Any.Run Interactive Sandbox;SANDBOX;https://any.run/;Active
 Triage;Triage Malware Sandbox;SANDBOX;https://tria.ge/s;Active
 JoeSecurity;JoeSandbox;SANDBOX;https://www.joesandbox.com/analysispaged/0;Active
+MalwareIntel;Threat intelligence platform aggregating 98+ public feeds with 1.8M+ IOCs, Sigma rules, MITRE ATT&CK mapping, and knowledge graph — Spanish and English;FRAMEWORK;https://malwareintel.es;Active
