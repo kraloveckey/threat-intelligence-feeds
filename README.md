@@ -177,7 +177,7 @@ Status legend: 🟢 Active – 🔴 Offline – 🔒 Restricted (requires API ke
 | BotScout.com | Most recently-caught web bots | <abbr title="Active">🟢</abbr> | [↗](http://botscout.com/last_caught_cache.htm) |
 | Botvrij.eu | Botvrij IOC IP Destination (raw) | <abbr title="Active">🟢</abbr> | [↗](http://www.botvrij.eu/data/ioclist.ip-dst.raw) |
 | Botvrij.eu | Botvrij IOC IP Source (raw) | <abbr title="Active">🟢</abbr> | [↗](http://www.botvrij.eu/data/ioclist.ip-src.raw) |
-| BruteForceBlocker | SSH BruteForce Blocker IPs | <abbr title="Offline">🔴</abbr> | [↗](http://danger.rulez.sk/projects/bruteforceblocker/blist.php) |
+| BruteForceBlocker | SSH BruteForce Blocker IPs | <abbr title="Active">🟢</abbr> | [↗](http://danger.rulez.sk/projects/bruteforceblocker/blist.php) |
 | C2IntelFeeds | C2 IP addresses – 30 day verified | <abbr title="Active">🟢</abbr> | [↗](https://raw.githubusercontent.com/drb-ra/C2IntelFeeds/master/feeds/IPC2s-30day.csv) |
 | C2IntelFeeds | Unverified C2 IPs | <abbr title="Active">🟢</abbr> | [↗](https://raw.githubusercontent.com/drb-ra/C2IntelFeeds/master/feeds/unverified/IPC2s.csv) |
 | Carbon Black | Cobalt Strike LuckyMouse / TA428 | <abbr title="Active">🟢</abbr> | [↗](https://raw.githubusercontent.com/carbonblack/active_c2_ioc_public/main/cobaltstrike/actor-specific/cobaltstrike_luckymouse_ta428.csv) |
@@ -256,7 +256,7 @@ Status legend: 🟢 Active – 🔴 Offline – 🔒 Restricted (requires API ke
 | MalSilo | MalSilo IPv4 List | <abbr title="Active">🟢</abbr> | [↗](https://malsilo.gitlab.io/feeds/dumps/ip_list.txt) |
 | Maltrail | Maltrail Mass Scanner IPs | <abbr title="Active">🟢</abbr> | [↗](https://raw.githubusercontent.com/stamparm/maltrail/master/trails/static/mass_scanner.txt) |
 | mthcht | VPN NordVPN IPs | <abbr title="Active">🟢</abbr> | [↗](https://github.com/mthcht/awesome-lists/blob/main/Lists/VPN/NordVPN/nordvpn_ips_list.csv) |
-| mthcht | VPN SurfShark IPs | <abbr title="Offline">🔴</abbr> | [↗](https://github.com/mthcht/awesome-lists/blob/main/Lists/VPN/SurfSharkVPN/surfshark_vpn_servers_domains_and_ips_list.csv) |
+| mthcht | VPN SurfShark IPs | <abbr title="Active">🟢</abbr> | [↗](https://github.com/mthcht/awesome-lists/blob/main/Lists/VPN/SurfSharkVPN/surfshark_vpn_servers_domains_and_ips_list.csv) |
 | mthcht | VPN MullVad IPs | <abbr title="Active">🟢</abbr> | [↗](https://github.com/mthcht/awesome-lists/blob/main/Lists/VPN/MullVad/mullvad_relay_servers_ips_list.csv) |
 | mthcht | VPN ProtonVPN IPs | <abbr title="Active">🟢</abbr> | [↗](https://github.com/mthcht/awesome-lists/blob/main/Lists/VPN/ProtonVPN/protonvpn_ip_list.csv) |
 | MyIP.ms | Web bot IPs identified in last 10 days | <abbr title="Active">🟢</abbr> | [↗](http://www.myip.ms/files/blacklist/csf/latest_blacklist.txt) |
@@ -381,7 +381,7 @@ Status legend: 🟢 Active – 🔴 Offline – 🔒 Restricted (requires API ke
 | urlabuse | Hacked URL Feed | <abbr title="Active">🟢</abbr> | [↗](https://urlabuse.com/public/data/hacked_url.txt) |
 | urlabuse | URL Abuse DB – Latest 500 entries (CSV) | <abbr title="Active">🟢</abbr> | [↗](https://urlabuse.com/public/data/data_csv.txt) |
 | UrlHaus | UrlHaus_misp ASN feeds | <abbr title="Active">🟢</abbr> | [↗](https://urlhaus.abuse.ch/feeds/) |
-| VXVault | VXVault Malware URL List | <abbr title="Active">🟢</abbr> | [↗](http://vxvault.net/ViriList.php?s=0&m=100) |
+| VXVault | VXVault Malware URL List | <abbr title="Offline">🔴</abbr> | [↗](http://vxvault.net/ViriList.php?s=0&m=100) |
 | VXVault | VXVault URL List | <abbr title="Active">🟢</abbr> | [↗](http://vxvault.net/URL_List.php) |
 
 ### MD5 (6)
@@ -464,7 +464,7 @@ Status legend: 🟢 Active – 🔴 Offline – 🔒 Restricted (requires API ke
 | mthcht | Suspicious User-agent | <abbr title="Active">🟢</abbr> | [↗](https://github.com/mthcht/awesome-lists/blob/main/Lists/suspicious_http_user_agents_list.csv) |
 | mthcht | Suspicious USB Ids | <abbr title="Active">🟢</abbr> | [↗](https://github.com/mthcht/awesome-lists/blob/main/Lists/suspicious_usb_ids_list.csv) |
 | mthcht | Suspicious mutex names | <abbr title="Active">🟢</abbr> | [↗](https://github.com/mthcht/awesome-lists/blob/main/Lists/suspicious_mutex_names_list.csv) |
-| mthcht | Suspicious MAC address | <abbr title="Active">🟢</abbr> | [↗](https://github.com/mthcht/awesome-lists/blob/main/Lists/suspicious_mac_address_list.csv) |
+| mthcht | Suspicious MAC address | <abbr title="Offline">🔴</abbr> | [↗](https://github.com/mthcht/awesome-lists/blob/main/Lists/suspicious_mac_address_list.csv) |
 | mthcht | Suspicious Hostname | <abbr title="Active">🟢</abbr> | [↗](https://github.com/mthcht/awesome-lists/blob/main/Lists/suspicious_hostnames_list.csv) |
 | mthcht | Microsoft App IDs List (BEC Detection) | <abbr title="Active">🟢</abbr> | [↗](https://github.com/mthcht/awesome-lists/blob/main/Lists/microsoft_apps_list.csv) |
 | mthcht | Metadata Executables | <abbr title="Active">🟢</abbr> | [↗](https://github.com/mthcht/awesome-lists/blob/main/Lists/Windows%20Metadata/executables_metadata_informations_list.csv) |
@@ -475,10 +475,10 @@ Status legend: 🟢 Active – 🔴 Offline – 🔒 Restricted (requires API ke
 | mthcht | LOLDriver List | <abbr title="Active">🟢</abbr> | [↗](https://github.com/mthcht/awesome-lists/blob/main/Lists/Drivers/loldrivers_only_hashes_list.csv) |
 | mthcht | Malicious Bootloader List | <abbr title="Active">🟢</abbr> | [↗](https://github.com/mthcht/awesome-lists/blob/main/Lists/Drivers/malicious_bootloaders_only_hashes_list.csv) |
 | mthcht | Malicious SSL Certificates List | <abbr title="Active">🟢</abbr> | [↗](https://github.com/mthcht/awesome-lists/blob/main/Lists/SSL%20CERTS/ssl_certificates_malicious_list.csv) |
-| mthcht | Ransomware known file extensions | <abbr title="Active">🟢</abbr> | [↗](https://github.com/mthcht/awesome-lists/blob/main/Lists/ransomware_extensions_list.csv) |
+| mthcht | Ransomware known file extensions | <abbr title="Offline">🔴</abbr> | [↗](https://github.com/mthcht/awesome-lists/blob/main/Lists/ransomware_extensions_list.csv) |
 | mthcht | Ransomware known file name ransom notes | <abbr title="Active">🟢</abbr> | [↗](https://github.com/mthcht/awesome-lists/blob/main/Lists/ransomware_notes_list.csv) |
 | mthcht | Windows ASR rules | <abbr title="Active">🟢</abbr> | [↗](https://github.com/mthcht/awesome-lists/blob/main/Lists/windows_asr_rules.csv) |
-| mthcht | GeoIP services Lists | <abbr title="Active">🟢</abbr> | [↗](https://github.com/mthcht/awesome-lists/blob/main/Lists/GeoIP/ip_location_sites_list.csv) |
+| mthcht | GeoIP services Lists | <abbr title="Offline">🔴</abbr> | [↗](https://github.com/mthcht/awesome-lists/blob/main/Lists/GeoIP/ip_location_sites_list.csv) |
 | rosti.bin | Public threat intelligence reports feed | <abbr title="Active">🟢</abbr> | [↗](https://rosti.bin.re/feeds) |
 | SentinelPhishFeed | File hash IOCs (MD5/SHA) | <abbr title="Active">🟢</abbr> | [↗](https://raw.githubusercontent.com/rjn32s/SentinelPhishFeed/main/hashes.txt) |
 | threatview.io | Bitcoin Address Intel | <abbr title="Active">🟢</abbr> | [↗](https://threatview.io/Downloads/MALICIOUS-BITCOIN_FEED.txt) |
