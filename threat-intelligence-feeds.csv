@@ -134,7 +134,7 @@ Ultimate-Hosts-Blacklist;Ultimate Hosts Blacklist IPs;IP;https://raw.githubuserc
 Ngosang;BitTorrent Trackers IP List;BLOCKLIST;https://raw.githubusercontent.com/ngosang/trackerslist/master/trackers_all_ip.txt;Active
 opsxcq;Open Proxy List;IP;https://raw.githubusercontent.com/opsxcq/proxy-list/master/list.txt;Active
 BruteForceBlocker;SSH BruteForce Blocker IPs;IP;http://danger.rulez.sk/projects/bruteforceblocker/blist.php;Active
-Yoyo;Yoyo Ad Server IPs;IP;http://pgl.yoyo.org/adservers/iplist.php?ipformat=plain&showintro=0&mimetype=plaintext;Offline
+Yoyo;Yoyo Ad Server IPs;IP;http://pgl.yoyo.org/adservers/iplist.php?ipformat=plain&showintro=0&mimetype=plaintext;Active
 cybercrime-tracker.net;Cybercrime Tracker – All C2s;URL;https://cybercrime-tracker.net/all.php;Active
 cybercrime-tracker.net;Cybercrime Tracker – Gatelist;URL;https://cybercrime-tracker.net/ccamgate.php;Active
 cybercrime-tracker.net;Cybercrime Tracker – Hash List;MD5;https://cybercrime-tracker.net/ccamlist.php;Active
@@ -337,7 +337,7 @@ mthcht;Greyware Tools detection patterns;IOC;https://raw.githubusercontent.com/m
 mthcht;AV signatures keywords;IOC;https://github.com/mthcht/ThreatHunting-Keywords/blob/main/signature_keyword.csv;Active
 mthcht;Suspicious Named pipes;IOC;https://github.com/mthcht/awesome-lists/blob/main/Lists/suspicious_named_pipe_list.csv;Active
 mthcht;Suspicious Windows Services;IOC;https://github.com/mthcht/awesome-lists/blob/main/Lists/suspicious_windows_services_names_list.csv;Active
-mthcht;Suspicious Windows Tasks;IOC;https://github.com/mthcht/awesome-lists/blob/main/Lists/suspicious_windows_tasks_list.csv;Active
+mthcht;Suspicious Windows Tasks;IOC;https://github.com/mthcht/awesome-lists/blob/main/Lists/suspicious_windows_tasks_list.csv;Offline
 mthcht;Suspicious destination port;IOC;https://github.com/mthcht/awesome-lists/blob/main/Lists/suspicious_ports_list.csv;Active
 mthcht;Suspicious Firewall rules;IOC;https://github.com/mthcht/awesome-lists/blob/main/Lists/suspicious_windows_firewall_rules_list.csv;Active
 mthcht;Suspicious User-agent;IOC;https://github.com/mthcht/awesome-lists/blob/main/Lists/suspicious_http_user_agents_list.csv;Active
@@ -345,7 +345,7 @@ mthcht;Suspicious USB Ids;IOC;https://github.com/mthcht/awesome-lists/blob/main/
 mthcht;Suspicious mutex names;IOC;https://github.com/mthcht/awesome-lists/blob/main/Lists/suspicious_mutex_names_list.csv;Active
 mthcht;Suspicious MAC address;IOC;https://github.com/mthcht/awesome-lists/blob/main/Lists/suspicious_mac_address_list.csv;Active
 mthcht;Suspicious Hostname;IOC;https://github.com/mthcht/awesome-lists/blob/main/Lists/suspicious_hostnames_list.csv;Active
-mthcht;Microsoft App IDs List (BEC Detection);IOC;https://github.com/mthcht/awesome-lists/blob/main/Lists/microsoft_apps_list.csv;Offline
+mthcht;Microsoft App IDs List (BEC Detection);IOC;https://github.com/mthcht/awesome-lists/blob/main/Lists/microsoft_apps_list.csv;Active
 mthcht;Metadata Executables;IOC;https://github.com/mthcht/awesome-lists/blob/main/Lists/Windows%20Metadata/executables_metadata_informations_list.csv;Active
 mthcht;DNS over HTTPS server list;IOC;https://github.com/mthcht/awesome-lists/blob/main/Lists/dns_over_https_servers_list.csv;Active
 mthcht;Dynamic DNS domains list;IOC;https://github.com/mthcht/awesome-lists/blob/main/Lists/DYNDNS/dyndns_list.csv;Active
@@ -417,4 +417,4 @@ Pulsedive;Pulsedive Threat Intelligence;OSINT;https://pulsedive.com/;Active
 CyberGordon;CyberGordon URL Reputation;OSINT;https://cybergordon.com/;Active
 AnyRun;Any.Run Interactive Sandbox;SANDBOX;https://any.run/;Active
 Triage;Triage Malware Sandbox;SANDBOX;https://tria.ge/s;Active
-JoeSecurity;JoeSandbox;SANDBOX;https://www.joesandbox.com/analysispaged/0;Active
+JoeSecurity;JoeSandbox;SANDBOX;https://www.joesandbox.com/analysispaged/0;Offline
