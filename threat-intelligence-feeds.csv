@@ -4,9 +4,9 @@ Abuse.ch;Botnet C2 IP Blacklist (CSV);IP;https://sslbl.abuse.ch/blacklist/sslipb
 Abuse.ch;Botnet C2 IP Blacklist (TXT);IP;https://sslbl.abuse.ch/blacklist/sslipblacklist.txt;Active
 Abuse.ch;Botnet C2 IP Blacklist Aggressive (CSV);IP;https://sslbl.abuse.ch/blacklist/sslipblacklist_aggressive.csv;Active
 Abuse.ch;Botnet C2 IP Blacklist Aggressive (TXT);IP;https://sslbl.abuse.ch/blacklist/sslipblacklist_aggressive.txt;Active
-Abuse.ch;Botnet C2 Indicators of Compromise – Recommended Blocklist;IP;https://feodotracker.abuse.ch/downloads/ipblocklist_recommended.txt;Active
-Abuse.ch;Botnet C2 Indicators of Compromise;IP;https://feodotracker.abuse.ch/downloads/ipblocklist.txt;Active
-Abuse.ch;All botnet C2s Feodo Tracker has ever seen;IP;https://feodotracker.abuse.ch/blocklist/;Active
+Abuse.ch;Botnet C2 Indicators of Compromise – Recommended Blocklist;IP;https://feodotracker.abuse.ch/downloads/ipblocklist_recommended.txt;Offline
+Abuse.ch;Botnet C2 Indicators of Compromise;IP;https://feodotracker.abuse.ch/downloads/ipblocklist.txt;Offline
+Abuse.ch;All botnet C2s Feodo Tracker has ever seen;IP;https://feodotracker.abuse.ch/blocklist/;Offline
 Abuse.ch;MD5 hashes – Recent additions (MalwareBazaar);MD5;https://bazaar.abuse.ch/export/txt/md5/recent/;Active
 Abuse.ch;MD5 hashes – Recent malicious files on C2 (ThreatFox);MD5;https://threatfox.abuse.ch/export/csv/md5/recent/;Active
 Abuse.ch;SHA1 hashes – Recent additions (MalwareBazaar);SHA1;https://bazaar.abuse.ch/export/txt/sha1/recent/;Active
@@ -108,7 +108,7 @@ Botvrij.eu;Botvrij IOC IP Source (raw);IP;http://www.botvrij.eu/data/ioclist.ip-
 Emerging Threats;Emerging Threats Tor Rules;IP;http://rules.emergingthreats.net/blockrules/emerging-tor.rules;Active
 Emerging Threats;Emerging Threats Block IPs;IP;http://rules.emergingthreats.net/fwrules/emerging-Block-IPs.txt;Active
 Spamhaus;Spamhaus DROP List (legacy txt);IP;http://www.spamhaus.org/drop/drop.txt;Active
-Abuse.ch;Feodo IP Blocklist Aggressive;IP;https://feodotracker.abuse.ch/downloads/ipblocklist_aggressive.txt;Active
+Abuse.ch;Feodo IP Blocklist Aggressive;IP;https://feodotracker.abuse.ch/downloads/ipblocklist_aggressive.txt;Offline
 Sblam;Sblam Spam Comment IPs;IP;http://sblam.com/blacklist.txt;Active
 DataPlane;DNS Recursion Desired;IP;https://dataplane.org/dnsrd.txt;Active
 DataPlane;DNS Recursion Desired IN ANY;IP;https://dataplane.org/dnsrdany.txt;Active
@@ -341,17 +341,17 @@ mthcht;Suspicious Windows Tasks;IOC;https://github.com/mthcht/awesome-lists/blob
 mthcht;Suspicious destination port;IOC;https://github.com/mthcht/awesome-lists/blob/main/Lists/suspicious_ports_list.csv;Active
 mthcht;Suspicious Firewall rules;IOC;https://github.com/mthcht/awesome-lists/blob/main/Lists/suspicious_windows_firewall_rules_list.csv;Active
 mthcht;Suspicious User-agent;IOC;https://github.com/mthcht/awesome-lists/blob/main/Lists/suspicious_http_user_agents_list.csv;Active
-mthcht;Suspicious USB Ids;IOC;https://github.com/mthcht/awesome-lists/blob/main/Lists/suspicious_usb_ids_list.csv;Active
+mthcht;Suspicious USB Ids;IOC;https://github.com/mthcht/awesome-lists/blob/main/Lists/suspicious_usb_ids_list.csv;Offline
 mthcht;Suspicious mutex names;IOC;https://github.com/mthcht/awesome-lists/blob/main/Lists/suspicious_mutex_names_list.csv;Active
-mthcht;Suspicious MAC address;IOC;https://github.com/mthcht/awesome-lists/blob/main/Lists/suspicious_mac_address_list.csv;Active
+mthcht;Suspicious MAC address;IOC;https://github.com/mthcht/awesome-lists/blob/main/Lists/suspicious_mac_address_list.csv;Offline
 mthcht;Suspicious Hostname;IOC;https://github.com/mthcht/awesome-lists/blob/main/Lists/suspicious_hostnames_list.csv;Active
 mthcht;Microsoft App IDs List (BEC Detection);IOC;https://github.com/mthcht/awesome-lists/blob/main/Lists/microsoft_apps_list.csv;Active
 mthcht;Metadata Executables;IOC;https://github.com/mthcht/awesome-lists/blob/main/Lists/Windows%20Metadata/executables_metadata_informations_list.csv;Active
-mthcht;DNS over HTTPS server list;IOC;https://github.com/mthcht/awesome-lists/blob/main/Lists/dns_over_https_servers_list.csv;Active
+mthcht;DNS over HTTPS server list;IOC;https://github.com/mthcht/awesome-lists/blob/main/Lists/dns_over_https_servers_list.csv;Offline
 mthcht;Dynamic DNS domains list;IOC;https://github.com/mthcht/awesome-lists/blob/main/Lists/DYNDNS/dyndns_list.csv;Active
-mthcht;Sinkholed Domains;IOC;https://github.com/mthcht/awesome-lists/blob/main/Lists/Domains/sinkholed_servers/sinkholed_domains.csv;Offline
+mthcht;Sinkholed Domains;IOC;https://github.com/mthcht/awesome-lists/blob/main/Lists/Domains/sinkholed_servers/sinkholed_domains.csv;Active
 mthcht;Hijacklibs;IOC;https://github.com/mthcht/awesome-lists/blob/main/Lists/Hijacklibs/hijacklibs_list.csv;Active
-mthcht;LOLDriver List;IOC;https://github.com/mthcht/awesome-lists/blob/main/Lists/Drivers/loldrivers_only_hashes_list.csv;Offline
+mthcht;LOLDriver List;IOC;https://github.com/mthcht/awesome-lists/blob/main/Lists/Drivers/loldrivers_only_hashes_list.csv;Active
 mthcht;Malicious Bootloader List;IOC;https://github.com/mthcht/awesome-lists/blob/main/Lists/Drivers/malicious_bootloaders_only_hashes_list.csv;Active
 mthcht;Malicious SSL Certificates List;IOC;https://github.com/mthcht/awesome-lists/blob/main/Lists/SSL%20CERTS/ssl_certificates_malicious_list.csv;Active
 mthcht;Ransomware known file extensions;IOC;https://github.com/mthcht/awesome-lists/blob/main/Lists/ransomware_extensions_list.csv;Active
