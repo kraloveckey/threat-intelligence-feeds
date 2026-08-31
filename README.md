@@ -152,10 +152,10 @@ Status legend: 🟢 Active – 🔴 Offline – 🔒 Restricted (requires API ke
 | Abuse.ch | Botnet C2 IP Blacklist (TXT) | <abbr title="Active">🟢</abbr> | [↗](https://sslbl.abuse.ch/blacklist/sslipblacklist.txt) |
 | Abuse.ch | Botnet C2 IP Blacklist Aggressive (CSV) | <abbr title="Active">🟢</abbr> | [↗](https://sslbl.abuse.ch/blacklist/sslipblacklist_aggressive.csv) |
 | Abuse.ch | Botnet C2 IP Blacklist Aggressive (TXT) | <abbr title="Active">🟢</abbr> | [↗](https://sslbl.abuse.ch/blacklist/sslipblacklist_aggressive.txt) |
-| Abuse.ch | Botnet C2 Indicators of Compromise – Recommended Blocklist | <abbr title="Offline">🔴</abbr> | [↗](https://feodotracker.abuse.ch/downloads/ipblocklist_recommended.txt) |
-| Abuse.ch | Botnet C2 Indicators of Compromise | <abbr title="Offline">🔴</abbr> | [↗](https://feodotracker.abuse.ch/downloads/ipblocklist.txt) |
-| Abuse.ch | All botnet C2s Feodo Tracker has ever seen | <abbr title="Offline">🔴</abbr> | [↗](https://feodotracker.abuse.ch/blocklist/) |
-| Abuse.ch | Feodo IP Blocklist Aggressive | <abbr title="Offline">🔴</abbr> | [↗](https://feodotracker.abuse.ch/downloads/ipblocklist_aggressive.txt) |
+| Abuse.ch | Botnet C2 Indicators of Compromise – Recommended Blocklist | <abbr title="Active">🟢</abbr> | [↗](https://feodotracker.abuse.ch/downloads/ipblocklist_recommended.txt) |
+| Abuse.ch | Botnet C2 Indicators of Compromise | <abbr title="Active">🟢</abbr> | [↗](https://feodotracker.abuse.ch/downloads/ipblocklist.txt) |
+| Abuse.ch | All botnet C2s Feodo Tracker has ever seen | <abbr title="Active">🟢</abbr> | [↗](https://feodotracker.abuse.ch/blocklist/) |
+| Abuse.ch | Feodo IP Blocklist Aggressive | <abbr title="Active">🟢</abbr> | [↗](https://feodotracker.abuse.ch/downloads/ipblocklist_aggressive.txt) |
 | AbuseIPDB | AbuseIPDB Score 100 – Last 1 day | <abbr title="Active">🟢</abbr> | [↗](https://raw.githubusercontent.com/borestad/blocklist-abuseipdb/main/abuseipdb-s100-1d.ipv4) |
 | AbuseIPDB | AbuseIPDB Score 100 – Last 30 days | <abbr title="Active">🟢</abbr> | [↗](https://raw.githubusercontent.com/borestad/blocklist-abuseipdb/main/abuseipdb-s100-30d.ipv4) |
 | AlienVault | Alienvault IP Reputation | <abbr title="Active">🟢</abbr> | [↗](http://reputation.alienvault.com/reputation.data) |
@@ -258,7 +258,7 @@ Status legend: 🟢 Active – 🔴 Offline – 🔒 Restricted (requires API ke
 | mthcht | VPN NordVPN IPs | <abbr title="Active">🟢</abbr> | [↗](https://github.com/mthcht/awesome-lists/blob/main/Lists/VPN/NordVPN/nordvpn_ips_list.csv) |
 | mthcht | VPN SurfShark IPs | <abbr title="Active">🟢</abbr> | [↗](https://github.com/mthcht/awesome-lists/blob/main/Lists/VPN/SurfSharkVPN/surfshark_vpn_servers_domains_and_ips_list.csv) |
 | mthcht | VPN MullVad IPs | <abbr title="Active">🟢</abbr> | [↗](https://github.com/mthcht/awesome-lists/blob/main/Lists/VPN/MullVad/mullvad_relay_servers_ips_list.csv) |
-| mthcht | VPN ProtonVPN IPs | <abbr title="Active">🟢</abbr> | [↗](https://github.com/mthcht/awesome-lists/blob/main/Lists/VPN/ProtonVPN/protonvpn_ip_list.csv) |
+| mthcht | VPN ProtonVPN IPs | <abbr title="Offline">🔴</abbr> | [↗](https://github.com/mthcht/awesome-lists/blob/main/Lists/VPN/ProtonVPN/protonvpn_ip_list.csv) |
 | MyIP.ms | Web bot IPs identified in last 10 days | <abbr title="Active">🟢</abbr> | [↗](http://www.myip.ms/files/blacklist/csf/latest_blacklist.txt) |
 | MyIP.ms | Full blacklist database (ZIP) | <abbr title="Active">🟢</abbr> | [↗](https://myip.ms/files/blacklist/general/full_blacklist_database.zip) |
 | NETSHIELD | Active IP Blacklist – Score ≥65 last 30 days (firewall recommended) | <abbr title="Active">🟢</abbr> | [↗](https://raw.githubusercontent.com/juergen2025sys/NETSHIELD/main/active_blacklist_ipv4.txt) |
@@ -430,14 +430,14 @@ Status legend: 🟢 Active – 🔴 Offline – 🔒 Restricted (requires API ke
 | --- | --- | :---: | --- |
 | CISA | Known Exploited Vulnerabilities Catalog (CSV) | <abbr title="Active">🟢</abbr> | [↗](https://www.cisa.gov/sites/default/files/csv/known_exploited_vulnerabilities.csv) |
 | CISA | Known Exploited Vulnerabilities Catalog (JSON) | <abbr title="Active">🟢</abbr> | [↗](https://www.cisa.gov/sites/default/files/feeds/known_exploited_vulnerabilities.json) |
-| eCrimeLabs | Vulnerabilities with Metasploit exploit available | <abbr title="Active">🟢</abbr> | [↗](https://feeds.ecrimelabs.net/data/metasploit-cve) |
+| eCrimeLabs | Vulnerabilities with Metasploit exploit available | <abbr title="Offline">🔴</abbr> | [↗](https://feeds.ecrimelabs.net/data/metasploit-cve) |
 | NIST | National Vulnerability Database CVEs | <abbr title="Active">🟢</abbr> | [↗](https://services.nvd.nist.gov/rest/json/cves/2.0) |
 
 ### RANSOMWARELEAK (1)
 
 | Vendor | Description | Status | URL |
 | --- | --- | :---: | --- |
-| ransomware.live | All ransomware victims on leak sites | <abbr title="Offline">🔴</abbr> | [↗](https://api.ransomware.live/allcyberattacks) |
+| ransomware.live | All ransomware victims on leak sites | <abbr title="Active">🟢</abbr> | [↗](https://api.ransomware.live/allcyberattacks) |
 
 ### MISP (5)
 
@@ -477,7 +477,7 @@ Status legend: 🟢 Active – 🔴 Offline – 🔒 Restricted (requires API ke
 | mthcht | Malicious SSL Certificates List | <abbr title="Active">🟢</abbr> | [↗](https://github.com/mthcht/awesome-lists/blob/main/Lists/SSL%20CERTS/ssl_certificates_malicious_list.csv) |
 | mthcht | Ransomware known file extensions | <abbr title="Active">🟢</abbr> | [↗](https://github.com/mthcht/awesome-lists/blob/main/Lists/ransomware_extensions_list.csv) |
 | mthcht | Ransomware known file name ransom notes | <abbr title="Active">🟢</abbr> | [↗](https://github.com/mthcht/awesome-lists/blob/main/Lists/ransomware_notes_list.csv) |
-| mthcht | Windows ASR rules | <abbr title="Offline">🔴</abbr> | [↗](https://github.com/mthcht/awesome-lists/blob/main/Lists/windows_asr_rules.csv) |
+| mthcht | Windows ASR rules | <abbr title="Active">🟢</abbr> | [↗](https://github.com/mthcht/awesome-lists/blob/main/Lists/windows_asr_rules.csv) |
 | mthcht | GeoIP services Lists | <abbr title="Active">🟢</abbr> | [↗](https://github.com/mthcht/awesome-lists/blob/main/Lists/GeoIP/ip_location_sites_list.csv) |
 | rosti.bin | Public threat intelligence reports feed | <abbr title="Active">🟢</abbr> | [↗](https://rosti.bin.re/feeds) |
 | SentinelPhishFeed | File hash IOCs (MD5/SHA) | <abbr title="Active">🟢</abbr> | [↗](https://raw.githubusercontent.com/rjn32s/SentinelPhishFeed/main/hashes.txt) |
