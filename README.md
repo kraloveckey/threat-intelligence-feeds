@@ -222,7 +222,7 @@ Status legend: 🟢 Active – 🔴 Offline – 🔒 Restricted (requires API ke
 | Github | Fox-IT Cobalt Strike Servers | <abbr title="Active">🟢</abbr> | [↗](https://raw.githubusercontent.com/fox-it/cobaltstrike-extraneous-space/master/cobaltstrike-servers.csv) |
 | GPF Comics | IPs that attacked GPF Comics (spam/exploits/scans) | <abbr title="Active">🟢</abbr> | [↗](https://www.gpf-comics.com/dnsbl/export.php) |
 | GraphiclineWeb | Universally banned IPs (spiders/spambots/hackers/harvesters) | <abbr title="Offline">🔴</abbr> | [↗](https://graphiclineweb.wordpress.com/tech-notes/ip-blacklist/) |
-| GreenSnow.co | Bruteforce/scan/exploit attacking IPs | <abbr title="Offline">🔴</abbr> | [↗](http://blocklist.greensnow.co/greensnow.txt) |
+| GreenSnow.co | Bruteforce/scan/exploit attacking IPs | <abbr title="Active">🟢</abbr> | [↗](http://blocklist.greensnow.co/greensnow.txt) |
 | GriffinGuard | GriffinGuard Abuse 7-day Top 10K | <abbr title="Active">🟢</abbr> | [↗](https://griffinguard.io/feeds/abuse7d_top10k.txt) |
 | home.nuug.no | POP3 Gropers | <abbr title="Active">🟢</abbr> | [↗](https://home.nuug.no/~peter/pop3gropers.txt) |
 | iBlocklist.com | Open Proxies IPs (without TOR) | <abbr title="Active">🟢</abbr> | [↗](http://list.iblocklist.com/?list=xoebmbyexwuiogmbyprb&fileformat=p2p&archiveformat=gz) |
@@ -473,12 +473,12 @@ Status legend: 🟢 Active – 🔴 Offline – 🔒 Restricted (requires API ke
 | mthcht | Sinkholed Domains | <abbr title="Active">🟢</abbr> | [↗](https://github.com/mthcht/awesome-lists/blob/main/Lists/Domains/sinkholed_servers/sinkholed_domains.csv) |
 | mthcht | Hijacklibs | <abbr title="Active">🟢</abbr> | [↗](https://github.com/mthcht/awesome-lists/blob/main/Lists/Hijacklibs/hijacklibs_list.csv) |
 | mthcht | LOLDriver List | <abbr title="Active">🟢</abbr> | [↗](https://github.com/mthcht/awesome-lists/blob/main/Lists/Drivers/loldrivers_only_hashes_list.csv) |
-| mthcht | Malicious Bootloader List | <abbr title="Offline">🔴</abbr> | [↗](https://github.com/mthcht/awesome-lists/blob/main/Lists/Drivers/malicious_bootloaders_only_hashes_list.csv) |
+| mthcht | Malicious Bootloader List | <abbr title="Active">🟢</abbr> | [↗](https://github.com/mthcht/awesome-lists/blob/main/Lists/Drivers/malicious_bootloaders_only_hashes_list.csv) |
 | mthcht | Malicious SSL Certificates List | <abbr title="Active">🟢</abbr> | [↗](https://github.com/mthcht/awesome-lists/blob/main/Lists/SSL%20CERTS/ssl_certificates_malicious_list.csv) |
 | mthcht | Ransomware known file extensions | <abbr title="Active">🟢</abbr> | [↗](https://github.com/mthcht/awesome-lists/blob/main/Lists/ransomware_extensions_list.csv) |
 | mthcht | Ransomware known file name ransom notes | <abbr title="Active">🟢</abbr> | [↗](https://github.com/mthcht/awesome-lists/blob/main/Lists/ransomware_notes_list.csv) |
 | mthcht | Windows ASR rules | <abbr title="Active">🟢</abbr> | [↗](https://github.com/mthcht/awesome-lists/blob/main/Lists/windows_asr_rules.csv) |
-| mthcht | GeoIP services Lists | <abbr title="Offline">🔴</abbr> | [↗](https://github.com/mthcht/awesome-lists/blob/main/Lists/GeoIP/ip_location_sites_list.csv) |
+| mthcht | GeoIP services Lists | <abbr title="Active">🟢</abbr> | [↗](https://github.com/mthcht/awesome-lists/blob/main/Lists/GeoIP/ip_location_sites_list.csv) |
 | rosti.bin | Public threat intelligence reports feed | <abbr title="Active">🟢</abbr> | [↗](https://rosti.bin.re/feeds) |
 | SentinelPhishFeed | File hash IOCs (MD5/SHA) | <abbr title="Active">🟢</abbr> | [↗](https://raw.githubusercontent.com/rjn32s/SentinelPhishFeed/main/hashes.txt) |
 | threatview.io | Bitcoin Address Intel | <abbr title="Active">🟢</abbr> | [↗](https://threatview.io/Downloads/MALICIOUS-BITCOIN_FEED.txt) |
