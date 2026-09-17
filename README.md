@@ -255,7 +255,7 @@ Status legend: 🟢 Active – 🔴 Offline – 🔒 Restricted (requires API ke
 | James Brine | Daily malicious IPs from honeypots (SSH/FTP/RDP/GIT/SNMP/REDIS) | <abbr title="Active">🟢</abbr> | [↗](https://jamesbrine.com.au/csv) |
 | MalSilo | MalSilo IPv4 List | <abbr title="Active">🟢</abbr> | [↗](https://malsilo.gitlab.io/feeds/dumps/ip_list.txt) |
 | Maltrail | Maltrail Mass Scanner IPs | <abbr title="Offline">🔴</abbr> | [↗](https://raw.githubusercontent.com/stamparm/maltrail/master/trails/static/mass_scanner.txt) |
-| mthcht | VPN NordVPN IPs | <abbr title="Active">🟢</abbr> | [↗](https://github.com/mthcht/awesome-lists/blob/main/Lists/VPN/NordVPN/nordvpn_ips_list.csv) |
+| mthcht | VPN NordVPN IPs | <abbr title="Offline">🔴</abbr> | [↗](https://github.com/mthcht/awesome-lists/blob/main/Lists/VPN/NordVPN/nordvpn_ips_list.csv) |
 | mthcht | VPN SurfShark IPs | <abbr title="Active">🟢</abbr> | [↗](https://github.com/mthcht/awesome-lists/blob/main/Lists/VPN/SurfSharkVPN/surfshark_vpn_servers_domains_and_ips_list.csv) |
 | mthcht | VPN MullVad IPs | <abbr title="Active">🟢</abbr> | [↗](https://github.com/mthcht/awesome-lists/blob/main/Lists/VPN/MullVad/mullvad_relay_servers_ips_list.csv) |
 | mthcht | VPN ProtonVPN IPs | <abbr title="Active">🟢</abbr> | [↗](https://github.com/mthcht/awesome-lists/blob/main/Lists/VPN/ProtonVPN/protonvpn_ip_list.csv) |
@@ -455,7 +455,7 @@ Status legend: 🟢 Active – 🔴 Offline – 🔒 Restricted (requires API ke
 | --- | --- | :---: | --- |
 | mthcht | Offensive Tools detection patterns | <abbr title="Active">🟢</abbr> | [↗](https://raw.githubusercontent.com/mthcht/ThreatHunting-Keywords/main/offensive_tool_keyword.csv) |
 | mthcht | Greyware Tools detection patterns | <abbr title="Active">🟢</abbr> | [↗](https://raw.githubusercontent.com/mthcht/ThreatHunting-Keywords/main/greyware_tool_keyword.csv) |
-| mthcht | AV signatures keywords | <abbr title="Active">🟢</abbr> | [↗](https://github.com/mthcht/ThreatHunting-Keywords/blob/main/signature_keyword.csv) |
+| mthcht | AV signatures keywords | <abbr title="Offline">🔴</abbr> | [↗](https://github.com/mthcht/ThreatHunting-Keywords/blob/main/signature_keyword.csv) |
 | mthcht | Suspicious Named pipes | <abbr title="Active">🟢</abbr> | [↗](https://github.com/mthcht/awesome-lists/blob/main/Lists/suspicious_named_pipe_list.csv) |
 | mthcht | Suspicious Windows Services | <abbr title="Active">🟢</abbr> | [↗](https://github.com/mthcht/awesome-lists/blob/main/Lists/suspicious_windows_services_names_list.csv) |
 | mthcht | Suspicious Windows Tasks | <abbr title="Active">🟢</abbr> | [↗](https://github.com/mthcht/awesome-lists/blob/main/Lists/suspicious_windows_tasks_list.csv) |
