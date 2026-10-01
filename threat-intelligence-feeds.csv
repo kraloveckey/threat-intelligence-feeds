@@ -186,7 +186,7 @@ ProjectHoneypot.org;Spam servers (RSS feed);IP;http://www.projecthoneypot.org/li
 ProjectHoneypot.org;Bad web hosts (RSS feed);IP;http://www.projecthoneypot.org/list_of_ips.php?t=b&rss=1;Active
 ProjectHoneypot.org;Comment spammers (RSS feed);IP;http://www.projecthoneypot.org/list_of_ips.php?t=c&rss=1;Active
 ProjectHoneypot.org;Directory/dictionary attackers (RSS feed);IP;http://www.projecthoneypot.org/list_of_ips.php?t=d&rss=1;Active
-BotScout.com;Most recently-caught web bots;IP;http://botscout.com/last_caught_cache.htm;Offline
+BotScout.com;Most recently-caught web bots;IP;http://botscout.com/last_caught_cache.htm;Active
 GreenSnow.co;Bruteforce/scan/exploit attacking IPs;IP;http://blocklist.greensnow.co/greensnow.txt;Active
 cybercrime-tracker.net;Command and Control tracking IP list;IP;http://cybercrime-tracker.net/fuckerz.php;Active
 GraphiclineWeb;Universally banned IPs (spiders/spambots/hackers/harvesters);IP;https://graphiclineweb.wordpress.com/tech-notes/ip-blacklist/;Offline
