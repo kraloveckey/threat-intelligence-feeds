@@ -174,7 +174,7 @@ Status legend: 🟢 Active – 🔴 Offline – 🔒 Restricted (requires API ke
 | Blocklist.de | IPs that attacked FTP in the last 48 hours | <abbr title="Active">🟢</abbr> | [↗](https://lists.blocklist.de/lists/ftp.txt) |
 | Blocklist.de | IPs that attacked SIP in the last 48 hours | <abbr title="Active">🟢</abbr> | [↗](https://lists.blocklist.de/lists/sip.txt) |
 | Blocklist.net.ua | Ukrainian Blocklist (Ukraine CERT) | <abbr title="Active">🟢</abbr> | [↗](https://blocklist.net.ua/blocklist.csv) |
-| BotScout.com | Most recently-caught web bots | <abbr title="Offline">🔴</abbr> | [↗](http://botscout.com/last_caught_cache.htm) |
+| BotScout.com | Most recently-caught web bots | <abbr title="Active">🟢</abbr> | [↗](http://botscout.com/last_caught_cache.htm) |
 | Botvrij.eu | Botvrij IOC IP Destination (raw) | <abbr title="Active">🟢</abbr> | [↗](http://www.botvrij.eu/data/ioclist.ip-dst.raw) |
 | Botvrij.eu | Botvrij IOC IP Source (raw) | <abbr title="Active">🟢</abbr> | [↗](http://www.botvrij.eu/data/ioclist.ip-src.raw) |
 | BruteForceBlocker | SSH BruteForce Blocker IPs | <abbr title="Active">🟢</abbr> | [↗](http://danger.rulez.sk/projects/bruteforceblocker/blist.php) |
@@ -256,7 +256,7 @@ Status legend: 🟢 Active – 🔴 Offline – 🔒 Restricted (requires API ke
 | MalSilo | MalSilo IPv4 List | <abbr title="Active">🟢</abbr> | [↗](https://malsilo.gitlab.io/feeds/dumps/ip_list.txt) |
 | Maltrail | Maltrail Mass Scanner IPs | <abbr title="Offline">🔴</abbr> | [↗](https://raw.githubusercontent.com/stamparm/maltrail/master/trails/static/mass_scanner.txt) |
 | mthcht | VPN NordVPN IPs | <abbr title="Active">🟢</abbr> | [↗](https://github.com/mthcht/awesome-lists/blob/main/Lists/VPN/NordVPN/nordvpn_ips_list.csv) |
-| mthcht | VPN SurfShark IPs | <abbr title="Active">🟢</abbr> | [↗](https://github.com/mthcht/awesome-lists/blob/main/Lists/VPN/SurfSharkVPN/surfshark_vpn_servers_domains_and_ips_list.csv) |
+| mthcht | VPN SurfShark IPs | <abbr title="Offline">🔴</abbr> | [↗](https://github.com/mthcht/awesome-lists/blob/main/Lists/VPN/SurfSharkVPN/surfshark_vpn_servers_domains_and_ips_list.csv) |
 | mthcht | VPN MullVad IPs | <abbr title="Active">🟢</abbr> | [↗](https://github.com/mthcht/awesome-lists/blob/main/Lists/VPN/MullVad/mullvad_relay_servers_ips_list.csv) |
 | mthcht | VPN ProtonVPN IPs | <abbr title="Active">🟢</abbr> | [↗](https://github.com/mthcht/awesome-lists/blob/main/Lists/VPN/ProtonVPN/protonvpn_ip_list.csv) |
 | MyIP.ms | Web bot IPs identified in last 10 days | <abbr title="Active">🟢</abbr> | [↗](http://www.myip.ms/files/blacklist/csf/latest_blacklist.txt) |
@@ -455,12 +455,12 @@ Status legend: 🟢 Active – 🔴 Offline – 🔒 Restricted (requires API ke
 | --- | --- | :---: | --- |
 | mthcht | Offensive Tools detection patterns | <abbr title="Active">🟢</abbr> | [↗](https://raw.githubusercontent.com/mthcht/ThreatHunting-Keywords/main/offensive_tool_keyword.csv) |
 | mthcht | Greyware Tools detection patterns | <abbr title="Active">🟢</abbr> | [↗](https://raw.githubusercontent.com/mthcht/ThreatHunting-Keywords/main/greyware_tool_keyword.csv) |
-| mthcht | AV signatures keywords | <abbr title="Offline">🔴</abbr> | [↗](https://github.com/mthcht/ThreatHunting-Keywords/blob/main/signature_keyword.csv) |
+| mthcht | AV signatures keywords | <abbr title="Active">🟢</abbr> | [↗](https://github.com/mthcht/ThreatHunting-Keywords/blob/main/signature_keyword.csv) |
 | mthcht | Suspicious Named pipes | <abbr title="Active">🟢</abbr> | [↗](https://github.com/mthcht/awesome-lists/blob/main/Lists/suspicious_named_pipe_list.csv) |
 | mthcht | Suspicious Windows Services | <abbr title="Active">🟢</abbr> | [↗](https://github.com/mthcht/awesome-lists/blob/main/Lists/suspicious_windows_services_names_list.csv) |
 | mthcht | Suspicious Windows Tasks | <abbr title="Active">🟢</abbr> | [↗](https://github.com/mthcht/awesome-lists/blob/main/Lists/suspicious_windows_tasks_list.csv) |
 | mthcht | Suspicious destination port | <abbr title="Active">🟢</abbr> | [↗](https://github.com/mthcht/awesome-lists/blob/main/Lists/suspicious_ports_list.csv) |
-| mthcht | Suspicious Firewall rules | <abbr title="Offline">🔴</abbr> | [↗](https://github.com/mthcht/awesome-lists/blob/main/Lists/suspicious_windows_firewall_rules_list.csv) |
+| mthcht | Suspicious Firewall rules | <abbr title="Active">🟢</abbr> | [↗](https://github.com/mthcht/awesome-lists/blob/main/Lists/suspicious_windows_firewall_rules_list.csv) |
 | mthcht | Suspicious User-agent | <abbr title="Active">🟢</abbr> | [↗](https://github.com/mthcht/awesome-lists/blob/main/Lists/suspicious_http_user_agents_list.csv) |
 | mthcht | Suspicious USB Ids | <abbr title="Active">🟢</abbr> | [↗](https://github.com/mthcht/awesome-lists/blob/main/Lists/suspicious_usb_ids_list.csv) |
 | mthcht | Suspicious mutex names | <abbr title="Active">🟢</abbr> | [↗](https://github.com/mthcht/awesome-lists/blob/main/Lists/suspicious_mutex_names_list.csv) |
