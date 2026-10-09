@@ -53,7 +53,7 @@ Botvrij.eu;Blacklist Domain;DNS;https://www.botvrij.eu/data/blocklist/blocklist_
 Botvrij.eu;IOC List MD5;MD5;https://www.botvrij.eu/data/ioclist.md5;Active
 Botvrij.eu;IOC List SHA1;SHA1;https://www.botvrij.eu/data/ioclist.sha1;Active
 Botvrij.eu;IOC List SHA256;SHA256;https://www.botvrij.eu/data/ioclist.sha256;Active
-CINSscore;CINS Bad IP List (ci-badguys);IP;https://cinsscore.com/list/ci-badguys.txt;Offline
+CINSscore;CINS Bad IP List (ci-badguys);IP;https://cinsscore.com/list/ci-badguys.txt;Active
 Phishing Army;Phishing Army Blocklist;URL;https://phishing.army/download/phishing_army_blocklist.txt;Active
 Phishing Army;Phishing Army Blocklist Extended;URL;https://phishing.army/download/phishing_army_blocklist_extended.txt;Active
 Binarydefense;Binary Defense Artillery Threat Intelligence Banlist;IP;https://www.binarydefense.com/banlist.txt;Active
@@ -129,7 +129,7 @@ AbuseIPDB;AbuseIPDB Score 100 – Last 30 days;IP;https://raw.githubusercontent.
 Maltrail;Maltrail Mass Scanner IPs;IP;https://raw.githubusercontent.com/stamparm/maltrail/master/trails/static/mass_scanner.txt;Offline
 VXVault;VXVault Malware URL List;URL;http://vxvault.net/ViriList.php?s=0&m=100;Active
 VXVault;VXVault URL List;URL;http://vxvault.net/URL_List.php;Active
-GriffinGuard;GriffinGuard Abuse 7-day Top 10K;IP;https://griffinguard.io/feeds/abuse7d_top10k.txt;Active
+GriffinGuard;GriffinGuard Abuse 7-day Top 10K;IP;https://griffinguard.io/feeds/abuse7d_top10k.txt;Offline
 Ultimate-Hosts-Blacklist;Ultimate Hosts Blacklist IPs;IP;https://raw.githubusercontent.com/Ultimate-Hosts-Blacklist/Ultimate.Hosts.Blacklist/master/ips/ips0.list;Active
 Ngosang;BitTorrent Trackers IP List;BLOCKLIST;https://raw.githubusercontent.com/ngosang/trackerslist/master/trackers_all_ip.txt;Active
 opsxcq;Open Proxy List;IP;https://raw.githubusercontent.com/opsxcq/proxy-list/master/list.txt;Active
@@ -186,7 +186,7 @@ ProjectHoneypot.org;Spam servers (RSS feed);IP;http://www.projecthoneypot.org/li
 ProjectHoneypot.org;Bad web hosts (RSS feed);IP;http://www.projecthoneypot.org/list_of_ips.php?t=b&rss=1;Active
 ProjectHoneypot.org;Comment spammers (RSS feed);IP;http://www.projecthoneypot.org/list_of_ips.php?t=c&rss=1;Active
 ProjectHoneypot.org;Directory/dictionary attackers (RSS feed);IP;http://www.projecthoneypot.org/list_of_ips.php?t=d&rss=1;Active
-BotScout.com;Most recently-caught web bots;IP;http://botscout.com/last_caught_cache.htm;Offline
+BotScout.com;Most recently-caught web bots;IP;http://botscout.com/last_caught_cache.htm;Active
 GreenSnow.co;Bruteforce/scan/exploit attacking IPs;IP;http://blocklist.greensnow.co/greensnow.txt;Active
 cybercrime-tracker.net;Command and Control tracking IP list;IP;http://cybercrime-tracker.net/fuckerz.php;Active
 GraphiclineWeb;Universally banned IPs (spiders/spambots/hackers/harvesters);IP;https://graphiclineweb.wordpress.com/tech-notes/ip-blacklist/;Offline
@@ -340,8 +340,8 @@ mthcht;Suspicious Windows Services;IOC;https://github.com/mthcht/awesome-lists/b
 mthcht;Suspicious Windows Tasks;IOC;https://github.com/mthcht/awesome-lists/blob/main/Lists/suspicious_windows_tasks_list.csv;Active
 mthcht;Suspicious destination port;IOC;https://github.com/mthcht/awesome-lists/blob/main/Lists/suspicious_ports_list.csv;Active
 mthcht;Suspicious Firewall rules;IOC;https://github.com/mthcht/awesome-lists/blob/main/Lists/suspicious_windows_firewall_rules_list.csv;Active
-mthcht;Suspicious User-agent;IOC;https://github.com/mthcht/awesome-lists/blob/main/Lists/suspicious_http_user_agents_list.csv;Active
-mthcht;Suspicious USB Ids;IOC;https://github.com/mthcht/awesome-lists/blob/main/Lists/suspicious_usb_ids_list.csv;Offline
+mthcht;Suspicious User-agent;IOC;https://github.com/mthcht/awesome-lists/blob/main/Lists/suspicious_http_user_agents_list.csv;Offline
+mthcht;Suspicious USB Ids;IOC;https://github.com/mthcht/awesome-lists/blob/main/Lists/suspicious_usb_ids_list.csv;Active
 mthcht;Suspicious mutex names;IOC;https://github.com/mthcht/awesome-lists/blob/main/Lists/suspicious_mutex_names_list.csv;Active
 mthcht;Suspicious MAC address;IOC;https://github.com/mthcht/awesome-lists/blob/main/Lists/suspicious_mac_address_list.csv;Active
 mthcht;Suspicious Hostname;IOC;https://github.com/mthcht/awesome-lists/blob/main/Lists/suspicious_hostnames_list.csv;Active
@@ -351,15 +351,15 @@ mthcht;DNS over HTTPS server list;IOC;https://github.com/mthcht/awesome-lists/bl
 mthcht;Dynamic DNS domains list;IOC;https://github.com/mthcht/awesome-lists/blob/main/Lists/DYNDNS/dyndns_list.csv;Active
 mthcht;Sinkholed Domains;IOC;https://github.com/mthcht/awesome-lists/blob/main/Lists/Domains/sinkholed_servers/sinkholed_domains.csv;Active
 mthcht;Hijacklibs;IOC;https://github.com/mthcht/awesome-lists/blob/main/Lists/Hijacklibs/hijacklibs_list.csv;Active
-mthcht;LOLDriver List;IOC;https://github.com/mthcht/awesome-lists/blob/main/Lists/Drivers/loldrivers_only_hashes_list.csv;Active
+mthcht;LOLDriver List;IOC;https://github.com/mthcht/awesome-lists/blob/main/Lists/Drivers/loldrivers_only_hashes_list.csv;Offline
 mthcht;Malicious Bootloader List;IOC;https://github.com/mthcht/awesome-lists/blob/main/Lists/Drivers/malicious_bootloaders_only_hashes_list.csv;Active
-mthcht;Malicious SSL Certificates List;IOC;https://github.com/mthcht/awesome-lists/blob/main/Lists/SSL%20CERTS/ssl_certificates_malicious_list.csv;Offline
+mthcht;Malicious SSL Certificates List;IOC;https://github.com/mthcht/awesome-lists/blob/main/Lists/SSL%20CERTS/ssl_certificates_malicious_list.csv;Active
 mthcht;Ransomware known file extensions;IOC;https://github.com/mthcht/awesome-lists/blob/main/Lists/ransomware_extensions_list.csv;Active
 mthcht;Ransomware known file name ransom notes;IOC;https://github.com/mthcht/awesome-lists/blob/main/Lists/ransomware_notes_list.csv;Active
-mthcht;Windows ASR rules;IOC;https://github.com/mthcht/awesome-lists/blob/main/Lists/windows_asr_rules.csv;Active
+mthcht;Windows ASR rules;IOC;https://github.com/mthcht/awesome-lists/blob/main/Lists/windows_asr_rules.csv;Offline
 mthcht;VPN NordVPN IPs;IP;https://github.com/mthcht/awesome-lists/blob/main/Lists/VPN/NordVPN/nordvpn_ips_list.csv;Active
 mthcht;VPN SurfShark IPs;IP;https://github.com/mthcht/awesome-lists/blob/main/Lists/VPN/SurfSharkVPN/surfshark_vpn_servers_domains_and_ips_list.csv;Active
-mthcht;VPN MullVad IPs;IP;https://github.com/mthcht/awesome-lists/blob/main/Lists/VPN/MullVad/mullvad_relay_servers_ips_list.csv;Active
+mthcht;VPN MullVad IPs;IP;https://github.com/mthcht/awesome-lists/blob/main/Lists/VPN/MullVad/mullvad_relay_servers_ips_list.csv;Offline
 mthcht;GeoIP services Lists;IOC;https://github.com/mthcht/awesome-lists/blob/main/Lists/GeoIP/ip_location_sites_list.csv;Active
 mthcht;VPN ProtonVPN IPs;IP;https://github.com/mthcht/awesome-lists/blob/main/Lists/VPN/ProtonVPN/protonvpn_ip_list.csv;Active
 mthcht;Suspicious TLDs;REPO;https://github.com/mthcht/awesome-lists/tree/main/Lists/TLDs;Active
