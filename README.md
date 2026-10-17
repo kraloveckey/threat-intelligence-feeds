@@ -174,7 +174,7 @@ Status legend: 🟢 Active – 🔴 Offline – 🔒 Restricted (requires API ke
 | Blocklist.de | IPs that attacked FTP in the last 48 hours | <abbr title="Active">🟢</abbr> | [↗](https://lists.blocklist.de/lists/ftp.txt) |
 | Blocklist.de | IPs that attacked SIP in the last 48 hours | <abbr title="Active">🟢</abbr> | [↗](https://lists.blocklist.de/lists/sip.txt) |
 | Blocklist.net.ua | Ukrainian Blocklist (Ukraine CERT) | <abbr title="Active">🟢</abbr> | [↗](https://blocklist.net.ua/blocklist.csv) |
-| BotScout.com | Most recently-caught web bots | <abbr title="Active">🟢</abbr> | [↗](http://botscout.com/last_caught_cache.htm) |
+| BotScout.com | Most recently-caught web bots | <abbr title="Offline">🔴</abbr> | [↗](http://botscout.com/last_caught_cache.htm) |
 | Botvrij.eu | Botvrij IOC IP Destination (raw) | <abbr title="Active">🟢</abbr> | [↗](http://www.botvrij.eu/data/ioclist.ip-dst.raw) |
 | Botvrij.eu | Botvrij IOC IP Source (raw) | <abbr title="Active">🟢</abbr> | [↗](http://www.botvrij.eu/data/ioclist.ip-src.raw) |
 | BruteForceBlocker | SSH BruteForce Blocker IPs | <abbr title="Active">🟢</abbr> | [↗](http://danger.rulez.sk/projects/bruteforceblocker/blist.php) |
@@ -381,7 +381,7 @@ Status legend: 🟢 Active – 🔴 Offline – 🔒 Restricted (requires API ke
 | urlabuse | Hacked URL Feed | <abbr title="Offline">🔴</abbr> | [↗](https://urlabuse.com/public/data/hacked_url.txt) |
 | urlabuse | URL Abuse DB – Latest 500 entries (CSV) | <abbr title="Offline">🔴</abbr> | [↗](https://urlabuse.com/public/data/data_csv.txt) |
 | UrlHaus | UrlHaus_misp ASN feeds | <abbr title="Active">🟢</abbr> | [↗](https://urlhaus.abuse.ch/feeds/) |
-| VXVault | VXVault Malware URL List | <abbr title="Active">🟢</abbr> | [↗](http://vxvault.net/ViriList.php?s=0&m=100) |
+| VXVault | VXVault Malware URL List | <abbr title="Offline">🔴</abbr> | [↗](http://vxvault.net/ViriList.php?s=0&m=100) |
 | VXVault | VXVault URL List | <abbr title="Active">🟢</abbr> | [↗](http://vxvault.net/URL_List.php) |
 
 ### MD5 (6)
@@ -472,7 +472,7 @@ Status legend: 🟢 Active – 🔴 Offline – 🔒 Restricted (requires API ke
 | mthcht | Dynamic DNS domains list | <abbr title="Active">🟢</abbr> | [↗](https://github.com/mthcht/awesome-lists/blob/main/Lists/DYNDNS/dyndns_list.csv) |
 | mthcht | Sinkholed Domains | <abbr title="Active">🟢</abbr> | [↗](https://github.com/mthcht/awesome-lists/blob/main/Lists/Domains/sinkholed_servers/sinkholed_domains.csv) |
 | mthcht | Hijacklibs | <abbr title="Active">🟢</abbr> | [↗](https://github.com/mthcht/awesome-lists/blob/main/Lists/Hijacklibs/hijacklibs_list.csv) |
-| mthcht | LOLDriver List | <abbr title="Offline">🔴</abbr> | [↗](https://github.com/mthcht/awesome-lists/blob/main/Lists/Drivers/loldrivers_only_hashes_list.csv) |
+| mthcht | LOLDriver List | <abbr title="Active">🟢</abbr> | [↗](https://github.com/mthcht/awesome-lists/blob/main/Lists/Drivers/loldrivers_only_hashes_list.csv) |
 | mthcht | Malicious Bootloader List | <abbr title="Active">🟢</abbr> | [↗](https://github.com/mthcht/awesome-lists/blob/main/Lists/Drivers/malicious_bootloaders_only_hashes_list.csv) |
 | mthcht | Malicious SSL Certificates List | <abbr title="Active">🟢</abbr> | [↗](https://github.com/mthcht/awesome-lists/blob/main/Lists/SSL%20CERTS/ssl_certificates_malicious_list.csv) |
 | mthcht | Ransomware known file extensions | <abbr title="Active">🟢</abbr> | [↗](https://github.com/mthcht/awesome-lists/blob/main/Lists/ransomware_extensions_list.csv) |
@@ -650,7 +650,7 @@ Status legend: 🟢 Active – 🔴 Offline – 🔒 Restricted (requires API ke
 | --- | --- | :---: | --- |
 | Censys | Censys OSINT Search | <abbr title="Active">🟢</abbr> | [↗](https://search.censys.io/) |
 | CyberGordon | CyberGordon URL Reputation | <abbr title="Active">🟢</abbr> | [↗](https://cybergordon.com/) |
-| Pulsedive | Pulsedive Threat Intelligence | <abbr title="Offline">🔴</abbr> | [↗](https://pulsedive.com/) |
+| Pulsedive | Pulsedive Threat Intelligence | <abbr title="Active">🟢</abbr> | [↗](https://pulsedive.com/) |
 | Shodan | Shodan OSINT Search | <abbr title="Active">🟢</abbr> | [↗](https://www.shodan.io/) |
 | ThreatMiner | ThreatMiner Data Mining | <abbr title="Offline">🔴</abbr> | [↗](https://www.threatminer.org/) |
 | URLScan | URLScan Website Scanner | <abbr title="Active">🟢</abbr> | [↗](https://urlscan.io/) |

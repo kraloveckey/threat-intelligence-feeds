@@ -127,7 +127,7 @@ CleanTalk;CleanTalk Blacklist – Top 20;IP;https://cleantalk.org/blacklists/top
 AbuseIPDB;AbuseIPDB Score 100 – Last 1 day;IP;https://raw.githubusercontent.com/borestad/blocklist-abuseipdb/main/abuseipdb-s100-1d.ipv4;Active
 AbuseIPDB;AbuseIPDB Score 100 – Last 30 days;IP;https://raw.githubusercontent.com/borestad/blocklist-abuseipdb/main/abuseipdb-s100-30d.ipv4;Active
 Maltrail;Maltrail Mass Scanner IPs;IP;https://raw.githubusercontent.com/stamparm/maltrail/master/trails/static/mass_scanner.txt;Offline
-VXVault;VXVault Malware URL List;URL;http://vxvault.net/ViriList.php?s=0&m=100;Active
+VXVault;VXVault Malware URL List;URL;http://vxvault.net/ViriList.php?s=0&m=100;Offline
 VXVault;VXVault URL List;URL;http://vxvault.net/URL_List.php;Active
 GriffinGuard;GriffinGuard Abuse 7-day Top 10K;IP;https://griffinguard.io/feeds/abuse7d_top10k.txt;Offline
 Ultimate-Hosts-Blacklist;Ultimate Hosts Blacklist IPs;IP;https://raw.githubusercontent.com/Ultimate-Hosts-Blacklist/Ultimate.Hosts.Blacklist/master/ips/ips0.list;Active
@@ -186,7 +186,7 @@ ProjectHoneypot.org;Spam servers (RSS feed);IP;http://www.projecthoneypot.org/li
 ProjectHoneypot.org;Bad web hosts (RSS feed);IP;http://www.projecthoneypot.org/list_of_ips.php?t=b&rss=1;Active
 ProjectHoneypot.org;Comment spammers (RSS feed);IP;http://www.projecthoneypot.org/list_of_ips.php?t=c&rss=1;Active
 ProjectHoneypot.org;Directory/dictionary attackers (RSS feed);IP;http://www.projecthoneypot.org/list_of_ips.php?t=d&rss=1;Active
-BotScout.com;Most recently-caught web bots;IP;http://botscout.com/last_caught_cache.htm;Active
+BotScout.com;Most recently-caught web bots;IP;http://botscout.com/last_caught_cache.htm;Offline
 GreenSnow.co;Bruteforce/scan/exploit attacking IPs;IP;http://blocklist.greensnow.co/greensnow.txt;Active
 cybercrime-tracker.net;Command and Control tracking IP list;IP;http://cybercrime-tracker.net/fuckerz.php;Active
 GraphiclineWeb;Universally banned IPs (spiders/spambots/hackers/harvesters);IP;https://graphiclineweb.wordpress.com/tech-notes/ip-blacklist/;Offline
@@ -351,7 +351,7 @@ mthcht;DNS over HTTPS server list;IOC;https://github.com/mthcht/awesome-lists/bl
 mthcht;Dynamic DNS domains list;IOC;https://github.com/mthcht/awesome-lists/blob/main/Lists/DYNDNS/dyndns_list.csv;Active
 mthcht;Sinkholed Domains;IOC;https://github.com/mthcht/awesome-lists/blob/main/Lists/Domains/sinkholed_servers/sinkholed_domains.csv;Active
 mthcht;Hijacklibs;IOC;https://github.com/mthcht/awesome-lists/blob/main/Lists/Hijacklibs/hijacklibs_list.csv;Active
-mthcht;LOLDriver List;IOC;https://github.com/mthcht/awesome-lists/blob/main/Lists/Drivers/loldrivers_only_hashes_list.csv;Offline
+mthcht;LOLDriver List;IOC;https://github.com/mthcht/awesome-lists/blob/main/Lists/Drivers/loldrivers_only_hashes_list.csv;Active
 mthcht;Malicious Bootloader List;IOC;https://github.com/mthcht/awesome-lists/blob/main/Lists/Drivers/malicious_bootloaders_only_hashes_list.csv;Active
 mthcht;Malicious SSL Certificates List;IOC;https://github.com/mthcht/awesome-lists/blob/main/Lists/SSL%20CERTS/ssl_certificates_malicious_list.csv;Active
 mthcht;Ransomware known file extensions;IOC;https://github.com/mthcht/awesome-lists/blob/main/Lists/ransomware_extensions_list.csv;Active
@@ -413,7 +413,7 @@ Shodan;Shodan OSINT Search;OSINT;https://www.shodan.io/;Active
 Censys;Censys OSINT Search;OSINT;https://search.censys.io/;Active
 ThreatMiner;ThreatMiner Data Mining;OSINT;https://www.threatminer.org/;Offline
 URLScan;URLScan Website Scanner;OSINT;https://urlscan.io/;Active
-Pulsedive;Pulsedive Threat Intelligence;OSINT;https://pulsedive.com/;Offline
+Pulsedive;Pulsedive Threat Intelligence;OSINT;https://pulsedive.com/;Active
 CyberGordon;CyberGordon URL Reputation;OSINT;https://cybergordon.com/;Active
 AnyRun;Any.Run Interactive Sandbox;SANDBOX;https://any.run/;Active
 Triage;Triage Malware Sandbox;SANDBOX;https://tria.ge/s;Active
