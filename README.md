@@ -174,7 +174,7 @@ Status legend: 🟢 Active – 🔴 Offline – 🔒 Restricted (requires API ke
 | Blocklist.de | IPs that attacked FTP in the last 48 hours | <abbr title="Active">🟢</abbr> | [↗](https://lists.blocklist.de/lists/ftp.txt) |
 | Blocklist.de | IPs that attacked SIP in the last 48 hours | <abbr title="Active">🟢</abbr> | [↗](https://lists.blocklist.de/lists/sip.txt) |
 | Blocklist.net.ua | Ukrainian Blocklist (Ukraine CERT) | <abbr title="Active">🟢</abbr> | [↗](https://blocklist.net.ua/blocklist.csv) |
-| BotScout.com | Most recently-caught web bots | <abbr title="Offline">🔴</abbr> | [↗](http://botscout.com/last_caught_cache.htm) |
+| BotScout.com | Most recently-caught web bots | <abbr title="Active">🟢</abbr> | [↗](http://botscout.com/last_caught_cache.htm) |
 | Botvrij.eu | Botvrij IOC IP Destination (raw) | <abbr title="Active">🟢</abbr> | [↗](http://www.botvrij.eu/data/ioclist.ip-dst.raw) |
 | Botvrij.eu | Botvrij IOC IP Source (raw) | <abbr title="Active">🟢</abbr> | [↗](http://www.botvrij.eu/data/ioclist.ip-src.raw) |
 | BruteForceBlocker | SSH BruteForce Blocker IPs | <abbr title="Active">🟢</abbr> | [↗](http://danger.rulez.sk/projects/bruteforceblocker/blist.php) |
@@ -320,7 +320,7 @@ Status legend: 🟢 Active – 🔴 Offline – 🔒 Restricted (requires API ke
 
 | Vendor | Description | Status | URL |
 | --- | --- | :---: | --- |
-| Abuse.ch | The host file contains Payload delivery domains and Botnet C2 domains (last 6 months) | <abbr title="Active">🟢</abbr> | [↗](https://threatfox.abuse.ch/downloads/hostfile/) |
+| Abuse.ch | The host file contains Payload delivery domains and Botnet C2 domains (last 6 months) | <abbr title="Offline">🔴</abbr> | [↗](https://threatfox.abuse.ch/downloads/hostfile/) |
 | Botvrij.eu | Blacklist Domain | <abbr title="Active">🟢</abbr> | [↗](https://www.botvrij.eu/data/blocklist/blocklist_domain.csv) |
 | C2IntelFeeds | C2 domain list – 30 day filter abused | <abbr title="Active">🟢</abbr> | [↗](https://raw.githubusercontent.com/drb-ra/C2IntelFeeds/master/feeds/domainC2s-30day-filter-abused.csv) |
 | C2IntelFeeds | C2 domains with URLs – 30 day filter abused | <abbr title="Active">🟢</abbr> | [↗](https://raw.githubusercontent.com/drb-ra/C2IntelFeeds/master/feeds/domainC2swithURL-30day-filter-abused.csv) |
@@ -349,9 +349,9 @@ Status legend: 🟢 Active – 🔴 Offline – 🔒 Restricted (requires API ke
 
 | Vendor | Description | Status | URL |
 | --- | --- | :---: | --- |
-| Abuse.ch | Recent Payload delivery and Botnet C2 URLs (ThreatFox) | <abbr title="Active">🟢</abbr> | [↗](https://threatfox.abuse.ch/export/csv/urls/recent/) |
-| Abuse.ch | Recent Malware URLs (URLhaus) | <abbr title="Active">🟢</abbr> | [↗](https://urlhaus.abuse.ch/downloads/csv_recent/) |
-| Abuse.ch | ThreatFox IOCs – Recent (all types) | <abbr title="Active">🟢</abbr> | [↗](https://threatfox.abuse.ch/export/csv/recent/) |
+| Abuse.ch | Recent Payload delivery and Botnet C2 URLs (ThreatFox) | <abbr title="Offline">🔴</abbr> | [↗](https://threatfox.abuse.ch/export/csv/urls/recent/) |
+| Abuse.ch | Recent Malware URLs (URLhaus) | <abbr title="Offline">🔴</abbr> | [↗](https://urlhaus.abuse.ch/downloads/csv_recent/) |
+| Abuse.ch | ThreatFox IOCs – Recent (all types) | <abbr title="Offline">🔴</abbr> | [↗](https://threatfox.abuse.ch/export/csv/recent/) |
 | APNIC Honeynet | URL Seen in Honeypots | <abbr title="Active">🟢</abbr> | [↗](https://feeds.honeynet.asia/url/latest-url-unique.csv) |
 | CriticalPathSecurity | CPS file transfer portal IOCs | <abbr title="Active">🟢</abbr> | [↗](https://raw.githubusercontent.com/CriticalPathSecurity/Zeek-Intelligence-Feeds/master/filetransferportals.intel) |
 | cybercrime-tracker.net | Cybercrime Tracker – All C2s | <abbr title="Active">🟢</abbr> | [↗](https://cybercrime-tracker.net/all.php) |
@@ -366,7 +366,7 @@ Status legend: 🟢 Active – 🔴 Offline – 🔒 Restricted (requires API ke
 | LOLOLFarm | LOLOLFarm | <abbr title="Active">🟢</abbr> | [↗](https://lolol.farm/) |
 | LOTS | Living Off Trusted Sites | <abbr title="Offline">🔴</abbr> | [↗](https://lots-project.com/) |
 | MalSilo | MalSilo URL List | <abbr title="Active">🟢</abbr> | [↗](https://malsilo.gitlab.io/feeds/dumps/url_list.txt) |
-| MISP Abuse.ch | MISP Abuse.ch URLhaus | <abbr title="Active">🟢</abbr> | [↗](https://urlhaus.abuse.ch/downloads/misp/) |
+| MISP Abuse.ch | MISP Abuse.ch URLhaus | <abbr title="Offline">🔴</abbr> | [↗](https://urlhaus.abuse.ch/downloads/misp/) |
 | MISP Project | MISP Default Feeds (metadata) | <abbr title="Active">🟢</abbr> | [↗](https://raw.githubusercontent.com/MISP/MISP/2.4/app/files/feed-metadata/defaults.json) |
 | OpenPhish | Phishing URLs | <abbr title="Active">🟢</abbr> | [↗](https://openphish.com/feed.txt) |
 | Phishing Army | Phishing Army Blocklist | <abbr title="Active">🟢</abbr> | [↗](https://phishing.army/download/phishing_army_blocklist.txt) |
@@ -388,8 +388,8 @@ Status legend: 🟢 Active – 🔴 Offline – 🔒 Restricted (requires API ke
 
 | Vendor | Description | Status | URL |
 | --- | --- | :---: | --- |
-| Abuse.ch | MD5 hashes – Recent additions (MalwareBazaar) | <abbr title="Active">🟢</abbr> | [↗](https://bazaar.abuse.ch/export/txt/md5/recent/) |
-| Abuse.ch | MD5 hashes – Recent malicious files on C2 (ThreatFox) | <abbr title="Active">🟢</abbr> | [↗](https://threatfox.abuse.ch/export/csv/md5/recent/) |
+| Abuse.ch | MD5 hashes – Recent additions (MalwareBazaar) | <abbr title="Offline">🔴</abbr> | [↗](https://bazaar.abuse.ch/export/txt/md5/recent/) |
+| Abuse.ch | MD5 hashes – Recent malicious files on C2 (ThreatFox) | <abbr title="Offline">🔴</abbr> | [↗](https://threatfox.abuse.ch/export/csv/md5/recent/) |
 | Botvrij.eu | IOC List MD5 | <abbr title="Active">🟢</abbr> | [↗](https://www.botvrij.eu/data/ioclist.md5) |
 | cybercrime-tracker.net | Cybercrime Tracker – Hash List | <abbr title="Active">🟢</abbr> | [↗](https://cybercrime-tracker.net/ccamlist.php) |
 | malshare.com | Malshare Current All | <abbr title="Active">🟢</abbr> | [↗](https://malshare.com/daily/malshare.current.all.txt) |
@@ -399,7 +399,7 @@ Status legend: 🟢 Active – 🔴 Offline – 🔒 Restricted (requires API ke
 
 | Vendor | Description | Status | URL |
 | --- | --- | :---: | --- |
-| Abuse.ch | SHA1 hashes – Recent additions (MalwareBazaar) | <abbr title="Active">🟢</abbr> | [↗](https://bazaar.abuse.ch/export/txt/sha1/recent/) |
+| Abuse.ch | SHA1 hashes – Recent additions (MalwareBazaar) | <abbr title="Offline">🔴</abbr> | [↗](https://bazaar.abuse.ch/export/txt/sha1/recent/) |
 | Botvrij.eu | IOC List SHA1 | <abbr title="Active">🟢</abbr> | [↗](https://www.botvrij.eu/data/ioclist.sha1) |
 | threatview.io | SHA File Hash Feed | <abbr title="Active">🟢</abbr> | [↗](https://threatview.io/Downloads/SHA-HASH-FEED.txt) |
 
@@ -407,8 +407,8 @@ Status legend: 🟢 Active – 🔴 Offline – 🔒 Restricted (requires API ke
 
 | Vendor | Description | Status | URL |
 | --- | --- | :---: | --- |
-| Abuse.ch | SHA256 hashes – Recent additions (MalwareBazaar) | <abbr title="Active">🟢</abbr> | [↗](https://bazaar.abuse.ch/export/txt/sha256/recent/) |
-| Abuse.ch | SHA256 hashes – Recent malicious files on C2 (ThreatFox) | <abbr title="Active">🟢</abbr> | [↗](https://threatfox.abuse.ch/export/csv/sha256/recent/) |
+| Abuse.ch | SHA256 hashes – Recent additions (MalwareBazaar) | <abbr title="Offline">🔴</abbr> | [↗](https://bazaar.abuse.ch/export/txt/sha256/recent/) |
+| Abuse.ch | SHA256 hashes – Recent malicious files on C2 (ThreatFox) | <abbr title="Offline">🔴</abbr> | [↗](https://threatfox.abuse.ch/export/csv/sha256/recent/) |
 | Botvrij.eu | IOC List SHA256 | <abbr title="Active">🟢</abbr> | [↗](https://www.botvrij.eu/data/ioclist.sha256) |
 | ExtSentry | Browser extension CRX SHA-256 file hashes | <abbr title="Active">🟢</abbr> | [↗](https://raw.githubusercontent.com/ExtSentry/ExtSentry.github.io/main/feeds/ioc_crx_sha256_hashes.txt) |
 
@@ -430,7 +430,7 @@ Status legend: 🟢 Active – 🔴 Offline – 🔒 Restricted (requires API ke
 | --- | --- | :---: | --- |
 | CISA | Known Exploited Vulnerabilities Catalog (CSV) | <abbr title="Active">🟢</abbr> | [↗](https://www.cisa.gov/sites/default/files/csv/known_exploited_vulnerabilities.csv) |
 | CISA | Known Exploited Vulnerabilities Catalog (JSON) | <abbr title="Active">🟢</abbr> | [↗](https://www.cisa.gov/sites/default/files/feeds/known_exploited_vulnerabilities.json) |
-| eCrimeLabs | Vulnerabilities with Metasploit exploit available | <abbr title="Active">🟢</abbr> | [↗](https://feeds.ecrimelabs.net/data/metasploit-cve) |
+| eCrimeLabs | Vulnerabilities with Metasploit exploit available | <abbr title="Offline">🔴</abbr> | [↗](https://feeds.ecrimelabs.net/data/metasploit-cve) |
 | NIST | National Vulnerability Database CVEs | <abbr title="Active">🟢</abbr> | [↗](https://services.nvd.nist.gov/rest/json/cves/2.0) |
 
 ### RANSOMWARELEAK (1)
@@ -443,8 +443,8 @@ Status legend: 🟢 Active – 🔴 Offline – 🔒 Restricted (requires API ke
 
 | Vendor | Description | Status | URL |
 | --- | --- | :---: | --- |
-| abuse.ch | MalwareBazaar MISP feed (hashes + metadata) | <abbr title="Active">🟢</abbr> | [↗](https://bazaar.abuse.ch/downloads/misp/) |
-| abuse.ch | ThreatFox MISP feed (IOCs) | <abbr title="Active">🟢</abbr> | [↗](https://threatfox.abuse.ch/downloads/misp/) |
+| abuse.ch | MalwareBazaar MISP feed (hashes + metadata) | <abbr title="Offline">🔴</abbr> | [↗](https://bazaar.abuse.ch/downloads/misp/) |
+| abuse.ch | ThreatFox MISP feed (IOCs) | <abbr title="Offline">🔴</abbr> | [↗](https://threatfox.abuse.ch/downloads/misp/) |
 | Botvrij.eu | Botvrij.eu OSINT MISP feed | <abbr title="Active">🟢</abbr> | [↗](https://www.botvrij.eu/data/feed-osint) |
 | MISP CIRCL | MISP CIRCL OSINT Feed – Hashes | <abbr title="Active">🟢</abbr> | [↗](https://www.circl.lu/doc/misp/feed-osint/) |
 | MISP Feed CERT-FR | MISP Feed CERT-FR Hashes | <abbr title="Active">🟢</abbr> | [↗](https://misp.cert.ssi.gouv.fr/feed-misp/hashes.csv) |
@@ -455,14 +455,14 @@ Status legend: 🟢 Active – 🔴 Offline – 🔒 Restricted (requires API ke
 | --- | --- | :---: | --- |
 | mthcht | Offensive Tools detection patterns | <abbr title="Active">🟢</abbr> | [↗](https://raw.githubusercontent.com/mthcht/ThreatHunting-Keywords/main/offensive_tool_keyword.csv) |
 | mthcht | Greyware Tools detection patterns | <abbr title="Active">🟢</abbr> | [↗](https://raw.githubusercontent.com/mthcht/ThreatHunting-Keywords/main/greyware_tool_keyword.csv) |
-| mthcht | AV signatures keywords | <abbr title="Offline">🔴</abbr> | [↗](https://github.com/mthcht/ThreatHunting-Keywords/blob/main/signature_keyword.csv) |
+| mthcht | AV signatures keywords | <abbr title="Active">🟢</abbr> | [↗](https://github.com/mthcht/ThreatHunting-Keywords/blob/main/signature_keyword.csv) |
 | mthcht | Suspicious Named pipes | <abbr title="Active">🟢</abbr> | [↗](https://github.com/mthcht/awesome-lists/blob/main/Lists/suspicious_named_pipe_list.csv) |
 | mthcht | Suspicious Windows Services | <abbr title="Active">🟢</abbr> | [↗](https://github.com/mthcht/awesome-lists/blob/main/Lists/suspicious_windows_services_names_list.csv) |
 | mthcht | Suspicious Windows Tasks | <abbr title="Active">🟢</abbr> | [↗](https://github.com/mthcht/awesome-lists/blob/main/Lists/suspicious_windows_tasks_list.csv) |
 | mthcht | Suspicious destination port | <abbr title="Active">🟢</abbr> | [↗](https://github.com/mthcht/awesome-lists/blob/main/Lists/suspicious_ports_list.csv) |
 | mthcht | Suspicious Firewall rules | <abbr title="Active">🟢</abbr> | [↗](https://github.com/mthcht/awesome-lists/blob/main/Lists/suspicious_windows_firewall_rules_list.csv) |
 | mthcht | Suspicious User-agent | <abbr title="Active">🟢</abbr> | [↗](https://github.com/mthcht/awesome-lists/blob/main/Lists/suspicious_http_user_agents_list.csv) |
-| mthcht | Suspicious USB Ids | <abbr title="Active">🟢</abbr> | [↗](https://github.com/mthcht/awesome-lists/blob/main/Lists/suspicious_usb_ids_list.csv) |
+| mthcht | Suspicious USB Ids | <abbr title="Offline">🔴</abbr> | [↗](https://github.com/mthcht/awesome-lists/blob/main/Lists/suspicious_usb_ids_list.csv) |
 | mthcht | Suspicious mutex names | <abbr title="Active">🟢</abbr> | [↗](https://github.com/mthcht/awesome-lists/blob/main/Lists/suspicious_mutex_names_list.csv) |
 | mthcht | Suspicious MAC address | <abbr title="Active">🟢</abbr> | [↗](https://github.com/mthcht/awesome-lists/blob/main/Lists/suspicious_mac_address_list.csv) |
 | mthcht | Suspicious Hostname | <abbr title="Active">🟢</abbr> | [↗](https://github.com/mthcht/awesome-lists/blob/main/Lists/suspicious_hostnames_list.csv) |
