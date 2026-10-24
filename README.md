@@ -358,7 +358,7 @@ Status legend: 🟢 Active – 🔴 Offline – 🔒 Restricted (requires API ke
 | cybercrime-tracker.net | Cybercrime Tracker – Gatelist | <abbr title="Active">🟢</abbr> | [↗](https://cybercrime-tracker.net/ccamgate.php) |
 | ExtSentry | Malicious browser extension IDs (all) | <abbr title="Active">🟢</abbr> | [↗](https://raw.githubusercontent.com/ExtSentry/ExtSentry.github.io/main/feeds/ioc_all_extension_ids.txt) |
 | ExtSentry | Malicious browser extension IDs only | <abbr title="Active">🟢</abbr> | [↗](https://raw.githubusercontent.com/ExtSentry/ExtSentry.github.io/main/feeds/ioc_malicious_extension_ids.txt) |
-| ExtSentry | Suspicious browser extension IDs only | <abbr title="Offline">🔴</abbr> | [↗](https://raw.githubusercontent.com/ExtSentry/ExtSentry.github.io/main/feeds/ioc_suspicious_extension_ids.txt) |
+| ExtSentry | Suspicious browser extension IDs only | <abbr title="Active">🟢</abbr> | [↗](https://raw.githubusercontent.com/ExtSentry/ExtSentry.github.io/main/feeds/ioc_suspicious_extension_ids.txt) |
 | ExtSentry | Browser extensions enriched IOC feed (CSV) | <abbr title="Active">🟢</abbr> | [↗](https://raw.githubusercontent.com/ExtSentry/ExtSentry.github.io/main/feeds/extsentry_ioc_feed.csv) |
 | Github | APT Notes CSV | <abbr title="Active">🟢</abbr> | [↗](https://raw.githubusercontent.com/aptnotes/data/master/APTnotes.csv) |
 | jeroengui | Phishing URLs – last week community feed | <abbr title="Active">🟢</abbr> | [↗](https://file.jeroengui.be/phishing/last_week.txt) |
@@ -463,7 +463,7 @@ Status legend: 🟢 Active – 🔴 Offline – 🔒 Restricted (requires API ke
 | mthcht | Suspicious Firewall rules | <abbr title="Active">🟢</abbr> | [↗](https://github.com/mthcht/awesome-lists/blob/main/Lists/suspicious_windows_firewall_rules_list.csv) |
 | mthcht | Suspicious User-agent | <abbr title="Active">🟢</abbr> | [↗](https://github.com/mthcht/awesome-lists/blob/main/Lists/suspicious_http_user_agents_list.csv) |
 | mthcht | Suspicious USB Ids | <abbr title="Active">🟢</abbr> | [↗](https://github.com/mthcht/awesome-lists/blob/main/Lists/suspicious_usb_ids_list.csv) |
-| mthcht | Suspicious mutex names | <abbr title="Offline">🔴</abbr> | [↗](https://github.com/mthcht/awesome-lists/blob/main/Lists/suspicious_mutex_names_list.csv) |
+| mthcht | Suspicious mutex names | <abbr title="Active">🟢</abbr> | [↗](https://github.com/mthcht/awesome-lists/blob/main/Lists/suspicious_mutex_names_list.csv) |
 | mthcht | Suspicious MAC address | <abbr title="Active">🟢</abbr> | [↗](https://github.com/mthcht/awesome-lists/blob/main/Lists/suspicious_mac_address_list.csv) |
 | mthcht | Suspicious Hostname | <abbr title="Active">🟢</abbr> | [↗](https://github.com/mthcht/awesome-lists/blob/main/Lists/suspicious_hostnames_list.csv) |
 | mthcht | Microsoft App IDs List (BEC Detection) | <abbr title="Active">🟢</abbr> | [↗](https://github.com/mthcht/awesome-lists/blob/main/Lists/microsoft_apps_list.csv) |
