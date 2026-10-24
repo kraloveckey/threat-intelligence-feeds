@@ -306,6 +306,8 @@ hagezi;DNS Pro Blocklist – comprehensive DNS blocklist (ads, tracking, malware
 hagezi;DNS Pro++ Blocklist – more aggressive version of Pro list;DNS;https://raw.githubusercontent.com/hagezi/dns-blocklists/main/domains/pro.plus.txt;Offline
 blocklistproject;Block Lists – comprehensive domain blocklists (ads, malware, phishing, ransomware, scam);REPO;https://github.com/blocklistproject/Lists;Active
 jarelllama;Scam Blocklist – phishing and scam domains (wildcard format);DNS;https://raw.githubusercontent.com/jarelllama/Scam-Blocklist/main/lists/wildcard_domains/scams.txt;Active
+NetAPI;Compromised domains seen in the last 24 hours (malware, phishing, C2 hosts) - plain text, one domain per line, rebuilt daily;DNS;https://netapi.com/zf-api/f/compromised/domains/live/;
+NetAPI;Compromised domains, full historical list - plain text, one domain per line;DNS;https://netapi.com/zf-api/f/compromised/domains/full/;
 Volexity;Volexity Threat Intelligence IOC repository;REPO;https://github.com/volexity/threat-intel;Active
 Sekoia;Sekoia Community IOC repository;REPO;https://github.com/SEKOIA-IO/Community;Active
 Palo Alto Unit42;Unit42 Timely Threat Intelligence IOC repository;REPO;https://github.com/PaloAltoNetworks/Unit42-timely-threat-intel;Active
@@ -362,6 +364,8 @@ mthcht;VPN SurfShark IPs;IP;https://github.com/mthcht/awesome-lists/blob/main/Li
 mthcht;VPN MullVad IPs;IP;https://github.com/mthcht/awesome-lists/blob/main/Lists/VPN/MullVad/mullvad_relay_servers_ips_list.csv;Active
 mthcht;GeoIP services Lists;IOC;https://github.com/mthcht/awesome-lists/blob/main/Lists/GeoIP/ip_location_sites_list.csv;Active
 mthcht;VPN ProtonVPN IPs;IP;https://github.com/mthcht/awesome-lists/blob/main/Lists/VPN/ProtonVPN/protonvpn_ip_list.csv;Active
+NetAPI;Compromised IP addresses seen in the last 24 hours - plain text, one IPv4 address per line, rebuilt daily;IP;https://netapi.com/zf-api/f/compromised/ip/live/;
+NetAPI;Compromised IP addresses, full historical list - plain text, one IPv4 address per line;IP;https://netapi.com/zf-api/f/compromised/ip/full/;
 mthcht;Suspicious TLDs;REPO;https://github.com/mthcht/awesome-lists/tree/main/Lists/TLDs;Active
 mthcht;Suspicious ASNs;REPO;https://github.com/mthcht/awesome-lists/tree/main/Lists/ASNs;Active
 mthcht;Maxmind GeoIP Database Extracted;REPO;https://github.com/mthcht/awesome-lists/tree/main/Lists/ASNs/correlation_maxmind_geo_db/maxmind_databases/extracted;Active

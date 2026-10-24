@@ -27,8 +27,8 @@ Sources aggregated from:
 <!-- STATS_TABLE_START -->
 | Category | Description | Count |
 | --- | --- | --- |
-| `IP` | Malicious / suspicious IPv4 addresses and CIDR ranges | 167 |
-| `DNS` | Malicious or suspicious domain names | 24 |
+| `IP` | Malicious / suspicious IPv4 addresses and CIDR ranges | 169 |
+| `DNS` | Malicious or suspicious domain names | 26 |
 | `URL` | Malicious / phishing / C2 URLs | 34 |
 | `MD5` | MD5 hashes of malicious files | 6 |
 | `SHA1` | SHA1 hashes of malicious files | 3 |
@@ -47,7 +47,7 @@ Sources aggregated from:
 | `FRAMEWORK` | Threat intelligence frameworks, matrices, and tracking tools (MITRE, APT maps, etc.) | 3 |
 | `OSINT` | Open-source intelligence platforms and search engines for IOC investigation | 6 |
 | `SANDBOX` | Online malware analysis sandboxes for dynamic file and URL analysis | 3 |
-| **Total** | | **419** |
+| **Total** | | **423** |
 <!-- STATS_TABLE_END -->
 
 ---
@@ -144,7 +144,7 @@ Status legend: 🟢 Active – 🔴 Offline – 🔒 Restricted (requires API ke
 
 <!-- FEEDS_TABLE_START -->
 
-### IP (167)
+### IP (169)
 
 | Vendor | Description | Status | URL |
 | --- | --- | :---: | --- |
@@ -261,6 +261,8 @@ Status legend: 🟢 Active – 🔴 Offline – 🔒 Restricted (requires API ke
 | mthcht | VPN ProtonVPN IPs | <abbr title="Active">🟢</abbr> | [↗](https://github.com/mthcht/awesome-lists/blob/main/Lists/VPN/ProtonVPN/protonvpn_ip_list.csv) |
 | MyIP.ms | Web bot IPs identified in last 10 days | <abbr title="Active">🟢</abbr> | [↗](http://www.myip.ms/files/blacklist/csf/latest_blacklist.txt) |
 | MyIP.ms | Full blacklist database (ZIP) | <abbr title="Active">🟢</abbr> | [↗](https://myip.ms/files/blacklist/general/full_blacklist_database.zip) |
+| NetAPI | Compromised IP addresses seen in the last 24 hours - plain text, one IPv4 address per line, rebuilt daily | <abbr title="Not checked">⚪</abbr> | [↗](https://netapi.com/zf-api/f/compromised/ip/live/) |
+| NetAPI | Compromised IP addresses, full historical list - plain text, one IPv4 address per line | <abbr title="Not checked">⚪</abbr> | [↗](https://netapi.com/zf-api/f/compromised/ip/full/) |
 | NETSHIELD | Active IP Blacklist – Score ≥65 last 30 days (firewall recommended) | <abbr title="Active">🟢</abbr> | [↗](https://raw.githubusercontent.com/juergen2025sys/NETSHIELD/main/active_blacklist_ipv4.txt) |
 | NETSHIELD | IP Blacklist – Score ≥40 extended rules | <abbr title="Offline">🔴</abbr> | [↗](https://raw.githubusercontent.com/juergen2025sys/NETSHIELD/main/blacklist_confidence40_ipv4.txt) |
 | NETSHIELD | Combined Threat Blacklist – 180-day window for SIEM/audit | <abbr title="Offline">🔴</abbr> | [↗](https://raw.githubusercontent.com/juergen2025sys/NETSHIELD/main/combined_threat_blacklist_ipv4.txt) |
@@ -316,7 +318,7 @@ Status legend: 🟢 Active – 🔴 Offline – 🔒 Restricted (requires API ke
 | X4BNet | VPN IPs | <abbr title="Active">🟢</abbr> | [↗](https://raw.githubusercontent.com/X4BNet/lists_vpn/main/output/vpn/ipv4.txt) |
 | Yoyo | Yoyo Ad Server IPs | <abbr title="Active">🟢</abbr> | [↗](http://pgl.yoyo.org/adservers/iplist.php?ipformat=plain&showintro=0&mimetype=plaintext) |
 
-### DNS (24)
+### DNS (26)
 
 | Vendor | Description | Status | URL |
 | --- | --- | :---: | --- |
@@ -334,6 +336,8 @@ Status legend: 🟢 Active – 🔴 Offline – 🔒 Restricted (requires API ke
 | hagezi | DNS Pro++ Blocklist – more aggressive version of Pro list | <abbr title="Offline">🔴</abbr> | [↗](https://raw.githubusercontent.com/hagezi/dns-blocklists/main/domains/pro.plus.txt) |
 | jarelllama | Scam Blocklist – phishing and scam domains (wildcard format) | <abbr title="Active">🟢</abbr> | [↗](https://raw.githubusercontent.com/jarelllama/Scam-Blocklist/main/lists/wildcard_domains/scams.txt) |
 | MalSilo | MalSilo Domain List | <abbr title="Active">🟢</abbr> | [↗](https://malsilo.gitlab.io/feeds/dumps/domain_list.txt) |
+| NetAPI | Compromised domains seen in the last 24 hours (malware, phishing, C2 hosts) - plain text, one domain per line, rebuilt daily | <abbr title="Not checked">⚪</abbr> | [↗](https://netapi.com/zf-api/f/compromised/domains/live/) |
+| NetAPI | Compromised domains, full historical list - plain text, one domain per line | <abbr title="Not checked">⚪</abbr> | [↗](https://netapi.com/zf-api/f/compromised/domains/full/) |
 | phishdestroy | PhishDestroy blocklist – phishing and malicious domains | <abbr title="Active">🟢</abbr> | [↗](https://raw.githubusercontent.com/phishdestroy/destroylist/refs/heads/main/list.txt) |
 | SentinelPhishFeed | Phishing and malware domains feed | <abbr title="Active">🟢</abbr> | [↗](https://raw.githubusercontent.com/rjn32s/SentinelPhishFeed/main/domains.txt) |
 | shreshtait.com | Newly Registered Domains – 1 month | <abbr title="Active">🟢</abbr> | [↗](https://shreshtait.com/newly-registered-domains/nrd-1m) |
