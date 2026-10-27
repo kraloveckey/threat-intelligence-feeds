@@ -364,8 +364,6 @@ mthcht;VPN SurfShark IPs;IP;https://github.com/mthcht/awesome-lists/blob/main/Li
 mthcht;VPN MullVad IPs;IP;https://github.com/mthcht/awesome-lists/blob/main/Lists/VPN/MullVad/mullvad_relay_servers_ips_list.csv;Active
 mthcht;GeoIP services Lists;IOC;https://github.com/mthcht/awesome-lists/blob/main/Lists/GeoIP/ip_location_sites_list.csv;Active
 mthcht;VPN ProtonVPN IPs;IP;https://github.com/mthcht/awesome-lists/blob/main/Lists/VPN/ProtonVPN/protonvpn_ip_list.csv;Active
-NetAPI;Compromised IP addresses seen in the last 24 hours - plain text, one IPv4 address per line, rebuilt daily;IP;https://netapi.com/zf-api/f/compromised/ip/live/;
-NetAPI;Compromised IP addresses, full historical list - plain text, one IPv4 address per line;IP;https://netapi.com/zf-api/f/compromised/ip/full/;
 mthcht;Suspicious TLDs;REPO;https://github.com/mthcht/awesome-lists/tree/main/Lists/TLDs;Active
 mthcht;Suspicious ASNs;REPO;https://github.com/mthcht/awesome-lists/tree/main/Lists/ASNs;Active
 mthcht;Maxmind GeoIP Database Extracted;REPO;https://github.com/mthcht/awesome-lists/tree/main/Lists/ASNs/correlation_maxmind_geo_db/maxmind_databases/extracted;Active
