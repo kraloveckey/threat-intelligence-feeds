@@ -1,5 +1,5 @@
 Vendor;Description;Category;Url;FeedStatus
-Abuse.ch;The host file contains Payload delivery domains and Botnet C2 domains (last 6 months);DNS;https://threatfox.abuse.ch/downloads/hostfile/;Active
+Abuse.ch;The host file contains Payload delivery domains and Botnet C2 domains (last 6 months);DNS;https://threatfox.abuse.ch/downloads/hostfile/;Offline
 Abuse.ch;Botnet C2 IP Blacklist (CSV);IP;https://sslbl.abuse.ch/blacklist/sslipblacklist.csv;Active
 Abuse.ch;Botnet C2 IP Blacklist (TXT);IP;https://sslbl.abuse.ch/blacklist/sslipblacklist.txt;Active
 Abuse.ch;Botnet C2 IP Blacklist Aggressive (CSV);IP;https://sslbl.abuse.ch/blacklist/sslipblacklist_aggressive.csv;Active
@@ -7,14 +7,14 @@ Abuse.ch;Botnet C2 IP Blacklist Aggressive (TXT);IP;https://sslbl.abuse.ch/black
 Abuse.ch;Botnet C2 Indicators of Compromise – Recommended Blocklist;IP;https://feodotracker.abuse.ch/downloads/ipblocklist_recommended.txt;Active
 Abuse.ch;Botnet C2 Indicators of Compromise;IP;https://feodotracker.abuse.ch/downloads/ipblocklist.txt;Active
 Abuse.ch;All botnet C2s Feodo Tracker has ever seen;IP;https://feodotracker.abuse.ch/blocklist/;Active
-Abuse.ch;MD5 hashes – Recent additions (MalwareBazaar);MD5;https://bazaar.abuse.ch/export/txt/md5/recent/;Active
-Abuse.ch;MD5 hashes – Recent malicious files on C2 (ThreatFox);MD5;https://threatfox.abuse.ch/export/csv/md5/recent/;Active
-Abuse.ch;SHA1 hashes – Recent additions (MalwareBazaar);SHA1;https://bazaar.abuse.ch/export/txt/sha1/recent/;Active
-Abuse.ch;SHA256 hashes – Recent additions (MalwareBazaar);SHA256;https://bazaar.abuse.ch/export/txt/sha256/recent/;Active
-Abuse.ch;SHA256 hashes – Recent malicious files on C2 (ThreatFox);SHA256;https://threatfox.abuse.ch/export/csv/sha256/recent/;Active
+Abuse.ch;MD5 hashes – Recent additions (MalwareBazaar);MD5;https://bazaar.abuse.ch/export/txt/md5/recent/;Offline
+Abuse.ch;MD5 hashes – Recent malicious files on C2 (ThreatFox);MD5;https://threatfox.abuse.ch/export/csv/md5/recent/;Offline
+Abuse.ch;SHA1 hashes – Recent additions (MalwareBazaar);SHA1;https://bazaar.abuse.ch/export/txt/sha1/recent/;Offline
+Abuse.ch;SHA256 hashes – Recent additions (MalwareBazaar);SHA256;https://bazaar.abuse.ch/export/txt/sha256/recent/;Offline
+Abuse.ch;SHA256 hashes – Recent malicious files on C2 (ThreatFox);SHA256;https://threatfox.abuse.ch/export/csv/sha256/recent/;Offline
 Abuse.ch;SSL Certificate Blacklist;SSL;https://sslbl.abuse.ch/blacklist/sslblacklist.csv;Active
-Abuse.ch;Recent Payload delivery and Botnet C2 URLs (ThreatFox);URL;https://threatfox.abuse.ch/export/csv/urls/recent/;Active
-Abuse.ch;Recent Malware URLs (URLhaus);URL;https://urlhaus.abuse.ch/downloads/csv_recent/;Active
+Abuse.ch;Recent Payload delivery and Botnet C2 URLs (ThreatFox);URL;https://threatfox.abuse.ch/export/csv/urls/recent/;Offline
+Abuse.ch;Recent Malware URLs (URLhaus);URL;https://urlhaus.abuse.ch/downloads/csv_recent/;Offline
 Abuse.ch;JA3 Fingerprints Blacklist;JA3;https://sslbl.abuse.ch/blacklist/ja3_fingerprints.csv;Active
 StopForumSpam;Forum Spammer IPs – 90 days (zip);IP;http://www.stopforumspam.com/downloads/listed_ip_90.zip;Active
 StopForumSpam;Forum Spammer IPs – 180 days (zip);IP;http://www.stopforumspam.com/downloads/listed_ip_180.zip;Active
@@ -76,10 +76,10 @@ threatview.io;Domain High Confidence Feed;DNS;https://threatview.io/Downloads/DO
 threatview.io;MD5 Hash Blocklist;MD5;https://threatview.io/Downloads/MD5-HASH-ALL.txt;Active
 threatview.io;URL High Confidence Feed;URL;https://threatview.io/Downloads/URL-High-Confidence-Feed.txt;Active
 threatview.io;SHA File Hash Feed;SHA1;https://threatview.io/Downloads/SHA-HASH-FEED.txt;Active
-urlabuse;URL Abuse Blacklist Feed;URL;https://urlabuse.com/public/data/data.txt;Active
-urlabuse;Malware URL Feed;URL;https://urlabuse.com/public/data/malware_url.txt;Active
-urlabuse;Phishing URL Feed;URL;https://urlabuse.com/public/data/phishing_url.txt;Active
-urlabuse;Hacked URL Feed;URL;https://urlabuse.com/public/data/hacked_url.txt;Active
+urlabuse;URL Abuse Blacklist Feed;URL;https://urlabuse.com/public/data/data.txt;Offline
+urlabuse;Malware URL Feed;URL;https://urlabuse.com/public/data/malware_url.txt;Offline
+urlabuse;Phishing URL Feed;URL;https://urlabuse.com/public/data/phishing_url.txt;Offline
+urlabuse;Hacked URL Feed;URL;https://urlabuse.com/public/data/hacked_url.txt;Offline
 StopForumSpam;Forum Spammer IPs – 1 day (zip);IP;http://www.stopforumspam.com/downloads/listed_ip_1.zip;Active
 StopForumSpam;Forum Spammer IPs – 7 days (zip);IP;http://www.stopforumspam.com/downloads/listed_ip_7.zip;Active
 tsirolnik;Spam Domains List;DNS;https://raw.githubusercontent.com/tsirolnik/spam-domains-list/master/spamdomains.txt;Active
@@ -100,7 +100,7 @@ CriticalPathSecurity;Abuse.ch IP Blocklist Feed;IP;https://raw.githubusercontent
 CriticalPathSecurity;Log4j Scanners and Exploiters;IP;https://raw.githubusercontent.com/CriticalPathSecurity/Public-Intelligence-Feeds/master/log4j.txt;Active
 MISP Project;MISP Default Feeds (metadata);URL;https://raw.githubusercontent.com/MISP/MISP/2.4/app/files/feed-metadata/defaults.json;Active
 MISP CIRCL;MISP CIRCL OSINT Feed – Hashes;MISP;https://www.circl.lu/doc/misp/feed-osint/;Active
-MISP Abuse.ch;MISP Abuse.ch URLhaus;URL;https://urlhaus.abuse.ch/downloads/misp/;Active
+MISP Abuse.ch;MISP Abuse.ch URLhaus;URL;https://urlhaus.abuse.ch/downloads/misp/;Offline
 TorProject;Tor Exit Addresses (TorProject official);IP;https://check.torproject.org/exit-addresses;Active
 darklist.de;Darklist.de IP Blacklist;IP;http://www.darklist.de/raw.php;Active
 Botvrij.eu;Botvrij IOC IP Destination (raw);IP;http://www.botvrij.eu/data/ioclist.ip-dst.raw;Active
@@ -126,10 +126,10 @@ CleanTalk;CleanTalk Blacklist – Updated Today;IP;https://cleantalk.org/blackli
 CleanTalk;CleanTalk Blacklist – Top 20;IP;https://cleantalk.org/blacklists/top20;Active
 AbuseIPDB;AbuseIPDB Score 100 – Last 1 day;IP;https://raw.githubusercontent.com/borestad/blocklist-abuseipdb/main/abuseipdb-s100-1d.ipv4;Active
 AbuseIPDB;AbuseIPDB Score 100 – Last 30 days;IP;https://raw.githubusercontent.com/borestad/blocklist-abuseipdb/main/abuseipdb-s100-30d.ipv4;Active
-Maltrail;Maltrail Mass Scanner IPs;IP;https://raw.githubusercontent.com/stamparm/maltrail/master/trails/static/mass_scanner.txt;Active
-VXVault;VXVault Malware URL List;URL;http://vxvault.net/ViriList.php?s=0&m=100;Offline
+Maltrail;Maltrail Mass Scanner IPs;IP;https://raw.githubusercontent.com/stamparm/maltrail/master/trails/static/mass_scanner.txt;Offline
+VXVault;VXVault Malware URL List;URL;http://vxvault.net/ViriList.php?s=0&m=100;Active
 VXVault;VXVault URL List;URL;http://vxvault.net/URL_List.php;Active
-GriffinGuard;GriffinGuard Abuse 7-day Top 10K;IP;https://griffinguard.io/feeds/abuse7d_top10k.txt;Active
+GriffinGuard;GriffinGuard Abuse 7-day Top 10K;IP;https://griffinguard.io/feeds/abuse7d_top10k.txt;Offline
 Ultimate-Hosts-Blacklist;Ultimate Hosts Blacklist IPs;IP;https://raw.githubusercontent.com/Ultimate-Hosts-Blacklist/Ultimate.Hosts.Blacklist/master/ips/ips0.list;Active
 Ngosang;BitTorrent Trackers IP List;BLOCKLIST;https://raw.githubusercontent.com/ngosang/trackerslist/master/trackers_all_ip.txt;Active
 opsxcq;Open Proxy List;IP;https://raw.githubusercontent.com/opsxcq/proxy-list/master/list.txt;Active
@@ -151,11 +151,11 @@ shreshtait.com;Newly Registered Domains – 1 month;DNS;https://shreshtait.com/n
 shreshtait.com;Newly Registered Domains – 1 week;DNS;https://shreshtait.com/newly-registered-domains/nrd-1w;Active
 APNIC Honeynet;SSH Bruteforce IPs;IP;https://feeds.honeynet.asia/bruteforce/latest-sshbruteforce-unique.csv;Active
 APNIC Honeynet;Telnet Bruteforce IPs;IP;https://feeds.honeynet.asia/bruteforce/latest-telnetbruteforce-unique.csv;Active
-Abuse.ch;ThreatFox IOCs – Recent (all types);URL;https://threatfox.abuse.ch/export/csv/recent/;Active
+Abuse.ch;ThreatFox IOCs – Recent (all types);URL;https://threatfox.abuse.ch/export/csv/recent/;Offline
 threatview.io;Bitcoin Address Intel;IOC;https://threatview.io/Downloads/MALICIOUS-BITCOIN_FEED.txt;Active
 APNIC Honeynet;URL Seen in Honeypots;URL;https://feeds.honeynet.asia/url/latest-url-unique.csv;Active
 PhishTank;PhishTank Online Valid Phishing (CSV);URL;http://data.phishtank.com/data/online-valid.csv;Active
-urlabuse;URL Abuse DB – Latest 500 entries (CSV);URL;https://urlabuse.com/public/data/data_csv.txt;Active
+urlabuse;URL Abuse DB – Latest 500 entries (CSV);URL;https://urlabuse.com/public/data/data_csv.txt;Offline
 StopForumSpam;Toxic IPs CIDR;IP;http://www.stopforumspam.com/downloads/toxic_ip_cidr.txt;Active
 Carbon Black;Cobalt Strike LuckyMouse / TA428;IP;https://raw.githubusercontent.com/carbonblack/active_c2_ioc_public/main/cobaltstrike/actor-specific/cobaltstrike_luckymouse_ta428.csv;Active
 Carbon Black;Cobalt Strike Pyxie;IP;https://raw.githubusercontent.com/carbonblack/active_c2_ioc_public/main/cobaltstrike/actor-specific/cobaltstrike_pyxie.csv;Active
@@ -163,9 +163,9 @@ osint.bambenekconsulting.com;All current domains belonging to known malicious DG
 osint.bambenekconsulting.com;Domains from High-Confidence DGA-based C&C Domains Actively Resolving (requires license for commercial use);RESTRICTED;https://osint.bambenekconsulting.com/feeds/c2-dommasterlist-high.txt;Restricted
 osint.bambenekconsulting.com;IPs from High-Confidence DGA-Based C&Cs Actively Resolving (requires license for commercial use);RESTRICTED;https://osint.bambenekconsulting.com/feeds/c2-ipmasterlist-high.txt;Restricted
 snort.org;ip-block-list;IP;https://snort.org/downloads/ip-block-list;Active
-abuse.ch;MalwareBazaar MISP feed (hashes + metadata);MISP;https://bazaar.abuse.ch/downloads/misp/;Active
+abuse.ch;MalwareBazaar MISP feed (hashes + metadata);MISP;https://bazaar.abuse.ch/downloads/misp/;Offline
 Botvrij.eu;Botvrij.eu OSINT MISP feed;MISP;https://www.botvrij.eu/data/feed-osint;Active
-abuse.ch;ThreatFox MISP feed (IOCs);MISP;https://threatfox.abuse.ch/downloads/misp/;Active
+abuse.ch;ThreatFox MISP feed (IOCs);MISP;https://threatfox.abuse.ch/downloads/misp/;Offline
 kraloveckey;FireWALL-E: ipsets-blocklist;REPO;https://github.com/kraloveckey/ipsets-blocklist;Active
 executemalware;Community Malware IOCs (GitHub repo);REPO;https://github.com/executemalware/Malware-IOCs;Active
 ESET;ESET Malware IOC Repository;REPO;https://github.com/eset/malware-ioc;Active
@@ -189,7 +189,7 @@ ProjectHoneypot.org;Directory/dictionary attackers (RSS feed);IP;http://www.proj
 BotScout.com;Most recently-caught web bots;IP;http://botscout.com/last_caught_cache.htm;Active
 GreenSnow.co;Bruteforce/scan/exploit attacking IPs;IP;http://blocklist.greensnow.co/greensnow.txt;Active
 cybercrime-tracker.net;Command and Control tracking IP list;IP;http://cybercrime-tracker.net/fuckerz.php;Active
-GraphiclineWeb;Universally banned IPs (spiders/spambots/hackers/harvesters);IP;https://graphiclineweb.wordpress.com/tech-notes/ip-blacklist/;Active
+GraphiclineWeb;Universally banned IPs (spiders/spambots/hackers/harvesters);IP;https://graphiclineweb.wordpress.com/tech-notes/ip-blacklist/;Offline
 GPF Comics;IPs that attacked GPF Comics (spam/exploits/scans);IP;https://www.gpf-comics.com/dnsbl/export.php;Active
 iBlocklist.com;Open Proxies IPs (without TOR);IP;http://list.iblocklist.com/?list=xoebmbyexwuiogmbyprb&fileformat=p2p&archiveformat=gz;Active
 iBlocklist.com;Known malicious Spyware and Adware IP ranges;IP;http://list.iblocklist.com/?list=llvtlsjyoyiczbkjsxpf&fileformat=p2p&archiveformat=gz;Active
@@ -255,13 +255,13 @@ MaxMind;GeoLite2 Country Database – IP to Country mapping (requires free licen
 IP2Location;IP2Location LITE DB1 – IP to Country database (free, no key required);GEOIP;https://download.ip2location.com/lite/IP2LOCATION-LITE-DB1.CSV.ZIP;Active
 IPDeny.com;IPDeny country IP blocks – all zones (tar.gz, updated daily);GEOIP;http://www.ipdeny.com/ipblocks/data/countries/all-zones.tar.gz;Active
 DB-IP;DB-IP Country Lite – free IP to Country database (monthly updated, fixed URL);GEOIP;https://download.db-ip.com/free/dbip-phpsrc-4.0.tgz;Active
-Turris;Turris Greylist – IPs observed attacking Turris routers;IP;https://www.turris.cz/greylist-data/greylist-latest.csv;Active
+Turris;Turris Greylist – IPs observed attacking Turris routers;IP;https://www.turris.cz/greylist-data/greylist-latest.csv;Offline
 James Brine;Daily malicious IPs from honeypots (SSH/FTP/RDP/GIT/SNMP/REDIS);IP;https://jamesbrine.com.au/csv;Active
 SANS ICS / DShield;DShield suggested IP blocklist;IP;https://isc.sans.edu/block.txt;Active
 IPsum;IPsum combined threat feed – all blacklists merged with occurrence count;IP;https://raw.githubusercontent.com/stamparm/ipsum/master/ipsum.txt;Active
 WSTNPHX;Email addresses used by malware;IOC;https://raw.githubusercontent.com/WSTNPHX/scripts-n-tools/master/malware-email-addresses.txt;Active
 SecurityScorecard;Public IoCs from SecurityScorecard technical blog posts;REPO;https://github.com/securityscorecard/SSC-Threat-Intel-IoCs;Active
-phishdestroy;PhishDestroy blocklist – phishing and malicious domains;DNS;https://raw.githubusercontent.com/phishdestroy/destroylist/refs/heads/main/list.txt;Offline
+phishdestroy;PhishDestroy blocklist – phishing and malicious domains;DNS;https://raw.githubusercontent.com/phishdestroy/destroylist/refs/heads/main/list.txt;Active
 SANS ICS;SANS ICS Intel Feed – community threat indicators;IP;https://isc.sans.edu/api/intelfeed;Active
 CriticalPathSecurity;CPS collected IOCs (Zeek intel format);IP;https://raw.githubusercontent.com/CriticalPathSecurity/Zeek-Intelligence-Feeds/master/cps-collected-iocs.intel;Active
 CriticalPathSecurity;CPS LockBit ransomware IPs;IP;https://raw.githubusercontent.com/CriticalPathSecurity/Zeek-Intelligence-Feeds/master/lockbit_ip.intel;Active
@@ -282,7 +282,7 @@ spydisec;Permanent append-only Malicious Domains archive;DNS;https://spydisec.co
 etnetera.cz;Etnetera aggressive IP blocklist (Czech ISP security team);IP;https://security.etnetera.cz/feeds/etn_aggressive.txt;Active
 elliotwutingfeng;Inversion DNSBL – scam and phishing domains;DNS;https://raw.githubusercontent.com/elliotwutingfeng/Inversion-DNSBL-Blocklists/main/Google_hostnames.txt;Active
 NETSHIELD;Active IP Blacklist – Score ≥65 last 30 days (firewall recommended);IP;https://raw.githubusercontent.com/juergen2025sys/NETSHIELD/main/active_blacklist_ipv4.txt;Active
-NETSHIELD;IP Blacklist – Score ≥40 extended rules;IP;https://raw.githubusercontent.com/juergen2025sys/NETSHIELD/main/blacklist_confidence40_ipv4.txt;Active
+NETSHIELD;IP Blacklist – Score ≥40 extended rules;IP;https://raw.githubusercontent.com/juergen2025sys/NETSHIELD/main/blacklist_confidence40_ipv4.txt;Offline
 NETSHIELD;Combined Threat Blacklist – 180-day window for SIEM/audit;IP;https://raw.githubusercontent.com/juergen2025sys/NETSHIELD/main/combined_threat_blacklist_ipv4.txt;Offline
 NETSHIELD;Watchlist – Score 25-39 monitoring only;IP;https://raw.githubusercontent.com/juergen2025sys/NETSHIELD/main/watchlist_confidence25to39_ipv4.txt;Active
 NETSHIELD;CVE exploit and active C2 server IPs (daily);IP;https://raw.githubusercontent.com/juergen2025sys/NETSHIELD/main/cve_exploit_ips.txt;Active
@@ -290,7 +290,7 @@ NETSHIELD;Honeypot-confirmed attacker IPs (daily);IP;https://raw.githubuserconte
 NETSHIELD;HoneyDB community honeypot IPs (API);IP;https://raw.githubusercontent.com/juergen2025sys/NETSHIELD/main/honeydb_ips.txt;Offline
 NETSHIELD;Bot and scanner IPs (daily);IP;https://raw.githubusercontent.com/juergen2025sys/NETSHIELD/main/bot_detector_blacklist_ipv4.txt;Active
 NETSHIELD;AbuseIPDB top reported IPs Score ≥50 (API);IP;https://raw.githubusercontent.com/juergen2025sys/NETSHIELD/main/abuseipdb_api_blacklist.txt;Offline
-NETSHIELD;High-risk ASN blocklist Score ≥50;IP;https://raw.githubusercontent.com/juergen2025sys/NETSHIELD/main/asn_blocklist_firewall.txt;Active
+NETSHIELD;High-risk ASN blocklist Score ≥50;IP;https://raw.githubusercontent.com/juergen2025sys/NETSHIELD/main/asn_blocklist_firewall.txt;Offline
 SentinelPhishFeed;Phishing URLs feed (auto-updated multiple times daily);URL;https://raw.githubusercontent.com/rjn32s/SentinelPhishFeed/main/urls.txt;Active
 SentinelPhishFeed;Malicious IP address feed;IP;https://raw.githubusercontent.com/rjn32s/SentinelPhishFeed/main/ips.txt;Active
 SentinelPhishFeed;Phishing and malware domains feed;DNS;https://raw.githubusercontent.com/rjn32s/SentinelPhishFeed/main/domains.txt;Active
@@ -306,6 +306,8 @@ hagezi;DNS Pro Blocklist – comprehensive DNS blocklist (ads, tracking, malware
 hagezi;DNS Pro++ Blocklist – more aggressive version of Pro list;DNS;https://raw.githubusercontent.com/hagezi/dns-blocklists/main/domains/pro.plus.txt;Offline
 blocklistproject;Block Lists – comprehensive domain blocklists (ads, malware, phishing, ransomware, scam);REPO;https://github.com/blocklistproject/Lists;Active
 jarelllama;Scam Blocklist – phishing and scam domains (wildcard format);DNS;https://raw.githubusercontent.com/jarelllama/Scam-Blocklist/main/lists/wildcard_domains/scams.txt;Active
+NetAPI;Compromised domains seen in the last 24 hours (malware, phishing, C2 hosts) - plain text, one domain per line, rebuilt daily;DNS;https://netapi.com/zf-api/f/compromised/domains/live/;
+NetAPI;Compromised domains, full historical list - plain text, one domain per line;DNS;https://netapi.com/zf-api/f/compromised/domains/full/;
 Volexity;Volexity Threat Intelligence IOC repository;REPO;https://github.com/volexity/threat-intel;Active
 Sekoia;Sekoia Community IOC repository;REPO;https://github.com/SEKOIA-IO/Community;Active
 Palo Alto Unit42;Unit42 Timely Threat Intelligence IOC repository;REPO;https://github.com/PaloAltoNetworks/Unit42-timely-threat-intel;Active
@@ -335,9 +337,9 @@ mthcht;Threat Hunting yara rules;REPO;https://github.com/mthcht/ThreatHunting-Ke
 mthcht;Offensive Tools detection patterns;IOC;https://raw.githubusercontent.com/mthcht/ThreatHunting-Keywords/main/offensive_tool_keyword.csv;Active
 mthcht;Greyware Tools detection patterns;IOC;https://raw.githubusercontent.com/mthcht/ThreatHunting-Keywords/main/greyware_tool_keyword.csv;Active
 mthcht;AV signatures keywords;IOC;https://github.com/mthcht/ThreatHunting-Keywords/blob/main/signature_keyword.csv;Active
-mthcht;Suspicious Named pipes;IOC;https://github.com/mthcht/awesome-lists/blob/main/Lists/suspicious_named_pipe_list.csv;Offline
+mthcht;Suspicious Named pipes;IOC;https://github.com/mthcht/awesome-lists/blob/main/Lists/suspicious_named_pipe_list.csv;Active
 mthcht;Suspicious Windows Services;IOC;https://github.com/mthcht/awesome-lists/blob/main/Lists/suspicious_windows_services_names_list.csv;Active
-mthcht;Suspicious Windows Tasks;IOC;https://github.com/mthcht/awesome-lists/blob/main/Lists/suspicious_windows_tasks_list.csv;Active
+mthcht;Suspicious Windows Tasks;IOC;https://github.com/mthcht/awesome-lists/blob/main/Lists/suspicious_windows_tasks_list.csv;Offline
 mthcht;Suspicious destination port;IOC;https://github.com/mthcht/awesome-lists/blob/main/Lists/suspicious_ports_list.csv;Active
 mthcht;Suspicious Firewall rules;IOC;https://github.com/mthcht/awesome-lists/blob/main/Lists/suspicious_windows_firewall_rules_list.csv;Active
 mthcht;Suspicious User-agent;IOC;https://github.com/mthcht/awesome-lists/blob/main/Lists/suspicious_http_user_agents_list.csv;Active
@@ -346,7 +348,7 @@ mthcht;Suspicious mutex names;IOC;https://github.com/mthcht/awesome-lists/blob/m
 mthcht;Suspicious MAC address;IOC;https://github.com/mthcht/awesome-lists/blob/main/Lists/suspicious_mac_address_list.csv;Active
 mthcht;Suspicious Hostname;IOC;https://github.com/mthcht/awesome-lists/blob/main/Lists/suspicious_hostnames_list.csv;Active
 mthcht;Microsoft App IDs List (BEC Detection);IOC;https://github.com/mthcht/awesome-lists/blob/main/Lists/microsoft_apps_list.csv;Active
-mthcht;Metadata Executables;IOC;https://github.com/mthcht/awesome-lists/blob/main/Lists/Windows%20Metadata/executables_metadata_informations_list.csv;Offline
+mthcht;Metadata Executables;IOC;https://github.com/mthcht/awesome-lists/blob/main/Lists/Windows%20Metadata/executables_metadata_informations_list.csv;Active
 mthcht;DNS over HTTPS server list;IOC;https://github.com/mthcht/awesome-lists/blob/main/Lists/dns_over_https_servers_list.csv;Active
 mthcht;Dynamic DNS domains list;IOC;https://github.com/mthcht/awesome-lists/blob/main/Lists/DYNDNS/dyndns_list.csv;Active
 mthcht;Sinkholed Domains;IOC;https://github.com/mthcht/awesome-lists/blob/main/Lists/Domains/sinkholed_servers/sinkholed_domains.csv;Active
@@ -359,9 +361,11 @@ mthcht;Ransomware known file name ransom notes;IOC;https://github.com/mthcht/awe
 mthcht;Windows ASR rules;IOC;https://github.com/mthcht/awesome-lists/blob/main/Lists/windows_asr_rules.csv;Active
 mthcht;VPN NordVPN IPs;IP;https://github.com/mthcht/awesome-lists/blob/main/Lists/VPN/NordVPN/nordvpn_ips_list.csv;Active
 mthcht;VPN SurfShark IPs;IP;https://github.com/mthcht/awesome-lists/blob/main/Lists/VPN/SurfSharkVPN/surfshark_vpn_servers_domains_and_ips_list.csv;Active
-mthcht;VPN MullVad IPs;IP;https://github.com/mthcht/awesome-lists/blob/main/Lists/VPN/MullVad/mullvad_relay_servers_ips_list.csv;Offline
+mthcht;VPN MullVad IPs;IP;https://github.com/mthcht/awesome-lists/blob/main/Lists/VPN/MullVad/mullvad_relay_servers_ips_list.csv;Active
 mthcht;GeoIP services Lists;IOC;https://github.com/mthcht/awesome-lists/blob/main/Lists/GeoIP/ip_location_sites_list.csv;Active
 mthcht;VPN ProtonVPN IPs;IP;https://github.com/mthcht/awesome-lists/blob/main/Lists/VPN/ProtonVPN/protonvpn_ip_list.csv;Active
+NetAPI;Compromised IP addresses seen in the last 24 hours - plain text, one IPv4 address per line, rebuilt daily;IP;https://netapi.com/zf-api/f/compromised/ip/live/;
+NetAPI;Compromised IP addresses, full historical list - plain text, one IPv4 address per line;IP;https://netapi.com/zf-api/f/compromised/ip/full/;
 mthcht;Suspicious TLDs;REPO;https://github.com/mthcht/awesome-lists/tree/main/Lists/TLDs;Active
 mthcht;Suspicious ASNs;REPO;https://github.com/mthcht/awesome-lists/tree/main/Lists/ASNs;Active
 mthcht;Maxmind GeoIP Database Extracted;REPO;https://github.com/mthcht/awesome-lists/tree/main/Lists/ASNs/correlation_maxmind_geo_db/maxmind_databases/extracted;Active
@@ -391,7 +395,7 @@ P4T12ICK;Sigma Rule Repository;REPO;https://github.com/P4T12ICK/Sigma-Rule-Repos
 tsale;Sigma Rules;REPO;https://github.com/tsale/Sigma_rules;Active
 Bert-JanP;KQL Hunting Queries;REPO;https://github.com/Bert-JanP/Hunting-Queries-Detection-Rules;Active
 0x4D31;Awesome Threat Detection;REPO;https://github.com/0x4D31/awesome-threat-detection;Active
-LOTS;Living Off Trusted Sites;URL;https://lots-project.com/;Active
+LOTS;Living Off Trusted Sites;URL;https://lots-project.com/;Offline
 loldrivers;LOLDrivers;URL;https://www.loldrivers.io/;Active
 lolc2;LOLC2;REPO;https://github.com/lolc2/lolc2.github.io;Active
 LOLESXi-Project;LOLESXI;REPO;https://github.com/LOLESXi-Project/LOLESXi;Active
@@ -406,12 +410,13 @@ Cisco;Talos Intelligence Feed;RSS;https://feeds.feedburner.com/feedburner/Talos;
 TheDFIRReport;The DFIR Report Feed;RSS;https://thedfirreport.com/feed/;Active
 Checkpoint;Checkpoint Research Feed;RSS;https://research.checkpoint.com/feed;Active
 Kaspersky;Securelist APT Attacks Feed;RSS;https://securelist.com/threat-category/apt-targeted-attacks/feed/;Active
+ICHI;Internet Cyber Health Index – daily threat alert digest aggregating signals from CISA KEV, abuse.ch, Shodan, and Censys;RSS;https://ichi.global/api/alerts;Active
 MITRE;MITRE ATT&CK Matrix Navigator;FRAMEWORK;https://mitre-attack.github.io/attack-navigator/;Active
 MITRE;CVE Vulnerability Database;FRAMEWORK;https://cve.mitre.org/;Active
 andreacristaldi;APTMAP (APT Tracker);FRAMEWORK;https://github.com/andreacristaldi/APTmap;Active
 Shodan;Shodan OSINT Search;OSINT;https://www.shodan.io/;Active
 Censys;Censys OSINT Search;OSINT;https://search.censys.io/;Active
-ThreatMiner;ThreatMiner Data Mining;OSINT;https://www.threatminer.org/;Active
+ThreatMiner;ThreatMiner Data Mining;OSINT;https://www.threatminer.org/;Offline
 URLScan;URLScan Website Scanner;OSINT;https://urlscan.io/;Active
 Pulsedive;Pulsedive Threat Intelligence;OSINT;https://pulsedive.com/;Active
 CyberGordon;CyberGordon URL Reputation;OSINT;https://cybergordon.com/;Active

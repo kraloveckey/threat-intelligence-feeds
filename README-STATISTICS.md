@@ -1,7 +1,7 @@
 | Category | Description | Count |
 | --- | --- | --- |
-| `IP` | Malicious / suspicious IPv4 addresses and CIDR ranges | 167 |
-| `DNS` | Malicious or suspicious domain names | 24 |
+| `IP` | Malicious / suspicious IPv4 addresses and CIDR ranges | 169 |
+| `DNS` | Malicious or suspicious domain names | 26 |
 | `URL` | Malicious / phishing / C2 URLs | 34 |
 | `MD5` | MD5 hashes of malicious files | 6 |
 | `SHA1` | SHA1 hashes of malicious files | 3 |
@@ -20,4 +20,4 @@
 | `FRAMEWORK` | Threat intelligence frameworks, matrices, and tracking tools (MITRE, APT maps, etc.) | 3 |
 | `OSINT` | Open-source intelligence platforms and search engines for IOC investigation | 6 |
 | `SANDBOX` | Online malware analysis sandboxes for dynamic file and URL analysis | 3 |
-| **Total** | | **419** |
+| **Total** | | **423** |
