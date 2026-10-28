@@ -406,6 +406,7 @@ Cisco;Talos Intelligence Feed;RSS;https://feeds.feedburner.com/feedburner/Talos;
 TheDFIRReport;The DFIR Report Feed;RSS;https://thedfirreport.com/feed/;Active
 Checkpoint;Checkpoint Research Feed;RSS;https://research.checkpoint.com/feed;Active
 Kaspersky;Securelist APT Attacks Feed;RSS;https://securelist.com/threat-category/apt-targeted-attacks/feed/;Active
+ICHI;Internet Cyber Health Index – daily threat alert digest aggregating signals from CISA KEV, abuse.ch, Shodan, and Censys;RSS;https://ichi.global/api/alerts;Active
 MITRE;MITRE ATT&CK Matrix Navigator;FRAMEWORK;https://mitre-attack.github.io/attack-navigator/;Active
 MITRE;CVE Vulnerability Database;FRAMEWORK;https://cve.mitre.org/;Active
 andreacristaldi;APTMAP (APT Tracker);FRAMEWORK;https://github.com/andreacristaldi/APTmap;Active
