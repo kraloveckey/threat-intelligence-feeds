@@ -43,11 +43,11 @@ Sources aggregated from:
 | `REPO` | GitHub repositories with IOC collections — no direct machine-readable feed URL | 63 |
 | `RESTRICTED` | Feeds requiring registration or an API key (free or commercial) to access | 5 |
 | `GEOIP` | IP geolocation databases — country/ASN/region mapping (not threat intel) | 3 |
-| `RSS` | Threat intelligence RSS/Atom feeds from vendors, CERTs, and security researchers | 9 |
-| `FRAMEWORK` | Threat intelligence frameworks, matrices, and tracking tools (MITRE, APT maps, etc.) | 3 |
+| `RSS` | Threat intelligence RSS/Atom feeds from vendors, CERTs, and security researchers | 10 |
+| `FRAMEWORK` | Threat intelligence frameworks, matrices, and tracking tools (MITRE, APT maps, etc.) | 4 |
 | `OSINT` | Open-source intelligence platforms and search engines for IOC investigation | 6 |
 | `SANDBOX` | Online malware analysis sandboxes for dynamic file and URL analysis | 3 |
-| **Total** | | **423** |
+| **Total** | | **425** |
 <!-- STATS_TABLE_END -->
 
 ---
@@ -261,8 +261,8 @@ Status legend: 🟢 Active – 🔴 Offline – 🔒 Restricted (requires API ke
 | mthcht | VPN ProtonVPN IPs | <abbr title="Active">🟢</abbr> | [↗](https://github.com/mthcht/awesome-lists/blob/main/Lists/VPN/ProtonVPN/protonvpn_ip_list.csv) |
 | MyIP.ms | Web bot IPs identified in last 10 days | <abbr title="Active">🟢</abbr> | [↗](http://www.myip.ms/files/blacklist/csf/latest_blacklist.txt) |
 | MyIP.ms | Full blacklist database (ZIP) | <abbr title="Active">🟢</abbr> | [↗](https://myip.ms/files/blacklist/general/full_blacklist_database.zip) |
-| NetAPI | Compromised IP addresses seen in the last 24 hours - plain text, one IPv4 address per line, rebuilt daily | <abbr title="Not checked">⚪</abbr> | [↗](https://netapi.com/zf-api/f/compromised/ip/live/) |
-| NetAPI | Compromised IP addresses, full historical list - plain text, one IPv4 address per line | <abbr title="Not checked">⚪</abbr> | [↗](https://netapi.com/zf-api/f/compromised/ip/full/) |
+| NetAPI | Compromised IP addresses seen in the last 24 hours - plain text, one IPv4 address per line, rebuilt daily | <abbr title="Active">🟢</abbr> | [↗](https://netapi.com/zf-api/f/compromised/ip/live/) |
+| NetAPI | Compromised IP addresses, full historical list - plain text, one IPv4 address per line | <abbr title="Active">🟢</abbr> | [↗](https://netapi.com/zf-api/f/compromised/ip/full/) |
 | NETSHIELD | Active IP Blacklist – Score ≥65 last 30 days (firewall recommended) | <abbr title="Active">🟢</abbr> | [↗](https://raw.githubusercontent.com/juergen2025sys/NETSHIELD/main/active_blacklist_ipv4.txt) |
 | NETSHIELD | IP Blacklist – Score ≥40 extended rules | <abbr title="Offline">🔴</abbr> | [↗](https://raw.githubusercontent.com/juergen2025sys/NETSHIELD/main/blacklist_confidence40_ipv4.txt) |
 | NETSHIELD | Combined Threat Blacklist – 180-day window for SIEM/audit | <abbr title="Offline">🔴</abbr> | [↗](https://raw.githubusercontent.com/juergen2025sys/NETSHIELD/main/combined_threat_blacklist_ipv4.txt) |
@@ -279,7 +279,7 @@ Status legend: 🟢 Active – 🔴 Offline – 🔒 Restricted (requires API ke
 | ProjectHoneypot.org | Spam servers (RSS feed) | <abbr title="Active">🟢</abbr> | [↗](http://www.projecthoneypot.org/list_of_ips.php?t=s&rss=1) |
 | ProjectHoneypot.org | Bad web hosts (RSS feed) | <abbr title="Active">🟢</abbr> | [↗](http://www.projecthoneypot.org/list_of_ips.php?t=b&rss=1) |
 | ProjectHoneypot.org | Comment spammers (RSS feed) | <abbr title="Active">🟢</abbr> | [↗](http://www.projecthoneypot.org/list_of_ips.php?t=c&rss=1) |
-| ProjectHoneypot.org | Directory/dictionary attackers (RSS feed) | <abbr title="Active">🟢</abbr> | [↗](http://www.projecthoneypot.org/list_of_ips.php?t=d&rss=1) |
+| ProjectHoneypot.org | Directory/dictionary attackers (RSS feed) | <abbr title="Offline">🔴</abbr> | [↗](http://www.projecthoneypot.org/list_of_ips.php?t=d&rss=1) |
 | SANS ICS | SANS ICS Intel Feed – community threat indicators | <abbr title="Active">🟢</abbr> | [↗](https://isc.sans.edu/api/intelfeed) |
 | SANS ICS / DShield | DShield suggested IP blocklist | <abbr title="Active">🟢</abbr> | [↗](https://isc.sans.edu/block.txt) |
 | Sblam | Sblam Spam Comment IPs | <abbr title="Active">🟢</abbr> | [↗](http://sblam.com/blacklist.txt) |
@@ -336,8 +336,8 @@ Status legend: 🟢 Active – 🔴 Offline – 🔒 Restricted (requires API ke
 | hagezi | DNS Pro++ Blocklist – more aggressive version of Pro list | <abbr title="Offline">🔴</abbr> | [↗](https://raw.githubusercontent.com/hagezi/dns-blocklists/main/domains/pro.plus.txt) |
 | jarelllama | Scam Blocklist – phishing and scam domains (wildcard format) | <abbr title="Active">🟢</abbr> | [↗](https://raw.githubusercontent.com/jarelllama/Scam-Blocklist/main/lists/wildcard_domains/scams.txt) |
 | MalSilo | MalSilo Domain List | <abbr title="Active">🟢</abbr> | [↗](https://malsilo.gitlab.io/feeds/dumps/domain_list.txt) |
-| NetAPI | Compromised domains seen in the last 24 hours (malware, phishing, C2 hosts) - plain text, one domain per line, rebuilt daily | <abbr title="Not checked">⚪</abbr> | [↗](https://netapi.com/zf-api/f/compromised/domains/live/) |
-| NetAPI | Compromised domains, full historical list - plain text, one domain per line | <abbr title="Not checked">⚪</abbr> | [↗](https://netapi.com/zf-api/f/compromised/domains/full/) |
+| NetAPI | Compromised domains seen in the last 24 hours (malware, phishing, C2 hosts) - plain text, one domain per line, rebuilt daily | <abbr title="Active">🟢</abbr> | [↗](https://netapi.com/zf-api/f/compromised/domains/live/) |
+| NetAPI | Compromised domains, full historical list - plain text, one domain per line | <abbr title="Active">🟢</abbr> | [↗](https://netapi.com/zf-api/f/compromised/domains/full/) |
 | phishdestroy | PhishDestroy blocklist – phishing and malicious domains | <abbr title="Active">🟢</abbr> | [↗](https://raw.githubusercontent.com/phishdestroy/destroylist/refs/heads/main/list.txt) |
 | SentinelPhishFeed | Phishing and malware domains feed | <abbr title="Active">🟢</abbr> | [↗](https://raw.githubusercontent.com/rjn32s/SentinelPhishFeed/main/domains.txt) |
 | shreshtait.com | Newly Registered Domains – 1 month | <abbr title="Active">🟢</abbr> | [↗](https://shreshtait.com/newly-registered-domains/nrd-1m) |
@@ -462,11 +462,11 @@ Status legend: 🟢 Active – 🔴 Offline – 🔒 Restricted (requires API ke
 | mthcht | AV signatures keywords | <abbr title="Active">🟢</abbr> | [↗](https://github.com/mthcht/ThreatHunting-Keywords/blob/main/signature_keyword.csv) |
 | mthcht | Suspicious Named pipes | <abbr title="Active">🟢</abbr> | [↗](https://github.com/mthcht/awesome-lists/blob/main/Lists/suspicious_named_pipe_list.csv) |
 | mthcht | Suspicious Windows Services | <abbr title="Active">🟢</abbr> | [↗](https://github.com/mthcht/awesome-lists/blob/main/Lists/suspicious_windows_services_names_list.csv) |
-| mthcht | Suspicious Windows Tasks | <abbr title="Offline">🔴</abbr> | [↗](https://github.com/mthcht/awesome-lists/blob/main/Lists/suspicious_windows_tasks_list.csv) |
+| mthcht | Suspicious Windows Tasks | <abbr title="Active">🟢</abbr> | [↗](https://github.com/mthcht/awesome-lists/blob/main/Lists/suspicious_windows_tasks_list.csv) |
 | mthcht | Suspicious destination port | <abbr title="Active">🟢</abbr> | [↗](https://github.com/mthcht/awesome-lists/blob/main/Lists/suspicious_ports_list.csv) |
 | mthcht | Suspicious Firewall rules | <abbr title="Active">🟢</abbr> | [↗](https://github.com/mthcht/awesome-lists/blob/main/Lists/suspicious_windows_firewall_rules_list.csv) |
 | mthcht | Suspicious User-agent | <abbr title="Active">🟢</abbr> | [↗](https://github.com/mthcht/awesome-lists/blob/main/Lists/suspicious_http_user_agents_list.csv) |
-| mthcht | Suspicious USB Ids | <abbr title="Active">🟢</abbr> | [↗](https://github.com/mthcht/awesome-lists/blob/main/Lists/suspicious_usb_ids_list.csv) |
+| mthcht | Suspicious USB Ids | <abbr title="Offline">🔴</abbr> | [↗](https://github.com/mthcht/awesome-lists/blob/main/Lists/suspicious_usb_ids_list.csv) |
 | mthcht | Suspicious mutex names | <abbr title="Active">🟢</abbr> | [↗](https://github.com/mthcht/awesome-lists/blob/main/Lists/suspicious_mutex_names_list.csv) |
 | mthcht | Suspicious MAC address | <abbr title="Active">🟢</abbr> | [↗](https://github.com/mthcht/awesome-lists/blob/main/Lists/suspicious_mac_address_list.csv) |
 | mthcht | Suspicious Hostname | <abbr title="Active">🟢</abbr> | [↗](https://github.com/mthcht/awesome-lists/blob/main/Lists/suspicious_hostnames_list.csv) |
@@ -626,7 +626,7 @@ Status legend: 🟢 Active – 🔴 Offline – 🔒 Restricted (requires API ke
 | IP2Location | IP2Location LITE DB1 – IP to Country database (free, no key required) | <abbr title="Active">🟢</abbr> | [↗](https://download.ip2location.com/lite/IP2LOCATION-LITE-DB1.CSV.ZIP) |
 | IPDeny.com | IPDeny country IP blocks – all zones (tar.gz, updated daily) | <abbr title="Active">🟢</abbr> | [↗](http://www.ipdeny.com/ipblocks/data/countries/all-zones.tar.gz) |
 
-### RSS (9)
+### RSS (10)
 
 | Vendor | Description | Status | URL |
 | --- | --- | :---: | --- |
@@ -635,16 +635,18 @@ Status legend: 🟢 Active – 🔴 Offline – 🔒 Restricted (requires API ke
 | CISA | CISA Cybersecurity Advisories | <abbr title="Active">🟢</abbr> | [↗](https://www.cisa.gov/cybersecurity-advisories/all.xml) |
 | Cisco | Talos Intelligence Feed | <abbr title="Active">🟢</abbr> | [↗](https://feeds.feedburner.com/feedburner/Talos) |
 | Google | Google Threat Intelligence Feed | <abbr title="Active">🟢</abbr> | [↗](https://feeds.feedburner.com/threatintelligence/pvexyqv7v0v) |
+| ICHI | Internet Cyber Health Index – daily threat alert digest aggregating signals from CISA KEV, abuse.ch, Shodan, and Censys | <abbr title="Active">🟢</abbr> | [↗](https://ichi.global/api/alerts) |
 | Kaspersky | Securelist APT Attacks Feed | <abbr title="Active">🟢</abbr> | [↗](https://securelist.com/threat-category/apt-targeted-attacks/feed/) |
 | Microsoft | Microsoft Threat Intel Feed | <abbr title="Active">🟢</abbr> | [↗](https://www.microsoft.com/en-us/security/blog/topic/threat-intelligence/feed) |
 | Palo Alto | Unit42 Threat Intel RSS | <abbr title="Active">🟢</abbr> | [↗](https://unit42.paloaltonetworks.com/feed/) |
 | TheDFIRReport | The DFIR Report Feed | <abbr title="Active">🟢</abbr> | [↗](https://thedfirreport.com/feed/) |
 
-### FRAMEWORK (3)
+### FRAMEWORK (4)
 
 | Vendor | Description | Status | URL |
 | --- | --- | :---: | --- |
 | andreacristaldi | APTMAP (APT Tracker) | <abbr title="Active">🟢</abbr> | [↗](https://github.com/andreacristaldi/APTmap) |
+| MalwareIntel | Threat intelligence platform aggregating 98+ public feeds with 1.8M+ IOCs, Sigma rules, MITRE ATT&CK mapping, and knowledge graph — Spanish and English | <abbr title="Active">🟢</abbr> | [↗](https://malwareintel.es) |
 | MITRE | MITRE ATT&CK Matrix Navigator | <abbr title="Active">🟢</abbr> | [↗](https://mitre-attack.github.io/attack-navigator/) |
 | MITRE | CVE Vulnerability Database | <abbr title="Active">🟢</abbr> | [↗](https://cve.mitre.org/) |
 
