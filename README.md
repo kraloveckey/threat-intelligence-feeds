@@ -150,8 +150,8 @@ Status legend: 🟢 Active – 🔴 Offline – 🔒 Restricted (requires API ke
 | --- | --- | :---: | --- |
 | Abuse.ch | Botnet C2 IP Blacklist (CSV) | <abbr title="Active">🟢</abbr> | [↗](https://sslbl.abuse.ch/blacklist/sslipblacklist.csv) |
 | Abuse.ch | Botnet C2 IP Blacklist (TXT) | <abbr title="Active">🟢</abbr> | [↗](https://sslbl.abuse.ch/blacklist/sslipblacklist.txt) |
-| Abuse.ch | Botnet C2 IP Blacklist Aggressive (CSV) | <abbr title="Offline">🔴</abbr> | [↗](https://sslbl.abuse.ch/blacklist/sslipblacklist_aggressive.csv) |
-| Abuse.ch | Botnet C2 IP Blacklist Aggressive (TXT) | <abbr title="Offline">🔴</abbr> | [↗](https://sslbl.abuse.ch/blacklist/sslipblacklist_aggressive.txt) |
+| Abuse.ch | Botnet C2 IP Blacklist Aggressive (CSV) | <abbr title="Active">🟢</abbr> | [↗](https://sslbl.abuse.ch/blacklist/sslipblacklist_aggressive.csv) |
+| Abuse.ch | Botnet C2 IP Blacklist Aggressive (TXT) | <abbr title="Active">🟢</abbr> | [↗](https://sslbl.abuse.ch/blacklist/sslipblacklist_aggressive.txt) |
 | Abuse.ch | Botnet C2 Indicators of Compromise – Recommended Blocklist | <abbr title="Active">🟢</abbr> | [↗](https://feodotracker.abuse.ch/downloads/ipblocklist_recommended.txt) |
 | Abuse.ch | Botnet C2 Indicators of Compromise | <abbr title="Active">🟢</abbr> | [↗](https://feodotracker.abuse.ch/downloads/ipblocklist.txt) |
 | Abuse.ch | All botnet C2s Feodo Tracker has ever seen | <abbr title="Active">🟢</abbr> | [↗](https://feodotracker.abuse.ch/blocklist/) |

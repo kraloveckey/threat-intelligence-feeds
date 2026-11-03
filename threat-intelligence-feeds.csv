@@ -2,8 +2,8 @@ Vendor;Description;Category;Url;FeedStatus
 Abuse.ch;The host file contains Payload delivery domains and Botnet C2 domains (last 6 months);DNS;https://threatfox.abuse.ch/downloads/hostfile/;Offline
 Abuse.ch;Botnet C2 IP Blacklist (CSV);IP;https://sslbl.abuse.ch/blacklist/sslipblacklist.csv;Active
 Abuse.ch;Botnet C2 IP Blacklist (TXT);IP;https://sslbl.abuse.ch/blacklist/sslipblacklist.txt;Active
-Abuse.ch;Botnet C2 IP Blacklist Aggressive (CSV);IP;https://sslbl.abuse.ch/blacklist/sslipblacklist_aggressive.csv;Offline
-Abuse.ch;Botnet C2 IP Blacklist Aggressive (TXT);IP;https://sslbl.abuse.ch/blacklist/sslipblacklist_aggressive.txt;Offline
+Abuse.ch;Botnet C2 IP Blacklist Aggressive (CSV);IP;https://sslbl.abuse.ch/blacklist/sslipblacklist_aggressive.csv;Active
+Abuse.ch;Botnet C2 IP Blacklist Aggressive (TXT);IP;https://sslbl.abuse.ch/blacklist/sslipblacklist_aggressive.txt;Active
 Abuse.ch;Botnet C2 Indicators of Compromise – Recommended Blocklist;IP;https://feodotracker.abuse.ch/downloads/ipblocklist_recommended.txt;Active
 Abuse.ch;Botnet C2 Indicators of Compromise;IP;https://feodotracker.abuse.ch/downloads/ipblocklist.txt;Active
 Abuse.ch;All botnet C2s Feodo Tracker has ever seen;IP;https://feodotracker.abuse.ch/blocklist/;Active
