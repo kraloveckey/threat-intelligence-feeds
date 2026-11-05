@@ -1,9 +1,9 @@
 Vendor;Description;Category;Url;FeedStatus
 Abuse.ch;The host file contains Payload delivery domains and Botnet C2 domains (last 6 months);DNS;https://threatfox.abuse.ch/downloads/hostfile/;Offline
-Abuse.ch;Botnet C2 IP Blacklist (CSV);IP;https://sslbl.abuse.ch/blacklist/sslipblacklist.csv;Active
-Abuse.ch;Botnet C2 IP Blacklist (TXT);IP;https://sslbl.abuse.ch/blacklist/sslipblacklist.txt;Active
+Abuse.ch;Botnet C2 IP Blacklist (CSV);IP;https://sslbl.abuse.ch/blacklist/sslipblacklist.csv;Offline
+Abuse.ch;Botnet C2 IP Blacklist (TXT);IP;https://sslbl.abuse.ch/blacklist/sslipblacklist.txt;Offline
 Abuse.ch;Botnet C2 IP Blacklist Aggressive (CSV);IP;https://sslbl.abuse.ch/blacklist/sslipblacklist_aggressive.csv;Active
-Abuse.ch;Botnet C2 IP Blacklist Aggressive (TXT);IP;https://sslbl.abuse.ch/blacklist/sslipblacklist_aggressive.txt;Active
+Abuse.ch;Botnet C2 IP Blacklist Aggressive (TXT);IP;https://sslbl.abuse.ch/blacklist/sslipblacklist_aggressive.txt;Offline
 Abuse.ch;Botnet C2 Indicators of Compromise – Recommended Blocklist;IP;https://feodotracker.abuse.ch/downloads/ipblocklist_recommended.txt;Active
 Abuse.ch;Botnet C2 Indicators of Compromise;IP;https://feodotracker.abuse.ch/downloads/ipblocklist.txt;Active
 Abuse.ch;All botnet C2s Feodo Tracker has ever seen;IP;https://feodotracker.abuse.ch/blocklist/;Active
@@ -12,7 +12,7 @@ Abuse.ch;MD5 hashes – Recent malicious files on C2 (ThreatFox);MD5;https://thr
 Abuse.ch;SHA1 hashes – Recent additions (MalwareBazaar);SHA1;https://bazaar.abuse.ch/export/txt/sha1/recent/;Offline
 Abuse.ch;SHA256 hashes – Recent additions (MalwareBazaar);SHA256;https://bazaar.abuse.ch/export/txt/sha256/recent/;Offline
 Abuse.ch;SHA256 hashes – Recent malicious files on C2 (ThreatFox);SHA256;https://threatfox.abuse.ch/export/csv/sha256/recent/;Offline
-Abuse.ch;SSL Certificate Blacklist;SSL;https://sslbl.abuse.ch/blacklist/sslblacklist.csv;Active
+Abuse.ch;SSL Certificate Blacklist;SSL;https://sslbl.abuse.ch/blacklist/sslblacklist.csv;Offline
 Abuse.ch;Recent Payload delivery and Botnet C2 URLs (ThreatFox);URL;https://threatfox.abuse.ch/export/csv/urls/recent/;Offline
 Abuse.ch;Recent Malware URLs (URLhaus);URL;https://urlhaus.abuse.ch/downloads/csv_recent/;Offline
 Abuse.ch;JA3 Fingerprints Blacklist;JA3;https://sslbl.abuse.ch/blacklist/ja3_fingerprints.csv;Active
@@ -339,7 +339,7 @@ mthcht;Greyware Tools detection patterns;IOC;https://raw.githubusercontent.com/m
 mthcht;AV signatures keywords;IOC;https://github.com/mthcht/ThreatHunting-Keywords/blob/main/signature_keyword.csv;Active
 mthcht;Suspicious Named pipes;IOC;https://github.com/mthcht/awesome-lists/blob/main/Lists/suspicious_named_pipe_list.csv;Active
 mthcht;Suspicious Windows Services;IOC;https://github.com/mthcht/awesome-lists/blob/main/Lists/suspicious_windows_services_names_list.csv;Active
-mthcht;Suspicious Windows Tasks;IOC;https://github.com/mthcht/awesome-lists/blob/main/Lists/suspicious_windows_tasks_list.csv;Offline
+mthcht;Suspicious Windows Tasks;IOC;https://github.com/mthcht/awesome-lists/blob/main/Lists/suspicious_windows_tasks_list.csv;Active
 mthcht;Suspicious destination port;IOC;https://github.com/mthcht/awesome-lists/blob/main/Lists/suspicious_ports_list.csv;Active
 mthcht;Suspicious Firewall rules;IOC;https://github.com/mthcht/awesome-lists/blob/main/Lists/suspicious_windows_firewall_rules_list.csv;Active
 mthcht;Suspicious User-agent;IOC;https://github.com/mthcht/awesome-lists/blob/main/Lists/suspicious_http_user_agents_list.csv;Active
@@ -353,7 +353,7 @@ mthcht;DNS over HTTPS server list;IOC;https://github.com/mthcht/awesome-lists/bl
 mthcht;Dynamic DNS domains list;IOC;https://github.com/mthcht/awesome-lists/blob/main/Lists/DYNDNS/dyndns_list.csv;Active
 mthcht;Sinkholed Domains;IOC;https://github.com/mthcht/awesome-lists/blob/main/Lists/Domains/sinkholed_servers/sinkholed_domains.csv;Active
 mthcht;Hijacklibs;IOC;https://github.com/mthcht/awesome-lists/blob/main/Lists/Hijacklibs/hijacklibs_list.csv;Active
-mthcht;LOLDriver List;IOC;https://github.com/mthcht/awesome-lists/blob/main/Lists/Drivers/loldrivers_only_hashes_list.csv;Offline
+mthcht;LOLDriver List;IOC;https://github.com/mthcht/awesome-lists/blob/main/Lists/Drivers/loldrivers_only_hashes_list.csv;Active
 mthcht;Malicious Bootloader List;IOC;https://github.com/mthcht/awesome-lists/blob/main/Lists/Drivers/malicious_bootloaders_only_hashes_list.csv;Active
 mthcht;Malicious SSL Certificates List;IOC;https://github.com/mthcht/awesome-lists/blob/main/Lists/SSL%20CERTS/ssl_certificates_malicious_list.csv;Active
 mthcht;Ransomware known file extensions;IOC;https://github.com/mthcht/awesome-lists/blob/main/Lists/ransomware_extensions_list.csv;Active
@@ -362,7 +362,7 @@ mthcht;Windows ASR rules;IOC;https://github.com/mthcht/awesome-lists/blob/main/L
 mthcht;VPN NordVPN IPs;IP;https://github.com/mthcht/awesome-lists/blob/main/Lists/VPN/NordVPN/nordvpn_ips_list.csv;Active
 mthcht;VPN SurfShark IPs;IP;https://github.com/mthcht/awesome-lists/blob/main/Lists/VPN/SurfSharkVPN/surfshark_vpn_servers_domains_and_ips_list.csv;Active
 mthcht;VPN MullVad IPs;IP;https://github.com/mthcht/awesome-lists/blob/main/Lists/VPN/MullVad/mullvad_relay_servers_ips_list.csv;Active
-mthcht;GeoIP services Lists;IOC;https://github.com/mthcht/awesome-lists/blob/main/Lists/GeoIP/ip_location_sites_list.csv;Active
+mthcht;GeoIP services Lists;IOC;https://github.com/mthcht/awesome-lists/blob/main/Lists/GeoIP/ip_location_sites_list.csv;Offline
 mthcht;VPN ProtonVPN IPs;IP;https://github.com/mthcht/awesome-lists/blob/main/Lists/VPN/ProtonVPN/protonvpn_ip_list.csv;Active
 NetAPI;Compromised IP addresses seen in the last 24 hours - plain text, one IPv4 address per line, rebuilt daily;IP;https://netapi.com/zf-api/f/compromised/ip/live/;Active
 NetAPI;Compromised IP addresses, full historical list - plain text, one IPv4 address per line;IP;https://netapi.com/zf-api/f/compromised/ip/full/;Active
