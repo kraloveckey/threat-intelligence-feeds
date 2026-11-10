@@ -261,8 +261,8 @@ Status legend: 🟢 Active – 🔴 Offline – 🔒 Restricted (requires API ke
 | mthcht | VPN ProtonVPN IPs | <abbr title="Active">🟢</abbr> | [↗](https://github.com/mthcht/awesome-lists/blob/main/Lists/VPN/ProtonVPN/protonvpn_ip_list.csv) |
 | MyIP.ms | Web bot IPs identified in last 10 days | <abbr title="Active">🟢</abbr> | [↗](http://www.myip.ms/files/blacklist/csf/latest_blacklist.txt) |
 | MyIP.ms | Full blacklist database (ZIP) | <abbr title="Active">🟢</abbr> | [↗](https://myip.ms/files/blacklist/general/full_blacklist_database.zip) |
-| NetAPI | Compromised IP addresses seen in the last 24 hours - plain text, one IPv4 address per line, rebuilt daily | <abbr title="Active">🟢</abbr> | [↗](https://netapi.com/zf-api/f/compromised/ip/live/) |
-| NetAPI | Compromised IP addresses, full historical list - plain text, one IPv4 address per line | <abbr title="Active">🟢</abbr> | [↗](https://netapi.com/zf-api/f/compromised/ip/full/) |
+| NetAPI | IPv4 addresses that attacked the sensors of NetAPI Nightwatch, NetAPI's own honeypot network, in the last 48 hours - plain text, one address per line, updated every hour | <abbr title="Active">🟢</abbr> | [↗](https://netapi.com/zf-api/f/compromised/ip/live/) |
+| NetAPI | Every IPv4 address NetAPI Nightwatch has listed - plain text, one address per line | <abbr title="Active">🟢</abbr> | [↗](https://netapi.com/zf-api/f/compromised/ip/full/) |
 | NETSHIELD | Active IP Blacklist – Score ≥65 last 30 days (firewall recommended) | <abbr title="Active">🟢</abbr> | [↗](https://raw.githubusercontent.com/juergen2025sys/NETSHIELD/main/active_blacklist_ipv4.txt) |
 | NETSHIELD | IP Blacklist – Score ≥40 extended rules | <abbr title="Offline">🔴</abbr> | [↗](https://raw.githubusercontent.com/juergen2025sys/NETSHIELD/main/blacklist_confidence40_ipv4.txt) |
 | NETSHIELD | Combined Threat Blacklist – 180-day window for SIEM/audit | <abbr title="Offline">🔴</abbr> | [↗](https://raw.githubusercontent.com/juergen2025sys/NETSHIELD/main/combined_threat_blacklist_ipv4.txt) |
