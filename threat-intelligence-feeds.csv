@@ -424,3 +424,4 @@ AnyRun;Any.Run Interactive Sandbox;SANDBOX;https://any.run/;Active
 Triage;Triage Malware Sandbox;SANDBOX;https://tria.ge/s;Active
 JoeSecurity;JoeSandbox;SANDBOX;https://www.joesandbox.com/analysispaged/0;Offline
 MalwareIntel;Threat intelligence platform aggregating 98+ public feeds with 1.8M+ IOCs, Sigma rules, MITRE ATT&CK mapping, and knowledge graph — Spanish and English;FRAMEWORK;https://malwareintel.es;Active
+Whatoblock;IP blocklists from Whatoblock's own honeypot network (229 sensors in 40 countries): scanners, botnet C2, proxies, Tor exit nodes and DDoS sources, rebuilt every hour, in firewall, DNS RPZ, Suricata/Snort and MISP formats (requires a free account and API key sent as X-API-Key. Free sample feed, full feeds are paid);RESTRICTED;https://api.whatoblock.com/v1/blocklists/YOUR_FEED_ID/feed;
