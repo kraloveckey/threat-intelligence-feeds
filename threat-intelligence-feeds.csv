@@ -12,7 +12,7 @@ Abuse.ch;MD5 hashes – Recent malicious files on C2 (ThreatFox);MD5;https://thr
 Abuse.ch;SHA1 hashes – Recent additions (MalwareBazaar);SHA1;https://bazaar.abuse.ch/export/txt/sha1/recent/;Offline
 Abuse.ch;SHA256 hashes – Recent additions (MalwareBazaar);SHA256;https://bazaar.abuse.ch/export/txt/sha256/recent/;Offline
 Abuse.ch;SHA256 hashes – Recent malicious files on C2 (ThreatFox);SHA256;https://threatfox.abuse.ch/export/csv/sha256/recent/;Offline
-Abuse.ch;SSL Certificate Blacklist;SSL;https://sslbl.abuse.ch/blacklist/sslblacklist.csv;Offline
+Abuse.ch;SSL Certificate Blacklist;SSL;https://sslbl.abuse.ch/blacklist/sslblacklist.csv;Active
 Abuse.ch;Recent Payload delivery and Botnet C2 URLs (ThreatFox);URL;https://threatfox.abuse.ch/export/csv/urls/recent/;Offline
 Abuse.ch;Recent Malware URLs (URLhaus);URL;https://urlhaus.abuse.ch/downloads/csv_recent/;Offline
 Abuse.ch;JA3 Fingerprints Blacklist;JA3;https://sslbl.abuse.ch/blacklist/ja3_fingerprints.csv;Active
@@ -343,7 +343,7 @@ mthcht;Suspicious Windows Tasks;IOC;https://github.com/mthcht/awesome-lists/blob
 mthcht;Suspicious destination port;IOC;https://github.com/mthcht/awesome-lists/blob/main/Lists/suspicious_ports_list.csv;Active
 mthcht;Suspicious Firewall rules;IOC;https://github.com/mthcht/awesome-lists/blob/main/Lists/suspicious_windows_firewall_rules_list.csv;Active
 mthcht;Suspicious User-agent;IOC;https://github.com/mthcht/awesome-lists/blob/main/Lists/suspicious_http_user_agents_list.csv;Active
-mthcht;Suspicious USB Ids;IOC;https://github.com/mthcht/awesome-lists/blob/main/Lists/suspicious_usb_ids_list.csv;Active
+mthcht;Suspicious USB Ids;IOC;https://github.com/mthcht/awesome-lists/blob/main/Lists/suspicious_usb_ids_list.csv;Offline
 mthcht;Suspicious mutex names;IOC;https://github.com/mthcht/awesome-lists/blob/main/Lists/suspicious_mutex_names_list.csv;Active
 mthcht;Suspicious MAC address;IOC;https://github.com/mthcht/awesome-lists/blob/main/Lists/suspicious_mac_address_list.csv;Active
 mthcht;Suspicious Hostname;IOC;https://github.com/mthcht/awesome-lists/blob/main/Lists/suspicious_hostnames_list.csv;Active
@@ -351,7 +351,7 @@ mthcht;Microsoft App IDs List (BEC Detection);IOC;https://github.com/mthcht/awes
 mthcht;Metadata Executables;IOC;https://github.com/mthcht/awesome-lists/blob/main/Lists/Windows%20Metadata/executables_metadata_informations_list.csv;Active
 mthcht;DNS over HTTPS server list;IOC;https://github.com/mthcht/awesome-lists/blob/main/Lists/dns_over_https_servers_list.csv;Active
 mthcht;Dynamic DNS domains list;IOC;https://github.com/mthcht/awesome-lists/blob/main/Lists/DYNDNS/dyndns_list.csv;Active
-mthcht;Sinkholed Domains;IOC;https://github.com/mthcht/awesome-lists/blob/main/Lists/Domains/sinkholed_servers/sinkholed_domains.csv;Active
+mthcht;Sinkholed Domains;IOC;https://github.com/mthcht/awesome-lists/blob/main/Lists/Domains/sinkholed_servers/sinkholed_domains.csv;Offline
 mthcht;Hijacklibs;IOC;https://github.com/mthcht/awesome-lists/blob/main/Lists/Hijacklibs/hijacklibs_list.csv;Active
 mthcht;LOLDriver List;IOC;https://github.com/mthcht/awesome-lists/blob/main/Lists/Drivers/loldrivers_only_hashes_list.csv;Active
 mthcht;Malicious Bootloader List;IOC;https://github.com/mthcht/awesome-lists/blob/main/Lists/Drivers/malicious_bootloaders_only_hashes_list.csv;Active
