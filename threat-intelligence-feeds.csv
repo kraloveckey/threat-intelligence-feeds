@@ -424,3 +424,7 @@ AnyRun;Any.Run Interactive Sandbox;SANDBOX;https://any.run/;Active
 Triage;Triage Malware Sandbox;SANDBOX;https://tria.ge/s;Active
 JoeSecurity;JoeSandbox;SANDBOX;https://www.joesandbox.com/analysispaged/0;Offline
 MalwareIntel;Threat intelligence platform aggregating 98+ public feeds with 1.8M+ IOCs, Sigma rules, MITRE ATT&CK mapping, and knowledge graph — Spanish and English;FRAMEWORK;https://malwareintel.es;Active
+OffSeq Mirage;IPv4 addresses that attacked the Mirage honeypot sensors in the last 7 days, listed only when seen by at least 3 sensors in 2 networks, VPN and Tor exits and research scanners excluded - plain text, one address per line, rebuilt daily, CC BY 4.0;IP;https://feeds.offseq.com/mirage-feed/latest/ipv4-7d.txt;Active
+OffSeq Mirage;Payload download URLs captured by the Mirage honeypot sensors in the last 7 days - plain text, one URL per line, rebuilt daily, CC BY 4.0;URL;https://feeds.offseq.com/mirage-feed/latest/urls-7d.txt;Active
+OffSeq Mirage;SHA256 hashes of payloads captured by the Mirage honeypot sensors in the last 30 days - plain text, one hash per line, rebuilt daily, CC BY 4.0;SHA256;https://feeds.offseq.com/mirage-feed/latest/hashes-sha256-30d.txt;Active
+OffSeq Mirage;Native MISP feed of Mirage honeypot attackers, payload URLs and hashes, rebuilt daily, CC BY 4.0;MISP;https://feeds.offseq.com/mirage-feed/misp/manifest.json;Active
