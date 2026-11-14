@@ -27,17 +27,17 @@ Sources aggregated from:
 <!-- STATS_TABLE_START -->
 | Category | Description | Count |
 | --- | --- | --- |
-| `IP` | Malicious / suspicious IPv4 addresses and CIDR ranges | 169 |
+| `IP` | Malicious / suspicious IPv4 addresses and CIDR ranges | 170 |
 | `DNS` | Malicious or suspicious domain names | 26 |
-| `URL` | Malicious / phishing / C2 URLs | 34 |
+| `URL` | Malicious / phishing / C2 URLs | 35 |
 | `MD5` | MD5 hashes of malicious files | 6 |
 | `SHA1` | SHA1 hashes of malicious files | 3 |
-| `SHA256` | SHA256 hashes of malicious files | 4 |
+| `SHA256` | SHA256 hashes of malicious files | 5 |
 | `SSL` | Malicious SSL certificate fingerprints | 1 |
 | `JA3` | JA3 TLS client fingerprints | 1 |
 | `CVEID` | Known exploited CVE identifiers | 4 |
 | `RANSOMWARELEAK` | Ransomware leak site victim data aggregated from multiple gang leak sites | 1 |
-| `MISP` | Structured MISP-format feeds (importable directly into MISP platform) | 5 |
+| `MISP` | Structured MISP-format feeds (importable directly into MISP platform) | 6 |
 | `IOC` | Mixed-type IOC feeds containing multiple indicator types (IP, domain, URL, hash, etc.) | 34 |
 | `BLOCKLIST` | General-purpose IP blocklists — ISPs, ASNs, gaming, ad-trackers (not strictly threat intel) | 43 |
 | `REPO` | GitHub repositories with IOC collections — no direct machine-readable feed URL | 63 |
@@ -47,7 +47,7 @@ Sources aggregated from:
 | `FRAMEWORK` | Threat intelligence frameworks, matrices, and tracking tools (MITRE, APT maps, etc.) | 4 |
 | `OSINT` | Open-source intelligence platforms and search engines for IOC investigation | 6 |
 | `SANDBOX` | Online malware analysis sandboxes for dynamic file and URL analysis | 3 |
-| **Total** | | **425** |
+| **Total** | | **429** |
 <!-- STATS_TABLE_END -->
 
 ---
@@ -144,7 +144,7 @@ Status legend: 🟢 Active – 🔴 Offline – 🔒 Restricted (requires API ke
 
 <!-- FEEDS_TABLE_START -->
 
-### IP (169)
+### IP (170)
 
 | Vendor | Description | Status | URL |
 | --- | --- | :---: | --- |
@@ -273,6 +273,7 @@ Status legend: 🟢 Active – 🔴 Offline – 🔒 Restricted (requires API ke
 | NETSHIELD | Bot and scanner IPs (daily) | <abbr title="Active">🟢</abbr> | [↗](https://raw.githubusercontent.com/juergen2025sys/NETSHIELD/main/bot_detector_blacklist_ipv4.txt) |
 | NETSHIELD | AbuseIPDB top reported IPs Score ≥50 (API) | <abbr title="Offline">🔴</abbr> | [↗](https://raw.githubusercontent.com/juergen2025sys/NETSHIELD/main/abuseipdb_api_blacklist.txt) |
 | NETSHIELD | High-risk ASN blocklist Score ≥50 | <abbr title="Offline">🔴</abbr> | [↗](https://raw.githubusercontent.com/juergen2025sys/NETSHIELD/main/asn_blocklist_firewall.txt) |
+| OffSeq Mirage | IPv4 addresses that attacked the Mirage honeypot sensors in the last 7 days, listed only when seen by at least 3 sensors in 2 networks, VPN and Tor exits and research scanners excluded - plain text, one address per line, rebuilt daily, CC BY 4.0 | <abbr title="Active">🟢</abbr> | [↗](https://feeds.offseq.com/mirage-feed/latest/ipv4-7d.txt) |
 | opsxcq | Open Proxy List | <abbr title="Active">🟢</abbr> | [↗](https://raw.githubusercontent.com/opsxcq/proxy-list/master/list.txt) |
 | pan-unit42 | DiamondFox Panels | <abbr title="Active">🟢</abbr> | [↗](https://raw.githubusercontent.com/pan-unit42/iocs/master/diamondfox/diamondfox_panels.txt) |
 | ProjectHoneypot.org | Email harvesters (RSS feed) | <abbr title="Active">🟢</abbr> | [↗](http://www.projecthoneypot.org/list_of_ips.php?t=h&rss=1) |
@@ -349,7 +350,7 @@ Status legend: 🟢 Active – 🔴 Offline – 🔒 Restricted (requires API ke
 | threatview.io | Domain High Confidence Feed | <abbr title="Active">🟢</abbr> | [↗](https://threatview.io/Downloads/DOMAIN-High-Confidence-Feed.txt) |
 | tsirolnik | Spam Domains List | <abbr title="Active">🟢</abbr> | [↗](https://raw.githubusercontent.com/tsirolnik/spam-domains-list/master/spamdomains.txt) |
 
-### URL (34)
+### URL (35)
 
 | Vendor | Description | Status | URL |
 | --- | --- | :---: | --- |
@@ -372,6 +373,7 @@ Status legend: 🟢 Active – 🔴 Offline – 🔒 Restricted (requires API ke
 | MalSilo | MalSilo URL List | <abbr title="Active">🟢</abbr> | [↗](https://malsilo.gitlab.io/feeds/dumps/url_list.txt) |
 | MISP Abuse.ch | MISP Abuse.ch URLhaus | <abbr title="Offline">🔴</abbr> | [↗](https://urlhaus.abuse.ch/downloads/misp/) |
 | MISP Project | MISP Default Feeds (metadata) | <abbr title="Active">🟢</abbr> | [↗](https://raw.githubusercontent.com/MISP/MISP/2.4/app/files/feed-metadata/defaults.json) |
+| OffSeq Mirage | Payload download URLs captured by the Mirage honeypot sensors in the last 7 days - plain text, one URL per line, rebuilt daily, CC BY 4.0 | <abbr title="Active">🟢</abbr> | [↗](https://feeds.offseq.com/mirage-feed/latest/urls-7d.txt) |
 | OpenPhish | Phishing URLs | <abbr title="Active">🟢</abbr> | [↗](https://openphish.com/feed.txt) |
 | Phishing Army | Phishing Army Blocklist | <abbr title="Active">🟢</abbr> | [↗](https://phishing.army/download/phishing_army_blocklist.txt) |
 | Phishing Army | Phishing Army Blocklist Extended | <abbr title="Active">🟢</abbr> | [↗](https://phishing.army/download/phishing_army_blocklist_extended.txt) |
@@ -407,7 +409,7 @@ Status legend: 🟢 Active – 🔴 Offline – 🔒 Restricted (requires API ke
 | Botvrij.eu | IOC List SHA1 | <abbr title="Active">🟢</abbr> | [↗](https://www.botvrij.eu/data/ioclist.sha1) |
 | threatview.io | SHA File Hash Feed | <abbr title="Active">🟢</abbr> | [↗](https://threatview.io/Downloads/SHA-HASH-FEED.txt) |
 
-### SHA256 (4)
+### SHA256 (5)
 
 | Vendor | Description | Status | URL |
 | --- | --- | :---: | --- |
@@ -415,6 +417,7 @@ Status legend: 🟢 Active – 🔴 Offline – 🔒 Restricted (requires API ke
 | Abuse.ch | SHA256 hashes – Recent malicious files on C2 (ThreatFox) | <abbr title="Offline">🔴</abbr> | [↗](https://threatfox.abuse.ch/export/csv/sha256/recent/) |
 | Botvrij.eu | IOC List SHA256 | <abbr title="Active">🟢</abbr> | [↗](https://www.botvrij.eu/data/ioclist.sha256) |
 | ExtSentry | Browser extension CRX SHA-256 file hashes | <abbr title="Active">🟢</abbr> | [↗](https://raw.githubusercontent.com/ExtSentry/ExtSentry.github.io/main/feeds/ioc_crx_sha256_hashes.txt) |
+| OffSeq Mirage | SHA256 hashes of payloads captured by the Mirage honeypot sensors in the last 30 days - plain text, one hash per line, rebuilt daily, CC BY 4.0 | <abbr title="Active">🟢</abbr> | [↗](https://feeds.offseq.com/mirage-feed/latest/hashes-sha256-30d.txt) |
 
 ### SSL (1)
 
@@ -443,7 +446,7 @@ Status legend: 🟢 Active – 🔴 Offline – 🔒 Restricted (requires API ke
 | --- | --- | :---: | --- |
 | ransomware.live | All ransomware victims on leak sites | <abbr title="Active">🟢</abbr> | [↗](https://api.ransomware.live/allcyberattacks) |
 
-### MISP (5)
+### MISP (6)
 
 | Vendor | Description | Status | URL |
 | --- | --- | :---: | --- |
@@ -452,6 +455,7 @@ Status legend: 🟢 Active – 🔴 Offline – 🔒 Restricted (requires API ke
 | Botvrij.eu | Botvrij.eu OSINT MISP feed | <abbr title="Active">🟢</abbr> | [↗](https://www.botvrij.eu/data/feed-osint) |
 | MISP CIRCL | MISP CIRCL OSINT Feed – Hashes | <abbr title="Active">🟢</abbr> | [↗](https://www.circl.lu/doc/misp/feed-osint/) |
 | MISP Feed CERT-FR | MISP Feed CERT-FR Hashes | <abbr title="Active">🟢</abbr> | [↗](https://misp.cert.ssi.gouv.fr/feed-misp/hashes.csv) |
+| OffSeq Mirage | Native MISP feed of Mirage honeypot attackers, payload URLs and hashes, rebuilt daily, CC BY 4.0 | <abbr title="Active">🟢</abbr> | [↗](https://feeds.offseq.com/mirage-feed/misp/manifest.json) |
 
 ### IOC (34)
 
