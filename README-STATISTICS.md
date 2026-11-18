@@ -1,16 +1,16 @@
 | Category | Description | Count |
 | --- | --- | --- |
-| `IP` | Malicious / suspicious IPv4 addresses and CIDR ranges | 169 |
+| `IP` | Malicious / suspicious IPv4 addresses and CIDR ranges | 170 |
 | `DNS` | Malicious or suspicious domain names | 26 |
-| `URL` | Malicious / phishing / C2 URLs | 34 |
+| `URL` | Malicious / phishing / C2 URLs | 35 |
 | `MD5` | MD5 hashes of malicious files | 6 |
 | `SHA1` | SHA1 hashes of malicious files | 3 |
-| `SHA256` | SHA256 hashes of malicious files | 4 |
+| `SHA256` | SHA256 hashes of malicious files | 5 |
 | `SSL` | Malicious SSL certificate fingerprints | 1 |
 | `JA3` | JA3 TLS client fingerprints | 1 |
 | `CVEID` | Known exploited CVE identifiers | 4 |
 | `RANSOMWARELEAK` | Ransomware leak site victim data aggregated from multiple gang leak sites | 1 |
-| `MISP` | Structured MISP-format feeds (importable directly into MISP platform) | 5 |
+| `MISP` | Structured MISP-format feeds (importable directly into MISP platform) | 6 |
 | `IOC` | Mixed-type IOC feeds containing multiple indicator types (IP, domain, URL, hash, etc.) | 34 |
 | `BLOCKLIST` | General-purpose IP blocklists — ISPs, ASNs, gaming, ad-trackers (not strictly threat intel) | 43 |
 | `REPO` | GitHub repositories with IOC collections — no direct machine-readable feed URL | 63 |
@@ -20,4 +20,4 @@
 | `FRAMEWORK` | Threat intelligence frameworks, matrices, and tracking tools (MITRE, APT maps, etc.) | 4 |
 | `OSINT` | Open-source intelligence platforms and search engines for IOC investigation | 6 |
 | `SANDBOX` | Online malware analysis sandboxes for dynamic file and URL analysis | 3 |
-| **Total** | | **425** |
+| **Total** | | **429** |
