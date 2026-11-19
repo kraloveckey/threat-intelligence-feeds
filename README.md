@@ -41,13 +41,13 @@ Sources aggregated from:
 | `IOC` | Mixed-type IOC feeds containing multiple indicator types (IP, domain, URL, hash, etc.) | 34 |
 | `BLOCKLIST` | General-purpose IP blocklists — ISPs, ASNs, gaming, ad-trackers (not strictly threat intel) | 43 |
 | `REPO` | GitHub repositories with IOC collections — no direct machine-readable feed URL | 63 |
-| `RESTRICTED` | Feeds requiring registration or an API key (free or commercial) to access | 5 |
+| `RESTRICTED` | Feeds requiring registration or an API key (free or commercial) to access | 6 |
 | `GEOIP` | IP geolocation databases — country/ASN/region mapping (not threat intel) | 3 |
 | `RSS` | Threat intelligence RSS/Atom feeds from vendors, CERTs, and security researchers | 10 |
 | `FRAMEWORK` | Threat intelligence frameworks, matrices, and tracking tools (MITRE, APT maps, etc.) | 4 |
 | `OSINT` | Open-source intelligence platforms and search engines for IOC investigation | 6 |
 | `SANDBOX` | Online malware analysis sandboxes for dynamic file and URL analysis | 3 |
-| **Total** | | **429** |
+| **Total** | | **430** |
 <!-- STATS_TABLE_END -->
 
 ---
@@ -222,7 +222,7 @@ Status legend: 🟢 Active – 🔴 Offline – 🔒 Restricted (requires API ke
 | Github | Fox-IT Cobalt Strike Servers | <abbr title="Active">🟢</abbr> | [↗](https://raw.githubusercontent.com/fox-it/cobaltstrike-extraneous-space/master/cobaltstrike-servers.csv) |
 | GPF Comics | IPs that attacked GPF Comics (spam/exploits/scans) | <abbr title="Active">🟢</abbr> | [↗](https://www.gpf-comics.com/dnsbl/export.php) |
 | GraphiclineWeb | Universally banned IPs (spiders/spambots/hackers/harvesters) | <abbr title="Offline">🔴</abbr> | [↗](https://graphiclineweb.wordpress.com/tech-notes/ip-blacklist/) |
-| GreenSnow.co | Bruteforce/scan/exploit attacking IPs | <abbr title="Offline">🔴</abbr> | [↗](http://blocklist.greensnow.co/greensnow.txt) |
+| GreenSnow.co | Bruteforce/scan/exploit attacking IPs | <abbr title="Active">🟢</abbr> | [↗](http://blocklist.greensnow.co/greensnow.txt) |
 | GriffinGuard | GriffinGuard Abuse 7-day Top 10K | <abbr title="Offline">🔴</abbr> | [↗](https://griffinguard.io/feeds/abuse7d_top10k.txt) |
 | home.nuug.no | POP3 Gropers | <abbr title="Active">🟢</abbr> | [↗](https://home.nuug.no/~peter/pop3gropers.txt) |
 | iBlocklist.com | Open Proxies IPs (without TOR) | <abbr title="Active">🟢</abbr> | [↗](http://list.iblocklist.com/?list=xoebmbyexwuiogmbyprb&fileformat=p2p&archiveformat=gz) |
@@ -256,7 +256,7 @@ Status legend: 🟢 Active – 🔴 Offline – 🔒 Restricted (requires API ke
 | MalSilo | MalSilo IPv4 List | <abbr title="Active">🟢</abbr> | [↗](https://malsilo.gitlab.io/feeds/dumps/ip_list.txt) |
 | Maltrail | Maltrail Mass Scanner IPs | <abbr title="Offline">🔴</abbr> | [↗](https://raw.githubusercontent.com/stamparm/maltrail/master/trails/static/mass_scanner.txt) |
 | mthcht | VPN NordVPN IPs | <abbr title="Active">🟢</abbr> | [↗](https://github.com/mthcht/awesome-lists/blob/main/Lists/VPN/NordVPN/nordvpn_ips_list.csv) |
-| mthcht | VPN SurfShark IPs | <abbr title="Active">🟢</abbr> | [↗](https://github.com/mthcht/awesome-lists/blob/main/Lists/VPN/SurfSharkVPN/surfshark_vpn_servers_domains_and_ips_list.csv) |
+| mthcht | VPN SurfShark IPs | <abbr title="Offline">🔴</abbr> | [↗](https://github.com/mthcht/awesome-lists/blob/main/Lists/VPN/SurfSharkVPN/surfshark_vpn_servers_domains_and_ips_list.csv) |
 | mthcht | VPN MullVad IPs | <abbr title="Active">🟢</abbr> | [↗](https://github.com/mthcht/awesome-lists/blob/main/Lists/VPN/MullVad/mullvad_relay_servers_ips_list.csv) |
 | mthcht | VPN ProtonVPN IPs | <abbr title="Active">🟢</abbr> | [↗](https://github.com/mthcht/awesome-lists/blob/main/Lists/VPN/ProtonVPN/protonvpn_ip_list.csv) |
 | MyIP.ms | Web bot IPs identified in last 10 days | <abbr title="Active">🟢</abbr> | [↗](http://www.myip.ms/files/blacklist/csf/latest_blacklist.txt) |
@@ -283,7 +283,7 @@ Status legend: 🟢 Active – 🔴 Offline – 🔒 Restricted (requires API ke
 | ProjectHoneypot.org | Directory/dictionary attackers (RSS feed) | <abbr title="Active">🟢</abbr> | [↗](http://www.projecthoneypot.org/list_of_ips.php?t=d&rss=1) |
 | SANS ICS | SANS ICS Intel Feed – community threat indicators | <abbr title="Active">🟢</abbr> | [↗](https://isc.sans.edu/api/intelfeed) |
 | SANS ICS / DShield | DShield suggested IP blocklist | <abbr title="Active">🟢</abbr> | [↗](https://isc.sans.edu/block.txt) |
-| Sblam | Sblam Spam Comment IPs | <abbr title="Active">🟢</abbr> | [↗](http://sblam.com/blacklist.txt) |
+| Sblam | Sblam Spam Comment IPs | <abbr title="Offline">🔴</abbr> | [↗](http://sblam.com/blacklist.txt) |
 | SecOps-Institute | Tor Nodes List | <abbr title="Active">🟢</abbr> | [↗](https://raw.githubusercontent.com/SecOps-Institute/Tor-IP-Addresses/master/tor-nodes.lst) |
 | SecOps-Institute | Tor Exit Nodes List | <abbr title="Active">🟢</abbr> | [↗](https://raw.githubusercontent.com/SecOps-Institute/Tor-IP-Addresses/master/tor-exit-nodes.lst) |
 | SentinelPhishFeed | Malicious IP address feed | <abbr title="Active">🟢</abbr> | [↗](https://raw.githubusercontent.com/rjn32s/SentinelPhishFeed/main/ips.txt) |
@@ -478,14 +478,14 @@ Status legend: 🟢 Active – 🔴 Offline – 🔒 Restricted (requires API ke
 | mthcht | Metadata Executables | <abbr title="Active">🟢</abbr> | [↗](https://github.com/mthcht/awesome-lists/blob/main/Lists/Windows%20Metadata/executables_metadata_informations_list.csv) |
 | mthcht | DNS over HTTPS server list | <abbr title="Active">🟢</abbr> | [↗](https://github.com/mthcht/awesome-lists/blob/main/Lists/dns_over_https_servers_list.csv) |
 | mthcht | Dynamic DNS domains list | <abbr title="Active">🟢</abbr> | [↗](https://github.com/mthcht/awesome-lists/blob/main/Lists/DYNDNS/dyndns_list.csv) |
-| mthcht | Sinkholed Domains | <abbr title="Offline">🔴</abbr> | [↗](https://github.com/mthcht/awesome-lists/blob/main/Lists/Domains/sinkholed_servers/sinkholed_domains.csv) |
+| mthcht | Sinkholed Domains | <abbr title="Active">🟢</abbr> | [↗](https://github.com/mthcht/awesome-lists/blob/main/Lists/Domains/sinkholed_servers/sinkholed_domains.csv) |
 | mthcht | Hijacklibs | <abbr title="Active">🟢</abbr> | [↗](https://github.com/mthcht/awesome-lists/blob/main/Lists/Hijacklibs/hijacklibs_list.csv) |
 | mthcht | LOLDriver List | <abbr title="Active">🟢</abbr> | [↗](https://github.com/mthcht/awesome-lists/blob/main/Lists/Drivers/loldrivers_only_hashes_list.csv) |
 | mthcht | Malicious Bootloader List | <abbr title="Active">🟢</abbr> | [↗](https://github.com/mthcht/awesome-lists/blob/main/Lists/Drivers/malicious_bootloaders_only_hashes_list.csv) |
 | mthcht | Malicious SSL Certificates List | <abbr title="Active">🟢</abbr> | [↗](https://github.com/mthcht/awesome-lists/blob/main/Lists/SSL%20CERTS/ssl_certificates_malicious_list.csv) |
 | mthcht | Ransomware known file extensions | <abbr title="Active">🟢</abbr> | [↗](https://github.com/mthcht/awesome-lists/blob/main/Lists/ransomware_extensions_list.csv) |
 | mthcht | Ransomware known file name ransom notes | <abbr title="Active">🟢</abbr> | [↗](https://github.com/mthcht/awesome-lists/blob/main/Lists/ransomware_notes_list.csv) |
-| mthcht | Windows ASR rules | <abbr title="Offline">🔴</abbr> | [↗](https://github.com/mthcht/awesome-lists/blob/main/Lists/windows_asr_rules.csv) |
+| mthcht | Windows ASR rules | <abbr title="Active">🟢</abbr> | [↗](https://github.com/mthcht/awesome-lists/blob/main/Lists/windows_asr_rules.csv) |
 | mthcht | GeoIP services Lists | <abbr title="Active">🟢</abbr> | [↗](https://github.com/mthcht/awesome-lists/blob/main/Lists/GeoIP/ip_location_sites_list.csv) |
 | rosti.bin | Public threat intelligence reports feed | <abbr title="Active">🟢</abbr> | [↗](https://rosti.bin.re/feeds) |
 | SentinelPhishFeed | File hash IOCs (MD5/SHA) | <abbr title="Active">🟢</abbr> | [↗](https://raw.githubusercontent.com/rjn32s/SentinelPhishFeed/main/hashes.txt) |
@@ -612,7 +612,7 @@ Status legend: 🟢 Active – 🔴 Offline – 🔒 Restricted (requires API ke
 | Zimperium | Zimperium mobile threat IOC repository | <abbr title="Active">🟢</abbr> | [↗](https://github.com/Zimperium/IOC) |
 | Zscaler ThreatLabz | Zscaler ThreatLabz IOC repository | <abbr title="Active">🟢</abbr> | [↗](https://github.com/threatlabz/iocs) |
 
-### RESTRICTED (5)
+### RESTRICTED (6)
 
 | Vendor | Description | Status | URL |
 | --- | --- | :---: | --- |
@@ -621,6 +621,7 @@ Status legend: 🟢 Active – 🔴 Offline – 🔒 Restricted (requires API ke
 | osint.bambenekconsulting.com | All current domains belonging to known malicious DGAs (requires license for commercial use) | <abbr title="Restricted">🔒</abbr> | [↗](https://osint.bambenekconsulting.com/feeds/dga-feed-high.csv) |
 | osint.bambenekconsulting.com | Domains from High-Confidence DGA-based C&C Domains Actively Resolving (requires license for commercial use) | <abbr title="Restricted">🔒</abbr> | [↗](https://osint.bambenekconsulting.com/feeds/c2-dommasterlist-high.txt) |
 | osint.bambenekconsulting.com | IPs from High-Confidence DGA-Based C&Cs Actively Resolving (requires license for commercial use) | <abbr title="Restricted">🔒</abbr> | [↗](https://osint.bambenekconsulting.com/feeds/c2-ipmasterlist-high.txt) |
+| Whatoblock | IP blocklists from Whatoblock's own honeypot network (229 sensors in 40 countries): scanners, botnet C2, proxies, Tor exit nodes and DDoS sources, rebuilt every hour, in firewall, DNS RPZ, Suricata/Snort and MISP formats (requires a free account and API key sent as X-API-Key. Free sample feed, full feeds are paid) | <abbr title="Restricted">🔒</abbr> | [↗](https://api.whatoblock.com/v1/blocklists/YOUR_FEED_ID/feed) |
 
 ### GEOIP (3)
 

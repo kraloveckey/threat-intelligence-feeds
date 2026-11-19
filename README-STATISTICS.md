@@ -14,10 +14,10 @@
 | `IOC` | Mixed-type IOC feeds containing multiple indicator types (IP, domain, URL, hash, etc.) | 34 |
 | `BLOCKLIST` | General-purpose IP blocklists — ISPs, ASNs, gaming, ad-trackers (not strictly threat intel) | 43 |
 | `REPO` | GitHub repositories with IOC collections — no direct machine-readable feed URL | 63 |
-| `RESTRICTED` | Feeds requiring registration or an API key (free or commercial) to access | 5 |
+| `RESTRICTED` | Feeds requiring registration or an API key (free or commercial) to access | 6 |
 | `GEOIP` | IP geolocation databases — country/ASN/region mapping (not threat intel) | 3 |
 | `RSS` | Threat intelligence RSS/Atom feeds from vendors, CERTs, and security researchers | 10 |
 | `FRAMEWORK` | Threat intelligence frameworks, matrices, and tracking tools (MITRE, APT maps, etc.) | 4 |
 | `OSINT` | Open-source intelligence platforms and search engines for IOC investigation | 6 |
 | `SANDBOX` | Online malware analysis sandboxes for dynamic file and URL analysis | 3 |
-| **Total** | | **429** |
+| **Total** | | **430** |

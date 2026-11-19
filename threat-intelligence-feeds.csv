@@ -109,7 +109,7 @@ Emerging Threats;Emerging Threats Tor Rules;IP;http://rules.emergingthreats.net/
 Emerging Threats;Emerging Threats Block IPs;IP;http://rules.emergingthreats.net/fwrules/emerging-Block-IPs.txt;Active
 Spamhaus;Spamhaus DROP List (legacy txt);IP;http://www.spamhaus.org/drop/drop.txt;Active
 Abuse.ch;Feodo IP Blocklist Aggressive;IP;https://feodotracker.abuse.ch/downloads/ipblocklist_aggressive.txt;Active
-Sblam;Sblam Spam Comment IPs;IP;http://sblam.com/blacklist.txt;Active
+Sblam;Sblam Spam Comment IPs;IP;http://sblam.com/blacklist.txt;Offline
 DataPlane;DNS Recursion Desired;IP;https://dataplane.org/dnsrd.txt;Active
 DataPlane;DNS Recursion Desired IN ANY;IP;https://dataplane.org/dnsrdany.txt;Active
 DataPlane;DNS CH TXT version.bind;IP;https://dataplane.org/dnsversion.txt;Active
@@ -187,7 +187,7 @@ ProjectHoneypot.org;Bad web hosts (RSS feed);IP;http://www.projecthoneypot.org/l
 ProjectHoneypot.org;Comment spammers (RSS feed);IP;http://www.projecthoneypot.org/list_of_ips.php?t=c&rss=1;Active
 ProjectHoneypot.org;Directory/dictionary attackers (RSS feed);IP;http://www.projecthoneypot.org/list_of_ips.php?t=d&rss=1;Active
 BotScout.com;Most recently-caught web bots;IP;http://botscout.com/last_caught_cache.htm;Active
-GreenSnow.co;Bruteforce/scan/exploit attacking IPs;IP;http://blocklist.greensnow.co/greensnow.txt;Offline
+GreenSnow.co;Bruteforce/scan/exploit attacking IPs;IP;http://blocklist.greensnow.co/greensnow.txt;Active
 cybercrime-tracker.net;Command and Control tracking IP list;IP;http://cybercrime-tracker.net/fuckerz.php;Active
 GraphiclineWeb;Universally banned IPs (spiders/spambots/hackers/harvesters);IP;https://graphiclineweb.wordpress.com/tech-notes/ip-blacklist/;Offline
 GPF Comics;IPs that attacked GPF Comics (spam/exploits/scans);IP;https://www.gpf-comics.com/dnsbl/export.php;Active
@@ -351,16 +351,16 @@ mthcht;Microsoft App IDs List (BEC Detection);IOC;https://github.com/mthcht/awes
 mthcht;Metadata Executables;IOC;https://github.com/mthcht/awesome-lists/blob/main/Lists/Windows%20Metadata/executables_metadata_informations_list.csv;Active
 mthcht;DNS over HTTPS server list;IOC;https://github.com/mthcht/awesome-lists/blob/main/Lists/dns_over_https_servers_list.csv;Active
 mthcht;Dynamic DNS domains list;IOC;https://github.com/mthcht/awesome-lists/blob/main/Lists/DYNDNS/dyndns_list.csv;Active
-mthcht;Sinkholed Domains;IOC;https://github.com/mthcht/awesome-lists/blob/main/Lists/Domains/sinkholed_servers/sinkholed_domains.csv;Offline
+mthcht;Sinkholed Domains;IOC;https://github.com/mthcht/awesome-lists/blob/main/Lists/Domains/sinkholed_servers/sinkholed_domains.csv;Active
 mthcht;Hijacklibs;IOC;https://github.com/mthcht/awesome-lists/blob/main/Lists/Hijacklibs/hijacklibs_list.csv;Active
 mthcht;LOLDriver List;IOC;https://github.com/mthcht/awesome-lists/blob/main/Lists/Drivers/loldrivers_only_hashes_list.csv;Active
 mthcht;Malicious Bootloader List;IOC;https://github.com/mthcht/awesome-lists/blob/main/Lists/Drivers/malicious_bootloaders_only_hashes_list.csv;Active
 mthcht;Malicious SSL Certificates List;IOC;https://github.com/mthcht/awesome-lists/blob/main/Lists/SSL%20CERTS/ssl_certificates_malicious_list.csv;Active
 mthcht;Ransomware known file extensions;IOC;https://github.com/mthcht/awesome-lists/blob/main/Lists/ransomware_extensions_list.csv;Active
 mthcht;Ransomware known file name ransom notes;IOC;https://github.com/mthcht/awesome-lists/blob/main/Lists/ransomware_notes_list.csv;Active
-mthcht;Windows ASR rules;IOC;https://github.com/mthcht/awesome-lists/blob/main/Lists/windows_asr_rules.csv;Offline
+mthcht;Windows ASR rules;IOC;https://github.com/mthcht/awesome-lists/blob/main/Lists/windows_asr_rules.csv;Active
 mthcht;VPN NordVPN IPs;IP;https://github.com/mthcht/awesome-lists/blob/main/Lists/VPN/NordVPN/nordvpn_ips_list.csv;Active
-mthcht;VPN SurfShark IPs;IP;https://github.com/mthcht/awesome-lists/blob/main/Lists/VPN/SurfSharkVPN/surfshark_vpn_servers_domains_and_ips_list.csv;Active
+mthcht;VPN SurfShark IPs;IP;https://github.com/mthcht/awesome-lists/blob/main/Lists/VPN/SurfSharkVPN/surfshark_vpn_servers_domains_and_ips_list.csv;Offline
 mthcht;VPN MullVad IPs;IP;https://github.com/mthcht/awesome-lists/blob/main/Lists/VPN/MullVad/mullvad_relay_servers_ips_list.csv;Active
 mthcht;GeoIP services Lists;IOC;https://github.com/mthcht/awesome-lists/blob/main/Lists/GeoIP/ip_location_sites_list.csv;Active
 mthcht;VPN ProtonVPN IPs;IP;https://github.com/mthcht/awesome-lists/blob/main/Lists/VPN/ProtonVPN/protonvpn_ip_list.csv;Active
@@ -428,4 +428,4 @@ OffSeq Mirage;IPv4 addresses that attacked the Mirage honeypot sensors in the la
 OffSeq Mirage;Payload download URLs captured by the Mirage honeypot sensors in the last 7 days - plain text, one URL per line, rebuilt daily, CC BY 4.0;URL;https://feeds.offseq.com/mirage-feed/latest/urls-7d.txt;Active
 OffSeq Mirage;SHA256 hashes of payloads captured by the Mirage honeypot sensors in the last 30 days - plain text, one hash per line, rebuilt daily, CC BY 4.0;SHA256;https://feeds.offseq.com/mirage-feed/latest/hashes-sha256-30d.txt;Active
 OffSeq Mirage;Native MISP feed of Mirage honeypot attackers, payload URLs and hashes, rebuilt daily, CC BY 4.0;MISP;https://feeds.offseq.com/mirage-feed/misp/manifest.json;Active
-Whatoblock;IP blocklists from Whatoblock's own honeypot network (229 sensors in 40 countries): scanners, botnet C2, proxies, Tor exit nodes and DDoS sources, rebuilt every hour, in firewall, DNS RPZ, Suricata/Snort and MISP formats (requires a free account and API key sent as X-API-Key. Free sample feed, full feeds are paid);RESTRICTED;https://api.whatoblock.com/v1/blocklists/YOUR_FEED_ID/feed;
+Whatoblock;IP blocklists from Whatoblock's own honeypot network (229 sensors in 40 countries): scanners, botnet C2, proxies, Tor exit nodes and DDoS sources, rebuilt every hour, in firewall, DNS RPZ, Suricata/Snort and MISP formats (requires a free account and API key sent as X-API-Key. Free sample feed, full feeds are paid);RESTRICTED;https://api.whatoblock.com/v1/blocklists/YOUR_FEED_ID/feed;Restricted
