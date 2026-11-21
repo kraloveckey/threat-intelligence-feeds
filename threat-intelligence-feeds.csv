@@ -127,8 +127,8 @@ CleanTalk;CleanTalk Blacklist – Top 20;IP;https://cleantalk.org/blacklists/top
 AbuseIPDB;AbuseIPDB Score 100 – Last 1 day;IP;https://raw.githubusercontent.com/borestad/blocklist-abuseipdb/main/abuseipdb-s100-1d.ipv4;Active
 AbuseIPDB;AbuseIPDB Score 100 – Last 30 days;IP;https://raw.githubusercontent.com/borestad/blocklist-abuseipdb/main/abuseipdb-s100-30d.ipv4;Active
 Maltrail;Maltrail Mass Scanner IPs;IP;https://raw.githubusercontent.com/stamparm/maltrail/master/trails/static/mass_scanner.txt;Offline
-VXVault;VXVault Malware URL List;URL;http://vxvault.net/ViriList.php?s=0&m=100;Offline
-VXVault;VXVault URL List;URL;http://vxvault.net/URL_List.php;Offline
+VXVault;VXVault Malware URL List;URL;http://vxvault.net/ViriList.php?s=0&m=100;Active
+VXVault;VXVault URL List;URL;http://vxvault.net/URL_List.php;Active
 GriffinGuard;GriffinGuard Abuse 7-day Top 10K;IP;https://griffinguard.io/feeds/abuse7d_top10k.txt;Offline
 Ultimate-Hosts-Blacklist;Ultimate Hosts Blacklist IPs;IP;https://raw.githubusercontent.com/Ultimate-Hosts-Blacklist/Ultimate.Hosts.Blacklist/master/ips/ips0.list;Active
 Ngosang;BitTorrent Trackers IP List;BLOCKLIST;https://raw.githubusercontent.com/ngosang/trackerslist/master/trackers_all_ip.txt;Active
@@ -181,11 +181,11 @@ MyIP.ms;Web bot IPs identified in last 10 days;IP;http://www.myip.ms/files/black
 MyIP.ms;Full blacklist database (ZIP);IP;https://myip.ms/files/blacklist/general/full_blacklist_database.zip;Active
 SSLProxies.org;Open SSL proxies;IP;http://www.sslproxies.org/;Active
 socks-proxy.net;Open SOCKS proxies;IP;http://www.socks-proxy.net/;Active
-ProjectHoneypot.org;Email harvesters (RSS feed);IP;http://www.projecthoneypot.org/list_of_ips.php?t=h&rss=1;Offline
-ProjectHoneypot.org;Spam servers (RSS feed);IP;http://www.projecthoneypot.org/list_of_ips.php?t=s&rss=1;Offline
-ProjectHoneypot.org;Bad web hosts (RSS feed);IP;http://www.projecthoneypot.org/list_of_ips.php?t=b&rss=1;Offline
-ProjectHoneypot.org;Comment spammers (RSS feed);IP;http://www.projecthoneypot.org/list_of_ips.php?t=c&rss=1;Offline
-ProjectHoneypot.org;Directory/dictionary attackers (RSS feed);IP;http://www.projecthoneypot.org/list_of_ips.php?t=d&rss=1;Offline
+ProjectHoneypot.org;Email harvesters (RSS feed);IP;http://www.projecthoneypot.org/list_of_ips.php?t=h&rss=1;Active
+ProjectHoneypot.org;Spam servers (RSS feed);IP;http://www.projecthoneypot.org/list_of_ips.php?t=s&rss=1;Active
+ProjectHoneypot.org;Bad web hosts (RSS feed);IP;http://www.projecthoneypot.org/list_of_ips.php?t=b&rss=1;Active
+ProjectHoneypot.org;Comment spammers (RSS feed);IP;http://www.projecthoneypot.org/list_of_ips.php?t=c&rss=1;Active
+ProjectHoneypot.org;Directory/dictionary attackers (RSS feed);IP;http://www.projecthoneypot.org/list_of_ips.php?t=d&rss=1;Active
 BotScout.com;Most recently-caught web bots;IP;http://botscout.com/last_caught_cache.htm;Active
 GreenSnow.co;Bruteforce/scan/exploit attacking IPs;IP;http://blocklist.greensnow.co/greensnow.txt;Active
 cybercrime-tracker.net;Command and Control tracking IP list;IP;http://cybercrime-tracker.net/fuckerz.php;Active
@@ -358,7 +358,7 @@ mthcht;Malicious Bootloader List;IOC;https://github.com/mthcht/awesome-lists/blo
 mthcht;Malicious SSL Certificates List;IOC;https://github.com/mthcht/awesome-lists/blob/main/Lists/SSL%20CERTS/ssl_certificates_malicious_list.csv;Active
 mthcht;Ransomware known file extensions;IOC;https://github.com/mthcht/awesome-lists/blob/main/Lists/ransomware_extensions_list.csv;Active
 mthcht;Ransomware known file name ransom notes;IOC;https://github.com/mthcht/awesome-lists/blob/main/Lists/ransomware_notes_list.csv;Active
-mthcht;Windows ASR rules;IOC;https://github.com/mthcht/awesome-lists/blob/main/Lists/windows_asr_rules.csv;Active
+mthcht;Windows ASR rules;IOC;https://github.com/mthcht/awesome-lists/blob/main/Lists/windows_asr_rules.csv;Offline
 mthcht;VPN NordVPN IPs;IP;https://github.com/mthcht/awesome-lists/blob/main/Lists/VPN/NordVPN/nordvpn_ips_list.csv;Active
 mthcht;VPN SurfShark IPs;IP;https://github.com/mthcht/awesome-lists/blob/main/Lists/VPN/SurfSharkVPN/surfshark_vpn_servers_domains_and_ips_list.csv;Active
 mthcht;VPN MullVad IPs;IP;https://github.com/mthcht/awesome-lists/blob/main/Lists/VPN/MullVad/mullvad_relay_servers_ips_list.csv;Active

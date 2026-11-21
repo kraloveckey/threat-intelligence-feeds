@@ -276,11 +276,11 @@ Status legend: 🟢 Active – 🔴 Offline – 🔒 Restricted (requires API ke
 | OffSeq Mirage | IPv4 addresses that attacked the Mirage honeypot sensors in the last 7 days, listed only when seen by at least 3 sensors in 2 networks, VPN and Tor exits and research scanners excluded - plain text, one address per line, rebuilt daily, CC BY 4.0 | <abbr title="Active">🟢</abbr> | [↗](https://feeds.offseq.com/mirage-feed/latest/ipv4-7d.txt) |
 | opsxcq | Open Proxy List | <abbr title="Active">🟢</abbr> | [↗](https://raw.githubusercontent.com/opsxcq/proxy-list/master/list.txt) |
 | pan-unit42 | DiamondFox Panels | <abbr title="Active">🟢</abbr> | [↗](https://raw.githubusercontent.com/pan-unit42/iocs/master/diamondfox/diamondfox_panels.txt) |
-| ProjectHoneypot.org | Email harvesters (RSS feed) | <abbr title="Offline">🔴</abbr> | [↗](http://www.projecthoneypot.org/list_of_ips.php?t=h&rss=1) |
-| ProjectHoneypot.org | Spam servers (RSS feed) | <abbr title="Offline">🔴</abbr> | [↗](http://www.projecthoneypot.org/list_of_ips.php?t=s&rss=1) |
-| ProjectHoneypot.org | Bad web hosts (RSS feed) | <abbr title="Offline">🔴</abbr> | [↗](http://www.projecthoneypot.org/list_of_ips.php?t=b&rss=1) |
-| ProjectHoneypot.org | Comment spammers (RSS feed) | <abbr title="Offline">🔴</abbr> | [↗](http://www.projecthoneypot.org/list_of_ips.php?t=c&rss=1) |
-| ProjectHoneypot.org | Directory/dictionary attackers (RSS feed) | <abbr title="Offline">🔴</abbr> | [↗](http://www.projecthoneypot.org/list_of_ips.php?t=d&rss=1) |
+| ProjectHoneypot.org | Email harvesters (RSS feed) | <abbr title="Active">🟢</abbr> | [↗](http://www.projecthoneypot.org/list_of_ips.php?t=h&rss=1) |
+| ProjectHoneypot.org | Spam servers (RSS feed) | <abbr title="Active">🟢</abbr> | [↗](http://www.projecthoneypot.org/list_of_ips.php?t=s&rss=1) |
+| ProjectHoneypot.org | Bad web hosts (RSS feed) | <abbr title="Active">🟢</abbr> | [↗](http://www.projecthoneypot.org/list_of_ips.php?t=b&rss=1) |
+| ProjectHoneypot.org | Comment spammers (RSS feed) | <abbr title="Active">🟢</abbr> | [↗](http://www.projecthoneypot.org/list_of_ips.php?t=c&rss=1) |
+| ProjectHoneypot.org | Directory/dictionary attackers (RSS feed) | <abbr title="Active">🟢</abbr> | [↗](http://www.projecthoneypot.org/list_of_ips.php?t=d&rss=1) |
 | SANS ICS | SANS ICS Intel Feed – community threat indicators | <abbr title="Active">🟢</abbr> | [↗](https://isc.sans.edu/api/intelfeed) |
 | SANS ICS / DShield | DShield suggested IP blocklist | <abbr title="Active">🟢</abbr> | [↗](https://isc.sans.edu/block.txt) |
 | Sblam | Sblam Spam Comment IPs | <abbr title="Offline">🔴</abbr> | [↗](http://sblam.com/blacklist.txt) |
@@ -387,8 +387,8 @@ Status legend: 🟢 Active – 🔴 Offline – 🔒 Restricted (requires API ke
 | urlabuse | Hacked URL Feed | <abbr title="Offline">🔴</abbr> | [↗](https://urlabuse.com/public/data/hacked_url.txt) |
 | urlabuse | URL Abuse DB – Latest 500 entries (CSV) | <abbr title="Offline">🔴</abbr> | [↗](https://urlabuse.com/public/data/data_csv.txt) |
 | UrlHaus | UrlHaus_misp ASN feeds | <abbr title="Active">🟢</abbr> | [↗](https://urlhaus.abuse.ch/feeds/) |
-| VXVault | VXVault Malware URL List | <abbr title="Offline">🔴</abbr> | [↗](http://vxvault.net/ViriList.php?s=0&m=100) |
-| VXVault | VXVault URL List | <abbr title="Offline">🔴</abbr> | [↗](http://vxvault.net/URL_List.php) |
+| VXVault | VXVault Malware URL List | <abbr title="Active">🟢</abbr> | [↗](http://vxvault.net/ViriList.php?s=0&m=100) |
+| VXVault | VXVault URL List | <abbr title="Active">🟢</abbr> | [↗](http://vxvault.net/URL_List.php) |
 
 ### MD5 (6)
 
@@ -485,7 +485,7 @@ Status legend: 🟢 Active – 🔴 Offline – 🔒 Restricted (requires API ke
 | mthcht | Malicious SSL Certificates List | <abbr title="Active">🟢</abbr> | [↗](https://github.com/mthcht/awesome-lists/blob/main/Lists/SSL%20CERTS/ssl_certificates_malicious_list.csv) |
 | mthcht | Ransomware known file extensions | <abbr title="Active">🟢</abbr> | [↗](https://github.com/mthcht/awesome-lists/blob/main/Lists/ransomware_extensions_list.csv) |
 | mthcht | Ransomware known file name ransom notes | <abbr title="Active">🟢</abbr> | [↗](https://github.com/mthcht/awesome-lists/blob/main/Lists/ransomware_notes_list.csv) |
-| mthcht | Windows ASR rules | <abbr title="Active">🟢</abbr> | [↗](https://github.com/mthcht/awesome-lists/blob/main/Lists/windows_asr_rules.csv) |
+| mthcht | Windows ASR rules | <abbr title="Offline">🔴</abbr> | [↗](https://github.com/mthcht/awesome-lists/blob/main/Lists/windows_asr_rules.csv) |
 | mthcht | GeoIP services Lists | <abbr title="Active">🟢</abbr> | [↗](https://github.com/mthcht/awesome-lists/blob/main/Lists/GeoIP/ip_location_sites_list.csv) |
 | rosti.bin | Public threat intelligence reports feed | <abbr title="Active">🟢</abbr> | [↗](https://rosti.bin.re/feeds) |
 | SentinelPhishFeed | File hash IOCs (MD5/SHA) | <abbr title="Active">🟢</abbr> | [↗](https://raw.githubusercontent.com/rjn32s/SentinelPhishFeed/main/hashes.txt) |
