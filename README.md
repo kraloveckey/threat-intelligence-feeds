@@ -149,7 +149,7 @@ Status legend: 🟢 Active – 🔴 Offline – 🔒 Restricted (requires API ke
 | Vendor | Description | Status | URL |
 | --- | --- | :---: | --- |
 | Abuse.ch | Botnet C2 IP Blacklist (CSV) | <abbr title="Active">🟢</abbr> | [↗](https://sslbl.abuse.ch/blacklist/sslipblacklist.csv) |
-| Abuse.ch | Botnet C2 IP Blacklist (TXT) | <abbr title="Offline">🔴</abbr> | [↗](https://sslbl.abuse.ch/blacklist/sslipblacklist.txt) |
+| Abuse.ch | Botnet C2 IP Blacklist (TXT) | <abbr title="Active">🟢</abbr> | [↗](https://sslbl.abuse.ch/blacklist/sslipblacklist.txt) |
 | Abuse.ch | Botnet C2 IP Blacklist Aggressive (CSV) | <abbr title="Active">🟢</abbr> | [↗](https://sslbl.abuse.ch/blacklist/sslipblacklist_aggressive.csv) |
 | Abuse.ch | Botnet C2 IP Blacklist Aggressive (TXT) | <abbr title="Active">🟢</abbr> | [↗](https://sslbl.abuse.ch/blacklist/sslipblacklist_aggressive.txt) |
 | Abuse.ch | Botnet C2 Indicators of Compromise – Recommended Blocklist | <abbr title="Active">🟢</abbr> | [↗](https://feodotracker.abuse.ch/downloads/ipblocklist_recommended.txt) |
@@ -387,7 +387,7 @@ Status legend: 🟢 Active – 🔴 Offline – 🔒 Restricted (requires API ke
 | urlabuse | Hacked URL Feed | <abbr title="Offline">🔴</abbr> | [↗](https://urlabuse.com/public/data/hacked_url.txt) |
 | urlabuse | URL Abuse DB – Latest 500 entries (CSV) | <abbr title="Offline">🔴</abbr> | [↗](https://urlabuse.com/public/data/data_csv.txt) |
 | UrlHaus | UrlHaus_misp ASN feeds | <abbr title="Active">🟢</abbr> | [↗](https://urlhaus.abuse.ch/feeds/) |
-| VXVault | VXVault Malware URL List | <abbr title="Active">🟢</abbr> | [↗](http://vxvault.net/ViriList.php?s=0&m=100) |
+| VXVault | VXVault Malware URL List | <abbr title="Offline">🔴</abbr> | [↗](http://vxvault.net/ViriList.php?s=0&m=100) |
 | VXVault | VXVault URL List | <abbr title="Active">🟢</abbr> | [↗](http://vxvault.net/URL_List.php) |
 
 ### MD5 (6)
@@ -423,7 +423,7 @@ Status legend: 🟢 Active – 🔴 Offline – 🔒 Restricted (requires API ke
 
 | Vendor | Description | Status | URL |
 | --- | --- | :---: | --- |
-| Abuse.ch | SSL Certificate Blacklist | <abbr title="Active">🟢</abbr> | [↗](https://sslbl.abuse.ch/blacklist/sslblacklist.csv) |
+| Abuse.ch | SSL Certificate Blacklist | <abbr title="Offline">🔴</abbr> | [↗](https://sslbl.abuse.ch/blacklist/sslblacklist.csv) |
 
 ### JA3 (1)
 
@@ -475,9 +475,9 @@ Status legend: 🟢 Active – 🔴 Offline – 🔒 Restricted (requires API ke
 | mthcht | Suspicious MAC address | <abbr title="Active">🟢</abbr> | [↗](https://github.com/mthcht/awesome-lists/blob/main/Lists/suspicious_mac_address_list.csv) |
 | mthcht | Suspicious Hostname | <abbr title="Active">🟢</abbr> | [↗](https://github.com/mthcht/awesome-lists/blob/main/Lists/suspicious_hostnames_list.csv) |
 | mthcht | Microsoft App IDs List (BEC Detection) | <abbr title="Active">🟢</abbr> | [↗](https://github.com/mthcht/awesome-lists/blob/main/Lists/microsoft_apps_list.csv) |
-| mthcht | Metadata Executables | <abbr title="Offline">🔴</abbr> | [↗](https://github.com/mthcht/awesome-lists/blob/main/Lists/Windows%20Metadata/executables_metadata_informations_list.csv) |
+| mthcht | Metadata Executables | <abbr title="Active">🟢</abbr> | [↗](https://github.com/mthcht/awesome-lists/blob/main/Lists/Windows%20Metadata/executables_metadata_informations_list.csv) |
 | mthcht | DNS over HTTPS server list | <abbr title="Active">🟢</abbr> | [↗](https://github.com/mthcht/awesome-lists/blob/main/Lists/dns_over_https_servers_list.csv) |
-| mthcht | Dynamic DNS domains list | <abbr title="Active">🟢</abbr> | [↗](https://github.com/mthcht/awesome-lists/blob/main/Lists/DYNDNS/dyndns_list.csv) |
+| mthcht | Dynamic DNS domains list | <abbr title="Offline">🔴</abbr> | [↗](https://github.com/mthcht/awesome-lists/blob/main/Lists/DYNDNS/dyndns_list.csv) |
 | mthcht | Sinkholed Domains | <abbr title="Active">🟢</abbr> | [↗](https://github.com/mthcht/awesome-lists/blob/main/Lists/Domains/sinkholed_servers/sinkholed_domains.csv) |
 | mthcht | Hijacklibs | <abbr title="Active">🟢</abbr> | [↗](https://github.com/mthcht/awesome-lists/blob/main/Lists/Hijacklibs/hijacklibs_list.csv) |
 | mthcht | LOLDriver List | <abbr title="Active">🟢</abbr> | [↗](https://github.com/mthcht/awesome-lists/blob/main/Lists/Drivers/loldrivers_only_hashes_list.csv) |
